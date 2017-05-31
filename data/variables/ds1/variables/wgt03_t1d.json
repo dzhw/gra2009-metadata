@@ -1,6 +1,6 @@
 {
 	"surveyNumbers" : [
-		1
+		2
 	],
 	"dataType" : {
 		"de" : "numerisch",
@@ -11,7 +11,7 @@
 		"en" : "ratio"
 	},
 	"label" : {
-		"de" : "Querschnittsgewicht Welle 1: Bachelorabsolventen",
+		"de" : "Kalibriertes Querschnittsgewicht W1: Bachelorabsolventen",
 		"en" : null
 	},
 	"indexInDataSet" : 810,
@@ -20,37 +20,337 @@
 		"totalValidAbsoluteFrequency" : 10494,
 		"totalValidRelativeFrequency" : 100,
 		"histogram" : {
-			"numberOfBins" : 1,
-			"start" : 0.5,
-			"end" : 1.5
+			"numberOfBins" : 25,
+			"start" : -9.8854e-05,
+			"end" : 2.062
 		},
 		"statistics" : {
-			"meanValue" : 1,
-			"minimum" : "1",
-			"maximum" : "1",
-			"skewness" : null,
-			"kurtosis" : null,
-			"median" : "1",
-			"mode" : "1",
-			"standardDeviation" : 0,
-			"deviance" : "0",
-			"meanDeviation" : "0",
-			"firstQuartile" : "1",
-			"thirdQuartile" : "1",
-			"lowWhisker" : 1,
-			"highWhisker" : 1
+			"meanValue" : 0.46455,
+			"minimum" : "0",
+			"maximum" : "2.06205080314125",
+			"skewness" : 0.57328,
+			"kurtosis" : 1.8764,
+			"median" : "0",
+			"mode" : "0",
+			"standardDeviation" : 0.53917,
+			"deviance" : "3.92905222030686",
+			"meanDeviation" : "94.8864",
+			"firstQuartile" : "0",
+			"thirdQuartile" : "0.957636767294373",
+			"lowWhisker" : 0,
+			"highWhisker" : 2.0621
 		},
 		"missings" : [],
 		"validResponses" : [
 			{
-				"value" : "1",
+				"value" : "0.0000000",
 				"label" : {
 					"de" : null,
 					"en" : null
 				},
-				"relativeFrequency" : 100,
-				"absoluteFrequency" : 10494,
-				"validRelativeFrequency" : 100
+				"relativeFrequency" : 53.54,
+				"absoluteFrequency" : 5619,
+				"validRelativeFrequency" : 53.54
+			},
+			{
+				"value" : "0.4968193",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.45,
+				"absoluteFrequency" : 47,
+				"validRelativeFrequency" : 0.45
+			},
+			{
+				"value" : "0.5290165",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 2.58,
+				"absoluteFrequency" : 271,
+				"validRelativeFrequency" : 2.58
+			},
+			{
+				"value" : "0.5292142",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.37,
+				"absoluteFrequency" : 39,
+				"validRelativeFrequency" : 0.37
+			},
+			{
+				"value" : "0.5447213",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.71,
+				"absoluteFrequency" : 75,
+				"validRelativeFrequency" : 0.71
+			},
+			{
+				"value" : "0.5499167",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 3.01,
+				"absoluteFrequency" : 316,
+				"validRelativeFrequency" : 3.01
+			},
+			{
+				"value" : "0.5569294",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.28,
+				"absoluteFrequency" : 29,
+				"validRelativeFrequency" : 0.28
+			},
+			{
+				"value" : "0.7115046",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.96,
+				"absoluteFrequency" : 101,
+				"validRelativeFrequency" : 0.96
+			},
+			{
+				"value" : "0.7324119",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.05,
+				"absoluteFrequency" : 5,
+				"validRelativeFrequency" : 0.05
+			},
+			{
+				"value" : "0.7576149",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.52,
+				"absoluteFrequency" : 55,
+				"validRelativeFrequency" : 0.52
+			},
+			{
+				"value" : "0.7578980",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.05,
+				"absoluteFrequency" : 5,
+				"validRelativeFrequency" : 0.05
+			},
+			{
+				"value" : "0.7801060",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.83,
+				"absoluteFrequency" : 87,
+				"validRelativeFrequency" : 0.83
+			},
+			{
+				"value" : "0.7875463",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 1.32,
+				"absoluteFrequency" : 139,
+				"validRelativeFrequency" : 1.32
+			},
+			{
+				"value" : "0.7975895",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.13,
+				"absoluteFrequency" : 14,
+				"validRelativeFrequency" : 0.13
+			},
+			{
+				"value" : "0.8734236",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 1.82,
+				"absoluteFrequency" : 191,
+				"validRelativeFrequency" : 1.82
+			},
+			{
+				"value" : "0.9300272",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 5.33,
+				"absoluteFrequency" : 559,
+				"validRelativeFrequency" : 5.33
+			},
+			{
+				"value" : "0.9303749",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.7,
+				"absoluteFrequency" : 73,
+				"validRelativeFrequency" : 0.7
+			},
+			{
+				"value" : "0.9576368",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 2.85,
+				"absoluteFrequency" : 299,
+				"validRelativeFrequency" : 2.85
+			},
+			{
+				"value" : "0.9667704",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 8.58,
+				"absoluteFrequency" : 900,
+				"validRelativeFrequency" : 8.58
+			},
+			{
+				"value" : "0.9790991",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 1.05,
+				"absoluteFrequency" : 110,
+				"validRelativeFrequency" : 1.05
+			},
+			{
+				"value" : "1.0489010",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.02,
+				"absoluteFrequency" : 2,
+				"validRelativeFrequency" : 0.02
+			},
+			{
+				"value" : "1.2508470",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 4.19,
+				"absoluteFrequency" : 440,
+				"validRelativeFrequency" : 4.19
+			},
+			{
+				"value" : "1.2854160",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 7,
+				"validRelativeFrequency" : 0.07
+			},
+			{
+				"value" : "1.2876020",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.17,
+				"absoluteFrequency" : 18,
+				"validRelativeFrequency" : 0.17
+			},
+			{
+				"value" : "1.3319100",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 1.09,
+				"absoluteFrequency" : 114,
+				"validRelativeFrequency" : 1.09
+			},
+			{
+				"value" : "1.3324080",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.16,
+				"absoluteFrequency" : 17,
+				"validRelativeFrequency" : 0.16
+			},
+			{
+				"value" : "1.3714500",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 3.59,
+				"absoluteFrequency" : 377,
+				"validRelativeFrequency" : 3.59
+			},
+			{
+				"value" : "1.3845310",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 4.6,
+				"absoluteFrequency" : 483,
+				"validRelativeFrequency" : 4.6
+			},
+			{
+				"value" : "1.4021870",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.36,
+				"absoluteFrequency" : 38,
+				"validRelativeFrequency" : 0.36
+			},
+			{
+				"value" : "1.8440010",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.07,
+				"absoluteFrequency" : 7,
+				"validRelativeFrequency" : 0.07
+			},
+			{
+				"value" : "2.0620510",
+				"label" : {
+					"de" : null,
+					"en" : null
+				},
+				"relativeFrequency" : 0.54,
+				"absoluteFrequency" : 57,
+				"validRelativeFrequency" : 0.54
 			}
 		]
 	}
