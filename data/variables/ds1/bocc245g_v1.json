@@ -1,0 +1,130 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "5th job: full-time/part-time",
+    "de": "5. Tätigkeit: Arbeitszeit"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ245g",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1006,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.03,
+    "statistics": {
+      "deviance": "2.01979661908942",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 170,
+        "label": {
+          "en": "Full time",
+          "de": "Vollzeit"
+        },
+        "relativeFrequency": 1.62,
+        "validRelativeFrequency": 53.46,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 83,
+        "label": {
+          "en": "Part time",
+          "de": "Teilzeit"
+        },
+        "relativeFrequency": 0.79,
+        "validRelativeFrequency": 26.1,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 65,
+        "label": {
+          "en": "Without permanent working hours",
+          "de": "ohne fest vereinbarte Arbeitszeit"
+        },
+        "relativeFrequency": 0.62,
+        "validRelativeFrequency": 20.44,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 318,
+    "missings": [
+      {
+        "absoluteFrequency": 4406,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 41.99,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19d",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

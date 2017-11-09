@@ -1,0 +1,119 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st further acad. qualification: other degree",
+    "de": "1. weitere akad. Qualifikation: sonstiger Abschluss"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfec14,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1196,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zur Ausprägung 7 \"sonstiger Abschluss\" der Variable bfec151i (Abschlussart) in codierter Form. Da es nur wenige Angaben gab, wurden diese nur in einer Sonstiges-Kategorie zusammengefasst."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.02,
+    "statistics": {
+      "deviance": "0",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 100,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 2,
+    "missings": [
+      {
+        "absoluteFrequency": 328,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.13,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2662,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 25.37,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 1763,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 16.8,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "5.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "47",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

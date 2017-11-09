@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "no application, job was allocated",
+    "de": "keine Bewerbung, da Stelle zugewiesen"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc06,-998,1,2,3)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 443,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 62.55,
+    "statistics": {
+      "deviance": "0.813811294370999",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 5638,
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 53.73,
+        "validRelativeFrequency": 85.89,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 926,
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "relativeFrequency": 8.82,
+        "validRelativeFrequency": 14.11,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 6564,
+    "missings": [
+      {
+        "absoluteFrequency": 246,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.34,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 3684,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 35.11,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "4.6",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bei wie vielen Firmen/Institutionen haben Sie sich beworben? Wie oft wurden Sie zu Vorstellungsgesprächen eingeladen und wie viele Stellenangebote haben Sie erhalten?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

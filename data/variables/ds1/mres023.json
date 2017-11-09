@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st apartment: still current",
+    "de": "1. Wohnung: noch aktuell"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mres021,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1584,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 17.55,
+    "statistics": {
+      "deviance": "1.20412832517972",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 534,
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "relativeFrequency": 5.09,
+        "validRelativeFrequency": 28.99,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1308,
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "relativeFrequency": 12.46,
+        "validRelativeFrequency": 71.01,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1842,
+    "missings": [
+      {
+        "absoluteFrequency": 120,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.14,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 503,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 4.79,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "08.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

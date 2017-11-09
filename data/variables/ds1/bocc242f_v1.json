@@ -1,0 +1,160 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd job: type of employment",
+    "de": "2. Tätigkeit: Art des Arbeitsverhältnisses"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ242f",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 960,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 31.51,
+    "statistics": {
+      "deviance": "2.65764238075605",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1566,
+        "label": {
+          "en": "unlimited",
+          "de": "unbefristet"
+        },
+        "relativeFrequency": 14.92,
+        "validRelativeFrequency": 47.35,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1001,
+        "label": {
+          "en": "limited",
+          "de": "befristet"
+        },
+        "relativeFrequency": 9.54,
+        "validRelativeFrequency": 30.27,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 268,
+        "label": {
+          "en": "Apprenticeship",
+          "de": "Ausbildungsverhältnis"
+        },
+        "relativeFrequency": 2.55,
+        "validRelativeFrequency": 8.1,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 232,
+        "label": {
+          "en": "Fee/works contract",
+          "de": "Honorar-/Werkvertrag"
+        },
+        "relativeFrequency": 2.21,
+        "validRelativeFrequency": 7.02,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 200,
+        "label": {
+          "en": "Self-employed/freelance",
+          "de": "selbstständig/freiberuflich"
+        },
+        "relativeFrequency": 1.91,
+        "validRelativeFrequency": 6.05,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 40,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 0.38,
+        "validRelativeFrequency": 1.21,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3307,
+    "missings": [
+      {
+        "absoluteFrequency": 1417,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.5,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19a",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

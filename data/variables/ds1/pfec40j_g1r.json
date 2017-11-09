@@ -1,0 +1,142 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "PhD agreement: other, namely",
+    "de": "Promotionsvereinbarung: Sonstiges, und zwar"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & pfec39==1",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 2073,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zu den sonstigen Promotionsvereinbarungen (Variable pfec40i) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.1,
+    "statistics": {
+      "deviance": "3.18833339823603",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "A research plan with steps.",
+          "de": "Forschungsplan mit Etappenzielen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 18.18,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Participation in events (workshops, conferences, summer schools, seminars)",
+          "de": "Teilnahme an Veranstaltungen (Workshops, Konferenzen, Summer Schools, Seminare)"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 27.27,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Regular conference hours",
+          "de": "regelmäßige Besprechungstermine"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 18.18,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Requirements of formal design (e.g., language, computer program, etc.)",
+          "de": "Anforderungen der formalen Gestaltung (z.B. Sprache, EDV Programm etc.)"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 18.18,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "No practical reference",
+          "de": "keine bzw. ohne Praxisbezug"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 18.18,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 11,
+    "missings": [
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 483,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 4.6,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 182,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 1.73,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "26",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

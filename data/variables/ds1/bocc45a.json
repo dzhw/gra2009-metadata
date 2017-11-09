@@ -1,0 +1,120 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "reason for unemployment: PhD/vocational training/degree",
+    "de": "Grund Erwerbslosigkeit: Promotion/Ausbildung/Studium"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,-998,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 861,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 5.07,
+    "statistics": {
+      "deviance": "1.03915967826103",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 418,
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 3.98,
+        "validRelativeFrequency": 78.57,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 114,
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "relativeFrequency": 1.09,
+        "validRelativeFrequency": 21.43,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 532,
+    "missings": [
+      {
+        "absoluteFrequency": 74,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.71,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 4149,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 39.54,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "3.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Gründe sind dafür ausschlaggebend, dass Sie zurzeit nicht erwerbstätig sind?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "11",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

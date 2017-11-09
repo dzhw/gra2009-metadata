@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "PhD: interruption",
+    "de": "Promotion: Unterbrechung"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(pfec12_v1,1,2,3,5)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 2008,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 5.9,
+    "statistics": {
+      "deviance": "1.20858584293301",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 181,
+        "label": {
+          "en": "Yes, for the entirety",
+          "de": "ja, und zwar für insgesamt"
+        },
+        "relativeFrequency": 1.72,
+        "validRelativeFrequency": 29.24,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 438,
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "relativeFrequency": 4.17,
+        "validRelativeFrequency": 70.76,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 619,
+    "missings": [
+      {
+        "absoluteFrequency": 19,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.18,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 38,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.36,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "07",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

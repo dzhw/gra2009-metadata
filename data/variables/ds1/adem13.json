@@ -1,0 +1,113 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "employment of partner",
+    "de": "Erwerbstätigkeit Partner(in)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(adem12,-998,2,3)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-dem13",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 786,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 64.71,
+    "statistics": {
+      "deviance": "1.80503910621704",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4175,
+        "label": {
+          "en": "Yes, full time",
+          "de": "ja, Vollzeit erwerbstätig"
+        },
+        "relativeFrequency": 39.78,
+        "validRelativeFrequency": 61.48,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 790,
+        "label": {
+          "en": "Yes, part-time",
+          "de": "ja, Teilzeit beschäftigt"
+        },
+        "relativeFrequency": 7.53,
+        "validRelativeFrequency": 11.63,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1826,
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "relativeFrequency": 17.4,
+        "validRelativeFrequency": 26.89,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 6791,
+    "missings": [
+      {
+        "absoluteFrequency": 95,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.91,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 3608,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 34.38,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "6.15",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ist Ihr Partner/ Ihre Partnerin erwerbstätig?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

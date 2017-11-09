@@ -1,0 +1,719 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st job: location of work (federal state/country)",
+    "de": "1. Tätigkeit: Arbeitsort (Bundesland/Land)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ241j_g1",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 949,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Bundesland bzw. Land (bei Ausland) der Tätigkeit in codierter Form. Zur Codierung der Bundesländer wurde der Destatis-Schlüssel der Bundesländer (vgl. cl-destatis-bundesland-1990) gemäß des Amtlichen Gemeindeschlüssels (AGS) (mit Ergänzungen, wenn nicht zuordenbar) verwendet. Als Codierliste für die Staaten (bei Ausland) wurde der Destatis-Staatsangehörigkeits- und Gebietsschlüssel von 2015 herangezogen (vgl. cl-destatis-ausland-2015) (mit Ergänzungen, wenn nicht zuordenbar)."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 37.68,
+    "statistics": {
+      "deviance": "5.31878133507408",
+      "mode": "9"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 91,
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "relativeFrequency": 0.87,
+        "validRelativeFrequency": 2.3,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 190,
+        "label": {
+          "en": "Hamburg",
+          "de": "Hamburg"
+        },
+        "relativeFrequency": 1.81,
+        "validRelativeFrequency": 4.81,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 348,
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "relativeFrequency": 3.32,
+        "validRelativeFrequency": 8.8,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 33,
+        "label": {
+          "en": "Bremen",
+          "de": "Bremen"
+        },
+        "relativeFrequency": 0.31,
+        "validRelativeFrequency": 0.83,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 553,
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 5.27,
+        "validRelativeFrequency": 13.99,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 299,
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "relativeFrequency": 2.85,
+        "validRelativeFrequency": 7.56,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 139,
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "relativeFrequency": 1.32,
+        "validRelativeFrequency": 3.52,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 527,
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 5.02,
+        "validRelativeFrequency": 13.33,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 647,
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "relativeFrequency": 6.17,
+        "validRelativeFrequency": 16.36,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 22,
+        "label": {
+          "en": "Saarland",
+          "de": "Saarland"
+        },
+        "relativeFrequency": 0.21,
+        "validRelativeFrequency": 0.56,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 304,
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "relativeFrequency": 2.9,
+        "validRelativeFrequency": 7.69,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 83,
+        "label": {
+          "en": "Brandenburg",
+          "de": "Brandenburg"
+        },
+        "relativeFrequency": 0.79,
+        "validRelativeFrequency": 2.1,
+        "value": "12"
+      },
+      {
+        "absoluteFrequency": 48,
+        "label": {
+          "en": "Mecklenburg-Vorpommern",
+          "de": "Mecklenburg-Vorpommern"
+        },
+        "relativeFrequency": 0.46,
+        "validRelativeFrequency": 1.21,
+        "value": "13"
+      },
+      {
+        "absoluteFrequency": 274,
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "relativeFrequency": 2.61,
+        "validRelativeFrequency": 6.93,
+        "value": "14"
+      },
+      {
+        "absoluteFrequency": 56,
+        "label": {
+          "en": "Saxony-Anhalt",
+          "de": "Sachsen-Anhalt"
+        },
+        "relativeFrequency": 0.53,
+        "validRelativeFrequency": 1.42,
+        "value": "15"
+      },
+      {
+        "absoluteFrequency": 161,
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "relativeFrequency": 1.53,
+        "validRelativeFrequency": 4.07,
+        "value": "16"
+      },
+      {
+        "absoluteFrequency": 16,
+        "label": {
+          "en": "Germany, federal state unkown",
+          "de": "Deutschland, BL unbekannt"
+        },
+        "relativeFrequency": 0.15,
+        "validRelativeFrequency": 0.4,
+        "value": "19"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Belgium",
+          "de": "Belgien"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.13,
+        "value": "124"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Bulgaria",
+          "de": "Bulgarien"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "125"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Denmark",
+          "de": "Dänemark"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.13,
+        "value": "126"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Finland",
+          "de": "Finnland"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.13,
+        "value": "128"
+      },
+      {
+        "absoluteFrequency": 10,
+        "label": {
+          "en": "France",
+          "de": "Frankreich, einschl. Korsika"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 0.25,
+        "value": "129"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Greece",
+          "de": "Griechenland"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "134"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Ireland",
+          "de": "Irland"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 0.08,
+        "value": "135"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Italy",
+          "de": "Italien"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 0.08,
+        "value": "137"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Liechtenstein",
+          "de": "Liechtenstein"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "141"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "Luxemburg",
+          "de": "Luxemburg"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 0.15,
+        "value": "143"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Republic of Moldovia",
+          "de": "Republik Moldau (Moldawien)"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "146"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Monaco",
+          "de": "Monaco"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "147"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "Netherlands",
+          "de": "Niederlande"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 0.15,
+        "value": "148"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Norway",
+          "de": "Norwegen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.05,
+        "value": "149"
+      },
+      {
+        "absoluteFrequency": 9,
+        "label": {
+          "en": "Austria",
+          "de": "Österreich"
+        },
+        "relativeFrequency": 0.09,
+        "validRelativeFrequency": 0.23,
+        "value": "151"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Portugal",
+          "de": "Portugal"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 0.08,
+        "value": "153"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Romania",
+          "de": "Rumänien"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "154"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Sweden",
+          "de": "Schweden"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.13,
+        "value": "157"
+      },
+      {
+        "absoluteFrequency": 35,
+        "label": {
+          "en": "Switzerland",
+          "de": "Schweiz"
+        },
+        "relativeFrequency": 0.33,
+        "validRelativeFrequency": 0.89,
+        "value": "158"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Russia",
+          "de": "Russische Föderation"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.05,
+        "value": "160"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Spain",
+          "de": "Spanien"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.13,
+        "value": "161"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Turkey",
+          "de": "Türkei"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.05,
+        "value": "163"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Czech Republic",
+          "de": "Tschechische Republik"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "164"
+      },
+      {
+        "absoluteFrequency": 16,
+        "label": {
+          "en": "United Kingdom",
+          "de": "Vereinigtes Königreich (Großbritannien und Nordirland)"
+        },
+        "relativeFrequency": 0.15,
+        "validRelativeFrequency": 0.4,
+        "value": "168"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Belarus",
+          "de": "Weißrussland (Belarus)"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "169"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Nigeria",
+          "de": "Nigeria"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 0.08,
+        "value": "232"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Mauritania",
+          "de": "Mauretanien"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "239"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "United Republic of Tanzania",
+          "de": "Vereinigte Republik Tansania"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "282"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Uganda",
+          "de": "Uganda"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "286"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Guatemala",
+          "de": "Guatemala"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "345"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Colombia",
+          "de": "Kolumbien"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "349"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Mexico",
+          "de": "Mexiko"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "353"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": "United States",
+          "de": "Vereinigte Staaten (von Amerika), auch USA"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 0.2,
+        "value": "368"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Armenian",
+          "de": "Armenien"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "422"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Vietnam",
+          "de": "Vietnam"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "432"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Indonesia",
+          "de": "Indonesien, einschl. Irian Jaya"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "437"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Lebanon",
+          "de": "Libanon"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "451"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Republic of Korea and South Korea",
+          "de": "Republik Korea, auch Süd-Korea"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "467"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Singapore",
+          "de": "Singapur"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "474"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Arab Republic of Syria",
+          "de": "Arabische Republik Syrien"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "475"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "China",
+          "de": "China"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.05,
+        "value": "479"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Australia",
+          "de": "Australien"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "523"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "New Zealand",
+          "de": "Neuseeland"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.03,
+        "value": "536"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Germany and other countries",
+          "de": "Deutschland und andere Länder"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.13,
+        "value": "995"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3954,
+    "missings": [
+      {
+        "absoluteFrequency": 769,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 7.33,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.01,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

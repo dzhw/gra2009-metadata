@@ -1,0 +1,79 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "4th further acad. qualification: university (new or old federal states/abroad)",
+    "de": "4. weitere akad. Qualifikation: Hochschule (Bundesländer Alt/Neu)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfec14,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1249,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
+    },
+    "rule": "recode bfec154h_g3r (1/10 =1) (11/16 = 2) (21 = 3) (22 = 4), gen(bfec154h_g4)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0,
+    "statistics": null,
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": null,
+    "totalValidAbsoluteFrequency": 0,
+    "missings": [
+      {
+        "absoluteFrequency": 2093,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 19.94,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2662,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 25.37,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

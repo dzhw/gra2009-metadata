@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "financing internship: employment agency",
+    "de": "Finanzierung Praktikum: Agentur für Arbeit"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc11,-998,1,3)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 500,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 15.78,
+    "statistics": {
+      "deviance": "0.576563211705761",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1517,
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 14.46,
+        "validRelativeFrequency": 91.61,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 139,
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "relativeFrequency": 1.32,
+        "validRelativeFrequency": 8.39,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1656,
+    "missings": [
+      {
+        "absoluteFrequency": 269,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.56,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8569,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 81.66,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "4.17",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie finanzierten Sie Ihren Lebensunterhalt während des Praktikums/der Praktika nach dem Studium?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

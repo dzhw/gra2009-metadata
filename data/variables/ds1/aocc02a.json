@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "job: corresponds to subject (student assistant)",
+    "de": "Erwerbstätigkeit Studium: fachnah als SHK"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc01,-998,1,2,3)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 193,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 85.53,
+    "statistics": {
+      "deviance": "1.32846806800811",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 5562,
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 53,
+        "validRelativeFrequency": 61.97,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 3414,
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "relativeFrequency": 32.53,
+        "validRelativeFrequency": 38.03,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 8976,
+    "missings": [
+      {
+        "absoluteFrequency": 50,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.48,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 1468,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 13.99,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "1.11",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Hatten Ihre Jobs bzw. Tätigkeiten im weiteren Sinne fachlich etwas mit Ihrem Studium oder Ihrem angestrebten Berufsfeld zu tun?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st job training activities: other, namely",
+    "de": "1. Stelle Maßnahme: Sonstiges, und zwar"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc19,-998,1,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 660,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Es wurden keine offenen Angaben gemacht oder die offenen Angaben wurden nicht vercodet. Daher enthält diese Variable nur Missings."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0,
+    "statistics": null,
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": null,
+    "totalValidAbsoluteFrequency": 0,
+    "missings": [
+      {
+        "absoluteFrequency": 1902,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 18.12,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 2088,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.9,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 6504,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 61.98,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "5.8",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche der folgenden Maßnahmen wurden Ihnen im Rahmen Ihrer Beschäftigung angeboten?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

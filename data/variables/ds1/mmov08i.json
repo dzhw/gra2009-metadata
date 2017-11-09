@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "reasons against moving at present time: attachment due to owned property",
+    "de": "Gründe gegen Umzug derzeit: Bindung durch Wohneigentum"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mmov05,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1912,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 4.5,
+    "statistics": {
+      "deviance": "0.376820910925995",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 450,
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 4.29,
+        "validRelativeFrequency": 95.34,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 22,
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "relativeFrequency": 0.21,
+        "validRelativeFrequency": 4.66,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 472,
+    "missings": [
+      {
+        "absoluteFrequency": 128,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.22,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 1865,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 17.77,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "39",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

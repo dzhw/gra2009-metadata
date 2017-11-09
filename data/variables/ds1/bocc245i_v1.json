@@ -1,0 +1,230 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "5th job: job position",
+    "de": "5. Tätigkeit: berufliche Stellung"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ245i",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1008,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.3,
+    "statistics": {
+      "deviance": "4.07680026328304",
+      "mode": "3"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 17,
+        "label": {
+          "en": "Management employee",
+          "de": "leitende Angestellte"
+        },
+        "relativeFrequency": 0.16,
+        "validRelativeFrequency": 4.91,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 47,
+        "label": {
+          "en": "Scientifically qualified employee, middle management",
+          "de": "wiss. qualifizierte Angestellte m. mittl. Leitung"
+        },
+        "relativeFrequency": 0.45,
+        "validRelativeFrequency": 13.58,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 120,
+        "label": {
+          "en": "Scientifically qualified employee, no management",
+          "de": "wiss. qualifizierte Angestellte o. Leitung"
+        },
+        "relativeFrequency": 1.14,
+        "validRelativeFrequency": 34.68,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 55,
+        "label": {
+          "en": "Qualified employee",
+          "de": "qualifizierte Angestellte"
+        },
+        "relativeFrequency": 0.52,
+        "validRelativeFrequency": 15.9,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "employee with executive activity",
+          "de": "ausführende Angestellte"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 1.73,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 9,
+        "label": {
+          "en": "traineeship in a school, mandatory internship",
+          "de": "Referendar(in), Anerkennungspraktikant(in)"
+        },
+        "relativeFrequency": 0.09,
+        "validRelativeFrequency": 2.6,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 16,
+        "label": {
+          "en": "Self-employed, independent professionals",
+          "de": "Selbständige in freien Berufen"
+        },
+        "relativeFrequency": 0.15,
+        "validRelativeFrequency": 4.62,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Self-employed, independent entrepreneurs",
+          "de": "selbständige Unternehmer(innen)"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 1.45,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 34,
+        "label": {
+          "en": "Self-employed with fee/works contract",
+          "de": "Selbständige m. Honorar-/Werkvertrag"
+        },
+        "relativeFrequency": 0.32,
+        "validRelativeFrequency": 9.83,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 19,
+        "label": {
+          "en": "public official in higher civil service",
+          "de": "Beamte: höherer Dienst"
+        },
+        "relativeFrequency": 0.18,
+        "validRelativeFrequency": 5.49,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "public official in higher intermediate service",
+          "de": "Beamte: geh. Dienst"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 2.02,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Specialist (with apprenticeship)",
+          "de": "Facharbeiter(innen) (mit Lehre)"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.58,
+        "value": "13"
+      },
+      {
+        "absoluteFrequency": 9,
+        "label": {
+          "en": "Unskilled/trained employee",
+          "de": "un-/angelernte Arbeiter(innen)"
+        },
+        "relativeFrequency": 0.09,
+        "validRelativeFrequency": 2.6,
+        "value": "14"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 346,
+    "missings": [
+      {
+        "absoluteFrequency": 4378,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 41.72,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19d",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

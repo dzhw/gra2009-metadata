@@ -1,0 +1,161 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st further acad. qualification: university (type)",
+    "de": "1. weitere akad. Qualifikation: Hochschule (Hochschulart)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfec14,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1193,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Hochschulvariablen generiert. Dabei wurden die deutschen Hochschulen gemäß dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) (vgl. cl-destatis-hochschule-2015) in 6 Typen differenziert:\n1) Universitäten\n2) Pädagogische Hochschulen\n3) Theologische/Kirchliche Hochschulen\n4) Kunsthochschulen\n5) Fachhochschulen (ohne Verwaltungsfachhochschulen)\n6) Verwaltungsfachhochschulen.\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 15.1,
+    "statistics": {
+      "deviance": "1.38205128644673",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1156,
+        "label": {
+          "en": "Universtiy",
+          "de": "Universitäten"
+        },
+        "relativeFrequency": 11.02,
+        "validRelativeFrequency": 72.93,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 15,
+        "label": {
+          "en": "Educator training university",
+          "de": "Pädagogische Hochschulen"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 0.95,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Theological university",
+          "de": "Theologische/Kirchliche Hochschulen"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.32,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 17,
+        "label": {
+          "en": "Art university",
+          "de": "Kunsthochschulen"
+        },
+        "relativeFrequency": 0.16,
+        "validRelativeFrequency": 1.07,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 391,
+        "label": {
+          "en": "University of applied science",
+          "de": "Fachhochschulen (ohne Verwaltungsfachhochschulen)"
+        },
+        "relativeFrequency": 3.73,
+        "validRelativeFrequency": 24.67,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Business university",
+          "de": "Verwaltungsfachhochschulen"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.06,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1585,
+    "missings": [
+      {
+        "absoluteFrequency": 377,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 3.59,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2662,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 25.37,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "implausible value",
+          "de": "unplausibler Wert"
+        },
+        "relativeFrequency": 0.05,
+        "code": -968
+      },
+      {
+        "absoluteFrequency": 126,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 1.2,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

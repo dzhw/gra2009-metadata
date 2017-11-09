@@ -1,0 +1,122 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "PhD: subject-specific context with studies",
+    "de": "Promotion: fachlicher Zusammenhang mit Studium"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 2017,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 6.25,
+    "statistics": {
+      "deviance": "1.25147207491281",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 499,
+        "label": {
+          "en": "Yes, a close professional relationship",
+          "de": "ja, ein enger fachlicher Zusammenhang"
+        },
+        "relativeFrequency": 4.76,
+        "validRelativeFrequency": 76.07,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 142,
+        "label": {
+          "en": "Yes, a loose professional relationship",
+          "de": "ja, ein loser fachlicher Zusammenhang"
+        },
+        "relativeFrequency": 1.35,
+        "validRelativeFrequency": 21.65,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 15,
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 2.29,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 656,
+    "missings": [
+      {
+        "absoluteFrequency": 14,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.13,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.06,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "11",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

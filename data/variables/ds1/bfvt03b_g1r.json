@@ -1,0 +1,159 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "further vocational training: other type",
+    "de": "berufsqualifizierende Weiterbildung: sonstige Art"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfvt02,1,2,3,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1312,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 19 \"andere berufsqualifizierende Weiterbildung\" der Variable bfvt03a (Art der berufsqualifizierenden Weiterbildung) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.34,
+    "statistics": {
+      "deviance": "2.44965806140311",
+      "mode": "5"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Sick leave",
+          "de": "Suchtberater(in)"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 8.33,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": "Volunteering",
+          "de": "Mediator(in)"
+        },
+        "relativeFrequency": 0.04,
+        "validRelativeFrequency": 11.11,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "Accountant",
+          "de": "Bilanzbuchhalter(in)"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 16.67,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Architect",
+          "de": "Architekt(in)"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 5.56,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 21,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 0.2,
+        "validRelativeFrequency": 58.33,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 36,
+    "missings": [
+      {
+        "absoluteFrequency": 159,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.52,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 4119,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 39.25,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 441,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 4.2,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "6.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "An welcher berufsqualifizierenden Weiterbildung haben Sie teilgenommen/nehmen Sie teil?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "54",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

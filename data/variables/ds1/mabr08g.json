@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "reason for return from abroad: planned from the beginning",
+    "de": "Grund Rückkehr aus Ausland: von Anfang an geplant"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr07,2,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1986,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 1.61,
+    "statistics": {
+      "deviance": "1.20419738557081",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 49,
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 0.47,
+        "validRelativeFrequency": 28.99,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 120,
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "relativeFrequency": 1.14,
+        "validRelativeFrequency": 71.01,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 169,
+    "missings": [
+      {
+        "absoluteFrequency": 67,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.64,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2229,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 21.24,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "50",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

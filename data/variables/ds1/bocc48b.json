@@ -1,0 +1,158 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": "change of workplace: higher income",
+    "de": "Wechsel Arbeitsplatz: höheres Einkommen"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc47,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 881,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 24.39,
+    "statistics": {
+      "firstQuartile": "1",
+      "deviance": "3.02648373924206",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "5",
+      "meanDeviation": "283.1766",
+      "maximum": "5",
+      "mode": "1",
+      "median": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 763,
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "relativeFrequency": 7.27,
+        "validRelativeFrequency": 29.8,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 572,
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "relativeFrequency": 5.45,
+        "validRelativeFrequency": 22.34,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 353,
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "relativeFrequency": 3.36,
+        "validRelativeFrequency": 13.79,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 188,
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "relativeFrequency": 1.79,
+        "validRelativeFrequency": 7.34,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 684,
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "relativeFrequency": 6.52,
+        "validRelativeFrequency": 26.72,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 2560,
+    "missings": [
+      {
+        "absoluteFrequency": 149,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.42,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2046,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.5,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "15",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

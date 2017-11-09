@@ -1,0 +1,110 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "9th apartment: location (NUTS2)",
+    "de": "9. Wohnung: Ort (NUTS2)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "string",
+    "de": "string"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1 & mres091==1 & mres101==1",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1863,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus dem Wohnort (erfasst als fünfstellige Postleitzahl) generiert. Zur Aggregation wurde die Referenzliste \"Tercet NUTS-postal codes matching tables\" des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 verwendet (cl-eurostat-deplznuts-2010). Sofern die fünfstellige Postleitzahl nicht eindeutig einer NUTS-2-Region zugeordnet werden konnte, wurde der Missingwert \"-966 nicht bestimmbar\" vergeben."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "character",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.05,
+    "statistics": null,
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "DE71 Darmstadt"
+      },
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "DEA2 Köln"
+      },
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "DED5 Leipzig"
+      },
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "DEF0 Schleswig-Holstein"
+      },
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "DEG0 Thüringen"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5,
+    "missings": [
+      {
+        "absoluteFrequency": 2459,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 23.43,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

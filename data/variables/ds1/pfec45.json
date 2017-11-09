@@ -1,0 +1,132 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "Habilitation: status",
+    "de": "Habilitation: Status"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(pfec12_v1,1,2,3,4)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 2177,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 5.59,
+    "statistics": {
+      "deviance": "0.969667780559751",
+      "mode": "6"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 12,
+        "label": {
+          "en": "Yes, but not yet finished",
+          "de": "ja, aber noch nicht beendet"
+        },
+        "relativeFrequency": 0.11,
+        "validRelativeFrequency": 2.04,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Yes, but recently interrupted",
+          "de": "ja, zurzeit unterbrochen"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.17,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 73,
+        "label": {
+          "en": "No, but planned",
+          "de": "nein, ist aber geplant"
+        },
+        "relativeFrequency": 0.7,
+        "validRelativeFrequency": 12.44,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 501,
+        "label": {
+          "en": "No, not planned",
+          "de": "nein, auch nicht geplant"
+        },
+        "relativeFrequency": 4.77,
+        "validRelativeFrequency": 85.35,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 587,
+    "missings": [
+      {
+        "absoluteFrequency": 24,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.23,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 65,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.62,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "43",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

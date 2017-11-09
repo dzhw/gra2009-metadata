@@ -1,0 +1,170 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "self-employment: number of workers",
+    "de": "Selbstständigkeit: Anzahl Mitarbeiter(innen)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc09_v1,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1076,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 3.08,
+    "statistics": {
+      "deviance": "1.72065693619932",
+      "mode": "9"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "More than 500 employees",
+          "de": "500 und mehr Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.62,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "20 to 49 employees",
+          "de": "20 bis 49 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 1.55,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": "10 to 19 employees",
+          "de": "10 bis 19 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 4.02,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 12,
+        "label": {
+          "en": "5 to 9 employees",
+          "de": "5 bis 9 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.11,
+        "validRelativeFrequency": 3.72,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 44,
+        "label": {
+          "en": "Under 5 employees",
+          "de": "unter 5 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.42,
+        "validRelativeFrequency": 13.62,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 245,
+        "label": {
+          "en": "No employees",
+          "de": "freischaffend"
+        },
+        "relativeFrequency": 2.33,
+        "validRelativeFrequency": 75.85,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.62,
+        "value": "10"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 323,
+    "missings": [
+      {
+        "absoluteFrequency": 43,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.41,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 4389,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 41.82,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.7",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Beschäftigen Sie fest angestellte Mitarbeiter(innen)?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "22",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

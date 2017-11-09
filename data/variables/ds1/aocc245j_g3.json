@@ -1,0 +1,114 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "5th job: location of work (new or old federal states/abroad)",
+    "de": "5. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc19,-998,1,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ245j_g3",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 586,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
+    },
+    "rule": "recode aocc245j_g2d (1/10 92 =1) (11/16 91 = 2), gen(aocc245j_g3)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.48,
+    "statistics": {
+      "deviance": "1.76057230445868",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 30,
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "relativeFrequency": 0.29,
+        "validRelativeFrequency": 60,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 17,
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "relativeFrequency": 0.16,
+        "validRelativeFrequency": 34,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2,
+        "value": "93"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4,
+        "value": "100"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 50,
+    "missings": [
+      {
+        "absoluteFrequency": 8356,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 79.63,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 2088,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

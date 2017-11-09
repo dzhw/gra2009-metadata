@@ -1,0 +1,112 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "difficulties job search: family/partner",
+    "de": "Schwierigkeiten Stellensuche: Familie/Partnerschaft"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc06,-998,1,2,3)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 453,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 49.26,
+    "statistics": {
+      "deviance": "0.892666284474719",
+      "mode": "0"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4321,
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "relativeFrequency": 41.18,
+        "validRelativeFrequency": 83.59,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 848,
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "relativeFrequency": 8.08,
+        "validRelativeFrequency": 16.41,
+        "value": "1"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5169,
+    "missings": [
+      {
+        "absoluteFrequency": 243,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.32,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 3684,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 35.11,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 1398,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 13.32,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "4.7",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchen Schwierigkeiten sind Sie bei Ihrer Stellensuche – unabhängig von deren Erfolg – bislang begegnet?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

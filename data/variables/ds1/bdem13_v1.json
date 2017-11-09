@@ -1,0 +1,140 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "employment of partner",
+    "de": "Erwerbstätigkeit Partner(in)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bdem12_v1,2,3,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-dem13",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1465,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 34.44,
+    "statistics": {
+      "deviance": "1.59390861659998",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2732,
+        "label": {
+          "en": "Yes, full time",
+          "de": "ja, Vollzeit"
+        },
+        "relativeFrequency": 26.03,
+        "validRelativeFrequency": 75.59,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 405,
+        "label": {
+          "en": "Yes, part time",
+          "de": "ja, Teilzeit"
+        },
+        "relativeFrequency": 3.86,
+        "validRelativeFrequency": 11.21,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 115,
+        "label": {
+          "en": "Yes, minimal",
+          "de": "ja, geringfügig"
+        },
+        "relativeFrequency": 1.1,
+        "validRelativeFrequency": 3.18,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 362,
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "relativeFrequency": 3.45,
+        "validRelativeFrequency": 10.02,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3614,
+    "missings": [
+      {
+        "absoluteFrequency": 168,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.6,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 973,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 9.27,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "8.3",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ist Ihr(e) Partner(in) erwerbstätig?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "88",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "employer: number of employees",
+    "de": "Unternehmen: Anzahl Mitarbeiter(innen)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc262,2,-998) & inlist(bocc51,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1088,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 14.33,
+    "statistics": {
+      "deviance": "3.80541856950575",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 667,
+        "label": {
+          "en": "Over 5000 employees",
+          "de": "5000 und mehr Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 6.36,
+        "validRelativeFrequency": 44.35,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 98,
+        "label": {
+          "en": "2500 to 4999 employees",
+          "de": "2500 bis 4999 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.93,
+        "validRelativeFrequency": 6.52,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 140,
+        "label": {
+          "en": "1000 to 2499 employees",
+          "de": "1000 bis 2499 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 1.33,
+        "validRelativeFrequency": 9.31,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 111,
+        "label": {
+          "en": "500 to 999 employees",
+          "de": "500 bis 999 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 1.06,
+        "validRelativeFrequency": 7.38,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 127,
+        "label": {
+          "en": "250 to 499 employees",
+          "de": "250 bis 499 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 1.21,
+        "validRelativeFrequency": 8.44,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 123,
+        "label": {
+          "en": "100 to 249 employees",
+          "de": "100 bis 249 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 1.17,
+        "validRelativeFrequency": 8.18,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 75,
+        "label": {
+          "en": "50 to 99 employees",
+          "de": "50 bis 99 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.71,
+        "validRelativeFrequency": 4.99,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 62,
+        "label": {
+          "en": "20 to 49 employees",
+          "de": "20 bis 49 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.59,
+        "validRelativeFrequency": 4.12,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 20,
+        "label": {
+          "en": "10 to19 employees",
+          "de": "10 bis 19 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.19,
+        "validRelativeFrequency": 1.33,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 12,
+        "label": {
+          "en": "5 to 9 employees",
+          "de": "5 bis 9 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.11,
+        "validRelativeFrequency": 0.8,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 10,
+        "label": {
+          "en": "Less than 5 employees",
+          "de": "weniger als 5 Mitarbeiter(innen)"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 0.66,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 59,
+        "label": {
+          "en": "Don't know",
+          "de": "weiß nicht"
+        },
+        "relativeFrequency": 0.56,
+        "validRelativeFrequency": 3.92,
+        "value": "12"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1504,
+    "missings": [
+      {
+        "absoluteFrequency": 46,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.44,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 3205,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 30.54,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.13",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viele Mitarbeiter(innen) hat(te) Ihr Unternehmen in allen Betriebsstätten zusammen?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "28",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "last job: other sector",
+    "de": "letzte Stelle: sonstige Branche"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc19,-998,1,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ302b_g1",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 679,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Es wurden keine offenen Angaben gemacht oder die offenen Angaben wurden nicht vercodet. Daher enthält diese Variable nur Missings."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0,
+    "statistics": null,
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": null,
+    "totalValidAbsoluteFrequency": 0,
+    "missings": [
+      {
+        "absoluteFrequency": 1111,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 10.59,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 2088,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.9,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 7295,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 69.52,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "5.10",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchem Wirtschaftsbereich gehört der Betrieb bzw. die Einrichtung schwerpunktmäßig an, in dem/der Sie arbeiten?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st job found: other, namely",
+    "de": "1. Stelle gefunden: Sonstiges, und zwar"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc19,-998,1,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 625,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zu sonstigen Wegen der Stellenfindung bzgl. der ersten Stelle (Variable aocc251v), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.48,
+    "statistics": {
+      "deviance": "2.4274111452786",
+      "mode": "9"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Own job-seeking advert",
+          "de": "eigene Stellensuchanzeige"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 15,
+        "label": {
+          "en": "Agency mediation ",
+          "de": "Agenturvermittlung"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 30,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Does not apply, as self-employed",
+          "de": "trifft nicht zu, weil selbstständig"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": "Temporary employment agency ",
+          "de": "Zeitarbeitsfirma/Leiharbeit"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 16,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 24,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 0.23,
+        "validRelativeFrequency": 48,
+        "value": "9"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 50,
+    "missings": [
+      {
+        "absoluteFrequency": 1369,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 13.05,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 2088,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.9,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 6987,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 66.58,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "5.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf welche Weise haben Sie Ihre erste bzw. heutige Arbeitsstelle gefunden? (Mehrfachnennung möglich)"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

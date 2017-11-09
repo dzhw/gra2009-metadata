@@ -1,0 +1,245 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "higher education entrance qualification: location (f. state/abroad)",
+    "de": "Studienberechtigung: Ort (Bundes-/Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 755,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation des Ortes der Studienberechtigung (Bundesland/Land) generiert. Zu Einzelheiten vgl. Generierungsregel."
+    },
+    "rule": "recode adem05a_g1r (20/90 96 99 =100), gen(adem05a_g2d)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 99.69,
+    "statistics": {
+      "deviance": "5.05863209581253",
+      "mode": "5"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 305,
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "relativeFrequency": 2.91,
+        "validRelativeFrequency": 2.92,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 209,
+        "label": {
+          "en": "Hamburg",
+          "de": "Hamburg"
+        },
+        "relativeFrequency": 1.99,
+        "validRelativeFrequency": 2,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 990,
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "relativeFrequency": 9.43,
+        "validRelativeFrequency": 9.46,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 76,
+        "label": {
+          "en": "Bremen",
+          "de": "Bremen"
+        },
+        "relativeFrequency": 0.72,
+        "validRelativeFrequency": 0.73,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 1748,
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 16.66,
+        "validRelativeFrequency": 16.71,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 617,
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "relativeFrequency": 5.88,
+        "validRelativeFrequency": 5.9,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 470,
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "relativeFrequency": 4.48,
+        "validRelativeFrequency": 4.49,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 1506,
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 14.35,
+        "validRelativeFrequency": 14.4,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 1431,
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "relativeFrequency": 13.64,
+        "validRelativeFrequency": 13.68,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 98,
+        "label": {
+          "en": "Saarland",
+          "de": "Saarland"
+        },
+        "relativeFrequency": 0.93,
+        "validRelativeFrequency": 0.94,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 481,
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "relativeFrequency": 4.58,
+        "validRelativeFrequency": 4.6,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 399,
+        "label": {
+          "en": "Brandenburg",
+          "de": "Brandenburg"
+        },
+        "relativeFrequency": 3.8,
+        "validRelativeFrequency": 3.81,
+        "value": "12"
+      },
+      {
+        "absoluteFrequency": 253,
+        "label": {
+          "en": "Mecklenburg-Vorpommern",
+          "de": "Mecklenburg-Vorpommern"
+        },
+        "relativeFrequency": 2.41,
+        "validRelativeFrequency": 2.42,
+        "value": "13"
+      },
+      {
+        "absoluteFrequency": 862,
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "relativeFrequency": 8.21,
+        "validRelativeFrequency": 8.24,
+        "value": "14"
+      },
+      {
+        "absoluteFrequency": 258,
+        "label": {
+          "en": "Saxony-Anhalt",
+          "de": "Sachsen-Anhalt"
+        },
+        "relativeFrequency": 2.46,
+        "validRelativeFrequency": 2.47,
+        "value": "15"
+      },
+      {
+        "absoluteFrequency": 522,
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "relativeFrequency": 4.97,
+        "validRelativeFrequency": 4.99,
+        "value": "16"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Old federal state",
+          "de": "neue Länder ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.01,
+        "value": "91"
+      },
+      {
+        "absoluteFrequency": 235,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 2.24,
+        "validRelativeFrequency": 2.25,
+        "value": "100"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 10461,
+    "missings": [
+      {
+        "absoluteFrequency": 33,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.31,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "label": {
+    "en": "3rd job: end (year)",
+    "de": "3. Tätigkeit: Ende (Jahr)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": true,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ243d",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 973,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 9.67,
+    "statistics": {
+      "firstQuartile": "2012",
+      "deviance": "3.11650693575234",
+      "highWhisker": 2015,
+      "lowWhisker": 2010,
+      "skewness": -0.4209,
+      "minimum": "2010",
+      "thirdQuartile": "2014",
+      "meanDeviation": "183.1011",
+      "meanValue": 2012.8305,
+      "maximum": "2015",
+      "mode": "2014",
+      "median": "2013",
+      "standardDeviation": 1.2044,
+      "kurtosis": 2.5375
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 39,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.37,
+        "validRelativeFrequency": 3.84,
+        "value": "2010"
+      },
+      {
+        "absoluteFrequency": 110,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 1.05,
+        "validRelativeFrequency": 10.84,
+        "value": "2011"
+      },
+      {
+        "absoluteFrequency": 227,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 2.16,
+        "validRelativeFrequency": 22.36,
+        "value": "2012"
+      },
+      {
+        "absoluteFrequency": 292,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 2.78,
+        "validRelativeFrequency": 28.77,
+        "value": "2013"
+      },
+      {
+        "absoluteFrequency": 302,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 2.88,
+        "validRelativeFrequency": 29.75,
+        "value": "2014"
+      },
+      {
+        "absoluteFrequency": 45,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.43,
+        "validRelativeFrequency": 4.43,
+        "value": "2015"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1015,
+    "missings": [
+      {
+        "absoluteFrequency": 3709,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 35.34,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19b",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

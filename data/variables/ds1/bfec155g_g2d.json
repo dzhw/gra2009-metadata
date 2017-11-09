@@ -1,0 +1,79 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "5th further acad. qualification: subject (area of study)",
+    "de": "5. weitere akad. Qualifikation: Studienfach (Studienbereiche)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfec14,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1263,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet. Für die Zuordnung des darin nicht enthaltenen Fächercodes 310 (\"Regenerative Energien\" --> Studienbereich: \"Ingenieurwesen allgemein\") wurde das Schlüsselverzeichnis 2012/2013 (Code 61) herangezogen."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0,
+    "statistics": null,
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": null,
+    "totalValidAbsoluteFrequency": 0,
+    "missings": [
+      {
+        "absoluteFrequency": 2093,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 19.94,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2662,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 25.37,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

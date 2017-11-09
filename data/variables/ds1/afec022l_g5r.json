@@ -1,0 +1,133 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd further acad. qualification: 1st university (type)",
+    "de": "2. weitere akad. Qualifikation: 1. Hochschule (Hochschulart)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 378,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Hochschulvariablen generiert. Dabei wurden die deutschen Hochschulen gemäß dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) (vgl. cl-destatis-hochschule-2015) in 6 Typen differenziert:\n1) Universitäten\n2) Pädagogische Hochschulen\n3) Theologische/Kirchliche Hochschulen\n4) Kunsthochschulen\n5) Fachhochschulen (ohne Verwaltungsfachhochschulen)\n6) Verwaltungsfachhochschulen.\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 5.54,
+    "statistics": {
+      "deviance": "0.760253321692089",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 524,
+        "label": {
+          "en": "Universtiy",
+          "de": "Universitäten"
+        },
+        "relativeFrequency": 4.99,
+        "validRelativeFrequency": 90.19,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Educator training university",
+          "de": "Pädagogische Hochschulen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.34,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Theological university",
+          "de": "Theologische/Kirchliche Hochschulen"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 0.52,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": "Art university",
+          "de": "Kunsthochschulen"
+        },
+        "relativeFrequency": 0.04,
+        "validRelativeFrequency": 0.69,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 48,
+        "label": {
+          "en": "University of applied science",
+          "de": "Fachhochschulen (ohne Verwaltungsfachhochschulen)"
+        },
+        "relativeFrequency": 0.46,
+        "validRelativeFrequency": 8.26,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 581,
+    "missings": [
+      {
+        "absoluteFrequency": 5286,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 50.37,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 100,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.95,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

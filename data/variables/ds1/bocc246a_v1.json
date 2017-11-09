@@ -1,0 +1,228 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": "6th job: start (month)",
+    "de": "6. Tätigkeit: Beginn (Monat)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ246a",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1015,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 1.6,
+    "statistics": {
+      "firstQuartile": "3",
+      "deviance": "4.81132387067993",
+      "highWhisker": 12,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "10",
+      "meanDeviation": "6.6717",
+      "maximum": "12",
+      "mode": "10",
+      "median": "7"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 19,
+        "label": {
+          "en": "January",
+          "de": "Januar"
+        },
+        "relativeFrequency": 0.18,
+        "validRelativeFrequency": 11.31,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 4.76,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 17,
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "relativeFrequency": 0.16,
+        "validRelativeFrequency": 10.12,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 14,
+        "label": {
+          "en": "April ",
+          "de": "April"
+        },
+        "relativeFrequency": 0.13,
+        "validRelativeFrequency": 8.33,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 3.57,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 7.74,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 13,
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "relativeFrequency": 0.12,
+        "validRelativeFrequency": 7.74,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 10,
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 5.95,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 22,
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "relativeFrequency": 0.21,
+        "validRelativeFrequency": 13.1,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 24,
+        "label": {
+          "en": "October",
+          "de": "Oktober"
+        },
+        "relativeFrequency": 0.23,
+        "validRelativeFrequency": 14.29,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 15,
+        "label": {
+          "en": "November",
+          "de": "November"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 8.93,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 4.17,
+        "value": "12"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 168,
+    "missings": [
+      {
+        "absoluteFrequency": 4556,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 43.42,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19e",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "PhD: dissertation stage",
+    "de": "Promotion: Stadium Dissertation"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if pfec12_v1==3",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 1999,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 2.88,
+    "statistics": {
+      "deviance": "1.13911098332213",
+      "mode": "3"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 22,
+        "label": {
+          "en": "Dissertation submitted, excl. final defense",
+          "de": "Dissertation eingereicht, exkl. letzte Prüfung"
+        },
+        "relativeFrequency": 0.21,
+        "validRelativeFrequency": 7.28,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 29,
+        "label": {
+          "en": "Dissertation completed, but not yet submitted",
+          "de": "Dissertation abgeschlossen, aber noch nicht eingereicht"
+        },
+        "relativeFrequency": 0.28,
+        "validRelativeFrequency": 9.6,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 251,
+        "label": {
+          "en": "Dissertation is ongoing",
+          "de": "Dissertation dauert an"
+        },
+        "relativeFrequency": 2.39,
+        "validRelativeFrequency": 83.11,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 302,
+    "missings": [
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 374,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 3.56,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "02",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

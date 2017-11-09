@@ -1,0 +1,94 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd further acad. qualification: 3rd university (new or old f. states/abroad)",
+    "de": "2. weitere akad. Qualifikation: 3. Hochschule (Bundesländer Alt/Neu)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 389,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
+    },
+    "rule": "recode afec022n_g3r (1/10 =1) (11/16 = 2) (21 = 3) (22 = 4), gen(afec022n_g4)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.09,
+    "statistics": {
+      "deviance": "0.697664191686064",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 88.89,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 11.11,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 9,
+    "missings": [
+      {
+        "absoluteFrequency": 5958,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 56.78,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

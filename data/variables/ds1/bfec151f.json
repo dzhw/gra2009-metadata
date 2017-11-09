@@ -1,0 +1,140 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st further acad. qualification: status",
+    "de": "1. weitere akad. Qualifikation: Status"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfec14,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1185,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 17.26,
+    "statistics": {
+      "deviance": "1.08191033201928",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 178,
+        "label": {
+          "en": "Started",
+          "de": "begonnen"
+        },
+        "relativeFrequency": 1.7,
+        "validRelativeFrequency": 9.83,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1542,
+        "label": {
+          "en": "Already completed",
+          "de": "bereits abgeschlossen"
+        },
+        "relativeFrequency": 14.69,
+        "validRelativeFrequency": 85.15,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 72,
+        "label": {
+          "en": "Terminated",
+          "de": "abgebrochen"
+        },
+        "relativeFrequency": 0.69,
+        "validRelativeFrequency": 3.98,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 19,
+        "label": {
+          "en": "Interrupted",
+          "de": "unterbrochen"
+        },
+        "relativeFrequency": 0.18,
+        "validRelativeFrequency": 1.05,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1811,
+    "missings": [
+      {
+        "absoluteFrequency": 282,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 2.69,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2662,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 25.37,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "5.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "47",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

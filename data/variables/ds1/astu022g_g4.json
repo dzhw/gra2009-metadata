@@ -1,0 +1,95 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd degree: location of university (new or old federal states/abroad)",
+    "de": "2. Abschluss: Hochschule (Bundesländer Alt/Neu)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 145,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
+    },
+    "rule": "recode astu022g_g3r (1/10 =1) (11/16 = 2) (21 = 3) (22 = 4), gen(astu022g_g4)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 4.33,
+    "statistics": {
+      "deviance": "2.01310099854616",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 239,
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "relativeFrequency": 2.28,
+        "validRelativeFrequency": 52.64,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 82,
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "relativeFrequency": 0.78,
+        "validRelativeFrequency": 18.06,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 133,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 1.27,
+        "validRelativeFrequency": 29.3,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 454,
+    "missings": [
+      {
+        "absoluteFrequency": 10040,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 95.67,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

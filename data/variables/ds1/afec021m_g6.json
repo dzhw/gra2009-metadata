@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st further acad. qualification: 2nd university (Uni/FH)",
+    "de": "1. weitere akad. Qualifikation: 2. Hochschule (Uni/FH)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 350,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulartvariablen generiert. Dabei wurden die 6 Hochschultypen zu den beiden Kategorien \"Universität\" und \"Fachhochschule\" aggregiert. Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
+    },
+    "rule": "recode afec021m_g5r (1 2 3 4 = 1) (5 6 = 2), gen(afec021m_g6)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 4.22,
+    "statistics": {
+      "deviance": "0.367938288588441",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 423,
+        "label": {
+          "en": "University",
+          "de": "Universitäten"
+        },
+        "relativeFrequency": 4.03,
+        "validRelativeFrequency": 95.49,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 20,
+        "label": {
+          "en": "University of applied science",
+          "de": "Fachhochschulen"
+        },
+        "relativeFrequency": 0.19,
+        "validRelativeFrequency": 4.51,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 443,
+    "missings": [
+      {
+        "absoluteFrequency": 5412,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 51.57,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 112,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 1.07,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

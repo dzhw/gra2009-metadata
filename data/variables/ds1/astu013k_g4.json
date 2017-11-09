@@ -1,0 +1,105 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "3rd course of study: location of university (new or old federal states/abroad)",
+    "de": "3. Studium: Hochschule (Bundesländer Alt/Neu)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 65,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
+    },
+    "rule": "recode astu013k_g3r (1/10 =1) (11/16 = 2) (21 = 3) (22 = 4), gen(astu013k_g4)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 14.81,
+    "statistics": {
+      "deviance": "1.75056398308264",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 998,
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "relativeFrequency": 9.51,
+        "validRelativeFrequency": 64.22,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 388,
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "relativeFrequency": 3.7,
+        "validRelativeFrequency": 24.97,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 0.06,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 167,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 1.59,
+        "validRelativeFrequency": 10.75,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1554,
+    "missings": [
+      {
+        "absoluteFrequency": 8940,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 85.19,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

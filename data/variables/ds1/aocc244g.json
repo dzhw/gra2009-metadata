@@ -1,0 +1,113 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "4th job: full-time/part-time",
+    "de": "4. Tätigkeit: Arbeitszeit"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc19,-998,1,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ244g",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 567,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 1.51,
+    "statistics": {
+      "deviance": "2.18812250447594",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 58,
+        "label": {
+          "en": "Full time",
+          "de": "Vollzeit"
+        },
+        "relativeFrequency": 0.55,
+        "validRelativeFrequency": 36.71,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 54,
+        "label": {
+          "en": "Part time",
+          "de": "Teilzeit"
+        },
+        "relativeFrequency": 0.51,
+        "validRelativeFrequency": 34.18,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 46,
+        "label": {
+          "en": "Without permanent working hours",
+          "de": "ohne fest vereinbarte Arbeitszeit"
+        },
+        "relativeFrequency": 0.44,
+        "validRelativeFrequency": 29.11,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 158,
+    "missings": [
+      {
+        "absoluteFrequency": 8248,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 78.6,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 2088,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "5.4",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben."
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

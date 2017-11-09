@@ -1,0 +1,132 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "4th apartment: main/second apartment",
+    "de": "4. Wohnung: Haupt-/Zweitwohnung"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1691,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 2.51,
+    "statistics": {
+      "deviance": "1.05972894091663",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 222,
+        "label": {
+          "en": "The main apartment",
+          "de": "Hauptwohnung"
+        },
+        "relativeFrequency": 2.12,
+        "validRelativeFrequency": 84.41,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 33,
+        "label": {
+          "en": "Second apartment for professional reasons",
+          "de": "Zweitwohnung aus beruflichen Gründen"
+        },
+        "relativeFrequency": 0.31,
+        "validRelativeFrequency": 12.55,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Second apartment for other reasons",
+          "de": "Zweitwohnung aus sonstigen Gründen"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 1.14,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "50-50",
+          "de": "teils, teils"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 1.9,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 263,
+    "missings": [
+      {
+        "absoluteFrequency": 41,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.39,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2161,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 20.59,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "17.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

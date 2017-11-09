@@ -1,0 +1,123 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd training phase: evaluation of duration",
+    "de": "2. Ausbildungsphase: Beurteilung Dauer"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec07,-998,3,4,5,6)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 434,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 14.17,
+    "statistics": {
+      "deviance": "1.91141159509287",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 312,
+        "label": {
+          "en": "Too long",
+          "de": "zu lang"
+        },
+        "relativeFrequency": 2.97,
+        "validRelativeFrequency": 20.98,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 941,
+        "label": {
+          "en": "Correct",
+          "de": "richtig"
+        },
+        "relativeFrequency": 8.97,
+        "validRelativeFrequency": 63.28,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 213,
+        "label": {
+          "en": "Too short",
+          "de": "zu kurz"
+        },
+        "relativeFrequency": 2.03,
+        "validRelativeFrequency": 14.32,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 21,
+        "label": {
+          "en": "Completely superfluous",
+          "de": "ganz überflüssig"
+        },
+        "relativeFrequency": 0.2,
+        "validRelativeFrequency": 1.41,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1487,
+    "missings": [
+      {
+        "absoluteFrequency": 66,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.63,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8941,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 85.2,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "3.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die Dauer der zweiten Ausbildungsphase/des Praktikums?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

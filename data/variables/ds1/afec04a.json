@@ -1,0 +1,103 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "further acad. qualification: desired university",
+    "de": "weitere akad. Qualifikation: Wunschhochschule"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 394,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 44.01,
+    "statistics": {
+      "deviance": "0.570724612068324",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 4236,
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "relativeFrequency": 40.37,
+        "validRelativeFrequency": 91.73,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 382,
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "relativeFrequency": 3.64,
+        "validRelativeFrequency": 8.27,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4618,
+    "missings": [
+      {
+        "absoluteFrequency": 1349,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.85,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "2.3",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Konnten Sie Ihre weitere akademische Qualifizierung an Ihrer Wunschhochschule aufnehmen?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

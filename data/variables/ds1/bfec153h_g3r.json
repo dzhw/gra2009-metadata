@@ -1,0 +1,143 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "3rd further acad. qualification: university (f. state/abroad)",
+    "de": "3. weitere akad. Qualifikation: Hochschule (Bundes-/Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfec14,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1229,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Dabei wurden die Hochschulen über den Hochschulort einem Bundesland gemäß dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) (vgl. cl-destatis-hochschule-2015) zugeordnet.\nWurde keine konkrete Hochschule angegeben, sondern lediglich die Information, dass es sich um eine deutsche Hochschule handelt, so wurde der Code 21 \"Deutschland ohne nähere Angabe\" vergeben. Hochschulen im Ausland erhielten den Code 22 \"Ausland\"."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.1,
+    "statistics": {
+      "deviance": "3.39148506833927",
+      "mode": "9"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 20,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 20,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 10,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 10,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 30,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 10,
+        "value": "16"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 10,
+    "missings": [
+      {
+        "absoluteFrequency": 2083,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 19.85,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2662,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 25.37,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

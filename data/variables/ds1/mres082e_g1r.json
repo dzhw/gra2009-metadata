@@ -1,0 +1,202 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "7th apartment: location (federal state/country)",
+    "de": "7. Wohnung: Ort (Bundesland/Land)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1787,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Bundesland bzw. Land (bei Ausland) der Wohnung in codierter Form. Zur Codierung der Bundesländer wurde der Destatis-Schlüssel der Bundesländer (vgl. cl-destatis-bundesland-1990) gemäß des Amtlichen Gemeindeschlüssels (AGS) (mit Ergänzungen, wenn nicht zuordenbar) verwendet. Als Codierliste für die Staaten (bei Ausland) wurde der Destatis-Staatsangehörigkeits- und Gebietsschlüssel von 2015 herangezogen (vgl. cl-destatis-ausland-2015) (mit Ergänzungen, wenn nicht zuordenbar)."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.24,
+    "statistics": {
+      "deviance": "4.33755434358418",
+      "mode": "9"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 4,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Hamburg",
+          "de": "Hamburg"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 8,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 12,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 8,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 20,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 24,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 4,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Brandenburg",
+          "de": "Brandenburg"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 4,
+        "value": "12"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 8,
+        "value": "14"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Denmark",
+          "de": "Dänemark"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 4,
+        "value": "126"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "China",
+          "de": "China"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 4,
+        "value": "479"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 25,
+    "missings": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2438,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 23.23,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "26.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

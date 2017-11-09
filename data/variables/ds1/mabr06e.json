@@ -1,0 +1,152 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "academic activities abroad: adequate pay",
+    "de": "wissenschaftl. Tätigkeit Ausland: angemessenes Gehalt"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1971,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.88,
+    "statistics": {
+      "deviance": "3.32223787869825",
+      "mode": "5"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 10,
+        "label": {
+          "en": "Better in Germany",
+          "de": "in Deutschland besser"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 10.87,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 7.61,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 16,
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "relativeFrequency": 0.15,
+        "validRelativeFrequency": 17.39,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 19,
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "relativeFrequency": 0.18,
+        "validRelativeFrequency": 20.65,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "Worse in Germany",
+          "de": "in Deutschland schlechter"
+        },
+        "relativeFrequency": 0.3,
+        "validRelativeFrequency": 33.7,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 9,
+        "label": {
+          "en": "Can't say",
+          "de": "kann ich nicht beurteilen"
+        },
+        "relativeFrequency": 0.09,
+        "validRelativeFrequency": 9.78,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 92,
+    "missings": [
+      {
+        "absoluteFrequency": 65,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.62,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2308,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 21.99,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "48",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

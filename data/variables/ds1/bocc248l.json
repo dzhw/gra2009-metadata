@@ -1,0 +1,160 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "8th job: company",
+    "de": "8. Tätigkeit: Betrieb"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1059,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.17,
+    "statistics": {
+      "deviance": "3.17186822638532",
+      "mode": "3"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Company A",
+          "de": "Betrieb A"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 27.78,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Company B",
+          "de": "Betrieb B"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 16.67,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "Company C",
+          "de": "Betrieb C"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 33.33,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Company D",
+          "de": "Betrieb D"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 11.11,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Company F",
+          "de": "Betrieb F"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 5.56,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Self-employed",
+          "de": "selbstständig"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 5.56,
+        "value": "8"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 18,
+    "missings": [
+      {
+        "absoluteFrequency": 4706,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 44.84,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19g",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Selbständigkeit wurde immer gleich kodiert, unabhängig davon, zum wievielten Mal eine Selbständigkeit im Beschäftigungstableau auftaucht.\nDer angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

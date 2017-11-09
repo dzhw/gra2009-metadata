@@ -1,0 +1,160 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st job: type of employment",
+    "de": "1. Tätigkeit: Art des Arbeitsverhältnisses"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ241f",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 945,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 40.79,
+    "statistics": {
+      "deviance": "2.89982956314688",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1518,
+        "label": {
+          "en": "unlimited",
+          "de": "unbefristet"
+        },
+        "relativeFrequency": 14.47,
+        "validRelativeFrequency": 35.46,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1516,
+        "label": {
+          "en": "limited",
+          "de": "befristet"
+        },
+        "relativeFrequency": 14.45,
+        "validRelativeFrequency": 35.41,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 599,
+        "label": {
+          "en": "Apprenticeship",
+          "de": "Ausbildungsverhältnis"
+        },
+        "relativeFrequency": 5.71,
+        "validRelativeFrequency": 13.99,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 321,
+        "label": {
+          "en": "Fee/works contract",
+          "de": "Honorar-/Werkvertrag"
+        },
+        "relativeFrequency": 3.06,
+        "validRelativeFrequency": 7.5,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 217,
+        "label": {
+          "en": "Self-employed/freelance",
+          "de": "selbstständig/freiberuflich"
+        },
+        "relativeFrequency": 2.07,
+        "validRelativeFrequency": 5.07,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 110,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 1.05,
+        "validRelativeFrequency": 2.57,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4281,
+    "missings": [
+      {
+        "absoluteFrequency": 443,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.22,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.5",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "19",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

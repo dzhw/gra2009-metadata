@@ -1,0 +1,144 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd further acad. qualification: 3rd subject (area of study)",
+    "de": "2. weitere akad. Qualifikation: 3. Studienfach (Studienbereiche)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 371,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet. Für die Zuordnung des darin nicht enthaltenen Fächercodes 310 (\"Regenerative Energien\" --> Studienbereich: \"Ingenieurwesen allgemein\") wurde das Schlüsselverzeichnis 2012/2013 (Code 61) herangezogen."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.09,
+    "statistics": {
+      "deviance": "3.77831832750804",
+      "mode": "multimodal"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Linguistics and cultural sciences, generally",
+          "de": "Sprach- und Kulturwissenschaften allgemein"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 11.11,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Anglistics, Americanistics",
+          "de": "Anglistik, Amerikanistik"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 11.11,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Romanistics",
+          "de": "Romanistik"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 11.11,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Educational sciences",
+          "de": "Erziehungswissenschaften"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 22.22,
+        "value": "16"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Business and social studies, generally",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 11.11,
+        "value": "23"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Economic sciences",
+          "de": "Wirtschaftswissenschaften"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 22.22,
+        "value": "30"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Biology",
+          "de": "Biologie"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 11.11,
+        "value": "42"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 9,
+    "missings": [
+      {
+        "absoluteFrequency": 5958,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 56.78,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

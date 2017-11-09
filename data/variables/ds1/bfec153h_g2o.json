@@ -1,0 +1,122 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "3rd further acad. qualification: university (NUTS-2)",
+    "de": "3. weitere akad. Qualifikation: Hochschule (NUTS2)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "string",
+    "de": "string"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfec14,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1228,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Hochschulvariablen generiert. Dabei wurden die Hochschulen über den Hochschulort einer NUTS-2-Region gemäß der Referenzliste \"Tercet NUTS-postal codes matching tables\" des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 (cl-eurostat-deplznuts-2010) zugeordnet. Hochschulen im Ausland und unspezifische Hochschulenangaben in Deutschland wurden dabei zu \"-966 nicht bestimmbar\" recodiert."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "character",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.1,
+    "statistics": null,
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 10,
+        "value": "DE14 Tübingen"
+      },
+      {
+        "absoluteFrequency": 2,
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 20,
+        "value": "DE21 Oberbayern"
+      },
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 10,
+        "value": "DE23 Oberpfalz"
+      },
+      {
+        "absoluteFrequency": 2,
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 20,
+        "value": "DE94 Weser-Ems"
+      },
+      {
+        "absoluteFrequency": 2,
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 20,
+        "value": "DEA5 Arnsberg"
+      },
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 10,
+        "value": "DEB3 Rheinhessen-Pfalz"
+      },
+      {
+        "absoluteFrequency": 1,
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 10,
+        "value": "DEG0 Thüringen"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 10,
+    "missings": [
+      {
+        "absoluteFrequency": 2662,
+        "label": {
+          "en": null,
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 25.37,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": null,
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2083,
+        "label": {
+          "en": null,
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 19.85,
+        "code": -998
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

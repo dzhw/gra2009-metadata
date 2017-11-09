@@ -1,0 +1,123 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st further acad. qualification: status",
+    "de": "1. weitere akad. Qualifikation: Status"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 322,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 56.79,
+    "statistics": {
+      "deviance": "1.50491764165335",
+      "mode": "3"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 295,
+        "label": {
+          "en": "Already completed",
+          "de": "bereits abgeschlossen"
+        },
+        "relativeFrequency": 2.81,
+        "validRelativeFrequency": 4.95,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 145,
+        "label": {
+          "en": "Terminated",
+          "de": "abgebrochen"
+        },
+        "relativeFrequency": 1.38,
+        "validRelativeFrequency": 2.43,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 4504,
+        "label": {
+          "en": "Started",
+          "de": "begonnen"
+        },
+        "relativeFrequency": 42.92,
+        "validRelativeFrequency": 75.57,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 1016,
+        "label": {
+          "en": "Planned",
+          "de": "geplant"
+        },
+        "relativeFrequency": 9.68,
+        "validRelativeFrequency": 17.05,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5960,
+    "missings": [
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.07,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "2.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein."
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

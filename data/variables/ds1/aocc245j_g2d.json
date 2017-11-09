@@ -1,0 +1,214 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "5th job: location of work (federal state/abroad)",
+    "de": "5. Tätigkeit: Arbeitsort (Bundes-/Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc19,-998,1,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ245j_g2",
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 585,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Land) generiert. Zu Einzelheiten vgl. Generierungsregel."
+    },
+    "rule": "recode aocc245j_g1r (20/90 96 99 =100), gen(aocc245j_g2d)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.48,
+    "statistics": {
+      "deviance": "4.72804166460326",
+      "mode": "9"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Hamburg",
+          "de": "Hamburg"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 10,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 6,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 14,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 6,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 9,
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "relativeFrequency": 0.09,
+        "validRelativeFrequency": 18,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 16,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Brandenburg",
+          "de": "Brandenburg"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2,
+        "value": "12"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 10,
+        "value": "14"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 6,
+        "value": "16"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2,
+        "value": "93"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4,
+        "value": "100"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 50,
+    "missings": [
+      {
+        "absoluteFrequency": 8356,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 79.63,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 2088,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "9th apartment: location (postcode)",
+    "de": "9. Wohnung: Ort (PLZ)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1 & mres091==1 & mres101==1",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1862,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.05,
+    "statistics": {
+      "deviance": "3.2188758248682",
+      "mode": "multimodal"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "4416"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "7747"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "25881"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "50933"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 20,
+        "value": "60329"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 5,
+    "missings": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.01,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2459,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 23.43,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "32.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

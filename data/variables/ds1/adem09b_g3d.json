@@ -1,0 +1,143 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "country of birth (world region)",
+    "de": "Geburtsland (Weltregionen)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": null
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 775,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Geburtslandvariable (bei Ausland) generiert. Zur Aggregation wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-23). Dabei wurde die Türkei zu Asien und Russland zu Europa außerhalb der EU codiert. Zu Einzelheiten vgl. Generierungsregel."
+    },
+    "rule": "recode adem09b_g1o (20/36 38/42 53 54 61 = 1) (43/46 48/52 62/64 = 2) (55/60 = 3) (37 65/77 = 4) (80/82 = 5) (85/90 = 6) (99 95/97 = -966), gen(adem09b_g3d)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 7.02,
+    "statistics": {
+      "deviance": "2.71632935017393",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 280,
+        "label": {
+          "en": "EU",
+          "de": "EU"
+        },
+        "relativeFrequency": 2.67,
+        "validRelativeFrequency": 37.99,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 184,
+        "label": {
+          "en": "Europe outside the EU",
+          "de": "Europa außerhalb der EU"
+        },
+        "relativeFrequency": 1.75,
+        "validRelativeFrequency": 24.97,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 37,
+        "label": {
+          "en": "America",
+          "de": "Amerika"
+        },
+        "relativeFrequency": 0.35,
+        "validRelativeFrequency": 5.02,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 207,
+        "label": {
+          "en": "Asia",
+          "de": "Asien"
+        },
+        "relativeFrequency": 1.97,
+        "validRelativeFrequency": 28.09,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Australia and Oceania",
+          "de": "Australien und Ozeanien"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 0.27,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 27,
+        "label": {
+          "en": "Africa",
+          "de": "Afrika"
+        },
+        "relativeFrequency": 0.26,
+        "validRelativeFrequency": 3.66,
+        "value": "6"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 737,
+    "missings": [
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.3,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 9720,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 92.62,
+        "code": -988
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.06,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

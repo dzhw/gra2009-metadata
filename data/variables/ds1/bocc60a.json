@@ -1,0 +1,158 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": "risk of loss of employment",
+    "de": "Gefahr Beschäftigungsverlust"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1177,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 38.35,
+    "statistics": {
+      "firstQuartile": "4",
+      "deviance": "1.90778947233648",
+      "highWhisker": 5,
+      "lowWhisker": 2.5,
+      "minimum": "1",
+      "thirdQuartile": "5",
+      "meanDeviation": "231.2856",
+      "maximum": "5",
+      "mode": "5",
+      "median": "5"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 166,
+        "label": {
+          "en": "Very strong",
+          "de": "sehr stark"
+        },
+        "relativeFrequency": 1.58,
+        "validRelativeFrequency": 4.13,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 133,
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "relativeFrequency": 1.27,
+        "validRelativeFrequency": 3.31,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 289,
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "relativeFrequency": 2.75,
+        "validRelativeFrequency": 7.18,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 575,
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "relativeFrequency": 5.48,
+        "validRelativeFrequency": 14.29,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 2861,
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "relativeFrequency": 27.26,
+        "validRelativeFrequency": 71.1,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4024,
+    "missings": [
+      {
+        "absoluteFrequency": 700,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 6.67,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.28",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sofern Sie zurzeit erwerbstätig sind: Befürchten Sie in den kommenden sechs Monaten die Beschäftigung bei Ihrem Arbeitgeber zu verlieren?; Erwägen Sie in den kommenden sechs Monaten Ihren jetzigen Arbeitgeber zu wechseln?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "45",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

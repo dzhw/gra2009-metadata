@@ -1,0 +1,132 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "3rd job: location of work (new or old federal states/abroad)",
+    "de": "3. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ243j_g3",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 981,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
+    },
+    "rule": "recode bocc243j_g2v1d (1/10 92 =1) (11/16 91 = 2), gen(bocc243j_g3v1)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 16.36,
+    "statistics": {
+      "deviance": "1.54883763298235",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1199,
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "relativeFrequency": 11.43,
+        "validRelativeFrequency": 69.83,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 415,
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "relativeFrequency": 3.95,
+        "validRelativeFrequency": 24.17,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 0.29,
+        "value": "93"
+      },
+      {
+        "absoluteFrequency": 98,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 0.93,
+        "validRelativeFrequency": 5.71,
+        "value": "100"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 1717,
+    "missings": [
+      {
+        "absoluteFrequency": 3004,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 28.63,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.03,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

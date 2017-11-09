@@ -1,0 +1,214 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "1st further acad. qualification: 3rd university (f. state/abroad)",
+    "de": "1. weitere akad. Qualifikation: 3. Hochschule (Bundes-/Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 353,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Dabei wurden die Hochschulen über den Hochschulort einem Bundesland gemäß dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) (vgl. cl-destatis-hochschule-2015) zugeordnet.\nWurde keine konkrete Hochschule angegeben, sondern lediglich die Information, dass es sich um eine deutsche Hochschule handelt, so wurde der Code 21 \"Deutschland ohne nähere Angabe\" vergeben. Hochschulen im Ausland erhielten den Code 22 \"Ausland\"."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.41,
+    "statistics": {
+      "deviance": "4.61315412649244",
+      "mode": "16"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.33,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 6.98,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 13.95,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4.65,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 6.98,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4.65,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Saarland",
+          "de": "Saarland"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.33,
+        "value": "10"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.33,
+        "value": "11"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Brandenburg",
+          "de": "Brandenburg"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.33,
+        "value": "12"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Mecklenburg-Vorpommern",
+          "de": "Mecklenburg-Vorpommern"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.33,
+        "value": "13"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4.65,
+        "value": "14"
+      },
+      {
+        "absoluteFrequency": 10,
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 23.26,
+        "value": "16"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4.65,
+        "value": "21"
+      },
+      {
+        "absoluteFrequency": 8,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 0.08,
+        "validRelativeFrequency": 18.6,
+        "value": "22"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 43,
+    "missings": [
+      {
+        "absoluteFrequency": 5924,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 56.45,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

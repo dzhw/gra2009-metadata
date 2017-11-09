@@ -1,0 +1,183 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd further acad. qualification: 2nd university (f. state/abroad)",
+    "de": "2. weitere akad. Qualifikation: 2. Hochschule (Bundes-/Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 382,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulvariablen generiert. Dabei wurden die Hochschulen über den Hochschulort einem Bundesland gemäß dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) (vgl. cl-destatis-hochschule-2015) zugeordnet.\nWurde keine konkrete Hochschule angegeben, sondern lediglich die Information, dass es sich um eine deutsche Hochschule handelt, so wurde der Code 21 \"Deutschland ohne nähere Angabe\" vergeben. Hochschulen im Ausland erhielten den Code 22 \"Ausland\"."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.33,
+    "statistics": {
+      "deviance": "4.32699031264889",
+      "mode": "22"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 5.71,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 14.29,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 17.14,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.86,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 8.57,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 8.57,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "relativeFrequency": 0.04,
+        "validRelativeFrequency": 11.43,
+        "value": "9"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 5.71,
+        "value": "14"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 5.71,
+        "value": "21"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 20,
+        "value": "22"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 35,
+    "missings": [
+      {
+        "absoluteFrequency": 5931,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 56.52,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.01,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

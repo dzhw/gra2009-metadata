@@ -1,0 +1,122 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "conferences/congresses: other, namely",
+    "de": "Tagungen/Kongresse: Sonstiges, und zwar"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & (prsa01a==1 | prsa01b==1) & inlist(prsa02,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 2091,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zu den sonstigen Beiträgen auf Tagungen/Kongressen in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.17,
+    "statistics": {
+      "deviance": "2.137641345653",
+      "mode": "multimodal"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "Workshop, Symposium",
+          "de": "Workshop, Symposium"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 38.89,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": "Publication, Journal",
+          "de": "Publikation, Journal"
+        },
+        "relativeFrequency": 0.04,
+        "validRelativeFrequency": 22.22,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 38.89,
+        "value": "3"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 18,
+    "missings": [
+      {
+        "absoluteFrequency": 459,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.37,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 199,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 1.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "32",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

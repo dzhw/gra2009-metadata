@@ -1,0 +1,158 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": "employment: adequacy of position",
+    "de": "Beschäftigung: Position adäquat"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ342a",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1157,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 44.44,
+    "statistics": {
+      "firstQuartile": "1",
+      "deviance": "2.42968064194025",
+      "highWhisker": 3.5,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "2",
+      "meanDeviation": "338.0328",
+      "maximum": "5",
+      "mode": "1",
+      "median": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2516,
+        "label": {
+          "en": "Definitely",
+          "de": "auf jeden Fall"
+        },
+        "relativeFrequency": 23.98,
+        "validRelativeFrequency": 53.95,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1216,
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "relativeFrequency": 11.59,
+        "validRelativeFrequency": 26.07,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 451,
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "relativeFrequency": 4.3,
+        "validRelativeFrequency": 9.67,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 258,
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "relativeFrequency": 2.46,
+        "validRelativeFrequency": 5.53,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 223,
+        "label": {
+          "en": "Not definitely",
+          "de": "auf keinen Fall"
+        },
+        "relativeFrequency": 2.13,
+        "validRelativeFrequency": 4.78,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4664,
+    "missings": [
+      {
+        "absoluteFrequency": 60,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.57,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.25",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Würden Sie sagen, dass Sie Ihrer Hochschulqualifikation entsprechend beschäftigt sind/waren?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "42",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

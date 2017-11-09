@@ -1,0 +1,151 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd job: location of work (new or old federal states/abroad)",
+    "de": "2. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ242j_g3",
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 966,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
+    },
+    "rule": "recode bocc242j_g2v1d (1/10 92 =1) (11/16 91 = 2), gen(bocc242j_g3v1)",
+    "ruleExpressionLanguage": "Stata"
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 28.81,
+    "statistics": {
+      "deviance": "1.51878506547824",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 2149,
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "relativeFrequency": 20.48,
+        "validRelativeFrequency": 71.09,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 706,
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "relativeFrequency": 6.73,
+        "validRelativeFrequency": 23.35,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 9,
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "relativeFrequency": 0.09,
+        "validRelativeFrequency": 0.3,
+        "value": "93"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Germany and abroad",
+          "de": "Deutschland und Ausland"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 0.1,
+        "value": "95"
+      },
+      {
+        "absoluteFrequency": 156,
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "relativeFrequency": 1.49,
+        "validRelativeFrequency": 5.16,
+        "value": "100"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 3023,
+    "missings": [
+      {
+        "absoluteFrequency": 1697,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 16.17,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "implausible value",
+          "de": "unplausibler Wert"
+        },
+        "relativeFrequency": 0.01,
+        "code": -968
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "not determinable",
+          "de": "nicht bestimmbar"
+        },
+        "relativeFrequency": 0.03,
+        "code": -966
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  }
+}

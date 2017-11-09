@@ -1,0 +1,104 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "2nd further acad. qualification: 3rd subject group",
+    "de": "2. weitere akad. Qualifikation: 3. Studienfach (Fächergruppen)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(afec01,-998,1)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 372,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.09,
+    "statistics": {
+      "deviance": "1.87377661507803",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Language and cultural sciences",
+          "de": "Sprach- und Kulturwissenschaften"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 55.56,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Legal, economic and social sciences",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 33.33,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "Mathematics, natural sciences",
+          "de": "Mathematik, Naturwissenschaften"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 11.11,
+        "value": "4"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 9,
+    "missings": [
+      {
+        "absoluteFrequency": 5958,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 56.78,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 4527,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 43.14,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": null,
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": "8th apartment: moved out (month)",
+    "de": "8. Wohnung: Auszug (Monat)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1 & mres091==1",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [4],
+  "indexInDataSet": 1821,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.1,
+    "statistics": {
+      "firstQuartile": "6",
+      "deviance": "3.09319737209702",
+      "highWhisker": 9,
+      "lowWhisker": 3,
+      "minimum": "2",
+      "thirdQuartile": "8",
+      "meanDeviation": "1.4826",
+      "maximum": "9",
+      "mode": "multimodal",
+      "median": "7"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 9.09,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 18.18,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 27.27,
+        "value": "7"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 27.27,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 18.18,
+        "value": "9"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 11,
+    "missings": [
+      {
+        "absoluteFrequency": 4,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.04,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 8029,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 76.51,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 2450,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 23.35,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 5,
+      "questionNumber": "29.1",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

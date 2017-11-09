@@ -1,0 +1,179 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "additional benefits: relevantly salary elements, namely",
+    "de": "zusätzl. Gehaltsbestandteile: sächliche, und zwar"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ332f_g1",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1116,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zu den sächlichen Gehaltsbestandteilen (Variable bocc332e_v1) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 1.75,
+    "statistics": {
+      "deviance": "2.73878964406925",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 83,
+        "label": {
+          "en": "Travel Expenses",
+          "de": "Dienstwagen/Tankgeld/Fahrtkosten"
+        },
+        "relativeFrequency": 0.79,
+        "validRelativeFrequency": 45.11,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 11,
+        "label": {
+          "en": "Public transportation",
+          "de": "ÖPNV-Ticket/-Zulage"
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 5.98,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": "Childcare",
+          "de": "KITA/Kinderbetreuung"
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 3.8,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 5,
+        "label": {
+          "en": "Mobile telephone",
+          "de": "Mobiltelefon/-vertrag"
+        },
+        "relativeFrequency": 0.05,
+        "validRelativeFrequency": 2.72,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 15,
+        "label": {
+          "en": "Food/Restaurant",
+          "de": "Essen(sgutscheine)/Restaurant"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 8.15,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": "Health/Sport",
+          "de": "Gesundheitsförderung/Sport"
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 1.09,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 61,
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "relativeFrequency": 0.58,
+        "validRelativeFrequency": 33.15,
+        "value": "7"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 184,
+    "missings": [
+      {
+        "absoluteFrequency": 584,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 5.57,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 3956,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 37.7,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.20",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen/bekamen Sie?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "35",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

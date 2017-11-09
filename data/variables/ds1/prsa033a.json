@@ -1,0 +1,174 @@
+{
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "label": {
+    "en": "conferences/congresses: number of presentations (English-language)",
+    "de": "Tagungen/Kongresse: Anzahl Vorträge (englischsprachig)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & (prsa01a==1 | prsa01b==1) & inlist(prsa02,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 2088,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.41,
+    "statistics": {
+      "firstQuartile": "0",
+      "deviance": "2.99804238000972",
+      "highWhisker": 5,
+      "lowWhisker": 0,
+      "skewness": 2.5185,
+      "minimum": "0",
+      "thirdQuartile": "2",
+      "meanDeviation": "2.9652",
+      "meanValue": 1.5116,
+      "maximum": "10",
+      "mode": "0",
+      "median": "1",
+      "standardDeviation": 2.2717,
+      "kurtosis": 9.7798
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 19,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.18,
+        "validRelativeFrequency": 44.19,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 7,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.07,
+        "validRelativeFrequency": 16.28,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 10,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.1,
+        "validRelativeFrequency": 23.26,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 6.98,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.33,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 2.33,
+        "value": "5"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 4.65,
+        "value": "10"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 43,
+    "missings": [
+      {
+        "absoluteFrequency": 434,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.14,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 199,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 1.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "32",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

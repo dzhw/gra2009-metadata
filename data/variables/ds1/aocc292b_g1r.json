@@ -1,0 +1,152 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "last job: other size of company",
+    "de": "letzte Stelle: sonstige Betriebsgröße"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(aocc19,-998,1,2)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": "gra2009-ds1-occ292b_g1",
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [1],
+  "indexInDataSet": 675,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 8 \"Sonstiges, und zwar\" der Variable aocc292a (Betriebsgröße der letzten Stelle) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.7,
+    "statistics": {
+      "deviance": "2.74027999488313",
+      "mode": "1"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 30,
+        "label": {
+          "en": "Higher education",
+          "de": "Hochschule"
+        },
+        "relativeFrequency": 0.29,
+        "validRelativeFrequency": 41.1,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 15,
+        "label": {
+          "en": "Educational institutions",
+          "de": "Bildungsträger"
+        },
+        "relativeFrequency": 0.14,
+        "validRelativeFrequency": 20.55,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 21,
+        "label": {
+          "en": "Law institutions",
+          "de": "Anstalt des öffentl. Rechts"
+        },
+        "relativeFrequency": 0.2,
+        "validRelativeFrequency": 28.77,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": "International organisations",
+          "de": "Internat. Organisation"
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 1.37,
+        "value": "6"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Public office",
+          "de": "Dienststelle (Behörde, Kirche)"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 4.11,
+        "value": "8"
+      },
+      {
+        "absoluteFrequency": 3,
+        "label": {
+          "en": "Consulting",
+          "de": "Beratungsstelle"
+        },
+        "relativeFrequency": 0.03,
+        "validRelativeFrequency": 4.11,
+        "value": "9"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 73,
+    "missings": [
+      {
+        "absoluteFrequency": 1323,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 12.61,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 2088,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 19.9,
+        "code": -989
+      },
+      {
+        "absoluteFrequency": 7010,
+        "label": {
+          "en": "does not apply",
+          "de": "trifft nicht zu"
+        },
+        "relativeFrequency": 66.8,
+        "code": -988
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 1,
+      "questionNumber": "5.9",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welcher der folgenden Betriebsgrößen ist Ihr Betrieb/Ihre Dienststelle zuzuordnen?"
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

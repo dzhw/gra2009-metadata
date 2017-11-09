@@ -1,0 +1,120 @@
+{
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "label": {
+    "en": "requirement further education at the university",
+    "de": "Bedarf Weiterbildung an Hochschule"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bfvt08,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1427,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 38.2,
+    "statistics": {
+      "deviance": "1.26372758335371",
+      "mode": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1310,
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "relativeFrequency": 12.48,
+        "validRelativeFrequency": 32.68,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2699,
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "relativeFrequency": 25.72,
+        "validRelativeFrequency": 67.32,
+        "value": "2"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4009,
+    "missings": [
+      {
+        "absoluteFrequency": 200,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 1.91,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 546,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 5.2,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "7.2",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Gibt es spezielle Themenbereiche, die Hochschulen im Rahmen wissenschaftlicher Weiterbildung und Qualifizierung für Sie anbieten sollten?; Wenn ja: Tragen Sie hier bitte die für Sie wichtigsten Themen bzw. Fachgebiete ein."
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "81",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": "type of work: interdisciplinary work",
+    "de": "Arbeitsform: interdisziplinäre Arbeit"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 1126,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 44.06,
+    "statistics": {
+      "firstQuartile": "1",
+      "deviance": "3.09391802691547",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "3",
+      "meanDeviation": "545.5968",
+      "maximum": "5",
+      "mode": "1",
+      "median": "2"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1296,
+        "label": {
+          "en": "Very strong",
+          "de": "trifft sehr stark zu"
+        },
+        "relativeFrequency": 12.35,
+        "validRelativeFrequency": 28.03,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1275,
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "relativeFrequency": 12.15,
+        "validRelativeFrequency": 27.57,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 907,
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "relativeFrequency": 8.64,
+        "validRelativeFrequency": 19.62,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 642,
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "relativeFrequency": 6.12,
+        "validRelativeFrequency": 13.88,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 504,
+        "label": {
+          "en": "Not at all",
+          "de": "trifft gar nicht zu"
+        },
+        "relativeFrequency": 4.8,
+        "validRelativeFrequency": 10.9,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4624,
+    "missings": [
+      {
+        "absoluteFrequency": 100,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.95,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.23",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "38",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

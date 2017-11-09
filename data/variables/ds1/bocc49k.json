@@ -1,0 +1,158 @@
+{
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "label": {
+    "en": "reason job: proximity to home city/town",
+    "de": "Grund Stelle: Nähe Heimatort"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [2],
+  "indexInDataSet": 936,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 44.1,
+    "statistics": {
+      "firstQuartile": "2",
+      "deviance": "3.14842980993356",
+      "highWhisker": 5,
+      "lowWhisker": 1,
+      "minimum": "1",
+      "thirdQuartile": "4",
+      "meanDeviation": "115.6428",
+      "maximum": "5",
+      "mode": "1",
+      "median": "3"
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 1142,
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "relativeFrequency": 10.88,
+        "validRelativeFrequency": 24.68,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 1140,
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "relativeFrequency": 10.86,
+        "validRelativeFrequency": 24.63,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 714,
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "relativeFrequency": 6.8,
+        "validRelativeFrequency": 15.43,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 568,
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "relativeFrequency": 5.41,
+        "validRelativeFrequency": 12.27,
+        "value": "4"
+      },
+      {
+        "absoluteFrequency": 1064,
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "relativeFrequency": 10.14,
+        "validRelativeFrequency": 22.99,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 4628,
+    "missings": [
+      {
+        "absoluteFrequency": 96,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 0.91,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 5739,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 54.69,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 31,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 0.3,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 2,
+      "questionNumber": "4.4",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie an die Entscheidung für Ihre heutige bzw. letzte Stelle zurückdenken: Wie wichtig waren Ihnen damals die folgenden Aspekte?"
+      }
+    },
+    {
+      "instrumentNumber": 3,
+      "questionNumber": "18",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}

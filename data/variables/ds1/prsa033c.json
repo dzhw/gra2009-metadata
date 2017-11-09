@@ -1,0 +1,154 @@
+{
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "label": {
+    "en": "conferences/congresses: number other (English-language)",
+    "de": "Tagungen/Kongresse: Anzahl Sonstiges (englischsprachig)"
+  },
+  "derivedVariablesIdentifier": null,
+  "doNotDisplayThousandsSeparator": false,
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
+  },
+  "filterDetails": {
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & (prsa01a==1 | prsa01b==1) & inlist(prsa02,1,-998)",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expressionLanguage": "Stata"
+  },
+  "panelIdentifier": null,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
+  "surveyNumbers": [3],
+  "indexInDataSet": 2090,
+  "generationDetails": {
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "rule": null,
+    "ruleExpressionLanguage": null
+  },
+  "storageType": "integer",
+  "distribution": {
+    "totalValidRelativeFrequency": 0.24,
+    "statistics": {
+      "firstQuartile": "0",
+      "deviance": "2.40015579755866",
+      "highWhisker": 2.5,
+      "lowWhisker": 0,
+      "skewness": 1.7615,
+      "minimum": "0",
+      "thirdQuartile": "1",
+      "meanDeviation": "1.4826",
+      "meanValue": 0.84,
+      "maximum": "5",
+      "mode": "0",
+      "median": "0",
+      "standardDeviation": 1.2806,
+      "kurtosis": 5.7064
+    },
+    "totalAbsoluteFrequency": 10494,
+    "validResponses": [
+      {
+        "absoluteFrequency": 14,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.13,
+        "validRelativeFrequency": 56,
+        "value": "0"
+      },
+      {
+        "absoluteFrequency": 6,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.06,
+        "validRelativeFrequency": 24,
+        "value": "1"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 8,
+        "value": "2"
+      },
+      {
+        "absoluteFrequency": 2,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.02,
+        "validRelativeFrequency": 8,
+        "value": "3"
+      },
+      {
+        "absoluteFrequency": 1,
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "relativeFrequency": 0.01,
+        "validRelativeFrequency": 4,
+        "value": "5"
+      }
+    ],
+    "totalValidAbsoluteFrequency": 25,
+    "missings": [
+      {
+        "absoluteFrequency": 452,
+        "label": {
+          "en": "no answer",
+          "de": "keine Angabe"
+        },
+        "relativeFrequency": 4.31,
+        "code": -998
+      },
+      {
+        "absoluteFrequency": 9818,
+        "label": {
+          "en": "not participated (panel)",
+          "de": "keine Teilnahme (Panel)"
+        },
+        "relativeFrequency": 93.56,
+        "code": -995
+      },
+      {
+        "absoluteFrequency": 199,
+        "label": {
+          "en": "filtered",
+          "de": "filterbedingt fehlend"
+        },
+        "relativeFrequency": 1.9,
+        "code": -989
+      }
+    ]
+  },
+  "relatedQuestions": [
+    {
+      "instrumentNumber": 4,
+      "questionNumber": "32",
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": null
+      }
+    }
+  ],
+  "relatedVariables": null,
+  "annotations": {
+    "en": null,
+    "de": null
+  }
+}
