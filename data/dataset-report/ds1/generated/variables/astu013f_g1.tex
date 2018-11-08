@@ -1,0 +1,208 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{astu013f\_g1 (3. Studium: angestrebter Abschluss (Hauptfach))}
+	\label{section:astu013f_g1}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-astu013f_g1$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-1.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  1.1
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\par  Angestrebte Abschlussart (z.B. Diplom, Bachelor) \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-astu013f_g1}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								1 & \multicolumn{1}{X}{Diplom FH} & %71 &
+								  \num{71} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4,57} &
+								  \num[round-mode=places,round-precision=2]{0,68} \\
+								2 & \multicolumn{1}{X}{Diplom Uni} & %266 &
+								  \num{266} &
+								%--
+								  \num[round-mode=places,round-precision=2]{17,12} &
+								  \num[round-mode=places,round-precision=2]{2,53} \\
+								3 & \multicolumn{1}{X}{Magister} & %113 &
+								  \num{113} &
+								%--
+								  \num[round-mode=places,round-precision=2]{7,27} &
+								  \num[round-mode=places,round-precision=2]{1,08} \\
+								4 & \multicolumn{1}{X}{Bachelor FH} & %105 &
+								  \num{105} &
+								%--
+								  \num[round-mode=places,round-precision=2]{6,76} &
+								  \num[round-mode=places,round-precision=2]{1} \\
+								5 & \multicolumn{1}{X}{Bachelor Uni} & %240 &
+								  \num{240} &
+								%--
+								  \num[round-mode=places,round-precision=2]{15,44} &
+								  \num[round-mode=places,round-precision=2]{2,29} \\
+								6 & \multicolumn{1}{X}{Master FH} & %82 &
+								  \num{82} &
+								%--
+								  \num[round-mode=places,round-precision=2]{5,28} &
+								  \num[round-mode=places,round-precision=2]{0,78} \\
+								7 & \multicolumn{1}{X}{Master Uni} & %322 &
+								  \num{322} &
+								%--
+								  \num[round-mode=places,round-precision=2]{20,72} &
+								  \num[round-mode=places,round-precision=2]{3,07} \\
+								8 & \multicolumn{1}{X}{Staatsexamen (ohne LA)} & %50 &
+								  \num{50} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3,22} &
+								  \num[round-mode=places,round-precision=2]{0,48} \\
+								9 & \multicolumn{1}{X}{LA Grund-/Hauptschule} & %14 &
+								  \num{14} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,9} &
+								  \num[round-mode=places,round-precision=2]{0,13} \\
+								10 & \multicolumn{1}{X}{LA Realschule} & %19 &
+								  \num{19} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,22} &
+								  \num[round-mode=places,round-precision=2]{0,18} \\
+							... & ... & ... & ... & ... \\
+								16 & \multicolumn{1}{X}{kirchl. Abschluss} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,19} &
+								  \num[round-mode=places,round-precision=2]{0,03} \\
+
+								17 & \multicolumn{1}{X}{künstler. Abschluss} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,13} &
+								  \num[round-mode=places,round-precision=2]{0,02} \\
+
+								18 & \multicolumn{1}{X}{Promotion} & %11 &
+								  \num{11} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,71} &
+								  \num[round-mode=places,round-precision=2]{0,1} \\
+
+								20 & \multicolumn{1}{X}{trad. Auslandsabschluss} & %86 &
+								  \num{86} &
+								%--
+								  \num[round-mode=places,round-precision=2]{5,53} &
+								  \num[round-mode=places,round-precision=2]{0,82} \\
+
+								21 & \multicolumn{1}{X}{Freiversuch} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								22 & \multicolumn{1}{X}{Pro-Forma-Studium} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,26} &
+								  \num[round-mode=places,round-precision=2]{0,04} \\
+
+								24 & \multicolumn{1}{X}{Zertifikat} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,39} &
+								  \num[round-mode=places,round-precision=2]{0,06} \\
+
+								25 & \multicolumn{1}{X}{kein Abschluss angestrebt} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								27 & \multicolumn{1}{X}{Bachelor im Ausland} & %31 &
+								  \num{31} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,99} &
+								  \num[round-mode=places,round-precision=2]{0,3} \\
+
+								28 & \multicolumn{1}{X}{Master im Ausland} & %49 &
+								  \num{49} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3,15} &
+								  \num[round-mode=places,round-precision=2]{0,47} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1554}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{14,81}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{8940} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{85,19} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-astu013f_g1}
+				\label{tableValues:astu013f_g1}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 25%
+                	    ; 
+                	      Modus ($h$): 7
+                     \end{noten}
+
+

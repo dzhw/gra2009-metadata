@@ -1,0 +1,220 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{aocc41b (Erwerbstätigkeit vor Studium: Dauer (Monate))}
+	\label{section:aocc41b}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-aocc41b$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & verhältnis \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-6.7$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  6.7
+ \\
+					%--
+					Fragetext: & Waren Sie vor Ihrem Erststudium erwerbstätig?\par  Ja\par  --\textgreater{} Bitte Anzahl der Monate angeben: \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-aocc41b}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								1 & \multicolumn{1}{X}{-} & %65 &
+								  \num{65} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,16} &
+								  \num[round-mode=places,round-precision=2]{0,62} \\
+								2 & \multicolumn{1}{X}{-} & %187 &
+								  \num{187} &
+								%--
+								  \num[round-mode=places,round-precision=2]{6,21} &
+								  \num[round-mode=places,round-precision=2]{1,78} \\
+								3 & \multicolumn{1}{X}{-} & %268 &
+								  \num{268} &
+								%--
+								  \num[round-mode=places,round-precision=2]{8,9} &
+								  \num[round-mode=places,round-precision=2]{2,55} \\
+								4 & \multicolumn{1}{X}{-} & %133 &
+								  \num{133} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4,42} &
+								  \num[round-mode=places,round-precision=2]{1,27} \\
+								5 & \multicolumn{1}{X}{-} & %82 &
+								  \num{82} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,72} &
+								  \num[round-mode=places,round-precision=2]{0,78} \\
+								6 & \multicolumn{1}{X}{-} & %283 &
+								  \num{283} &
+								%--
+								  \num[round-mode=places,round-precision=2]{9,4} &
+								  \num[round-mode=places,round-precision=2]{2,7} \\
+								7 & \multicolumn{1}{X}{-} & %57 &
+								  \num{57} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,89} &
+								  \num[round-mode=places,round-precision=2]{0,54} \\
+								8 & \multicolumn{1}{X}{-} & %83 &
+								  \num{83} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,76} &
+								  \num[round-mode=places,round-precision=2]{0,79} \\
+								9 & \multicolumn{1}{X}{-} & %98 &
+								  \num{98} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3,25} &
+								  \num[round-mode=places,round-precision=2]{0,93} \\
+								10 & \multicolumn{1}{X}{-} & %109 &
+								  \num{109} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3,62} &
+								  \num[round-mode=places,round-precision=2]{1,04} \\
+							... & ... & ... & ... & ... \\
+								84 & \multicolumn{1}{X}{-} & %13 &
+								  \num{13} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,43} &
+								  \num[round-mode=places,round-precision=2]{0,12} \\
+
+								89 & \multicolumn{1}{X}{-} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,07} &
+								  \num[round-mode=places,round-precision=2]{0,02} \\
+
+								90 & \multicolumn{1}{X}{-} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,2} &
+								  \num[round-mode=places,round-precision=2]{0,06} \\
+
+								92 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,03} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								93 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,03} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								94 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,03} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								96 & \multicolumn{1}{X}{-} & %24 &
+								  \num{24} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,8} &
+								  \num[round-mode=places,round-precision=2]{0,23} \\
+
+								97 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,03} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								98 & \multicolumn{1}{X}{-} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,07} &
+								  \num[round-mode=places,round-precision=2]{0,02} \\
+
+								99 & \multicolumn{1}{X}{-} & %154 &
+								  \num{154} &
+								%--
+								  \num[round-mode=places,round-precision=2]{5,11} &
+								  \num[round-mode=places,round-precision=2]{1,47} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{3012}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{28,7}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{200} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{1,91} \\
+							-988 &
+							trifft nicht zu &
+							  \num{7282} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{69,39} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-aocc41b}
+				\label{tableValues:aocc41b}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 84%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 99; 
+                	      arithmetisches Mittel ($\bar{x}$): \num[round-mode=places,round-precision=2]{22,0903}; 
+                	      Median ($\tilde{x}$): 12; 
+                	      Modus ($h$): 12; 
+                	      Standardabweichung ($s$): \num[round-mode=places,round-precision=2]{25,9359}; 
+                	      Schiefe ($v$): \num[round-mode=places,round-precision=2]{1,8193}; 
+                	      Wölbung ($w$): \num[round-mode=places,round-precision=2]{5,461}
+                     \end{noten}
+
+

@@ -1,0 +1,188 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bfec12 (Promotion: Status)}
+	\label{section:bfec12}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-bfec12$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins2-2.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (PAPI):
+					  2.1
+ \\
+					%--
+					Fragetext: & Haben Sie eine Promotion begonnen oder abgeschlossen?\par  Ja, abgeschlossen\par  Ja, aber noch nicht beendet\par  Ja, aber abgebrochen\par  Ja, zurzeit unterbrochen\par  Nein, ist aber geplant\par  Nein, auch nicht geplant \\
+				\end{tabularx}
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins3-08$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (CAWI):
+					  08
+ \\
+					%--
+					Fragetext: & Haben Sie eine Promotion begonnen oder abgeschlossen? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bfec12}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, abgeschlossen   } &
+
+
+					%411 &
+					  \num{411} &
+					%--
+					  \num[round-mode=places,round-precision=2]{8,67} &
+					    \num[round-mode=places,round-precision=2]{3,92} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, aber noch nicht beendet   } &
+
+
+					%577 &
+					  \num{577} &
+					%--
+					  \num[round-mode=places,round-precision=2]{12,18} &
+					    \num[round-mode=places,round-precision=2]{5,5} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, aber abgebrochen   } &
+
+
+					%100 &
+					  \num{100} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2,11} &
+					    \num[round-mode=places,round-precision=2]{0,95} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ ja, zurzeit unterbrochen   } &
+
+
+					%48 &
+					  \num{48} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1,01} &
+					    \num[round-mode=places,round-precision=2]{0,46} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nein, aber geplant   } &
+
+
+					%216 &
+					  \num{216} &
+					%--
+					  \num[round-mode=places,round-precision=2]{4,56} &
+					    \num[round-mode=places,round-precision=2]{2,06} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nein, nicht geplant   } &
+
+
+					%3386 &
+					  \num{3386} &
+					%--
+					  \num[round-mode=places,round-precision=2]{71,46} &
+					    \num[round-mode=places,round-precision=2]{32,27} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{4738}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{45,15}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{17} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,16} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{5739} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{54,69} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bfec12}
+				\label{tableValues:bfec12}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 6%
+                	    ; 
+                	      Modus ($h$): 6
+                     \end{noten}
+
+

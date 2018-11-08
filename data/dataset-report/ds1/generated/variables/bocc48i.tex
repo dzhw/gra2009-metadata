@@ -1,0 +1,184 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bocc48i (Wechsel Arbeitsplatz: Stress)}
+	\label{section:bocc48i}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-bocc48i$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins2-4.2$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (PAPI):
+					  4.2
+ \\
+					%--
+					Fragetext: & In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?\par  Vorherige Tätigkeit war zu stressig \\
+				\end{tabularx}
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins3-15$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (CAWI):
+					  15
+ \\
+					%--
+					Fragetext: & In welchem MaÃŸe trafen die folgenden GrÃ¼nde fÃ¼r den Wechsel des Arbeitsplatzes zu? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bocc48i}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ in hohem Maße   } &
+
+
+					%151 &
+					  \num{151} &
+					%--
+					  \num[round-mode=places,round-precision=2]{5,95} &
+					    \num[round-mode=places,round-precision=2]{1,44} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%179 &
+					  \num{179} &
+					%--
+					  \num[round-mode=places,round-precision=2]{7,06} &
+					    \num[round-mode=places,round-precision=2]{1,71} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%232 &
+					  \num{232} &
+					%--
+					  \num[round-mode=places,round-precision=2]{9,14} &
+					    \num[round-mode=places,round-precision=2]{2,21} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%359 &
+					  \num{359} &
+					%--
+					  \num[round-mode=places,round-precision=2]{14,15} &
+					    \num[round-mode=places,round-precision=2]{3,42} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ überhaupt nicht   } &
+
+
+					%1616 &
+					  \num{1616} &
+					%--
+					  \num[round-mode=places,round-precision=2]{63,7} &
+					    \num[round-mode=places,round-precision=2]{15,4} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{2537}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{24,18}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{172} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{1,64} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{5739} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{54,69} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2046} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{19,5} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bocc48i}
+				\label{tableValues:bocc48i}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 5; 
+                	      Modus ($h$): 5
+                     \end{noten}
+
+

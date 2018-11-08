@@ -1,0 +1,144 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mres072e\_g3 (6. Wohnung: Ort (neue, alte Bundesländer bzw. Ausland))}
+	\label{section:mres072e_g3}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mres072e_g3$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-23.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  23.1
+ \\
+					%--
+					Fragetext: & Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss 2008/2009 eingezogen sind. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-mres072e_g3}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Alte Bundesländer   } &
+
+
+					%32 &
+					  \num{32} &
+					%--
+					  \num[round-mode=places,round-precision=2]{61,54} &
+					    \num[round-mode=places,round-precision=2]{0,3} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Neue Bundesländer (inkl. Berlin)   } &
+
+
+					%6 &
+					  \num{6} &
+					%--
+					  \num[round-mode=places,round-precision=2]{11,54} &
+					    \num[round-mode=places,round-precision=2]{0,06} \\
+							%????
+
+					100 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Ausland   } &
+
+
+					%14 &
+					  \num{14} &
+					%--
+					  \num[round-mode=places,round-precision=2]{26,92} &
+					    \num[round-mode=places,round-precision=2]{0,13} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{52}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{0,5}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{7} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,07} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{8029} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{76,51} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2406} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{22,93} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mres072e_g3}
+				\label{tableValues:mres072e_g3}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 3%
+                	    ; 
+                	      Modus ($h$): 1
+                     \end{noten}
+
+

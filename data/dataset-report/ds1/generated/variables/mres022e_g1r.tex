@@ -1,0 +1,216 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mres022e\_g1r (1. Wohnung: Ort (Bundesland/Land))}
+	\label{section:mres022e_g1r}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mres022e_g1r$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-08.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  08.1
+ \\
+					%--
+					Fragetext: & Nun bitten wir Sie, alle Wohnungen aufzulisten, in denen Sie seit dem Ende Ihres Studiums 2008/09 gelebt haben.,Uns interessiert dabei nur, wo Sie tatsächlich gelebt haben, nicht wo Sie ihren Wohnsitz gemeldet hatten. Denken Sie dabei bitte auch an Zweit- und Nebenwohnungen. Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,Bundesland bzw. Land (bei Ausland) \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-mres022e_g1r}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								1 & \multicolumn{1}{X}{Schleswig-Holstein} & %35 &
+								  \num{35} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,14} &
+								  \num[round-mode=places,round-precision=2]{0,33} \\
+								2 & \multicolumn{1}{X}{Hamburg} & %69 &
+								  \num{69} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4,23} &
+								  \num[round-mode=places,round-precision=2]{0,66} \\
+								3 & \multicolumn{1}{X}{Niedersachsen} & %102 &
+								  \num{102} &
+								%--
+								  \num[round-mode=places,round-precision=2]{6,25} &
+								  \num[round-mode=places,round-precision=2]{0,97} \\
+								4 & \multicolumn{1}{X}{Bremen} & %14 &
+								  \num{14} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,86} &
+								  \num[round-mode=places,round-precision=2]{0,13} \\
+								5 & \multicolumn{1}{X}{Nordrhein-Westfalen} & %220 &
+								  \num{220} &
+								%--
+								  \num[round-mode=places,round-precision=2]{13,48} &
+								  \num[round-mode=places,round-precision=2]{2,1} \\
+								6 & \multicolumn{1}{X}{Hessen} & %88 &
+								  \num{88} &
+								%--
+								  \num[round-mode=places,round-precision=2]{5,39} &
+								  \num[round-mode=places,round-precision=2]{0,84} \\
+								7 & \multicolumn{1}{X}{Rheinland-Pfalz} & %67 &
+								  \num{67} &
+								%--
+								  \num[round-mode=places,round-precision=2]{4,11} &
+								  \num[round-mode=places,round-precision=2]{0,64} \\
+								8 & \multicolumn{1}{X}{Baden-Württemberg} & %196 &
+								  \num{196} &
+								%--
+								  \num[round-mode=places,round-precision=2]{12,01} &
+								  \num[round-mode=places,round-precision=2]{1,87} \\
+								9 & \multicolumn{1}{X}{Bayern} & %245 &
+								  \num{245} &
+								%--
+								  \num[round-mode=places,round-precision=2]{15,01} &
+								  \num[round-mode=places,round-precision=2]{2,33} \\
+								10 & \multicolumn{1}{X}{Saarland} & %12 &
+								  \num{12} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,74} &
+								  \num[round-mode=places,round-precision=2]{0,11} \\
+							... & ... & ... & ... & ... \\
+								451 & \multicolumn{1}{X}{Libanon} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								467 & \multicolumn{1}{X}{Republik Korea, auch Süd-Korea} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								469 & \multicolumn{1}{X}{Vereinigte Arabische Emirate} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								472 & \multicolumn{1}{X}{Saudi-Arabien} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,12} &
+								  \num[round-mode=places,round-precision=2]{0,02} \\
+
+								474 & \multicolumn{1}{X}{Singapur} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,12} &
+								  \num[round-mode=places,round-precision=2]{0,02} \\
+
+								475 & \multicolumn{1}{X}{Arabische Republik Syrien} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								479 & \multicolumn{1}{X}{China} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,25} &
+								  \num[round-mode=places,round-precision=2]{0,04} \\
+
+								523 & \multicolumn{1}{X}{Australien} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,31} &
+								  \num[round-mode=places,round-precision=2]{0,05} \\
+
+								536 & \multicolumn{1}{X}{Neuseeland} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								996 & \multicolumn{1}{X}{international} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,06} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1632}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{15,55}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{330} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{3,14} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{8029} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{76,51} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{503} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{4,79} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mres022e_g1r}
+				\label{tableValues:mres022e_g1r}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 64%
+                	    ; 
+                	      Modus ($h$): 9
+                     \end{noten}
+
+

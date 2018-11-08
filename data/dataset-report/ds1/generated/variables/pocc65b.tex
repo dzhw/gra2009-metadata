@@ -1,0 +1,225 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{pocc65b (Anteil des Arbeitsalltags derzeit: andere Forschungstätigkeiten)}
+	\label{section:pocc65b}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-pocc65b$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & verhältnis \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins4-18$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Promotion:
+					  18
+ \\
+					%--
+					Fragetext: & Wie viel Prozent Ihres Arbeitsalltags entfallen derzeit durchschnittlich auf die folgenden Tätigkeiten?,Andere (Forschungs-)Tätigkeiten ohne Bezug zur Promotion \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-pocc65b}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								0 & \multicolumn{1}{X}{-} & %64 &
+								  \num{64} &
+								%--
+								  \num[round-mode=places,round-precision=2]{21,99} &
+								  \num[round-mode=places,round-precision=2]{0,61} \\
+								2 & \multicolumn{1}{X}{-} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,69} &
+								  \num[round-mode=places,round-precision=2]{0,02} \\
+								3 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,34} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+								4 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,34} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+								5 & \multicolumn{1}{X}{-} & %33 &
+								  \num{33} &
+								%--
+								  \num[round-mode=places,round-precision=2]{11,34} &
+								  \num[round-mode=places,round-precision=2]{0,31} \\
+								10 & \multicolumn{1}{X}{-} & %53 &
+								  \num{53} &
+								%--
+								  \num[round-mode=places,round-precision=2]{18,21} &
+								  \num[round-mode=places,round-precision=2]{0,51} \\
+								15 & \multicolumn{1}{X}{-} & %16 &
+								  \num{16} &
+								%--
+								  \num[round-mode=places,round-precision=2]{5,5} &
+								  \num[round-mode=places,round-precision=2]{0,15} \\
+								20 & \multicolumn{1}{X}{-} & %24 &
+								  \num{24} &
+								%--
+								  \num[round-mode=places,round-precision=2]{8,25} &
+								  \num[round-mode=places,round-precision=2]{0,23} \\
+								24 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,34} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+								25 & \multicolumn{1}{X}{-} & %16 &
+								  \num{16} &
+								%--
+								  \num[round-mode=places,round-precision=2]{5,5} &
+								  \num[round-mode=places,round-precision=2]{0,15} \\
+							... & ... & ... & ... & ... \\
+								50 & \multicolumn{1}{X}{-} & %7 &
+								  \num{7} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,41} &
+								  \num[round-mode=places,round-precision=2]{0,07} \\
+
+								60 & \multicolumn{1}{X}{-} & %7 &
+								  \num{7} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,41} &
+								  \num[round-mode=places,round-precision=2]{0,07} \\
+
+								65 & \multicolumn{1}{X}{-} & %3 &
+								  \num{3} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,03} &
+								  \num[round-mode=places,round-precision=2]{0,03} \\
+
+								70 & \multicolumn{1}{X}{-} & %7 &
+								  \num{7} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,41} &
+								  \num[round-mode=places,round-precision=2]{0,07} \\
+
+								75 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,34} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								80 & \multicolumn{1}{X}{-} & %8 &
+								  \num{8} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,75} &
+								  \num[round-mode=places,round-precision=2]{0,08} \\
+
+								90 & \multicolumn{1}{X}{-} & %8 &
+								  \num{8} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,75} &
+								  \num[round-mode=places,round-precision=2]{0,08} \\
+
+								95 & \multicolumn{1}{X}{-} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1,37} &
+								  \num[round-mode=places,round-precision=2]{0,04} \\
+
+								97 & \multicolumn{1}{X}{-} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0,34} &
+								  \num[round-mode=places,round-precision=2]{0,01} \\
+
+								100 & \multicolumn{1}{X}{-} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2,06} &
+								  \num[round-mode=places,round-precision=2]{0,06} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{291}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{2,77}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{43} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,41} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{9818} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{93,56} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{342} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{3,26} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-pocc65b}
+				\label{tableValues:pocc65b}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 24%
+                	    ; 
+                	      Minimum ($min$): 0; 
+                	      Maximum ($max$): 100; 
+                	      arithmetisches Mittel ($\bar{x}$): \num[round-mode=places,round-precision=2]{23,3814}; 
+                	      Median ($\tilde{x}$): 10; 
+                	      Modus ($h$): 0; 
+                	      Standardabweichung ($s$): \num[round-mode=places,round-precision=2]{27,7305}; 
+                	      Schiefe ($v$): \num[round-mode=places,round-precision=2]{1,4245}; 
+                	      Wölbung ($w$): \num[round-mode=places,round-precision=2]{3,9372}
+                     \end{noten}
+
+

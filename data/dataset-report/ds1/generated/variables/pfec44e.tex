@@ -1,0 +1,132 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{pfec44e (Finanzierung Promotion: Berufseinkommen außerhalb der Wissenschaft)}
+	\label{section:pfec44e}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-pfec44e$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins4-37$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Promotion:
+					  37
+ \\
+					%--
+					Fragetext: & Wie finanzierten Sie Ihre Promotion?,Wie finanzieren Sie Ihre Promotion?,Mehrfachnennungen sind möglich.,Durch mein Berufseinkommen außerhalb der Wissenschaften \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-pfec44e}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					0 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nicht genannt   } &
+
+
+					%532 &
+					  \num{532} &
+					%--
+					  \num[round-mode=places,round-precision=2]{82,87} &
+					    \num[round-mode=places,round-precision=2]{5,07} \\
+							%????
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ genannt   } &
+
+
+					%110 &
+					  \num{110} &
+					%--
+					  \num[round-mode=places,round-precision=2]{17,13} &
+					    \num[round-mode=places,round-precision=2]{1,05} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{642}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{6,12}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{28} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,27} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{9818} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{93,56} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{6} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,06} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-pfec44e}
+				\label{tableValues:pfec44e}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 2%
+                	    ; 
+                	      Modus ($h$): 0
+                     \end{noten}
+
+

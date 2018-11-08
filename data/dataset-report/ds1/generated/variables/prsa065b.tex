@@ -1,0 +1,139 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{prsa065b (5. Forschungsaufenthalt: Dauer (Monate))}
+	\label{section:prsa065b}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-prsa065b$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & verhältnis \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins4-35$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Promotion:
+					  35
+ \\
+					%--
+					Fragetext: & Bitte denken Sie im Folgenden an alle Forschungsaufenthalte von mindestens einmonatiger Dauer in Deutschland und im Ausland. Bitte geben Sie für alle Aufenthalte jeweils die grobe Dauer in Monaten und den Ort an. Runden Sie die Monate dabei auf.,Ort,Dauer in Monaten (aufgerundet),Monate \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-prsa065b}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%1 &
+					  \num{1} &
+					%--
+					  \num[round-mode=places,round-precision=2]{50} &
+					    \num[round-mode=places,round-precision=2]{0,01} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%1 &
+					  \num{1} &
+					%--
+					  \num[round-mode=places,round-precision=2]{50} &
+					    \num[round-mode=places,round-precision=2]{0,01} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{2}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{0,02}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{108} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{1,03} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{9818} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{93,56} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{566} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{5,39} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-prsa065b}
+				\label{tableValues:prsa065b}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 2%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      arithmetisches Mittel ($\bar{x}$): \num[round-mode=places,round-precision=2]{3}; 
+                	      Median ($\tilde{x}$): 3; 
+                	      Modus ($h$): multimodal; 
+                	      Standardabweichung ($s$): \num[round-mode=places,round-precision=2]{2,8284}; 
+                	      Schiefe ($v$): \num[round-mode=places,round-precision=2]{0}; 
+                	      Wölbung ($w$): \num[round-mode=places,round-precision=2]{1}
+                     \end{noten}
+
+

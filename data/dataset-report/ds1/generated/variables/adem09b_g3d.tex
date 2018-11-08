@@ -1,0 +1,179 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{adem09b\_g3d (Geburtsland (Weltregionen))}
+	\label{section:adem09b_g3d}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-adem09b_g3d$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-6.11$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  6.11
+ \\
+					%--
+					Fragetext: & Sind Sie in Deutschland geboren? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-adem09b_g3d}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ EU   } &
+
+
+					%280 &
+					  \num{280} &
+					%--
+					  \num[round-mode=places,round-precision=2]{37,99} &
+					    \num[round-mode=places,round-precision=2]{2,67} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Europa außerhalb der EU   } &
+
+
+					%184 &
+					  \num{184} &
+					%--
+					  \num[round-mode=places,round-precision=2]{24,97} &
+					    \num[round-mode=places,round-precision=2]{1,75} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Amerika   } &
+
+
+					%37 &
+					  \num{37} &
+					%--
+					  \num[round-mode=places,round-precision=2]{5,02} &
+					    \num[round-mode=places,round-precision=2]{0,35} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Asien   } &
+
+
+					%207 &
+					  \num{207} &
+					%--
+					  \num[round-mode=places,round-precision=2]{28,09} &
+					    \num[round-mode=places,round-precision=2]{1,97} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Australien und Ozeanien   } &
+
+
+					%2 &
+					  \num{2} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,27} &
+					    \num[round-mode=places,round-precision=2]{0,02} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Afrika   } &
+
+
+					%27 &
+					  \num{27} &
+					%--
+					  \num[round-mode=places,round-precision=2]{3,66} &
+					    \num[round-mode=places,round-precision=2]{0,26} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{737}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{7,02}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{31} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,3} \\
+							-988 &
+							trifft nicht zu &
+							  \num{9720} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{92,62} \\
+							-966 &
+							nicht bestimmbar &
+							  \num{6} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,06} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-adem09b_g3d}
+				\label{tableValues:adem09b_g3d}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 6%
+                	    ; 
+                	      Modus ($h$): 1
+                     \end{noten}
+
+

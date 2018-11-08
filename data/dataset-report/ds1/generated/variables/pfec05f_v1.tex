@@ -1,0 +1,171 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{pfec05f\_v1 (Motiv Promotion: etwas anderes machen)}
+	\label{section:pfec05f_v1}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-pfec05f_v1$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins4-36$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Promotion:
+					  36
+ \\
+					%--
+					Fragetext: & Wie wichtig sind Ihnen die folgenden Motive für Ihre Promotion?,Wie wichtig waren Ihnen die folgenden Motive für Ihre Promotion?,sehr wichtig,überhaupt nicht wichtig,Etwas ganz anderes machen als bisher \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-pfec05f_v1}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr wichtig   } &
+
+
+					%14 &
+					  \num{14} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2,21} &
+					    \num[round-mode=places,round-precision=2]{0,13} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%41 &
+					  \num{41} &
+					%--
+					  \num[round-mode=places,round-precision=2]{6,47} &
+					    \num[round-mode=places,round-precision=2]{0,39} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%75 &
+					  \num{75} &
+					%--
+					  \num[round-mode=places,round-precision=2]{11,83} &
+					    \num[round-mode=places,round-precision=2]{0,71} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%165 &
+					  \num{165} &
+					%--
+					  \num[round-mode=places,round-precision=2]{26,03} &
+					    \num[round-mode=places,round-precision=2]{1,57} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ überhaupt nicht wichtig   } &
+
+
+					%339 &
+					  \num{339} &
+					%--
+					  \num[round-mode=places,round-precision=2]{53,47} &
+					    \num[round-mode=places,round-precision=2]{3,23} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{634}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{6,04}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{36} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,34} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{9818} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{93,56} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{6} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,06} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-pfec05f_v1}
+				\label{tableValues:pfec05f_v1}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 5; 
+                	      Modus ($h$): 5
+                     \end{noten}
+
+

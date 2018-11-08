@@ -1,0 +1,110 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mres022f\_g1d (1. Wohnung: Ort (NUTS2))}
+	\label{section:mres022f_g1d}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mres022f_g1d$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & string \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-08.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  08.1
+ \\
+					%--
+					Fragetext: & Nun bitten wir Sie, alle Wohnungen aufzulisten, in denen Sie seit dem Ende Ihres Studiums 2008/09 gelebt haben. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%STRING ELEMENTS NEEDS A HUGH FIRST COLOUMN AND A SMALL SECOND ONE
+					\begin{filecontents}{\jobname-mres022f_g1d}
+					\begin{longtable}{Xlrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent (gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								\multicolumn{1}{X}{DE11 Stuttgart} & - & 99 & 6,29 & 0,94 \\
+								\multicolumn{1}{X}{DE12 Karlsruhe} & - & 45 & 2,86 & 0,43 \\
+								\multicolumn{1}{X}{DE13 Freiburg} & - & 32 & 2,03 & 0,3 \\
+								\multicolumn{1}{X}{DE14 Tübingen} & - & 36 & 2,29 & 0,34 \\
+								\multicolumn{1}{X}{DE21 Oberbayern} & - & 117 & 7,43 & 1,11 \\
+								\multicolumn{1}{X}{DE22 Niederbayern} & - & 15 & 0,95 & 0,14 \\
+								\multicolumn{1}{X}{DE23 Oberpfalz} & - & 21 & 1,33 & 0,2 \\
+								\multicolumn{1}{X}{DE24 Oberfranken} & - & 22 & 1,4 & 0,21 \\
+								\multicolumn{1}{X}{DE25 Mittelfranken} & - & 46 & 2,92 & 0,44 \\
+								\multicolumn{1}{X}{DE26 Unterfranken} & - & 14 & 0,89 & 0,13 \\
+							... & ... & ... & ... & ... \\
+								\multicolumn{1}{X}{DEB1 Koblenz} & - & 27 & 1,72 & 0,26 \\
+								\multicolumn{1}{X}{DEB2 Trier} & - & 14 & 0,89 & 0,13 \\
+								\multicolumn{1}{X}{DEB3 Rheinhessen-Pfalz} & - & 32 & 2,03 & 0,3 \\
+								\multicolumn{1}{X}{DEC0 Saarland} & - & 12 & 0,76 & 0,11 \\
+								\multicolumn{1}{X}{DED2 Dresden} & - & 62 & 3,94 & 0,59 \\
+								\multicolumn{1}{X}{DED4 Chemnitz} & - & 36 & 2,29 & 0,34 \\
+								\multicolumn{1}{X}{DED5 Leipzig} & - & 35 & 2,22 & 0,33 \\
+								\multicolumn{1}{X}{DEE0 Sachsen-Anhalt} & - & 33 & 2,1 & 0,31 \\
+								\multicolumn{1}{X}{DEF0 Schleswig-Holstein} & - & 47 & 2,99 & 0,45 \\
+								\multicolumn{1}{X}{DEG0 Thüringen} & - & 78 & 4,96 & 0,74 \\
+					\midrule
+						\multicolumn{2}{l}{Summe (gültig)} & 1574 &
+						\textbf{100} &
+					    15 \\
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-966 & nicht bestimmbar & 9 & - & 0,09 \\
+
+							-968 & unplausibler Wert & 16 & - & 0,15 \\
+
+							-989 & filterbedingt fehlend & 503 & - & 4,79 \\
+
+							-995 & keine Teilnahme (Panel) & 8029 & - & 76,51 \\
+
+							-998 & keine Angabe & 363 & - & 3,46 \\
+
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{10494} & \textbf{-} & \textbf{100} \\
+					\bottomrule
+					\caption{Werte der Variable mres022f\_g1d}
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mres022f_g1d}
+
+

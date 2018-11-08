@@ -1,0 +1,173 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{astu013k\_g5r (3. Studium: Hochschule (Hochschulart))}
+	\label{section:astu013k_g5r}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-astu013k_g5r$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-1.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  1.1
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-astu013k_g5r}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Universitäten   } &
+
+
+					%1077 &
+					  \num{1077} &
+					%--
+					  \num[round-mode=places,round-precision=2]{77,65} &
+					    \num[round-mode=places,round-precision=2]{10,26} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Pädagogische Hochschulen   } &
+
+
+					%19 &
+					  \num{19} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1,37} &
+					    \num[round-mode=places,round-precision=2]{0,18} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Theologische/Kirchliche Hochschulen   } &
+
+
+					%4 &
+					  \num{4} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,29} &
+					    \num[round-mode=places,round-precision=2]{0,04} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Kunsthochschulen   } &
+
+
+					%32 &
+					  \num{32} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2,31} &
+					    \num[round-mode=places,round-precision=2]{0,3} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Fachhochschulen (ohne Verwaltungsfachhochschulen)   } &
+
+
+					%253 &
+					  \num{253} &
+					%--
+					  \num[round-mode=places,round-precision=2]{18,24} &
+					    \num[round-mode=places,round-precision=2]{2,41} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Verwaltungsfachhochschulen   } &
+
+
+					%2 &
+					  \num{2} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,14} &
+					    \num[round-mode=places,round-precision=2]{0,02} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1387}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{13,22}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{8940} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{85,19} \\
+							-966 &
+							nicht bestimmbar &
+							  \num{167} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{1,59} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-astu013k_g5r}
+				\label{tableValues:astu013k_g5r}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 6%
+                	    ; 
+                	      Modus ($h$): 1
+                     \end{noten}
+
+

@@ -1,0 +1,161 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mres022e\_g3 (1. Wohnung: Ort (neue, alte Bundesländer bzw. Ausland))}
+	\label{section:mres022e_g3}
+
+
+
+	%TABLE FOR VARIABLE DETAILS
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften
+	% '#' has to be escaped
+	\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mres022e_g3$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage
+	                \footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-08.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  08.1
+ \\
+					%--
+					Fragetext: & Nun bitten wir Sie, alle Wohnungen aufzulisten, in denen Sie seit dem Ende Ihres Studiums 2008/09 gelebt haben. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-mres022e_g3}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Alte Bundesländer   } &
+
+
+					%1048 &
+					  \num{1048} &
+					%--
+					  \num[round-mode=places,round-precision=2]{64,26} &
+					    \num[round-mode=places,round-precision=2]{9,99} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Neue Bundesländer (inkl. Berlin)   } &
+
+
+					%365 &
+					  \num{365} &
+					%--
+					  \num[round-mode=places,round-precision=2]{22,38} &
+					    \num[round-mode=places,round-precision=2]{3,48} \\
+							%????
+
+					93 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Deutschland ohne nähere Angabe   } &
+
+
+					%8 &
+					  \num{8} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0,49} &
+					    \num[round-mode=places,round-precision=2]{0,08} \\
+							%????
+
+					100 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Ausland   } &
+
+
+					%210 &
+					  \num{210} &
+					%--
+					  \num[round-mode=places,round-precision=2]{12,88} &
+					    \num[round-mode=places,round-precision=2]{2} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1631}} &
+					\textbf{100} &
+					  \textbf{\num[round-mode=places,round-precision=2]{15,54}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{330} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{3,14} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{8029} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{76,51} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{503} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{4,79} \\
+							-966 &
+							nicht bestimmbar &
+							  \num{1} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0,01} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{100} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mres022e_g3}
+				\label{tableValues:mres022e_g3}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskritive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 4%
+                	    ; 
+                	      Modus ($h$): 1
+                     \end{noten}
+
+
