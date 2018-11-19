@@ -1,111 +1,123 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "reason employment abroad: other",
-    "de": "Grund Erwerbstätigkeit Ausland: Sonstiges"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1965,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.9,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 85,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 0.81,
-        "validRelativeFrequency": 90.43,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie kam es, dass Sie eine Arbeit außerhalb Deutschlands aufgenommen haben?,Sonstiges, und zwar:"
       },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 9.57,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 94,
+      "questionNumber": "47",
+      "instrumentNumber": 5
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 63,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.6,
+        "absoluteFrequency": 63,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 2308,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 21.99,
+        "absoluteFrequency": 2308,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "47",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie kam es, dass Sie eine Arbeit außerhalb Deutschlands aufgenommen haben?,Sonstiges, und zwar:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 90.43,
+        "relativeFrequency": 0.81,
+        "absoluteFrequency": 85,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 9.57,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "1"
       }
+    ],
+    "totalValidRelativeFrequency": 0.9,
+    "totalValidAbsoluteFrequency": 94,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1965,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason employment abroad: other",
+    "de": "Grund Erwerbstätigkeit Ausland: Sonstiges"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "job satisfaction: regional flexibility",
-    "de": "Zufriedenheit Beschäftigung: räumliche Flexibilität"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind/waren Sie mit Ihrer Beschäftigung? In Bezug auf…\r\nMöglichkeit zur räumlichen Flexibilität"
+      },
+      "questionNumber": "4.27",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1176,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind/waren Sie mit Ihrer Beschäftigung? In Bezug auf …"
+      },
+      "questionNumber": "44",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.42,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "618.2442",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 546,
-        "label": {
-          "en": "Highly satisfied",
-          "de": "sehr zufrieden"
-        },
-        "relativeFrequency": 5.2,
-        "validRelativeFrequency": 11.98,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1094,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 10.43,
-        "validRelativeFrequency": 24.01,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1497,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 14.27,
-        "validRelativeFrequency": 32.86,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 963,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 9.18,
-        "validRelativeFrequency": 21.14,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 456,
-        "label": {
-          "en": "Dissatisfied",
-          "de": "unzufrieden"
-        },
-        "relativeFrequency": 4.35,
-        "validRelativeFrequency": 10.01,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4556,
     "missings": [
       {
-        "absoluteFrequency": 168,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.6,
+        "absoluteFrequency": 168,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Highly satisfied",
+          "de": "sehr zufrieden"
+        },
+        "validRelativeFrequency": 11.98,
+        "relativeFrequency": 5.2,
+        "absoluteFrequency": 546,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 24.01,
+        "relativeFrequency": 10.43,
+        "absoluteFrequency": 1094,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 32.86,
+        "relativeFrequency": 14.27,
+        "absoluteFrequency": 1497,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 21.14,
+        "relativeFrequency": 9.18,
+        "absoluteFrequency": 963,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Dissatisfied",
+          "de": "unzufrieden"
+        },
+        "validRelativeFrequency": 10.01,
+        "relativeFrequency": 4.35,
+        "absoluteFrequency": 456,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.42,
+    "totalValidAbsoluteFrequency": 4556,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.27",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind/waren Sie mit Ihrer Beschäftigung? In Bezug auf…\nMöglichkeit zur räumlichen Flexibilität"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "44",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind/waren Sie mit Ihrer BeschÃ¤ftigung? In Bezug auf â€¦"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1176,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "job satisfaction: regional flexibility",
+    "de": "Zufriedenheit Beschäftigung: räumliche Flexibilität"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

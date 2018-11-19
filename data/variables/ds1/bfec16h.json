@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "goals (further education at university): avoid low career status",
-    "de": "Ziele (WB an HS): Berufsabstieg vermeiden"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\r\nBeruflichen Abstieg vermeiden"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1282,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?"
+      },
+      "questionNumber": "48",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 16.55,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "35.5824",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 317,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 3.02,
-        "validRelativeFrequency": 18.25,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 429,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 4.09,
-        "validRelativeFrequency": 24.7,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 363,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 3.46,
-        "validRelativeFrequency": 20.9,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 287,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.73,
-        "validRelativeFrequency": 16.52,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 341,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 3.25,
-        "validRelativeFrequency": 19.63,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1737,
     "missings": [
       {
-        "absoluteFrequency": 356,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.39,
+        "absoluteFrequency": 356,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 18.25,
+        "relativeFrequency": 3.02,
+        "absoluteFrequency": 317,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 24.7,
+        "relativeFrequency": 4.09,
+        "absoluteFrequency": 429,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 20.9,
+        "relativeFrequency": 3.46,
+        "absoluteFrequency": 363,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 16.52,
+        "relativeFrequency": 2.73,
+        "absoluteFrequency": 287,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 19.63,
+        "relativeFrequency": 3.25,
+        "absoluteFrequency": 341,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 16.55,
+    "totalValidAbsoluteFrequency": 1737,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\nBeruflichen Abstieg vermeiden"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "48",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele fÃ¼r Ihre Teilnahme an den lÃ¤ngerfristigen Bildungsangeboten der Hochschulen?"
-      }
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1282,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "goals (further education at university): avoid low career status",
+    "de": "Ziele (WB an HS): Berufsabstieg vermeiden"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

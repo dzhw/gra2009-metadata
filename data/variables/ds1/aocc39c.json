@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: leadership role",
-    "de": "Arbeits-/Lebensziele: Leitungsfunktion"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39c",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 735,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\r\nEine leitende Funktion übernehmen"
+      },
+      "questionNumber": "5.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.85,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1765.777",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1853,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 17.66,
-        "validRelativeFrequency": 18.23,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3498,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 33.33,
-        "validRelativeFrequency": 34.42,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3044,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 29.01,
-        "validRelativeFrequency": 29.95,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1320,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 12.58,
-        "validRelativeFrequency": 12.99,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 448,
-        "label": {
-          "en": "Not at all important",
-          "de": "gar nicht wichtig"
-        },
-        "relativeFrequency": 4.27,
-        "validRelativeFrequency": 4.41,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10163,
     "missings": [
       {
-        "absoluteFrequency": 331,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.15,
+        "absoluteFrequency": 331,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\nEine leitende Funktion übernehmen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 18.23,
+        "relativeFrequency": 17.66,
+        "absoluteFrequency": 1853,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 34.42,
+        "relativeFrequency": 33.33,
+        "absoluteFrequency": 3498,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 29.95,
+        "relativeFrequency": 29.01,
+        "absoluteFrequency": 3044,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 12.99,
+        "relativeFrequency": 12.58,
+        "absoluteFrequency": 1320,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "gar nicht wichtig"
+        },
+        "validRelativeFrequency": 4.41,
+        "relativeFrequency": 4.27,
+        "absoluteFrequency": 448,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.85,
+    "totalValidAbsoluteFrequency": 10163,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39c",
+  "surveyNumbers": [1],
+  "indexInDataSet": 735,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: leadership role",
+    "de": "Arbeits-/Lebensziele: Leitungsfunktion"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

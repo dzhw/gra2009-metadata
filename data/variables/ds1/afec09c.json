@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "experiences 2nd training phase: organisation",
-    "de": "Erfahrungen 2. Ausbildungsphase: Organisation"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec07,-998,4,5,6)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 424,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Erfahrungen haben Sie (bisher) in Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\r\nOrganisation"
+      },
+      "questionNumber": "3.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 11.32,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "160.1208",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 227,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 2.16,
-        "validRelativeFrequency": 19.11,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 478,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 4.55,
-        "validRelativeFrequency": 40.24,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 331,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 3.15,
-        "validRelativeFrequency": 27.86,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 119,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 1.13,
-        "validRelativeFrequency": 10.02,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 33,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 0.31,
-        "validRelativeFrequency": 2.78,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1188,
     "missings": [
       {
-        "absoluteFrequency": 63,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.6,
+        "absoluteFrequency": 63,
         "code": -998
       },
       {
-        "absoluteFrequency": 9243,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 88.08,
+        "absoluteFrequency": 9243,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "3.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Erfahrungen haben Sie (bisher) in Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\nOrganisation"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 19.11,
+        "relativeFrequency": 2.16,
+        "absoluteFrequency": 227,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 40.24,
+        "relativeFrequency": 4.55,
+        "absoluteFrequency": 478,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 27.86,
+        "relativeFrequency": 3.15,
+        "absoluteFrequency": 331,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 10.02,
+        "relativeFrequency": 1.13,
+        "absoluteFrequency": 119,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 2.78,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 33,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 11.32,
+    "totalValidAbsoluteFrequency": 1188,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec07,-998,4,5,6)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 424,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "experiences 2nd training phase: organisation",
+    "de": "Erfahrungen 2. Ausbildungsphase: Organisation"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,119 +1,131 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "employer: company with locations abroad",
-    "de": "Unternehmen: Auslandsstandorte"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc262,2,-998) & inlist(bocc51,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1086,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 14.26,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1100,
-        "label": {
-          "en": "yes",
-          "de": "ja"
-        },
-        "relativeFrequency": 10.48,
-        "validRelativeFrequency": 73.53,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Arbeite(te)n Sie in einem Unternehmen, das Standorte auch im Ausland hat?\r\nJa \r\nNein"
       },
-      {
-        "absoluteFrequency": 396,
-        "label": {
-          "en": "no",
-          "de": "nein"
-        },
-        "relativeFrequency": 3.77,
-        "validRelativeFrequency": 26.47,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1496,
+      "questionNumber": "4.12",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Arbeite(te)n Sie in einem Unternehmen, das Standorte auch im Ausland hat?"
+      },
+      "questionNumber": "27",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 54,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.51,
+        "absoluteFrequency": 54,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 3205,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 30.54,
+        "absoluteFrequency": 3205,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 73.53,
+        "relativeFrequency": 10.48,
+        "absoluteFrequency": 1100,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 26.47,
+        "relativeFrequency": 3.77,
+        "absoluteFrequency": 396,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 14.26,
+    "totalValidAbsoluteFrequency": 1496,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Arbeite(te)n Sie in einem Unternehmen, das Standorte auch im Ausland hat?\nJa Nein"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "27",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Arbeite(te)n Sie in einem Unternehmen, das Standorte auch im Ausland hat?"
-      }
+    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc262,2,-998) & inlist(bocc51,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1086,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "employer: company with locations abroad",
+    "de": "Unternehmen: Auslandsstandorte"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course: student active participation",
-    "de": "Lehrveranstaltungen: studentische Mitgestaltung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 233,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\r\nDie Studierenden konnten über die Gestaltung der Lehrveranstaltungen mitentscheiden"
+      },
+      "questionNumber": "1.16",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.17,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "2558.968",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 116,
-        "label": {
-          "en": "(Almost) all",
-          "de": "(fast) alle"
-        },
-        "relativeFrequency": 1.11,
-        "validRelativeFrequency": 1.11,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 650,
-        "label": {
-          "en": "Most",
-          "de": "die meisten"
-        },
-        "relativeFrequency": 6.19,
-        "validRelativeFrequency": 6.25,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2539,
-        "label": {
-          "en": "Some",
-          "de": "manche"
-        },
-        "relativeFrequency": 24.19,
-        "validRelativeFrequency": 24.4,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 4726,
-        "label": {
-          "en": "Few",
-          "de": "wenige"
-        },
-        "relativeFrequency": 45.04,
-        "validRelativeFrequency": 45.41,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2376,
-        "label": {
-          "en": "None",
-          "de": "keine"
-        },
-        "relativeFrequency": 22.64,
-        "validRelativeFrequency": 22.83,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10407,
     "missings": [
       {
-        "absoluteFrequency": 87,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.83,
+        "absoluteFrequency": 87,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\nDie Studierenden konnten über die Gestaltung der Lehrveranstaltungen mitentscheiden"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "(Almost) all",
+          "de": "(fast) alle"
+        },
+        "validRelativeFrequency": 1.11,
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 116,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Most",
+          "de": "die meisten"
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 6.19,
+        "absoluteFrequency": 650,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Some",
+          "de": "manche"
+        },
+        "validRelativeFrequency": 24.4,
+        "relativeFrequency": 24.19,
+        "absoluteFrequency": 2539,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Few",
+          "de": "wenige"
+        },
+        "validRelativeFrequency": 45.41,
+        "relativeFrequency": 45.04,
+        "absoluteFrequency": 4726,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "None",
+          "de": "keine"
+        },
+        "validRelativeFrequency": 22.83,
+        "relativeFrequency": 22.64,
+        "absoluteFrequency": 2376,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99.17,
+    "totalValidAbsoluteFrequency": 10407,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 233,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course: student active participation",
+    "de": "Lehrveranstaltungen: studentische Mitgestaltung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

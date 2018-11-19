@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "job satisfaction: work atmosphere",
-    "de": "Zufriedenheit Beschäftigung: Arbeitsklima"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ36l",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 719,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind Sie mit Ihrer Beschäftigung?\r\nArbeitsklima"
+      },
+      "questionNumber": "5.16",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 69.01,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "1286.897",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3069,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 29.25,
-        "validRelativeFrequency": 42.38,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2770,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 26.4,
-        "validRelativeFrequency": 38.25,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 981,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 9.35,
-        "validRelativeFrequency": 13.55,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 309,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 2.94,
-        "validRelativeFrequency": 4.27,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 113,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 1.08,
-        "validRelativeFrequency": 1.56,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7242,
     "missings": [
       {
-        "absoluteFrequency": 1164,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 11.09,
+        "absoluteFrequency": 1164,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind Sie mit Ihrer Beschäftigung?\nArbeitsklima"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 42.38,
+        "relativeFrequency": 29.25,
+        "absoluteFrequency": 3069,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 38.25,
+        "relativeFrequency": 26.4,
+        "absoluteFrequency": 2770,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 13.55,
+        "relativeFrequency": 9.35,
+        "absoluteFrequency": 981,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 4.27,
+        "relativeFrequency": 2.94,
+        "absoluteFrequency": 309,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 1.56,
+        "relativeFrequency": 1.08,
+        "absoluteFrequency": 113,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 69.01,
+    "totalValidAbsoluteFrequency": 7242,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ36l",
+  "surveyNumbers": [1],
+  "indexInDataSet": 719,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "job satisfaction: work atmosphere",
+    "de": "Zufriedenheit Beschäftigung: Arbeitsklima"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

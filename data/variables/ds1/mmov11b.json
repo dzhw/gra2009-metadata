@@ -1,111 +1,123 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "reasons against moving: studies/doctorate/further qualification",
-    "de": "Gründe gegen Umzug: Studium/Promotion/Fortbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if mmov05==2 & inlist(mmov06,2,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1938,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 14.13,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1365,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 13.01,
-        "validRelativeFrequency": 92.04,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Gründe sprechen derzeit gegen einen Umzug in eine andere Stadt?,Ein aktuelles Studium/eine aktuelle Promotion/eine aktuelle Fortbildung"
       },
-      {
-        "absoluteFrequency": 118,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 1.12,
-        "validRelativeFrequency": 7.96,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1483,
+      "questionNumber": "42",
+      "instrumentNumber": 5
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 2,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 980,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 9.34,
+        "absoluteFrequency": 980,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "42",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Gründe sprechen derzeit gegen einen Umzug in eine andere Stadt?,Ein aktuelles Studium/eine aktuelle Promotion/eine aktuelle Fortbildung"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 92.04,
+        "relativeFrequency": 13.01,
+        "absoluteFrequency": 1365,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 7.96,
+        "relativeFrequency": 1.12,
+        "absoluteFrequency": 118,
+        "value": "1"
       }
+    ],
+    "totalValidRelativeFrequency": 14.13,
+    "totalValidAbsoluteFrequency": 1483,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if mmov05==2 & inlist(mmov06,2,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1938,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reasons against moving: studies/doctorate/further qualification",
+    "de": "Gründe gegen Umzug: Studium/Promotion/Fortbildung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

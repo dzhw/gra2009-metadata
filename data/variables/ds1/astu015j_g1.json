@@ -1,93 +1,105 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "5th course of study: degree aimed for (2nd minor) ",
-    "de": "5. Studium: angestrebter Abschluss (2. Nebenfach)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 105,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-22)."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.13,
-    "statistics": {
-      "mode": "3"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": "Magister degree",
-          "de": "Magister"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 92.86,
-        "value": "3"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nAngestrebte Abschlussart (z.B. Diplom, Bachelor)"
       },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Teaching profession secondary modern school",
-          "de": "LA Realschule"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 7.14,
-        "value": "10"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 14,
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 10480,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.87,
+        "absoluteFrequency": 10480,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\nAngestrebte Abschlussart (z.B. Diplom, Bachelor)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Magister degree",
+          "de": "Magister"
+        },
+        "validRelativeFrequency": 92.86,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 13,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Teaching profession secondary modern school",
+          "de": "LA Realschule"
+        },
+        "validRelativeFrequency": 7.14,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "10"
       }
+    ],
+    "totalValidRelativeFrequency": 0.13,
+    "totalValidAbsoluteFrequency": 14,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-22)."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 105,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "5th course of study: degree aimed for (2nd minor) ",
+    "de": "5. Studium: angestrebter Abschluss (2. Nebenfach)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

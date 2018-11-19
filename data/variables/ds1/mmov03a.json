@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "moving (abroad): opportunity to meet new people",
-    "de": "Umzug (Ausland): Möglichkeit neue Menschen kennenzulernen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1537,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Nun geht es um Umzüge ins Ausland. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ein Umzug ins Ausland bietet mir die Möglichkeit, neue und interessante Menschen kennenzulernen."
+      },
+      "questionNumber": "05",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.01,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "389.9238",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 829,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 7.9,
-        "validRelativeFrequency": 34.33,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1034,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 9.85,
-        "validRelativeFrequency": 42.82,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 345,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 3.29,
-        "validRelativeFrequency": 14.29,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 125,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.19,
-        "validRelativeFrequency": 5.18,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 82,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 0.78,
-        "validRelativeFrequency": 3.4,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2415,
     "missings": [
       {
-        "absoluteFrequency": 50,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.48,
+        "absoluteFrequency": 50,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "05",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Nun geht es um Umzüge ins Ausland. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ein Umzug ins Ausland bietet mir die Möglichkeit, neue und interessante Menschen kennenzulernen."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 34.33,
+        "relativeFrequency": 7.9,
+        "absoluteFrequency": 829,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 42.82,
+        "relativeFrequency": 9.85,
+        "absoluteFrequency": 1034,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 3.29,
+        "absoluteFrequency": 345,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 5.18,
+        "relativeFrequency": 1.19,
+        "absoluteFrequency": 125,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 3.4,
+        "relativeFrequency": 0.78,
+        "absoluteFrequency": 82,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.01,
+    "totalValidAbsoluteFrequency": 2415,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1537,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "moving (abroad): opportunity to meet new people",
+    "de": "Umzug (Ausland): Möglichkeit neue Menschen kennenzulernen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

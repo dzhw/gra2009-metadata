@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "acad. science: performance pressure",
-    "de": "akad. Wissenschaft: Leistungsdruck"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2167,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, inwieweit die folgenden Angaben in der akademischen Wissenschaft auf Sie zutreffen.,trifft überhaupt nicht zu,trifft voll und ganz zu,Hoher Leistungsdruck"
+      },
+      "questionNumber": "41",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.88,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "59.304",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft überhaupt nicht zu"
-        },
-        "relativeFrequency": 0.42,
-        "validRelativeFrequency": 7.13,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 104,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 0.99,
-        "validRelativeFrequency": 16.86,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 173,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 1.65,
-        "validRelativeFrequency": 28.04,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 168,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.6,
-        "validRelativeFrequency": 27.23,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 128,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft voll und ganz zu"
-        },
-        "relativeFrequency": 1.22,
-        "validRelativeFrequency": 20.75,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 617,
     "missings": [
       {
-        "absoluteFrequency": 53,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.51,
+        "absoluteFrequency": 53,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "41",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, inwieweit die folgenden Angaben in der akademischen Wissenschaft auf Sie zutreffen.,trifft überhaupt nicht zu,trifft voll und ganz zu,Hoher Leistungsdruck"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 7.13,
+        "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 16.86,
+        "relativeFrequency": 0.99,
+        "absoluteFrequency": 104,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 28.04,
+        "relativeFrequency": 1.65,
+        "absoluteFrequency": 173,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 27.23,
+        "relativeFrequency": 1.6,
+        "absoluteFrequency": 168,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft voll und ganz zu"
+        },
+        "validRelativeFrequency": 20.75,
+        "relativeFrequency": 1.22,
+        "absoluteFrequency": 128,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.88,
+    "totalValidAbsoluteFrequency": 617,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2167,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "acad. science: performance pressure",
+    "de": "akad. Wissenschaft: Leistungsdruck"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

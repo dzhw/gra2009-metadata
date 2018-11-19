@@ -1,129 +1,141 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "desired workload: type of employment",
-    "de": "gewünschtes Arbeitszeitvolumen: Beschäftigungsart"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welches Arbeitszeitvolumen entspricht am ehesten Ihren Wünschen?\r\nVollzeitbeschäftigung\r\nTeilzeitbeschäftigung\r\nAndere Arbeitszeitvorstellungen"
+      },
+      "questionNumber": "4.22",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1121,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welches Arbeitszeitvolumen entspricht am ehesten Ihren Wünschen?"
+      },
+      "questionNumber": "37",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 44.08,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3228,
-        "label": {
-          "en": "Full time",
-          "de": "Vollzeit"
-        },
-        "relativeFrequency": 30.76,
-        "validRelativeFrequency": 69.78,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1246,
-        "label": {
-          "en": "Part time",
-          "de": "Teilzeit"
-        },
-        "relativeFrequency": 11.87,
-        "validRelativeFrequency": 26.93,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 152,
-        "label": {
-          "en": "Other working hours requested",
-          "de": "andere Arbeitszeitvorstellungen"
-        },
-        "relativeFrequency": 1.45,
-        "validRelativeFrequency": 3.29,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4626,
     "missings": [
       {
-        "absoluteFrequency": 98,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.93,
+        "absoluteFrequency": 98,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Full time",
+          "de": "Vollzeit"
+        },
+        "validRelativeFrequency": 69.78,
+        "relativeFrequency": 30.76,
+        "absoluteFrequency": 3228,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Part time",
+          "de": "Teilzeit"
+        },
+        "validRelativeFrequency": 26.93,
+        "relativeFrequency": 11.87,
+        "absoluteFrequency": 1246,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Other working hours requested",
+          "de": "andere Arbeitszeitvorstellungen"
+        },
+        "validRelativeFrequency": 3.29,
+        "relativeFrequency": 1.45,
+        "absoluteFrequency": 152,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 44.08,
+    "totalValidAbsoluteFrequency": 4626,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.22",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welches Arbeitszeitvolumen entspricht am ehesten Ihren Wünschen?\nVollzeitbeschäftigung\nTeilzeitbeschäftigung\nAndere Arbeitszeitvorstellungen"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "37",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welches Arbeitszeitvolumen entspricht am ehesten Ihren WÃ¼nschen?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1121,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "desired workload: type of employment",
+    "de": "gewünschtes Arbeitszeitvolumen: Beschäftigungsart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,111 +1,123 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "financing PhD: private grants",
-    "de": "Finanzierung Promotion: private Zuwendungen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2155,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 6.12,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 517,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 4.93,
-        "validRelativeFrequency": 80.53,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie finanzierten Sie Ihre Promotion?,Wie finanzieren Sie Ihre Promotion?,Mehrfachnennungen sind möglich.,Aus privaten Zuwendungen (z.B. Eltern, Partner(in))"
       },
-      {
-        "absoluteFrequency": 125,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 1.19,
-        "validRelativeFrequency": 19.47,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 642,
+      "questionNumber": "37",
+      "instrumentNumber": 4
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 28,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "37",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie finanzierten Sie Ihre Promotion?,Wie finanzieren Sie Ihre Promotion?,Mehrfachnennungen sind möglich.,Aus privaten Zuwendungen (z.B. Eltern, Partner(in))"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 80.53,
+        "relativeFrequency": 4.93,
+        "absoluteFrequency": 517,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 19.47,
+        "relativeFrequency": 1.19,
+        "absoluteFrequency": 125,
+        "value": "1"
       }
+    ],
+    "totalValidRelativeFrequency": 6.12,
+    "totalValidAbsoluteFrequency": 642,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2155,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "financing PhD: private grants",
+    "de": "Finanzierung Promotion: private Zuwendungen"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

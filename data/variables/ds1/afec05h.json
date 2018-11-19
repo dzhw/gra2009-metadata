@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "motivation for further acad. qualification: contact with university",
-    "de": "Motiv weitere akad. Qualifikation: Kontakt Hochschule"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-fec05h",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 403,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\r\nDen Kontakt zur Hochschule aufrechterhalten"
+      },
+      "questionNumber": "2.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 53.98,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "487.7754",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 244,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 2.33,
-        "validRelativeFrequency": 4.31,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 627,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 5.97,
-        "validRelativeFrequency": 11.07,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 926,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 8.82,
-        "validRelativeFrequency": 16.35,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1255,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 11.96,
-        "validRelativeFrequency": 22.15,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2613,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 24.9,
-        "validRelativeFrequency": 46.13,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5665,
     "missings": [
       {
-        "absoluteFrequency": 302,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.88,
+        "absoluteFrequency": 302,
         "code": -998
       },
       {
-        "absoluteFrequency": 4527,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 43.14,
+        "absoluteFrequency": 4527,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\nDen Kontakt zur Hochschule aufrechterhalten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 4.31,
+        "relativeFrequency": 2.33,
+        "absoluteFrequency": 244,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 11.07,
+        "relativeFrequency": 5.97,
+        "absoluteFrequency": 627,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 16.35,
+        "relativeFrequency": 8.82,
+        "absoluteFrequency": 926,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 22.15,
+        "relativeFrequency": 11.96,
+        "absoluteFrequency": 1255,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 46.13,
+        "relativeFrequency": 24.9,
+        "absoluteFrequency": 2613,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 53.98,
+    "totalValidAbsoluteFrequency": 5665,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec05h",
+  "surveyNumbers": [1],
+  "indexInDataSet": 403,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for further acad. qualification: contact with university",
+    "de": "Motiv weitere akad. Qualifikation: Kontakt Hochschule"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

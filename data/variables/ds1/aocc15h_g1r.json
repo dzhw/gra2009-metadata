@@ -1,161 +1,173 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "motivation for internship: other, namely",
-    "de": "Motiv Praktikum: Sonstiges, und zwar"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc11,-998,1,3)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 481,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zu sonstigen Motiven für ein Praktikum (Variable aocc15g), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was hat Sie bewogen, nach dem Studienabschluss ein Praktikum aufzunehmen?\r\nSonstiges, und zwar:"
+      },
+      "questionNumber": "4.14",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 4.36,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 127,
-        "label": {
-          "en": "Bridging",
-          "de": "Überbrückung"
-        },
-        "relativeFrequency": 1.21,
-        "validRelativeFrequency": 27.73,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 89,
-        "label": {
-          "en": "Experience abroad",
-          "de": "Auslandserfahrung"
-        },
-        "relativeFrequency": 0.85,
-        "validRelativeFrequency": 19.43,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 48,
-        "label": {
-          "en": "Orientation",
-          "de": "Orientierung"
-        },
-        "relativeFrequency": 0.46,
-        "validRelativeFrequency": 10.48,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Was requested by employer prior to acceptance",
-          "de": "wurde verlangt"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 2.62,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 118,
-        "label": {
-          "en": "Planned for postgraduate studies",
-          "de": "im Folgestudium"
-        },
-        "relativeFrequency": 1.12,
-        "validRelativeFrequency": 25.76,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Continuation of study contacts",
-          "de": "Fortsetzung Studienkontakte"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 1.31,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 58,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.55,
-        "validRelativeFrequency": 12.66,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 458,
     "missings": [
       {
-        "absoluteFrequency": 257,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.45,
+        "absoluteFrequency": 257,
         "code": -998
       },
       {
-        "absoluteFrequency": 8569,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 81.66,
+        "absoluteFrequency": 8569,
         "code": -989
       },
       {
-        "absoluteFrequency": 1210,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 11.53,
+        "absoluteFrequency": 1210,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was hat Sie bewogen, nach dem Studienabschluss ein Praktikum aufzunehmen?\nSonstiges, und zwar:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Bridging",
+          "de": "Überbrückung"
+        },
+        "validRelativeFrequency": 27.73,
+        "relativeFrequency": 1.21,
+        "absoluteFrequency": 127,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Experience abroad",
+          "de": "Auslandserfahrung"
+        },
+        "validRelativeFrequency": 19.43,
+        "relativeFrequency": 0.85,
+        "absoluteFrequency": 89,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Orientation",
+          "de": "Orientierung"
+        },
+        "validRelativeFrequency": 10.48,
+        "relativeFrequency": 0.46,
+        "absoluteFrequency": 48,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Was requested by employer prior to acceptance",
+          "de": "wurde verlangt"
+        },
+        "validRelativeFrequency": 2.62,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Planned for postgraduate studies",
+          "de": "im Folgestudium"
+        },
+        "validRelativeFrequency": 25.76,
+        "relativeFrequency": 1.12,
+        "absoluteFrequency": 118,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Continuation of study contacts",
+          "de": "Fortsetzung Studienkontakte"
+        },
+        "validRelativeFrequency": 1.31,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 12.66,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 58,
+        "value": "9"
       }
+    ],
+    "totalValidRelativeFrequency": 4.36,
+    "totalValidAbsoluteFrequency": 458,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc11,-998,1,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zu sonstigen Motiven für ein Praktikum (Variable aocc15g), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 481,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for internship: other, namely",
+    "de": "Motiv Praktikum: Sonstiges, und zwar"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

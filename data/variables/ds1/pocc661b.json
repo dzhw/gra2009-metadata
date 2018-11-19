@@ -1,353 +1,353 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "proportion of day-to-day work start of PhD: other research activities",
-    "de": "Anteil des Arbeitsalltags Promotionsbeginn: andere Forschungstätigkeiten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2036,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viel Prozent Ihres Arbeitsalltags entfielen zu Beginn und am Ende Ihrer Promotion auf die folgenden Tätigkeiten?,Beginn in %,Ende in %,Andere (Forschungs-)Tätigkeiten ohne Bezug zur Promotion"
+      },
+      "questionNumber": "19",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 2.18,
     "statistics": {
-      "firstQuartile": "0",
+      "meanDeviation": 14.826,
+      "mode": "0",
       "highWhisker": 75,
       "lowWhisker": 0,
-      "skewness": 1.5054,
-      "minimum": "0",
       "thirdQuartile": "30",
-      "meanDeviation": "2.9652",
-      "meanValue": 18.8777,
-      "maximum": "100",
-      "mode": "0",
-      "median": "10",
+      "firstQuartile": "0",
       "standardDeviation": 24.2618,
-      "kurtosis": 4.4187
+      "median": "10",
+      "kurtosis": 4.4187,
+      "skewness": 1.5054,
+      "maximum": "100",
+      "minimum": "0",
+      "meanValue": 18.8777
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 76,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.72,
-        "validRelativeFrequency": 33.19,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.87,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 6.99,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.43,
-        "validRelativeFrequency": 19.65,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 1.75,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 7.86,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 1.31,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 6.11,
-        "value": "30"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.87,
-        "value": "35"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 4.37,
-        "value": "40"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "45"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 3.06,
-        "value": "50"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "55"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "58"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 2.62,
-        "value": "60"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.44,
-        "value": "65"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 2.62,
-        "value": "70"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 1.31,
-        "value": "75"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 1.31,
-        "value": "80"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 1.75,
-        "value": "90"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.87,
-        "value": "100"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 229,
     "missings": [
       {
-        "absoluteFrequency": 48,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.46,
+        "absoluteFrequency": 48,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 399,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 3.8,
+        "absoluteFrequency": 399,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viel Prozent Ihres Arbeitsalltags entfielen zu Beginn und am Ende Ihrer Promotion auf die folgenden Tätigkeiten?,Beginn in %,Ende in %,Andere (Forschungs-)Tätigkeiten ohne Bezug zur Promotion"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 33.19,
+        "relativeFrequency": 0.72,
+        "absoluteFrequency": 76,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.87,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.99,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 19.65,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 45,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.75,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 7.86,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.31,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.11,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.87,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.37,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "40"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "45"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.06,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "55"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "58"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.62,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "60"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.44,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "65"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.62,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "70"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.31,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "75"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.31,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "80"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.75,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "90"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.87,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "100"
       }
+    ],
+    "totalValidRelativeFrequency": 2.18,
+    "totalValidAbsoluteFrequency": 229,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2036,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "proportion of day-to-day work start of PhD: other research activities",
+    "de": "Anteil des Arbeitsalltags Promotionsbeginn: andere Forschungstätigkeiten"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

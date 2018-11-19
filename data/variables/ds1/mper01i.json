@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "Big Five: getting nervous easily, insecure",
-    "de": "Big Five: werde leicht nervös, unsicher"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1525,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Und inwieweit treffen die folgenden Aussagen auf Sie zu?,trifft überhaupt nicht zu,trifft voll und ganz zu,Ich werde leicht nervös, unsicher."
+      },
+      "questionNumber": "02",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.18,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "536.7012",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 248,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft überhaupt nicht zu"
-        },
-        "relativeFrequency": 2.36,
-        "validRelativeFrequency": 10.2,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 818,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 7.79,
-        "validRelativeFrequency": 33.63,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 822,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 7.83,
-        "validRelativeFrequency": 33.8,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 453,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 4.32,
-        "validRelativeFrequency": 18.63,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 91,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft voll und ganz zu"
-        },
-        "relativeFrequency": 0.87,
-        "validRelativeFrequency": 3.74,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2432,
     "missings": [
       {
-        "absoluteFrequency": 33,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.31,
+        "absoluteFrequency": 33,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "02",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Und inwieweit treffen die folgenden Aussagen auf Sie zu?,trifft überhaupt nicht zu,trifft voll und ganz zu,Ich werde leicht nervös, unsicher."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 10.2,
+        "relativeFrequency": 2.36,
+        "absoluteFrequency": 248,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 33.63,
+        "relativeFrequency": 7.79,
+        "absoluteFrequency": 818,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 33.8,
+        "relativeFrequency": 7.83,
+        "absoluteFrequency": 822,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 18.63,
+        "relativeFrequency": 4.32,
+        "absoluteFrequency": 453,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft voll und ganz zu"
+        },
+        "validRelativeFrequency": 3.74,
+        "relativeFrequency": 0.87,
+        "absoluteFrequency": 91,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.18,
+    "totalValidAbsoluteFrequency": 2432,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1525,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
-    "de": "Dieses Item ist Teil der Big-Five-Kurzskala BFI-10, vgl. dazu:\nRammstedt, B., Kemper, C. J., Klein, M. C., Beierlein, C. & Kovaleva, A., (2014). Big Five Inventory (BFI-10). Zusammenstellung sozialwissenschaftlicher Items und Skalen. doi:10.6102/zis76\nRammstedt, B. & John, O. P. (2007). Measuring personality in one minute or less: A 10-item short version of the Big Five Inventory in English and German. Journal of Research in Personality, 41, 203-212.\nRammstedt, B. (2007). The 10-Item Big Five Inventory (BFI-10): Norm values and investigation of socio-demographic effects based on a German population representative sample. European Journal of Psychological Assessment, 23, 193-201.\nRammstedt, B., Kemper, C. J., Klein, M. C., Beierlein, C. & Kovaleva, A. (2013). Eine kurze Skala zur Messung der fünf Dimensionen der Persönlichkeit: 10 Item Big Five Inventory (BFI-10). Methoden, Daten, Analysen, 7, 235 -251."
+    "de": "Dieses Item ist Teil der Big-Five-Kurzskala BFI-10, vgl. dazu:\r\n\r\nRammstedt, B., Kemper, C. J., Klein, M. C., Beierlein, C. & Kovaleva, A., (2014). Big Five Inventory (BFI-10). Zusammenstellung sozialwissenschaftlicher Items und Skalen. doi:10.6102/zis76\r\n\r\nRammstedt, B. & John, O. P. (2007). Measuring personality in one minute or less: A 10-item short version of the Big Five Inventory in English and German. Journal of Research in Personality, 41, 203-212.\r\n\r\nRammstedt, B. (2007). The 10-Item Big Five Inventory (BFI-10): Norm values and investigation of socio-demographic effects based on a German population representative sample. European Journal of Psychological Assessment, 23, 193-201.\r\n\r\nRammstedt, B., Kemper, C. J., Klein, M. C., Beierlein, C. & Kovaleva, A. (2013). Eine kurze Skala zur Messung der fünf Dimensionen der Persönlichkeit: 10 Item Big Five Inventory (BFI-10). Methoden, Daten, Analysen, 7, 235 -251."
+  },
+  "label": {
+    "en": "Big Five: getting nervous easily, insecure",
+    "de": "Big Five: werde leicht nervös, unsicher"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

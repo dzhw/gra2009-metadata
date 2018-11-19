@@ -1,142 +1,154 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "type of self-employment",
-    "de": "Form der Selbständigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc09,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ10",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 458,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welcher Form sind Sie als Selbständige/r tätig bzw. beabsichtigen Sie tätig zu sein?\r\nAls Freiberufler/in durch Übernahme (z. B. einer Praxis) oder Eintritt (z. B. in eine Kanzlei) \r\nAls Freiberufler/in durch Gründung (z. B. einer Praxis) \r\nDurch Übernahme einer Firma \r\nDurch Gründung einer Firma\r\nAls sonstige/r Selbständige/r (z. B. auf Basis von Werkverträgen oder Honoraren)\r\nDas ist noch unklar"
+      },
+      "questionNumber": "4.9",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 20.46,
     "statistics": {
-      "mode": "5"
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 232,
-        "label": {
-          "en": "As freelancer through takeover or entry",
-          "de": "als Freiberufler(in) durch Übernahme oder Eintritt"
-        },
-        "relativeFrequency": 2.21,
-        "validRelativeFrequency": 10.81,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 315,
-        "label": {
-          "en": "As freelancer through foundation",
-          "de": "als Freiberufler(in) durch Gründung"
-        },
-        "relativeFrequency": 3,
-        "validRelativeFrequency": 14.67,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 83,
-        "label": {
-          "en": "Through takeover of a company",
-          "de": "durch Übernahme einer Firma"
-        },
-        "relativeFrequency": 0.79,
-        "validRelativeFrequency": 3.87,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 353,
-        "label": {
-          "en": "Through foundation of a company",
-          "de": "durch Gründung einer Firma"
-        },
-        "relativeFrequency": 3.36,
-        "validRelativeFrequency": 16.44,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 865,
-        "label": {
-          "en": "As other self-employed",
-          "de": "als sonstige(r) Selbständige(r)"
-        },
-        "relativeFrequency": 8.24,
-        "validRelativeFrequency": 40.29,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 299,
-        "label": {
-          "en": "Not yet clear",
-          "de": "das ist noch unklar"
-        },
-        "relativeFrequency": 2.85,
-        "validRelativeFrequency": 13.93,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2147,
     "missings": [
       {
-        "absoluteFrequency": 228,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.17,
+        "absoluteFrequency": 228,
         "code": -998
       },
       {
-        "absoluteFrequency": 8119,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 77.37,
+        "absoluteFrequency": 8119,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welcher Form sind Sie als Selbständige/r tätig bzw. beabsichtigen Sie tätig zu sein?\nAls Freiberufler/in durch Übernahme (z. B. einer Praxis) oder Eintritt (z. B. in eine Kanzlei) Als Freiberufler/in durch Gründung (z. B. einer Praxis) Durch Übernahme einer Firma Durch Gründung einer Firma\nAls sonstige/r Selbständige/r (z. B. auf Basis von Werkverträgen oder Honoraren)\nDas ist noch unklar"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "As freelancer through takeover or entry",
+          "de": "als Freiberufler(in) durch Übernahme oder Eintritt"
+        },
+        "validRelativeFrequency": 10.81,
+        "relativeFrequency": 2.21,
+        "absoluteFrequency": 232,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "As freelancer through foundation",
+          "de": "als Freiberufler(in) durch Gründung"
+        },
+        "validRelativeFrequency": 14.67,
+        "relativeFrequency": 3,
+        "absoluteFrequency": 315,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Through takeover of a company",
+          "de": "durch Übernahme einer Firma"
+        },
+        "validRelativeFrequency": 3.87,
+        "relativeFrequency": 0.79,
+        "absoluteFrequency": 83,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Through foundation of a company",
+          "de": "durch Gründung einer Firma"
+        },
+        "validRelativeFrequency": 16.44,
+        "relativeFrequency": 3.36,
+        "absoluteFrequency": 353,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "As other self-employed",
+          "de": "als sonstige(r) Selbständige(r)"
+        },
+        "validRelativeFrequency": 40.29,
+        "relativeFrequency": 8.24,
+        "absoluteFrequency": 865,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Not yet clear",
+          "de": "das ist noch unklar"
+        },
+        "validRelativeFrequency": 13.93,
+        "relativeFrequency": 2.85,
+        "absoluteFrequency": 299,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 20.46,
+    "totalValidAbsoluteFrequency": 2147,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc09,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ10",
+  "surveyNumbers": [1],
+  "indexInDataSet": 458,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of self-employment",
+    "de": "Form der Selbständigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

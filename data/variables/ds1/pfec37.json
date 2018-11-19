@@ -1,193 +1,193 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "supervisors: number",
-    "de": "Betreuer(innen): Anzahl"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2061,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viele fachliche Betreuungspersonen haben Sie insgesamt?"
+      },
+      "questionNumber": "24",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.08,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 0,
-      "skewness": 1.657,
-      "minimum": "0",
       "thirdQuartile": "2",
-      "meanDeviation": "17.7912",
-      "meanValue": 1.7712,
-      "maximum": "9",
-      "mode": "1",
-      "median": "2",
+      "firstQuartile": "1",
       "standardDeviation": 0.9758,
-      "kurtosis": 9.3438
+      "median": "2",
+      "kurtosis": 9.3438,
+      "skewness": 1.657,
+      "maximum": "9",
+      "minimum": "0",
+      "meanValue": 1.7712
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 2.04,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 280,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 2.67,
-        "validRelativeFrequency": 43.89,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 228,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 2.17,
-        "validRelativeFrequency": 35.74,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 91,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.87,
-        "validRelativeFrequency": 14.26,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 2.51,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 1.1,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.16,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.16,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.16,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 638,
     "missings": [
       {
-        "absoluteFrequency": 32,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 32,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "24",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viele fachliche Betreuungspersonen haben Sie insgesamt?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.04,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 13,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 43.89,
+        "relativeFrequency": 2.67,
+        "absoluteFrequency": 280,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 35.74,
+        "relativeFrequency": 2.17,
+        "absoluteFrequency": 228,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 14.26,
+        "relativeFrequency": 0.87,
+        "absoluteFrequency": 91,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.51,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.1,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.16,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.16,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.16,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "9"
       }
+    ],
+    "totalValidRelativeFrequency": 6.08,
+    "totalValidAbsoluteFrequency": 638,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2061,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "supervisors: number",
+    "de": "Betreuer(innen): Anzahl"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

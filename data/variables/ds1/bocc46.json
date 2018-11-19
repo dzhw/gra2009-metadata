@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "adequate opportunity to find a job ",
-    "de": "Möglichkeit adäquate Stellenfindung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,-998,2)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie die Möglichkeiten ein, eine Ihrer Qualifikationen entsprechende Tätigkeit zu finden?\r\nJa\r\nNein"
+      },
+      "questionNumber": "3.3",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 877,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie die Möglichkeiten ein, eine Ihrer Qualifikationen entsprechende Tätigkeit zu finden?"
+      },
+      "questionNumber": "12",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 4.91,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "57.8214",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 125,
-        "label": {
-          "en": "Very favourable",
-          "de": "sehr günstig"
-        },
-        "relativeFrequency": 1.19,
-        "validRelativeFrequency": 24.27,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 164,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 1.56,
-        "validRelativeFrequency": 31.84,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 133,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 1.27,
-        "validRelativeFrequency": 25.83,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 0.56,
-        "validRelativeFrequency": 11.46,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 34,
-        "label": {
-          "en": "Very unfavourable",
-          "de": "sehr ungünstig"
-        },
-        "relativeFrequency": 0.32,
-        "validRelativeFrequency": 6.6,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 515,
     "missings": [
       {
-        "absoluteFrequency": 92,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.88,
+        "absoluteFrequency": 92,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 4148,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 39.53,
+        "absoluteFrequency": 4148,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very favourable",
+          "de": "sehr günstig"
+        },
+        "validRelativeFrequency": 24.27,
+        "relativeFrequency": 1.19,
+        "absoluteFrequency": 125,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 31.84,
+        "relativeFrequency": 1.56,
+        "absoluteFrequency": 164,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 25.83,
+        "relativeFrequency": 1.27,
+        "absoluteFrequency": 133,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 11.46,
+        "relativeFrequency": 0.56,
+        "absoluteFrequency": 59,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very unfavourable",
+          "de": "sehr ungünstig"
+        },
+        "validRelativeFrequency": 6.6,
+        "relativeFrequency": 0.32,
+        "absoluteFrequency": 34,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 4.91,
+    "totalValidAbsoluteFrequency": 515,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "3.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie die Möglichkeiten ein, eine Ihrer Qualifikationen entsprechende Tätigkeit zu finden?\nJa\nNein"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schÃ¤tzen Sie die MÃ¶glichkeiten ein, eine Ihrer Qualifikationen entsprechende TÃ¤tigkeit zu finden?"
-      }
+    "expression": "if inlist(bocc44,-998,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 877,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "adequate opportunity to find a job ",
+    "de": "Möglichkeit adäquate Stellenfindung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,102 +1,114 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "motivation for internship: qualification for further degree",
-    "de": "Motiv Praktikum: Nachweis für weiteres Studium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc11,-998,1,3)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 477,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 15.89,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1540,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 14.68,
-        "validRelativeFrequency": 92.33,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Was hat Sie bewogen, nach dem Studienabschluss ein Praktikum aufzunehmen?\r\nIch brauchte einen Praktikumsnachweis für die Aufnahme eines weiteren Studiums"
       },
-      {
-        "absoluteFrequency": 128,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 1.22,
-        "validRelativeFrequency": 7.67,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1668,
+      "questionNumber": "4.14",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 257,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.45,
+        "absoluteFrequency": 257,
         "code": -998
       },
       {
-        "absoluteFrequency": 8569,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 81.66,
+        "absoluteFrequency": 8569,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Was hat Sie bewogen, nach dem Studienabschluss ein Praktikum aufzunehmen?\nIch brauchte einen Praktikumsnachweis für die Aufnahme eines weiteren Studiums"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 92.33,
+        "relativeFrequency": 14.68,
+        "absoluteFrequency": 1540,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 7.67,
+        "relativeFrequency": 1.22,
+        "absoluteFrequency": 128,
+        "value": "1"
       }
+    ],
+    "totalValidRelativeFrequency": 15.89,
+    "totalValidAbsoluteFrequency": 1668,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc11,-998,1,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 477,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for internship: qualification for further degree",
+    "de": "Motiv Praktikum: Nachweis für weiteres Studium"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

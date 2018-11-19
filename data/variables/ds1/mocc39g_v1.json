@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: high salary",
-    "de": "Arbeits-/Lebensziele: sehr guter Verdienst"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39g",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1508,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Sehr gut verdienen"
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.3,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "309.8634",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 245,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 2.33,
-        "validRelativeFrequency": 10.02,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1080,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 10.29,
-        "validRelativeFrequency": 44.17,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 903,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 8.6,
-        "validRelativeFrequency": 36.93,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 181,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.72,
-        "validRelativeFrequency": 7.4,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 36,
-        "label": {
-          "en": "Not at all important",
-          "de": "überhaupt nicht wichtig"
-        },
-        "relativeFrequency": 0.34,
-        "validRelativeFrequency": 1.47,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2445,
     "missings": [
       {
-        "absoluteFrequency": 20,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Sehr gut verdienen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 10.02,
+        "relativeFrequency": 2.33,
+        "absoluteFrequency": 245,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 44.17,
+        "relativeFrequency": 10.29,
+        "absoluteFrequency": 1080,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 36.93,
+        "relativeFrequency": 8.6,
+        "absoluteFrequency": 903,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 7.4,
+        "relativeFrequency": 1.72,
+        "absoluteFrequency": 181,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "validRelativeFrequency": 1.47,
+        "relativeFrequency": 0.34,
+        "absoluteFrequency": 36,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.3,
+    "totalValidAbsoluteFrequency": 2445,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39g",
+  "surveyNumbers": [4],
+  "indexInDataSet": 1508,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: high salary",
+    "de": "Arbeits-/Lebensziele: sehr guter Verdienst"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

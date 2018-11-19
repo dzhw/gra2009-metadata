@@ -1,273 +1,273 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "proportion of day-to-day work: organisation",
-    "de": "Anteil des Arbeitsalltags derzeit: Organisation"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,3,4)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2033,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viel Prozent Ihres Arbeitsalltags entfallen derzeit durchschnittlich auf die folgenden Tätigkeiten?,Organisation oder Vorbereitung (z.B. Gremienarbeit, Workshops, Tagungen und Konferenzen, o.Ä.)"
+      },
+      "questionNumber": "18",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 2.55,
     "statistics": {
-      "firstQuartile": "0",
+      "meanDeviation": 7.413,
+      "mode": "5",
       "highWhisker": 25,
       "lowWhisker": 0,
-      "skewness": 2.2131,
-      "minimum": "0",
       "thirdQuartile": "10",
-      "meanDeviation": "1.4826",
-      "meanValue": 7.7463,
-      "maximum": "60",
-      "mode": "5",
-      "median": "5",
+      "firstQuartile": "0",
       "standardDeviation": 8.2291,
-      "kurtosis": 11.2971
+      "median": "5",
+      "kurtosis": 11.2971,
+      "skewness": 2.2131,
+      "maximum": "60",
+      "minimum": "0",
+      "meanValue": 7.7463
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 69,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.66,
-        "validRelativeFrequency": 25.75,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.37,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 1.49,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 2.24,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.75,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 70,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.67,
-        "validRelativeFrequency": 26.12,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.75,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.75,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 66,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.63,
-        "validRelativeFrequency": 24.63,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.37,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 5.97,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 6.34,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.75,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 2.61,
-        "value": "30"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.37,
-        "value": "35"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.37,
-        "value": "50"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.37,
-        "value": "60"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 268,
     "missings": [
       {
-        "absoluteFrequency": 66,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.63,
+        "absoluteFrequency": 66,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 342,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 3.26,
+        "absoluteFrequency": 342,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viel Prozent Ihres Arbeitsalltags entfallen derzeit durchschnittlich auf die folgenden Tätigkeiten?,Organisation oder Vorbereitung (z.B. Gremienarbeit, Workshops, Tagungen und Konferenzen, o.Ä.)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 25.75,
+        "relativeFrequency": 0.66,
+        "absoluteFrequency": 69,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.49,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.24,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.75,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 26.12,
+        "relativeFrequency": 0.67,
+        "absoluteFrequency": 70,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.75,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.75,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 24.63,
+        "relativeFrequency": 0.63,
+        "absoluteFrequency": 66,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.97,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.34,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.75,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.61,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "35"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "50"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "60"
       }
+    ],
+    "totalValidRelativeFrequency": 2.55,
+    "totalValidAbsoluteFrequency": 268,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,3,4)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2033,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "proportion of day-to-day work: organisation",
+    "de": "Anteil des Arbeitsalltags derzeit: Organisation"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

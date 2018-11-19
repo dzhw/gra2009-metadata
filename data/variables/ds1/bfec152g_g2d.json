@@ -1,521 +1,533 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "2nd further acad. qualification: subject (area of study)",
-    "de": "2. weitere akad. Qualifikation: Studienfach (Studienbereiche)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-bfec152g",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1206,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet. Für die Zuordnung des darin nicht enthaltenen Fächercodes 310 (\"Regenerative Energien\" --> Studienbereich: \"Ingenieurwesen allgemein\") wurde das Schlüsselverzeichnis 2012/2013 (Code 61) herangezogen."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 1.43,
     "statistics": {
-      "mode": "30"
+      "meanDeviation": null,
+      "mode": "30",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Prot. theology/religious doctrine",
-          "de": "Evang. Theologie, -Religionslehre"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Philosophy",
-          "de": "Philosophie"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "History",
-          "de": "Geschichte"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Library science, documentation, publishing",
-          "de": "Bibliothekswissenschaft, Dokumentation"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "General and comparative literature studies and linguistics",
-          "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "German studies (German, Germanic languages without Anglistics)",
-          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Anglistics, Americanistics",
-          "de": "Anglistik, Amerikanistik"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Romanistics",
-          "de": "Romanistik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Non-European linguistics and cultural studies",
-          "de": "Außereuropäische Sprach- und Kulturwissenschaften"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Cultural studies in a wider sense",
-          "de": "Kulturwissenschaften i.e.S."
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "Psychology",
-          "de": "Psychologie"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 4.67,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Educational sciences",
-          "de": "Erziehungswissenschaften"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 8,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Special pedagogy",
-          "de": "Sonderpädagogik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Business and social studies, generally",
-          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 4,
-        "value": "23"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Regional sciences",
-          "de": "Regionalwissenschaften"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Political sciences",
-          "de": "Politikwissenschaften"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Social sciences",
-          "de": "Sozialwissenschaften"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 2.67,
-        "value": "26"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Social services",
-          "de": "Sozialwesen"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 4,
-        "value": "27"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Legal studies",
-          "de": "Rechtswissenschaften"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 2.67,
-        "value": "28"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Administrative science",
-          "de": "Verwaltungswissenschaften"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "29"
-      },
-      {
-        "absoluteFrequency": 30,
-        "label": {
-          "en": "Economic sciences",
-          "de": "Wirtschaftswissenschaften"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 20,
-        "value": "30"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Mathematics, natural sciences, generally",
-          "de": "Mathematik, Naturwissenschaften allgemein"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "36"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Mathematics ",
-          "de": "Mathematik"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 3.33,
-        "value": "37"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Computer science",
-          "de": "Informatik"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 2.67,
-        "value": "38"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Physics, astronomy",
-          "de": "Physik, Astronomie"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "39"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Chemistry",
-          "de": "Chemie"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 2.67,
-        "value": "40"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Pharmaceutics",
-          "de": "Pharmazie"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "41"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Biology",
-          "de": "Biologie"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "42"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Geosciences (without geography)",
-          "de": "Geowissenschaften"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "43"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Geography",
-          "de": "Geographie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "44"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Health sciences, generally",
-          "de": "Gesundheitswissenschaften allgemein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "48"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Landscape management, environmental design",
-          "de": "Landespflege, Umweltgestaltung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "57"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Agricultural sciences, food and beverage technology",
-          "de": "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "58"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Engineering in general",
-          "de": "Ingenieurwesen allgemein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "61"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Mechanical engineering, process engineering",
-          "de": "Maschinenbau/Verfahrenstechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "63"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Electrical engineering",
-          "de": "Elektrotechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "64"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Architecture, interior design",
-          "de": "Architektur, Innenarchitektur"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.67,
-        "value": "66"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Civil engineering",
-          "de": "Bauingenieurwesen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "68"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Art, aesthetics, generally",
-          "de": "Kunst, Kunstwissenschaft allgemein"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "74"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Design",
-          "de": "Gestaltung"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "76"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Performing art, film and television, theatre studies",
-          "de": "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.33,
-        "value": "77"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Music, musicology",
-          "de": "Musik, Musikwissenschaft"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2,
-        "value": "78"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Outside the study area structure",
-          "de": "Außerhalb der Studienbereichsgliederung"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 8,
-        "value": "83"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 150,
     "missings": [
       {
-        "absoluteFrequency": 1943,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 18.52,
+        "absoluteFrequency": 1943,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Prot. theology/religious doctrine",
+          "de": "Evang. Theologie, -Religionslehre"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Philosophy",
+          "de": "Philosophie"
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "History",
+          "de": "Geschichte"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Library science, documentation, publishing",
+          "de": "Bibliothekswissenschaft, Dokumentation"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "General and comparative literature studies and linguistics",
+          "de": "Allgemeine und vergleichende Literatur- und Sprachwissenschaft"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "German studies (German, Germanic languages without Anglistics)",
+          "de": "Germanistik (Deutsch, germanische Sprachen ohne Anglistik)"
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Anglistics, Americanistics",
+          "de": "Anglistik, Amerikanistik"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Romanistics",
+          "de": "Romanistik"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Non-European linguistics and cultural studies",
+          "de": "Außereuropäische Sprach- und Kulturwissenschaften"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Cultural studies in a wider sense",
+          "de": "Kulturwissenschaften i.e.S."
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Psychology",
+          "de": "Psychologie"
+        },
+        "validRelativeFrequency": 4.67,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "Educational sciences",
+          "de": "Erziehungswissenschaften"
+        },
+        "validRelativeFrequency": 8,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Special pedagogy",
+          "de": "Sonderpädagogik"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "Business and social studies, generally",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften allgemein"
+        },
+        "validRelativeFrequency": 4,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "Regional sciences",
+          "de": "Regionalwissenschaften"
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "Political sciences",
+          "de": "Politikwissenschaften"
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": "Social sciences",
+          "de": "Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 2.67,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": "Social services",
+          "de": "Sozialwesen"
+        },
+        "validRelativeFrequency": 4,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": "Legal studies",
+          "de": "Rechtswissenschaften"
+        },
+        "validRelativeFrequency": 2.67,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": "Administrative science",
+          "de": "Verwaltungswissenschaften"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "29"
+      },
+      {
+        "label": {
+          "en": "Economic sciences",
+          "de": "Wirtschaftswissenschaften"
+        },
+        "validRelativeFrequency": 20,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 30,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": "Mathematics, natural sciences, generally",
+          "de": "Mathematik, Naturwissenschaften allgemein"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "36"
+      },
+      {
+        "label": {
+          "en": "Mathematics ",
+          "de": "Mathematik"
+        },
+        "validRelativeFrequency": 3.33,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "37"
+      },
+      {
+        "label": {
+          "en": "Computer science",
+          "de": "Informatik"
+        },
+        "validRelativeFrequency": 2.67,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "38"
+      },
+      {
+        "label": {
+          "en": "Physics, astronomy",
+          "de": "Physik, Astronomie"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "39"
+      },
+      {
+        "label": {
+          "en": "Chemistry",
+          "de": "Chemie"
+        },
+        "validRelativeFrequency": 2.67,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "40"
+      },
+      {
+        "label": {
+          "en": "Pharmaceutics",
+          "de": "Pharmazie"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "41"
+      },
+      {
+        "label": {
+          "en": "Biology",
+          "de": "Biologie"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "42"
+      },
+      {
+        "label": {
+          "en": "Geosciences (without geography)",
+          "de": "Geowissenschaften"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "43"
+      },
+      {
+        "label": {
+          "en": "Geography",
+          "de": "Geographie"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "44"
+      },
+      {
+        "label": {
+          "en": "Health sciences, generally",
+          "de": "Gesundheitswissenschaften allgemein"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "48"
+      },
+      {
+        "label": {
+          "en": "Landscape management, environmental design",
+          "de": "Landespflege, Umweltgestaltung"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "57"
+      },
+      {
+        "label": {
+          "en": "Agricultural sciences, food and beverage technology",
+          "de": "Agrarwissenschaften, Lebensmittel- und Getränketechnologie"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "58"
+      },
+      {
+        "label": {
+          "en": "Engineering in general",
+          "de": "Ingenieurwesen allgemein"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "61"
+      },
+      {
+        "label": {
+          "en": "Mechanical engineering, process engineering",
+          "de": "Maschinenbau/Verfahrenstechnik"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "63"
+      },
+      {
+        "label": {
+          "en": "Electrical engineering",
+          "de": "Elektrotechnik"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "64"
+      },
+      {
+        "label": {
+          "en": "Architecture, interior design",
+          "de": "Architektur, Innenarchitektur"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "66"
+      },
+      {
+        "label": {
+          "en": "Civil engineering",
+          "de": "Bauingenieurwesen"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "68"
+      },
+      {
+        "label": {
+          "en": "Art, aesthetics, generally",
+          "de": "Kunst, Kunstwissenschaft allgemein"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "74"
+      },
+      {
+        "label": {
+          "en": "Design",
+          "de": "Gestaltung"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "76"
+      },
+      {
+        "label": {
+          "en": "Performing art, film and television, theatre studies",
+          "de": "Darstellende Kunst, Film und Fernsehen, Theaterwissenschaft"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "77"
+      },
+      {
+        "label": {
+          "en": "Music, musicology",
+          "de": "Musik, Musikwissenschaft"
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "78"
+      },
+      {
+        "label": {
+          "en": "Outside the study area structure",
+          "de": "Außerhalb der Studienbereichsgliederung"
+        },
+        "validRelativeFrequency": 8,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "83"
       }
+    ],
+    "totalValidRelativeFrequency": 1.43,
+    "totalValidAbsoluteFrequency": 150,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den codierten Fächerangaben generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet. Für die Zuordnung des darin nicht enthaltenen Fächercodes 310 (\"Regenerative Energien\" --> Studienbereich: \"Ingenieurwesen allgemein\") wurde das Schlüsselverzeichnis 2012/2013 (Code 61) herangezogen."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-bfec152g",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1206,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd further acad. qualification: subject (area of study)",
+    "de": "2. weitere akad. Qualifikation: Studienfach (Studienbereiche)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

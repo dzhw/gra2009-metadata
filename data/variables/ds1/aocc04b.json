@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "future career prospects: opportunities for development",
-    "de": "berufliche Zukunft: Entwicklungsmöglichkeiten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ04b",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 437,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie Ihre beruflichen Zukunftsperspektiven ein?\r\nBezogen auf Ihre beruflichen Entwicklungsmöglichkeiten"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.27,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "2585.654",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2352,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 22.41,
-        "validRelativeFrequency": 22.81,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4957,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 47.24,
-        "validRelativeFrequency": 48.07,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2313,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 22.04,
-        "validRelativeFrequency": 22.43,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 569,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 5.42,
-        "validRelativeFrequency": 5.52,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 121,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 1.15,
-        "validRelativeFrequency": 1.17,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10312,
     "missings": [
       {
-        "absoluteFrequency": 182,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.73,
+        "absoluteFrequency": 182,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie Ihre beruflichen Zukunftsperspektiven ein?\nBezogen auf Ihre beruflichen Entwicklungsmöglichkeiten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 22.81,
+        "relativeFrequency": 22.41,
+        "absoluteFrequency": 2352,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 48.07,
+        "relativeFrequency": 47.24,
+        "absoluteFrequency": 4957,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 22.43,
+        "relativeFrequency": 22.04,
+        "absoluteFrequency": 2313,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 5.52,
+        "relativeFrequency": 5.42,
+        "absoluteFrequency": 569,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 1.17,
+        "relativeFrequency": 1.15,
+        "absoluteFrequency": 121,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.27,
+    "totalValidAbsoluteFrequency": 10312,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ04b",
+  "surveyNumbers": [1],
+  "indexInDataSet": 437,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future career prospects: opportunities for development",
+    "de": "berufliche Zukunft: Entwicklungsmöglichkeiten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

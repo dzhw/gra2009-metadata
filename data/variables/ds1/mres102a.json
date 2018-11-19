@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "9th apartment: moved in (month)",
-    "de": "9. Wohnung: Einzug (Monat)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1 & mres091==1 & mres101==1",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1855,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie uns nun die nächste Wohnung, in die Sinach Ihrem Studienabschluss 2008/2009 eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,von:"
+      },
+      "questionNumber": "32.1",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.06,
     "statistics": {
-      "firstQuartile": "4.5",
+      "meanDeviation": 3.7065,
+      "mode": "6",
       "highWhisker": 10,
       "lowWhisker": 3,
-      "minimum": "3",
       "thirdQuartile": "8.25",
-      "meanDeviation": "0",
+      "firstQuartile": "4.5",
+      "standardDeviation": null,
+      "median": "6",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "10",
-      "mode": "6",
-      "median": "6"
+      "minimum": "3",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "March",
-          "de": "März"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 16.67,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "April ",
-          "de": "April"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 16.67,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "June",
-          "de": "Juni"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 33.33,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "September",
-          "de": "September"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 16.67,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "October",
-          "de": "Oktober"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 16.67,
-        "value": "10"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 6,
     "missings": [
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 2459,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 23.43,
+        "absoluteFrequency": 2459,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "32.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie uns nun die nächste Wohnung, in die Sinach Ihrem Studienabschluss 2008/2009 eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,von:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "April ",
+          "de": "April"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "validRelativeFrequency": 33.33,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "October",
+          "de": "Oktober"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "10"
       }
+    ],
+    "totalValidRelativeFrequency": 0.06,
+    "totalValidAbsoluteFrequency": 6,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1 & mres091==1 & mres101==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1855,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "9th apartment: moved in (month)",
+    "de": "9. Wohnung: Einzug (Monat)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

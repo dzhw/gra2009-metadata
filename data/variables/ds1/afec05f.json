@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "motivation for further acad. qualification: do something different",
-    "de": "Motiv weitere akad. Qualifikation: etwas anderes machen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-fec05f",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 401,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\r\nEtwas ganz anderes machen als bisher"
+      },
+      "questionNumber": "2.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 54.05,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "486.2928",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 210,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 2,
-        "validRelativeFrequency": 3.7,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 325,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 3.1,
-        "validRelativeFrequency": 5.73,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 538,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 5.13,
-        "validRelativeFrequency": 9.49,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1015,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 9.67,
-        "validRelativeFrequency": 17.89,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3584,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 34.15,
-        "validRelativeFrequency": 63.19,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5672,
     "missings": [
       {
-        "absoluteFrequency": 295,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.81,
+        "absoluteFrequency": 295,
         "code": -998
       },
       {
-        "absoluteFrequency": 4527,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 43.14,
+        "absoluteFrequency": 4527,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\nEtwas ganz anderes machen als bisher"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 3.7,
+        "relativeFrequency": 2,
+        "absoluteFrequency": 210,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 5.73,
+        "relativeFrequency": 3.1,
+        "absoluteFrequency": 325,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 9.49,
+        "relativeFrequency": 5.13,
+        "absoluteFrequency": 538,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 17.89,
+        "relativeFrequency": 9.67,
+        "absoluteFrequency": 1015,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 63.19,
+        "relativeFrequency": 34.15,
+        "absoluteFrequency": 3584,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 54.05,
+    "totalValidAbsoluteFrequency": 5672,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec05f",
+  "surveyNumbers": [1],
+  "indexInDataSet": 401,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for further acad. qualification: do something different",
+    "de": "Motiv weitere akad. Qualifikation: etwas anderes machen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

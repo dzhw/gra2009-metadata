@@ -1,111 +1,123 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "last job training activities: acceptance of further degrees",
-    "de": "letzte Stelle Maßnahme: Freistellungsmöglichkeit Erwerb weiterer Abschlüsse"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 668,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 39.72,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3520,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 33.54,
-        "validRelativeFrequency": 84.45,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche der folgenden Maßnahmen wurden Ihnen im Rahmen Ihrer Beschäftigung angeboten?\r\nheutige Stelle\r\nFreistellungsmöglichkeit zum Erwerb weiterer Abschlüsse"
       },
-      {
-        "absoluteFrequency": 648,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 6.17,
-        "validRelativeFrequency": 15.55,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4168,
+      "questionNumber": "5.8",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 1429,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 13.62,
+        "absoluteFrequency": 1429,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       },
       {
-        "absoluteFrequency": 2809,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 26.77,
+        "absoluteFrequency": 2809,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.8",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche der folgenden Maßnahmen wurden Ihnen im Rahmen Ihrer Beschäftigung angeboten?\nheutige Stelle\nFreistellungsmöglichkeit zum Erwerb weiterer Abschlüsse"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 84.45,
+        "relativeFrequency": 33.54,
+        "absoluteFrequency": 3520,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 15.55,
+        "relativeFrequency": 6.17,
+        "absoluteFrequency": 648,
+        "value": "1"
       }
+    ],
+    "totalValidRelativeFrequency": 39.72,
+    "totalValidAbsoluteFrequency": 4168,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 668,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "last job training activities: acceptance of further degrees",
+    "de": "letzte Stelle Maßnahme: Freistellungsmöglichkeit Erwerb weiterer Abschlüsse"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

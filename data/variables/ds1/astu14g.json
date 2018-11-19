@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course: task cooperation ",
-    "de": "Lehrveranstaltungen: gemeinschaftliche Bearbeitung "
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 236,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\r\nDie Arbeitsaufgaben mussten gemeinschaftlich mit anderen Studierenden bearbeitet werden"
+      },
+      "questionNumber": "1.16",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.17,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1728.712",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 804,
-        "label": {
-          "en": "(Almost) all",
-          "de": "(fast) alle"
-        },
-        "relativeFrequency": 7.66,
-        "validRelativeFrequency": 7.73,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2999,
-        "label": {
-          "en": "Most",
-          "de": "die meisten"
-        },
-        "relativeFrequency": 28.58,
-        "validRelativeFrequency": 28.82,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 4378,
-        "label": {
-          "en": "Some",
-          "de": "manche"
-        },
-        "relativeFrequency": 41.72,
-        "validRelativeFrequency": 42.07,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1833,
-        "label": {
-          "en": "Few",
-          "de": "wenige"
-        },
-        "relativeFrequency": 17.47,
-        "validRelativeFrequency": 17.61,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 393,
-        "label": {
-          "en": "None",
-          "de": "keine"
-        },
-        "relativeFrequency": 3.74,
-        "validRelativeFrequency": 3.78,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10407,
     "missings": [
       {
-        "absoluteFrequency": 87,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.83,
+        "absoluteFrequency": 87,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\nDie Arbeitsaufgaben mussten gemeinschaftlich mit anderen Studierenden bearbeitet werden"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "(Almost) all",
+          "de": "(fast) alle"
+        },
+        "validRelativeFrequency": 7.73,
+        "relativeFrequency": 7.66,
+        "absoluteFrequency": 804,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Most",
+          "de": "die meisten"
+        },
+        "validRelativeFrequency": 28.82,
+        "relativeFrequency": 28.58,
+        "absoluteFrequency": 2999,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Some",
+          "de": "manche"
+        },
+        "validRelativeFrequency": 42.07,
+        "relativeFrequency": 41.72,
+        "absoluteFrequency": 4378,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Few",
+          "de": "wenige"
+        },
+        "validRelativeFrequency": 17.61,
+        "relativeFrequency": 17.47,
+        "absoluteFrequency": 1833,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "None",
+          "de": "keine"
+        },
+        "validRelativeFrequency": 3.78,
+        "relativeFrequency": 3.74,
+        "absoluteFrequency": 393,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99.17,
+    "totalValidAbsoluteFrequency": 10407,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 236,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course: task cooperation ",
+    "de": "Lehrveranstaltungen: gemeinschaftliche Bearbeitung "
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

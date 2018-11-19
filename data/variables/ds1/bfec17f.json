@@ -1,119 +1,131 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "financing (further education at university): educational grants",
-    "de": "Finanzierung (WB an HS): BAföG"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1300,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 16.81,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1377,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 13.12,
-        "validRelativeFrequency": 78.06,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie finanzier(t)en Sie Ihren Lebensunterhalt und ggf. die Studiengebühren während der Teilnahme an den genannten wissenschaftlichen Weiterbildungen?\r\nMit Hilfe von BAföG"
       },
-      {
-        "absoluteFrequency": 387,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 3.69,
-        "validRelativeFrequency": 21.94,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1764,
+      "questionNumber": "5.4",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie finanzier(t)en Sie Ihren Lebensunterhalt und ggf. die Studiengebühren während der Teilnahme an den genannten wissenschaftlichen Weiterbildungen?"
+      },
+      "questionNumber": "50",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 329,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.14,
+        "absoluteFrequency": 329,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 78.06,
+        "relativeFrequency": 13.12,
+        "absoluteFrequency": 1377,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 21.94,
+        "relativeFrequency": 3.69,
+        "absoluteFrequency": 387,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 16.81,
+    "totalValidAbsoluteFrequency": 1764,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie finanzier(t)en Sie Ihren Lebensunterhalt und ggf. die Studiengebühren während der Teilnahme an den genannten wissenschaftlichen Weiterbildungen?\nMit Hilfe von BAföG"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "50",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie finanzier(t)en Sie Ihren Lebensunterhalt und ggf. die StudiengebÃ¼hren wÃ¤hrend der Teilnahme an den genannten wissenschaftlichen Weiterbildungen?"
-      }
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1300,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "financing (further education at university): educational grants",
+    "de": "Finanzierung (WB an HS): BAföG"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

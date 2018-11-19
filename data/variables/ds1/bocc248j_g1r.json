@@ -1,179 +1,191 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "8th job: location of work (federal state/country)",
-    "de": "8. Tätigkeit: Arbeitsort (Bundesland/Land)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-bocc248j",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      },
+      "questionNumber": "4.5",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1054,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zum Bundesland bzw. Land (bei Ausland) der Tätigkeit in codierter Form. Zur Codierung der Bundesländer wurde der Destatis-Schlüssel der Bundesländer (vgl. cl-destatis-bundesland-1990) gemäß des Amtlichen Gemeindeschlüssels (AGS) (mit Ergänzungen, wenn nicht zuordenbar) verwendet. Als Codierliste für die Staaten (bei Ausland) wurde der Destatis-Staatsangehörigkeits- und Gebietsschlüssel von 2015 herangezogen (vgl. cl-destatis-ausland-2015) (mit Ergänzungen, wenn nicht zuordenbar)."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen. / Haben Sie weitere berufliche Tätigkeiten ausgeübt?"
+      },
+      "questionNumber": "19g",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.19,
     "statistics": {
-      "mode": "14"
+      "meanDeviation": null,
+      "mode": "14",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Schleswig-Holstein",
-          "de": "Schleswig-Holstein"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 5,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "North Rine-Westphalia",
-          "de": "Nordrhein-Westfalen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 15,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Hesse",
-          "de": "Hessen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 5,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Rhineland-Palatinate",
-          "de": "Rheinland-Pfalz"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 5,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Bavaria",
-          "de": "Bayern"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 20,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Berlin",
-          "de": "Berlin"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 10,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Saxony",
-          "de": "Sachsen"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 30,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Thuringia",
-          "de": "Thüringen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 10,
-        "value": "16"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 20,
     "missings": [
       {
-        "absoluteFrequency": 4704,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 44.83,
+        "absoluteFrequency": 4704,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "validRelativeFrequency": 5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "validRelativeFrequency": 15,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "validRelativeFrequency": 5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "validRelativeFrequency": 5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "validRelativeFrequency": 20,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "validRelativeFrequency": 10,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "validRelativeFrequency": 30,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "validRelativeFrequency": 10,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "16"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.19,
+    "totalValidAbsoluteFrequency": 20,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "19g",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nÃ¤here Beschreibung der verschiedenen beruflichen TÃ¤tigkeiten, die Sie im Jahr 2010 und danach ausgeÃ¼bt haben. Bitte geben Sie auch TÃ¤tigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen. / Haben Sie weitere berufliche TÃ¤tigkeiten ausgeÃ¼bt?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zum Bundesland bzw. \r\nLand (bei Ausland) der Tätigkeit in codierter Form. Zur Codierung der Bundesländer wurde der Destatis-Schlüssel der Bundesländer (vgl. cl-destatis-bundesland-1990) gemäß des Amtlichen Gemeindeschlüssels (AGS) (mit Ergänzungen, wenn nicht zuordenbar) verwendet. Als Codierliste für die Staaten (bei Ausland) wurde der Destatis-Staatsangehörigkeits- und Gebietsschlüssel von 2015 herangezogen (vgl. cl-destatis-ausland-2015) (mit Ergänzungen, wenn nicht zuordenbar)."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-bocc248j",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1054,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  },
+  "label": {
+    "en": "8th job: location of work (federal state/country)",
+    "de": "8. Tätigkeit: Arbeitsort (Bundesland/Land)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

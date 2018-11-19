@@ -1,111 +1,123 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "PhD agreement",
-    "de": "Promotionsvereinbarung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2063,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 6.17,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 192,
-        "label": {
-          "en": "yes",
-          "de": "ja"
-        },
-        "relativeFrequency": 1.83,
-        "validRelativeFrequency": 29.63,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie mit Ihren Betreuer(inne)n schriftliche Vereinbarungen zu den Zielen und Aufgaben beider Seiten im Rahmen Ihrer Promotion getroffen (Betreuungs- oder Promotionsvereinbarung)?"
       },
-      {
-        "absoluteFrequency": 456,
-        "label": {
-          "en": "no",
-          "de": "nein"
-        },
-        "relativeFrequency": 4.35,
-        "validRelativeFrequency": 70.37,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 648,
+      "questionNumber": "26a",
+      "instrumentNumber": 4
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 22,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.21,
+        "absoluteFrequency": 22,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "26a",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie mit Ihren Betreuer(inne)n schriftliche Vereinbarungen zu den Zielen und Aufgaben beider Seiten im Rahmen Ihrer Promotion getroffen (Betreuungs- oder Promotionsvereinbarung)?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 29.63,
+        "relativeFrequency": 1.83,
+        "absoluteFrequency": 192,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 70.37,
+        "relativeFrequency": 4.35,
+        "absoluteFrequency": 456,
+        "value": "2"
       }
+    ],
+    "totalValidRelativeFrequency": 6.17,
+    "totalValidAbsoluteFrequency": 648,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2063,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD agreement",
+    "de": "Promotionsvereinbarung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

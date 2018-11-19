@@ -1,128 +1,140 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "additional benefits: fixed benefits",
-    "de": "zusätzl. Gehaltsbestandteile: feste Bestandteile"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ332a",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1111,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 28.44,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 532,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 5.07,
-        "validRelativeFrequency": 17.83,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen/bekamen Sie?\r\nFeste Gehaltsbestandteile (z. B. Weihnachtsgeld, Urlaubsgeld, 13. Monatsgehalt, Schichtzulage)"
       },
-      {
-        "absoluteFrequency": 2452,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 23.37,
-        "validRelativeFrequency": 82.17,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2984,
+      "questionNumber": "4.20",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen/bekamen Sie?"
+      },
+      "questionNumber": "35",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 307,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.93,
+        "absoluteFrequency": 307,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       },
       {
-        "absoluteFrequency": 1433,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 13.66,
+        "absoluteFrequency": 1433,
         "code": -988
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 17.83,
+        "relativeFrequency": 5.07,
+        "absoluteFrequency": 532,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 82.17,
+        "relativeFrequency": 23.37,
+        "absoluteFrequency": 2452,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 28.44,
+    "totalValidAbsoluteFrequency": 2984,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.20",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche zusätzlichen (Brutto-)Gehaltsbestandteile bekommen/bekamen Sie?\nFeste Gehaltsbestandteile (z. B. Weihnachtsgeld, Urlaubsgeld, 13. Monatsgehalt, Schichtzulage)"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "35",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche zusÃ¤tzlichen (Brutto-)Gehaltsbestandteile bekommen/bekamen Sie?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ332a",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1111,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "additional benefits: fixed benefits",
+    "de": "zusätzl. Gehaltsbestandteile: feste Bestandteile"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

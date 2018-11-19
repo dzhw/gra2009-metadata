@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "exchange with main supervisor: frequency",
-    "de": "Austausch Hauptbetreuer(in): Häufigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2074,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie oft tausch(t)en Sie sich mit Ihrer Hauptbetreuerin bzw. Ihrem Hauptbetreuer über Ihre Promotion aus?"
+      },
+      "questionNumber": "27",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.17,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "69.6822",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 71,
-        "label": {
-          "en": "Several times a week",
-          "de": "mehrmals pro Woche"
-        },
-        "relativeFrequency": 0.68,
-        "validRelativeFrequency": 10.97,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 118,
-        "label": {
-          "en": "Once a week",
-          "de": "etwa einmal pro Woche"
-        },
-        "relativeFrequency": 1.12,
-        "validRelativeFrequency": 18.24,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 245,
-        "label": {
-          "en": "Several times in a semester",
-          "de": "mehrmals im Semester"
-        },
-        "relativeFrequency": 2.33,
-        "validRelativeFrequency": 37.87,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 143,
-        "label": {
-          "en": "Once a semester",
-          "de": "etwa einmal im Semester"
-        },
-        "relativeFrequency": 1.36,
-        "validRelativeFrequency": 22.1,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 70,
-        "label": {
-          "en": "less than once a semester",
-          "de": "seltener als einmal pro Semester"
-        },
-        "relativeFrequency": 0.67,
-        "validRelativeFrequency": 10.82,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 647,
     "missings": [
       {
-        "absoluteFrequency": 23,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "27",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie oft tausch(t)en Sie sich mit Ihrer Hauptbetreuerin bzw. Ihrem Hauptbetreuer über Ihre Promotion aus?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Several times a week",
+          "de": "mehrmals pro Woche"
+        },
+        "validRelativeFrequency": 10.97,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 71,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Once a week",
+          "de": "etwa einmal pro Woche"
+        },
+        "validRelativeFrequency": 18.24,
+        "relativeFrequency": 1.12,
+        "absoluteFrequency": 118,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Several times in a semester",
+          "de": "mehrmals im Semester"
+        },
+        "validRelativeFrequency": 37.87,
+        "relativeFrequency": 2.33,
+        "absoluteFrequency": 245,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Once a semester",
+          "de": "etwa einmal im Semester"
+        },
+        "validRelativeFrequency": 22.1,
+        "relativeFrequency": 1.36,
+        "absoluteFrequency": 143,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "less than once a semester",
+          "de": "seltener als einmal pro Semester"
+        },
+        "validRelativeFrequency": 10.82,
+        "relativeFrequency": 0.67,
+        "absoluteFrequency": 70,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 6.17,
+    "totalValidAbsoluteFrequency": 647,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2074,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "exchange with main supervisor: frequency",
+    "de": "Austausch Hauptbetreuer(in): Häufigkeit"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

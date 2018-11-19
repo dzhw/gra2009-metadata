@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "PhD: final grade",
-    "de": "Promotion: Gesamtnote"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2018,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Mit welcher Gesamtnote haben Sie Ihre Promotion abgeschlossen?"
+      },
+      "questionNumber": "12",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 2.53,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 50,
-        "label": {
-          "en": "Summa cum laude/with distinction",
-          "de": "summa cum laude/mit Auszeichnung/ausgezeichnet"
-        },
-        "relativeFrequency": 0.48,
-        "validRelativeFrequency": 18.8,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 159,
-        "label": {
-          "en": "magna cum laude/very good",
-          "de": "magna cum laude/sehr gut"
-        },
-        "relativeFrequency": 1.52,
-        "validRelativeFrequency": 59.77,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": "cum laude/good",
-          "de": "cum laude/gut"
-        },
-        "relativeFrequency": 0.28,
-        "validRelativeFrequency": 10.9,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "right/Sufficient",
-          "de": "rite/ausreichend"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.38,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": "Other with explanation",
-          "de": "Sonstiges, und zwar"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 6.77,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "The grade is not yet available.",
-          "de": "Die Note liegt noch nicht vor."
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 3.38,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 266,
     "missings": [
       {
-        "absoluteFrequency": 11,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.1,
+        "absoluteFrequency": 11,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 399,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 3.8,
+        "absoluteFrequency": 399,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Mit welcher Gesamtnote haben Sie Ihre Promotion abgeschlossen?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Summa cum laude/with distinction",
+          "de": "summa cum laude/mit Auszeichnung/ausgezeichnet"
+        },
+        "validRelativeFrequency": 18.8,
+        "relativeFrequency": 0.48,
+        "absoluteFrequency": 50,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "magna cum laude/very good",
+          "de": "magna cum laude/sehr gut"
+        },
+        "validRelativeFrequency": 59.77,
+        "relativeFrequency": 1.52,
+        "absoluteFrequency": 159,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "cum laude/good",
+          "de": "cum laude/gut"
+        },
+        "validRelativeFrequency": 10.9,
+        "relativeFrequency": 0.28,
+        "absoluteFrequency": 29,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "right/Sufficient",
+          "de": "rite/ausreichend"
+        },
+        "validRelativeFrequency": 0.38,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Other with explanation",
+          "de": "Sonstiges, und zwar"
+        },
+        "validRelativeFrequency": 6.77,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "The grade is not yet available.",
+          "de": "Die Note liegt noch nicht vor."
+        },
+        "validRelativeFrequency": 3.38,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "7"
       }
+    ],
+    "totalValidRelativeFrequency": 2.53,
+    "totalValidAbsoluteFrequency": 266,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2018,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD: final grade",
+    "de": "Promotion: Gesamtnote"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

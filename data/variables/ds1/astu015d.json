@@ -1,134 +1,134 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": "5th course of study: end (year)",
-    "de": "5. Studium: Ende (Jahr)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 93,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nVon SS/WS 20.. Bis einschließlich SS/WS 20.. (z.B. WS 04/05 - SS 2009)\r\n bis"
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.59,
     "statistics": {
-      "firstQuartile": "2008",
+      "meanDeviation": 0,
+      "mode": "2009",
       "highWhisker": 2010,
       "lowWhisker": 2007,
-      "skewness": 0.0491,
-      "minimum": "2007",
       "thirdQuartile": "2009",
-      "meanDeviation": "16.3086",
-      "meanValue": 2008.6774,
-      "maximum": "2010",
-      "mode": "2009",
-      "median": "2009",
+      "firstQuartile": "2008",
       "standardDeviation": 0.6472,
-      "kurtosis": 2.6992
+      "median": "2009",
+      "kurtosis": 2.6992,
+      "skewness": 0.0491,
+      "maximum": "2010",
+      "minimum": "2007",
+      "meanValue": 2008.6774
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.61,
-        "value": "2007"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 37.1,
-        "value": "2008"
-      },
-      {
-        "absoluteFrequency": 33,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.31,
-        "validRelativeFrequency": 53.23,
-        "value": "2009"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 8.06,
-        "value": "2010"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 62,
     "missings": [
       {
-        "absoluteFrequency": 10393,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.04,
+        "absoluteFrequency": 10393,
         "code": -998
       },
       {
-        "absoluteFrequency": 39,
         "label": {
           "en": "ongoing",
           "de": "läuft noch"
         },
         "relativeFrequency": 0.37,
+        "absoluteFrequency": 39,
         "code": -948
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\nVon SS/WS 20.. Bis einschließlich SS/WS 20.. (z.B. WS 04/05 - SS 2009)\nbis"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "2007"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 37.1,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "2008"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 53.23,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 33,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8.06,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "2010"
       }
+    ],
+    "totalValidRelativeFrequency": 0.59,
+    "totalValidAbsoluteFrequency": 62,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 93,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "5th course of study: end (year)",
+    "de": "5. Studium: Ende (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

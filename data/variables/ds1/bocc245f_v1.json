@@ -1,159 +1,171 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "5th job: type of employment",
-    "de": "5. Tätigkeit: Art des Arbeitsverhältnisses"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen.\r\n5. Tätigkeit\r\nArt des Arbeitsverhältnisses\r\nSchlüssel siehe unten"
+      },
+      "questionNumber": "4.5",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ245f",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1005,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen. / Haben Sie weitere berufliche Tätigkeiten ausgeübt?"
+      },
+      "questionNumber": "19d",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 3.52,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 139,
-        "label": {
-          "en": "unlimited",
-          "de": "unbefristet"
-        },
-        "relativeFrequency": 1.32,
-        "validRelativeFrequency": 37.67,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": "limited",
-          "de": "befristet"
-        },
-        "relativeFrequency": 1.4,
-        "validRelativeFrequency": 39.84,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": "Apprenticeship",
-          "de": "Ausbildungsverhältnis"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 3.79,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": "Fee/works contract",
-          "de": "Honorar-/Werkvertrag"
-        },
-        "relativeFrequency": 0.35,
-        "validRelativeFrequency": 10.03,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 27,
-        "label": {
-          "en": "Self-employed/freelance",
-          "de": "selbstständig/freiberuflich"
-        },
-        "relativeFrequency": 0.26,
-        "validRelativeFrequency": 7.32,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 1.36,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 369,
     "missings": [
       {
-        "absoluteFrequency": 4355,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 41.5,
+        "absoluteFrequency": 4355,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "unlimited",
+          "de": "unbefristet"
+        },
+        "validRelativeFrequency": 37.67,
+        "relativeFrequency": 1.32,
+        "absoluteFrequency": 139,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "limited",
+          "de": "befristet"
+        },
+        "validRelativeFrequency": 39.84,
+        "relativeFrequency": 1.4,
+        "absoluteFrequency": 147,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Apprenticeship",
+          "de": "Ausbildungsverhältnis"
+        },
+        "validRelativeFrequency": 3.79,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Fee/works contract",
+          "de": "Honorar-/Werkvertrag"
+        },
+        "validRelativeFrequency": 10.03,
+        "relativeFrequency": 0.35,
+        "absoluteFrequency": 37,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Self-employed/freelance",
+          "de": "selbstständig/freiberuflich"
+        },
+        "validRelativeFrequency": 7.32,
+        "relativeFrequency": 0.26,
+        "absoluteFrequency": 27,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 1.36,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.52,
+    "totalValidAbsoluteFrequency": 369,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen.\n5. Tätigkeit\nArt des Arbeitsverhältnisses\nSchlüssel siehe unten"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "19d",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nÃ¤here Beschreibung der verschiedenen beruflichen TÃ¤tigkeiten, die Sie im Jahr 2010 und danach ausgeÃ¼bt haben. Bitte geben Sie auch TÃ¤tigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen. / Haben Sie weitere berufliche TÃ¤tigkeiten ausgeÃ¼bt?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ245f",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1005,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  },
+  "label": {
+    "en": "5th job: type of employment",
+    "de": "5. Tätigkeit: Art des Arbeitsverhältnisses"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

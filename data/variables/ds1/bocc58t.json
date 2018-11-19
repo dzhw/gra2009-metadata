@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "type of work: own organization at work",
-    "de": "Arbeitsform: eigene Organisation der Arbeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nIch kann meine Arbeit organisieren"
+      },
+      "questionNumber": "4.23",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1143,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?"
+      },
+      "questionNumber": "39",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.9,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "836.1864",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1949,
-        "label": {
-          "en": "Very strong",
-          "de": "trifft sehr stark zu"
-        },
-        "relativeFrequency": 18.57,
-        "validRelativeFrequency": 42.31,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1852,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 17.65,
-        "validRelativeFrequency": 40.2,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 609,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 5.8,
-        "validRelativeFrequency": 13.22,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 152,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.45,
-        "validRelativeFrequency": 3.3,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": "Not at all",
-          "de": "trifft gar nicht zu"
-        },
-        "relativeFrequency": 0.43,
-        "validRelativeFrequency": 0.98,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4607,
     "missings": [
       {
-        "absoluteFrequency": 117,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.11,
+        "absoluteFrequency": 117,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "trifft sehr stark zu"
+        },
+        "validRelativeFrequency": 42.31,
+        "relativeFrequency": 18.57,
+        "absoluteFrequency": 1949,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 40.2,
+        "relativeFrequency": 17.65,
+        "absoluteFrequency": 1852,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 13.22,
+        "relativeFrequency": 5.8,
+        "absoluteFrequency": 609,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 3.3,
+        "relativeFrequency": 1.45,
+        "absoluteFrequency": 152,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "trifft gar nicht zu"
+        },
+        "validRelativeFrequency": 0.98,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 45,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.9,
+    "totalValidAbsoluteFrequency": 4607,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.23",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nIch kann meine Arbeit organisieren"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "39",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wÃ¼rden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1143,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of work: own organization at work",
+    "de": "Arbeitsform: eigene Organisation der Arbeit"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

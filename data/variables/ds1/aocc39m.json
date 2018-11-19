@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: secure workplace",
-    "de": "Arbeits-/Lebensziele: sicherer Arbeitsplatz"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39m",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 745,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\r\nEinen sicheren Arbeitsplatz haben"
+      },
+      "questionNumber": "5.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.85,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "1740.572",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4983,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 47.48,
-        "validRelativeFrequency": 49.03,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3638,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 34.67,
-        "validRelativeFrequency": 35.8,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1220,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 11.63,
-        "validRelativeFrequency": 12,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 276,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.63,
-        "validRelativeFrequency": 2.72,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 46,
-        "label": {
-          "en": "Not at all important",
-          "de": "gar nicht wichtig"
-        },
-        "relativeFrequency": 0.44,
-        "validRelativeFrequency": 0.45,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10163,
     "missings": [
       {
-        "absoluteFrequency": 331,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.15,
+        "absoluteFrequency": 331,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\nEinen sicheren Arbeitsplatz haben"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 49.03,
+        "relativeFrequency": 47.48,
+        "absoluteFrequency": 4983,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 35.8,
+        "relativeFrequency": 34.67,
+        "absoluteFrequency": 3638,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 12,
+        "relativeFrequency": 11.63,
+        "absoluteFrequency": 1220,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 2.72,
+        "relativeFrequency": 2.63,
+        "absoluteFrequency": 276,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "gar nicht wichtig"
+        },
+        "validRelativeFrequency": 0.45,
+        "relativeFrequency": 0.44,
+        "absoluteFrequency": 46,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.85,
+    "totalValidAbsoluteFrequency": 10163,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39m",
+  "surveyNumbers": [1],
+  "indexInDataSet": 745,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: secure workplace",
+    "de": "Arbeits-/Lebensziele: sicherer Arbeitsplatz"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

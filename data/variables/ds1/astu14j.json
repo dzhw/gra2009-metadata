@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course: international orientation",
-    "de": "Lehrveranstaltungen: internationale Ausrichtung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 239,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\r\nDie Lehre war international ausgerichtet (z. B. europ. Recht, internat. Betriebswirtschaft)"
+      },
+      "questionNumber": "1.16",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.09,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "1656.064",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 483,
-        "label": {
-          "en": "(Almost) all",
-          "de": "(fast) alle"
-        },
-        "relativeFrequency": 4.6,
-        "validRelativeFrequency": 4.69,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 981,
-        "label": {
-          "en": "Most",
-          "de": "die meisten"
-        },
-        "relativeFrequency": 9.35,
-        "validRelativeFrequency": 9.53,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2000,
-        "label": {
-          "en": "Some",
-          "de": "manche"
-        },
-        "relativeFrequency": 19.06,
-        "validRelativeFrequency": 19.43,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3117,
-        "label": {
-          "en": "Few",
-          "de": "wenige"
-        },
-        "relativeFrequency": 29.7,
-        "validRelativeFrequency": 30.28,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3713,
-        "label": {
-          "en": "None",
-          "de": "keine"
-        },
-        "relativeFrequency": 35.38,
-        "validRelativeFrequency": 36.07,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10294,
     "missings": [
       {
-        "absoluteFrequency": 200,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.91,
+        "absoluteFrequency": 200,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\nDie Lehre war international ausgerichtet (z. B. europ. Recht, internat. Betriebswirtschaft)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "(Almost) all",
+          "de": "(fast) alle"
+        },
+        "validRelativeFrequency": 4.69,
+        "relativeFrequency": 4.6,
+        "absoluteFrequency": 483,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Most",
+          "de": "die meisten"
+        },
+        "validRelativeFrequency": 9.53,
+        "relativeFrequency": 9.35,
+        "absoluteFrequency": 981,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Some",
+          "de": "manche"
+        },
+        "validRelativeFrequency": 19.43,
+        "relativeFrequency": 19.06,
+        "absoluteFrequency": 2000,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Few",
+          "de": "wenige"
+        },
+        "validRelativeFrequency": 30.28,
+        "relativeFrequency": 29.7,
+        "absoluteFrequency": 3117,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "None",
+          "de": "keine"
+        },
+        "validRelativeFrequency": 36.07,
+        "relativeFrequency": 35.38,
+        "absoluteFrequency": 3713,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.09,
+    "totalValidAbsoluteFrequency": 10294,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 239,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course: international orientation",
+    "de": "Lehrveranstaltungen: internationale Ausrichtung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

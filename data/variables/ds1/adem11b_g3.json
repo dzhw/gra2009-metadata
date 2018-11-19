@@ -1,103 +1,115 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "residence: location (new or old federal state/abroad)",
-    "de": "Wohnsitz: Ort (neue, alte Bundesländer bzw. Ausland)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-adem11b",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 784,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation des Wohnortes (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
-    },
-    "rule": "recode adem11b_g2d (1/10 92 =1) (11/16 91 = 2), gen(adem11b_g3)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie Ihren Hauptwohnsitz an."
+      },
+      "questionNumber": "6.13",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.12,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7567,
-        "label": {
-          "en": "Old federal state",
-          "de": "Alte Bundesländer"
-        },
-        "relativeFrequency": 72.11,
-        "validRelativeFrequency": 72.75,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2642,
-        "label": {
-          "en": "New federal state (incl. Berlin)",
-          "de": "Neue Bundesländer (inkl. Berlin)"
-        },
-        "relativeFrequency": 25.18,
-        "validRelativeFrequency": 25.4,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 193,
-        "label": {
-          "en": "Abroad",
-          "de": "Ausland"
-        },
-        "relativeFrequency": 1.84,
-        "validRelativeFrequency": 1.86,
-        "value": "100"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10402,
     "missings": [
       {
-        "absoluteFrequency": 92,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.88,
+        "absoluteFrequency": 92,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.13",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie Ihren Hauptwohnsitz an."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "validRelativeFrequency": 72.75,
+        "relativeFrequency": 72.11,
+        "absoluteFrequency": 7567,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "validRelativeFrequency": 25.4,
+        "relativeFrequency": 25.18,
+        "absoluteFrequency": 2642,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 1.86,
+        "relativeFrequency": 1.84,
+        "absoluteFrequency": 193,
+        "value": "100"
       }
+    ],
+    "totalValidRelativeFrequency": 99.12,
+    "totalValidAbsoluteFrequency": 10402,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode adem11b_g2d (1/10 92 =1) (11/16 91 = 2), gen(adem11b_g3)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation  des Wohnortes (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-adem11b",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 784,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "residence: location (new or old federal state/abroad)",
+    "de": "Wohnsitz: Ort (neue, alte Bundesländer bzw. Ausland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

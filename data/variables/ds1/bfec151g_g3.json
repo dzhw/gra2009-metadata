@@ -1,191 +1,203 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st further acad. qualification: subject group",
-    "de": "1. weitere akad. Qualifikation: Studienfach (Fächergruppen)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-bfec151g",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1188,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 16.83,
     "statistics": {
-      "mode": "3"
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 348,
-        "label": {
-          "en": "Language and cultural sciences",
-          "de": "Sprach- und Kulturwissenschaften"
-        },
-        "relativeFrequency": 3.32,
-        "validRelativeFrequency": 19.71,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Sports",
-          "de": "Sport"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.28,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 653,
-        "label": {
-          "en": "Legal, economic and social sciences",
-          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
-        },
-        "relativeFrequency": 6.22,
-        "validRelativeFrequency": 36.98,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 317,
-        "label": {
-          "en": "Mathematics, natural sciences",
-          "de": "Mathematik, Naturwissenschaften"
-        },
-        "relativeFrequency": 3.02,
-        "validRelativeFrequency": 17.95,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 69,
-        "label": {
-          "en": "Medicine, health care sciences",
-          "de": "Humanmedizin/Gesundheitswissenschaften"
-        },
-        "relativeFrequency": 0.66,
-        "validRelativeFrequency": 3.91,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Veterinary medicine",
-          "de": "Veterinärmedizin"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.06,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 55,
-        "label": {
-          "en": "Agricultural forestry and nutritional sciences  ",
-          "de": "Agrar-, Forst-, und Ernährungswissenschaften"
-        },
-        "relativeFrequency": 0.52,
-        "validRelativeFrequency": 3.11,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 242,
-        "label": {
-          "en": "Engineering sciences",
-          "de": "Ingenieurwissenschaften"
-        },
-        "relativeFrequency": 2.31,
-        "validRelativeFrequency": 13.7,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": "Art, aesthetics",
-          "de": "Kunst, Kunstwissenschaft"
-        },
-        "relativeFrequency": 0.25,
-        "validRelativeFrequency": 1.47,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 50,
-        "label": {
-          "en": "Outside the study area structure",
-          "de": "Außerhalb der Studienbereichsgliederung"
-        },
-        "relativeFrequency": 0.48,
-        "validRelativeFrequency": 2.83,
-        "value": "10"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1766,
     "missings": [
       {
-        "absoluteFrequency": 327,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.12,
+        "absoluteFrequency": 327,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Language and cultural sciences",
+          "de": "Sprach- und Kulturwissenschaften"
+        },
+        "validRelativeFrequency": 19.71,
+        "relativeFrequency": 3.32,
+        "absoluteFrequency": 348,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Sports",
+          "de": "Sport"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Legal, economic and social sciences",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 36.98,
+        "relativeFrequency": 6.22,
+        "absoluteFrequency": 653,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Mathematics, natural sciences",
+          "de": "Mathematik, Naturwissenschaften"
+        },
+        "validRelativeFrequency": 17.95,
+        "relativeFrequency": 3.02,
+        "absoluteFrequency": 317,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Medicine, health care sciences",
+          "de": "Humanmedizin/Gesundheitswissenschaften"
+        },
+        "validRelativeFrequency": 3.91,
+        "relativeFrequency": 0.66,
+        "absoluteFrequency": 69,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Veterinary medicine",
+          "de": "Veterinärmedizin"
+        },
+        "validRelativeFrequency": 0.06,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Agricultural forestry and nutritional sciences  ",
+          "de": "Agrar-, Forst-, und Ernährungswissenschaften"
+        },
+        "validRelativeFrequency": 3.11,
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 55,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Engineering sciences",
+          "de": "Ingenieurwissenschaften"
+        },
+        "validRelativeFrequency": 13.7,
+        "relativeFrequency": 2.31,
+        "absoluteFrequency": 242,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Art, aesthetics",
+          "de": "Kunst, Kunstwissenschaft"
+        },
+        "validRelativeFrequency": 1.47,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 26,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Outside the study area structure",
+          "de": "Außerhalb der Studienbereichsgliederung"
+        },
+        "validRelativeFrequency": 2.83,
+        "relativeFrequency": 0.48,
+        "absoluteFrequency": 50,
+        "value": "10"
       }
+    ],
+    "totalValidRelativeFrequency": 16.83,
+    "totalValidAbsoluteFrequency": 1766,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-bfec151g",
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1188,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st further acad. qualification: subject group",
+    "de": "1. weitere akad. Qualifikation: Studienfach (Fächergruppen)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

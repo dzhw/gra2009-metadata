@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course of study: access to IT services",
-    "de": "Studium: Zugang EDV-Dienste"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 224,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\r\nZugang zu EDV-Diensten (Internet, wiss. Datenbanken usw.)"
+      },
+      "questionNumber": "1.15",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.45,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "2164.596",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4136,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 39.41,
-        "validRelativeFrequency": 39.63,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4193,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 39.96,
-        "validRelativeFrequency": 40.18,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1549,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 14.76,
-        "validRelativeFrequency": 14.84,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 469,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 4.47,
-        "validRelativeFrequency": 4.49,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 89,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 0.85,
-        "validRelativeFrequency": 0.85,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10436,
     "missings": [
       {
-        "absoluteFrequency": 58,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.55,
+        "absoluteFrequency": 58,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.15",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\nZugang zu EDV-Diensten (Internet, wiss. Datenbanken usw.)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 39.63,
+        "relativeFrequency": 39.41,
+        "absoluteFrequency": 4136,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 40.18,
+        "relativeFrequency": 39.96,
+        "absoluteFrequency": 4193,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 14.84,
+        "relativeFrequency": 14.76,
+        "absoluteFrequency": 1549,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 4.49,
+        "relativeFrequency": 4.47,
+        "absoluteFrequency": 469,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 0.85,
+        "relativeFrequency": 0.85,
+        "absoluteFrequency": 89,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99.45,
+    "totalValidAbsoluteFrequency": 10436,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 224,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: access to IT services",
+    "de": "Studium: Zugang EDV-Dienste"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

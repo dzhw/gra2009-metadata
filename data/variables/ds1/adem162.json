@@ -1,133 +1,145 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "mother: highest educational qualification",
-    "de": "Mutter: höchster Schulabschluss"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 796,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchen höchsten Schulabschuss haben Ihre Eltern?\r\nMutter\r\nAbitur\r\nFachhochschulreife, Fachoberschule\r\nRealschule, Mittlere Reife, 10. Klasse\r\nVolksschule, Hauptschule, mind. 8. Klasse\r\nKeinen Schulabschluss\r\nSchulabschluss unbekannt"
+      },
+      "questionNumber": "6.18",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.07,
     "statistics": {
-      "mode": "3"
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3402,
-        "label": {
-          "en": "A-levels",
-          "de": "Abitur"
-        },
-        "relativeFrequency": 32.42,
-        "validRelativeFrequency": 32.72,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1033,
-        "label": {
-          "en": "Technical college certificate, technical secondary school",
-          "de": "Fachhochschulreife, Fachoberschule"
-        },
-        "relativeFrequency": 9.84,
-        "validRelativeFrequency": 9.94,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3770,
-        "label": {
-          "en": "Secondary modern school, secondary education certificate, 10th grade",
-          "de": "Realschule, mittl. Reife, 10. Klasse"
-        },
-        "relativeFrequency": 35.93,
-        "validRelativeFrequency": 36.26,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1916,
-        "label": {
-          "en": "Elementary school, secondary school, at least 8th grade",
-          "de": "Volksschule, Hauptschule, 8. Klasse"
-        },
-        "relativeFrequency": 18.26,
-        "validRelativeFrequency": 18.43,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 116,
-        "label": {
-          "en": "No school-leaving qualification",
-          "de": "kein Schulabschluss"
-        },
-        "relativeFrequency": 1.11,
-        "validRelativeFrequency": 1.12,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 159,
-        "label": {
-          "en": "School-leaving qualification unknown",
-          "de": "Schulabschluss unbekannt"
-        },
-        "relativeFrequency": 1.52,
-        "validRelativeFrequency": 1.53,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10396,
     "missings": [
       {
-        "absoluteFrequency": 98,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.93,
+        "absoluteFrequency": 98,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welchen höchsten Schulabschuss haben Ihre Eltern?\nMutter\nAbitur\nFachhochschulreife, Fachoberschule\nRealschule, Mittlere Reife, 10. Klasse\nVolksschule, Hauptschule, mind. 8. Klasse\nKeinen Schulabschluss\nSchulabschluss unbekannt"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "A-levels",
+          "de": "Abitur"
+        },
+        "validRelativeFrequency": 32.72,
+        "relativeFrequency": 32.42,
+        "absoluteFrequency": 3402,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Technical college certificate, technical secondary school",
+          "de": "Fachhochschulreife, Fachoberschule"
+        },
+        "validRelativeFrequency": 9.94,
+        "relativeFrequency": 9.84,
+        "absoluteFrequency": 1033,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Secondary modern school, secondary education certificate, 10th grade",
+          "de": "Realschule, mittl. Reife, 10. Klasse"
+        },
+        "validRelativeFrequency": 36.26,
+        "relativeFrequency": 35.93,
+        "absoluteFrequency": 3770,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Elementary school, secondary school, at least 8th grade",
+          "de": "Volksschule, Hauptschule, 8. Klasse"
+        },
+        "validRelativeFrequency": 18.43,
+        "relativeFrequency": 18.26,
+        "absoluteFrequency": 1916,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "No school-leaving qualification",
+          "de": "kein Schulabschluss"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 116,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "School-leaving qualification unknown",
+          "de": "Schulabschluss unbekannt"
+        },
+        "validRelativeFrequency": 1.53,
+        "relativeFrequency": 1.52,
+        "absoluteFrequency": 159,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 99.07,
+    "totalValidAbsoluteFrequency": 10396,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 796,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "mother: highest educational qualification",
+    "de": "Mutter: höchster Schulabschluss"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,114 +1,114 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": "6th job: start (year)",
-    "de": "6. Tätigkeit: Beginn (Jahr)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ246b",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 590,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\r\n6. Erwerbstätigkeit\r\nZeitraum (Monat/ Jahr)\r\nvon:\r\nJahr"
+      },
+      "questionNumber": "5.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.2,
     "statistics": {
-      "firstQuartile": "2010",
+      "meanDeviation": 0,
+      "mode": "2010",
       "highWhisker": 2010,
       "lowWhisker": 2010,
-      "skewness": -1.2298,
-      "minimum": "2009",
       "thirdQuartile": "2010",
-      "meanDeviation": "8.1543",
-      "meanValue": 2009.7619,
-      "maximum": "2010",
-      "mode": "2010",
-      "median": "2010",
+      "firstQuartile": "2010",
       "standardDeviation": 0.4364,
-      "kurtosis": 2.5125
+      "median": "2010",
+      "kurtosis": 2.5125,
+      "skewness": -1.2298,
+      "maximum": "2010",
+      "minimum": "2009",
+      "meanValue": 2009.7619
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 23.81,
-        "value": "2009"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 76.19,
-        "value": "2010"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 21,
     "missings": [
       {
-        "absoluteFrequency": 8385,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 79.9,
+        "absoluteFrequency": 8385,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\n6. Erwerbstätigkeit\nZeitraum (Monat/ Jahr)\nvon:\nJahr"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 23.81,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 76.19,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "2010"
       }
+    ],
+    "totalValidRelativeFrequency": 0.2,
+    "totalValidAbsoluteFrequency": 21,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ246b",
+  "surveyNumbers": [1],
+  "indexInDataSet": 590,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "6th job: start (year)",
+    "de": "6. Tätigkeit: Beginn (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

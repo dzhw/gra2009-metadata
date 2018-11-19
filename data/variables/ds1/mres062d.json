@@ -1,164 +1,164 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": "5th apartment: moved out (year)",
-    "de": "5. Wohnung: Auszug (Jahr)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1714,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss 2008/2009 eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,bis:"
+      },
+      "questionNumber": "20.1",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 1.34,
     "statistics": {
-      "firstQuartile": "2012",
+      "meanDeviation": 0,
+      "mode": "2015",
       "highWhisker": 2015,
       "lowWhisker": 2007.5,
-      "skewness": -1.9967,
-      "minimum": "2000",
       "thirdQuartile": "2015",
-      "meanDeviation": "13.3434",
-      "meanValue": 2012.2553,
-      "maximum": "2015",
-      "mode": "2015",
-      "median": "2015",
+      "firstQuartile": "2012",
       "standardDeviation": 4.747,
-      "kurtosis": 5.4931
+      "median": "2015",
+      "kurtosis": 5.4931,
+      "skewness": -1.9967,
+      "maximum": "2015",
+      "minimum": "2000",
+      "meanValue": 2012.2553
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 12.06,
-        "value": "2000"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2.13,
-        "value": "2010"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 3.55,
-        "value": "2011"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 12.06,
-        "value": "2012"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 13.48,
-        "value": "2013"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 5.67,
-        "value": "2014"
-      },
-      {
-        "absoluteFrequency": 72,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.69,
-        "validRelativeFrequency": 51.06,
-        "value": "2015"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 141,
     "missings": [
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 2324,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 22.15,
+        "absoluteFrequency": 2324,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "20.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss 2008/2009 eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,bis:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 12.06,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "2000"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.13,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "2010"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.55,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "2011"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 12.06,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "2012"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 13.48,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "2013"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.67,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
+        "value": "2014"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 51.06,
+        "relativeFrequency": 0.69,
+        "absoluteFrequency": 72,
+        "value": "2015"
       }
+    ],
+    "totalValidRelativeFrequency": 1.34,
+    "totalValidAbsoluteFrequency": 141,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1714,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "5th apartment: moved out (year)",
+    "de": "5. Wohnung: Auszug (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

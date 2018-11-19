@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "type of work: great value for self-initiation",
-    "de": "Arbeitsform: großer Wert Eigeninitiative"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nEs wird Wert auf Eigeninitiative gelegt"
+      },
+      "questionNumber": "4.23",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1132,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?"
+      },
+      "questionNumber": "38",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 44.11,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "551.5272",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2378,
-        "label": {
-          "en": "Very strong",
-          "de": "trifft sehr stark zu"
-        },
-        "relativeFrequency": 22.66,
-        "validRelativeFrequency": 51.37,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1665,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 15.87,
-        "validRelativeFrequency": 35.97,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 423,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 4.03,
-        "validRelativeFrequency": 9.14,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 112,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.07,
-        "validRelativeFrequency": 2.42,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 51,
-        "label": {
-          "en": "Not at all",
-          "de": "trifft gar nicht zu"
-        },
-        "relativeFrequency": 0.49,
-        "validRelativeFrequency": 1.1,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4629,
     "missings": [
       {
-        "absoluteFrequency": 95,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.91,
+        "absoluteFrequency": 95,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "trifft sehr stark zu"
+        },
+        "validRelativeFrequency": 51.37,
+        "relativeFrequency": 22.66,
+        "absoluteFrequency": 2378,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 35.97,
+        "relativeFrequency": 15.87,
+        "absoluteFrequency": 1665,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 9.14,
+        "relativeFrequency": 4.03,
+        "absoluteFrequency": 423,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 2.42,
+        "relativeFrequency": 1.07,
+        "absoluteFrequency": 112,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "trifft gar nicht zu"
+        },
+        "validRelativeFrequency": 1.1,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 51,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 44.11,
+    "totalValidAbsoluteFrequency": 4629,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.23",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nEs wird Wert auf Eigeninitiative gelegt"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "38",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wÃ¼rden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1132,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of work: great value for self-initiation",
+    "de": "Arbeitsform: großer Wert Eigeninitiative"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

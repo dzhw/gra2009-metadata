@@ -1,111 +1,123 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st further acad. qualification: 1st university (Uni/FH)",
-    "de": "1. weitere akad. Qualifikation: 1. Hochschule (Uni/FH)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-afec021l",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 344,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulartvariablen generiert. Dabei wurden die 6 Hochschultypen zu den beiden Kategorien \"Universität\" und \"Fachhochschule\" aggregiert. Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
-    },
-    "rule": "recode afec021l_g5r (1 2 3 4 = 1) (5 6 = 2), gen(afec021l_g6)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 52.54,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4386,
-        "label": {
-          "en": "University",
-          "de": "Universitäten"
-        },
-        "relativeFrequency": 41.8,
-        "validRelativeFrequency": 79.54,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein."
       },
-      {
-        "absoluteFrequency": 1128,
-        "label": {
-          "en": "University of applied science",
-          "de": "Fachhochschulen"
-        },
-        "relativeFrequency": 10.75,
-        "validRelativeFrequency": 20.46,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5514,
+      "questionNumber": "2.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 23,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
         "code": -998
       },
       {
-        "absoluteFrequency": 4527,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 43.14,
+        "absoluteFrequency": 4527,
         "code": -989
       },
       {
-        "absoluteFrequency": 430,
         "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 4.1,
+        "absoluteFrequency": 430,
         "code": -966
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "University",
+          "de": "Universitäten"
+        },
+        "validRelativeFrequency": 79.54,
+        "relativeFrequency": 41.8,
+        "absoluteFrequency": 4386,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "University of applied science",
+          "de": "Fachhochschulen"
+        },
+        "validRelativeFrequency": 20.46,
+        "relativeFrequency": 10.75,
+        "absoluteFrequency": 1128,
+        "value": "2"
       }
+    ],
+    "totalValidRelativeFrequency": 52.54,
+    "totalValidAbsoluteFrequency": 5514,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode afec021l_g5r (1 2 3 4 = 1) (5 6 = 2), gen(afec021l_g6)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulartvariablen generiert. Dabei wurden die 6 Hochschultypen zu den beiden Kategorien \"Universität\" und \"Fachhochschule\" aggregiert. Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\r\n\r\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-afec021l",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 344,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st further acad. qualification: 1st university (Uni/FH)",
+    "de": "1. weitere akad. Qualifikation: 1. Hochschule (Uni/FH)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

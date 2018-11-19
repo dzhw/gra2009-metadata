@@ -1,1250 +1,1262 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "occupation: German Classification of Occupation 2010 (3 digit)",
-    "de": "Beruf: KldB 2010 (3-stellig)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-bocc21_v1",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ21_g2",
-  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1080,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Berufsvariablen (KldB-5-Steller) generiert. Dabei wurde der dreistellige Code gemäß Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 2010 (vgl. cl-destatis-kldb-2010) vergeben (ergänzt um Sondercodes, wenn nicht zuordenbar)."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie Ihre Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit."
+      },
+      "questionNumber": "4.9",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.72,
     "statistics": {
-      "mode": "843"
+      "meanDeviation": null,
+      "mode": "843",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Commissioned officers",
-          "de": "Offiziere"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": "Occupations in farming",
-          "de": "Landwirtschaft"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 0.46,
-        "value": "111"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in animal husbandry",
-          "de": "Tierwirtschaft"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "112"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": "Occupations in forestry, hunting and landscape preservation",
-          "de": "Forst-,Jagdwirtschaft, Landschaftspflege"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 0.31,
-        "value": "117"
-      },
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": "Occupations in gardening",
-          "de": "Gartenbau"
-        },
-        "relativeFrequency": 0.35,
-        "validRelativeFrequency": 0.81,
-        "value": "121"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Occupations in underground and surface mining and blasting engineering",
-          "de": "Berg-, Tagebau und Sprengtechnik"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.07,
-        "value": "211"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Occupations in plastic- and rubber-making and -processing",
-          "de": "Kunststoff,Kautschukherstell.,verarbeit"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.07,
-        "value": "221"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Occupations in colour coating and varnishing",
-          "de": "Farb- und Lacktechnik"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "222"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Occupations in wood-working and -processing",
-          "de": "Holzbe- und -verarbeitung"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.09,
-        "value": "223"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": "Occupations in technical media design",
-          "de": "Technische Mediengestaltung"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 0.37,
-        "value": "232"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in photography and photographic technology",
-          "de": "Fototechnik und Fotografie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "233"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in printing technology, print finishing, and book binding",
-          "de": "Drucktechnik,-weiterverarb.,Buchbinderei"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "234"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in metal-making",
-          "de": "Metallerzeugung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "241"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in metal constructing and welding",
-          "de": "Metallbau und Schweißtechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "244"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Occupations in precision mechanics and tool making ",
-          "de": "Feinwerk- und Werkzeugtechnik"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "245"
-      },
-      {
-        "absoluteFrequency": 30,
-        "label": {
-          "en": "Occupations in machine-building and -operating",
-          "de": "Maschinenbau- und Betriebstechnik"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 0.65,
-        "value": "251"
-      },
-      {
-        "absoluteFrequency": 27,
-        "label": {
-          "en": "Technical occupations in the automotive, aeronautic, aerospace and ship building industries",
-          "de": "Fahrzeug-Luft-Raumfahrt-,Schiffbautechn."
-        },
-        "relativeFrequency": 0.26,
-        "validRelativeFrequency": 0.59,
-        "value": "252"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Occupations in mechatronics, automation and control technology",
-          "de": "Mechatronik und Automatisierungstechnik"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 0.26,
-        "value": "261"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Technical occupations in energy technologies",
-          "de": "Energietechnik"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 0.26,
-        "value": "262"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": "Occupations in electrical engineering",
-          "de": "Elektrotechnik"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 0.54,
-        "value": "263"
-      },
-      {
-        "absoluteFrequency": 121,
-        "label": {
-          "en": "Occupations in technical research and development",
-          "de": "Technische Forschung und Entwicklung"
-        },
-        "relativeFrequency": 1.15,
-        "validRelativeFrequency": 2.64,
-        "value": "271"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": "Draftspersons, technical designers, and model makers",
-          "de": "Techn. Zeichnen, Konstruktion, Modellbau"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 0.54,
-        "value": "272"
-      },
-      {
-        "absoluteFrequency": 94,
-        "label": {
-          "en": "Technical occupations in production planning and scheduling",
-          "de": "Technische Produktionsplanung,-steuerung"
-        },
-        "relativeFrequency": 0.9,
-        "validRelativeFrequency": 2.05,
-        "value": "273"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in the production of clothing and other textile products",
-          "de": "Textilverarbeitung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "282"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in leather- and fur-making and -processing",
-          "de": "Leder-, Pelzherstellung u. -verarbeitung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "283"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Occupations in the production of foodstuffs, confectionery and tobacco products",
-          "de": "Lebensmittel- u. Genussmittelherstellung"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.09,
-        "value": "292"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Cooking occupations",
-          "de": "Speisenzubereitung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "293"
-      },
-      {
-        "absoluteFrequency": 107,
-        "label": {
-          "en": "Occupations in construction scheduling and supervision, and architecture",
-          "de": "Bauplanung u. -überwachung, Architektur"
-        },
-        "relativeFrequency": 1.02,
-        "validRelativeFrequency": 2.33,
-        "value": "311"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Occupations in surveying and cartography",
-          "de": "Vermessung und Kartografie"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 0.5,
-        "value": "312"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Occupations in building construction",
-          "de": "Hochbau"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "321"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Occupations in civil engineering",
-          "de": "Tiefbau"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 0.2,
-        "value": "322"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Occupations in building services engineering",
-          "de": "Gebäudetechnik"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.11,
-        "value": "341"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in plumping, sanitation, heating, ventilating, and air conditioning",
-          "de": "Klempnerei,Sanitär,Heizung,Klimatechnik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "342"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": "Occupations in building services and waste disposal ",
-          "de": "Ver- und Entsorgung"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.17,
-        "value": "343"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Occupations in mathematics and statistics",
-          "de": "Mathematik und Statistik"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 0.33,
-        "value": "411"
-      },
-      {
-        "absoluteFrequency": 39,
-        "label": {
-          "en": "Occupations in biology",
-          "de": "Biologie"
-        },
-        "relativeFrequency": 0.37,
-        "validRelativeFrequency": 0.85,
-        "value": "412"
-      },
-      {
-        "absoluteFrequency": 34,
-        "label": {
-          "en": "Occupations in chemistry",
-          "de": "Chemie"
-        },
-        "relativeFrequency": 0.32,
-        "validRelativeFrequency": 0.74,
-        "value": "413"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": "Occupations in physics",
-          "de": "Physik"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 0.41,
-        "value": "414"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Occupations in geology, geography and meteorology",
-          "de": "Geologie, Geografie und Meteorologie"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 0.5,
-        "value": "421"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Occupations in environmental protection engineering",
-          "de": "Umweltschutztechnik"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.11,
-        "value": "422"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Occupations in environmental protection management and environmental protection consulting",
-          "de": "Umweltmanagement und -beratung"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 0.22,
-        "value": "423"
-      },
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": "Occupations in computer science",
-          "de": "Informatik"
-        },
-        "relativeFrequency": 0.43,
-        "validRelativeFrequency": 0.98,
-        "value": "431"
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": "Occupations in IT-system-analysis, IT-application-consulting and IT-sales",
-          "de": "IT-Systemanalyse,Anwenderber,IT-Vertrieb"
-        },
-        "relativeFrequency": 0.56,
-        "validRelativeFrequency": 1.29,
-        "value": "432"
-      },
-      {
-        "absoluteFrequency": 28,
-        "label": {
-          "en": "Occupations in IT-network engineering, IT-coordination, IT-administration and IT-organisation",
-          "de": "IT-Netzwerkt.,-Koord.,-Administr.,-Orga."
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 0.61,
-        "value": "433"
-      },
-      {
-        "absoluteFrequency": 86,
-        "label": {
-          "en": "Occupations in software development and programming",
-          "de": "Softwareentwicklung und Programmierung"
-        },
-        "relativeFrequency": 0.82,
-        "validRelativeFrequency": 1.87,
-        "value": "434"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Occupations in the inspection and maintenance of traffic infrastructure",
-          "de": "Überwachung,WartungVerkehrsinfrastruktur"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "512"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Occupations in warehousing and logistics, in postal and other delivery services, and in cargo handling",
-          "de": "Lagerwirt.,Post,Zustellung,Güterumschlag"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.07,
-        "value": "513"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Service occupations in passenger traffic",
-          "de": "Servicekräfte im Personenverkehr"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "514"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Occupations in traffic surveillance and control",
-          "de": "Überwachung u. Steuerung Verkehrsbetrieb"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.09,
-        "value": "515"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": "Management assistants in transport and logistics",
-          "de": "Kaufleute - Verkehr und Logistik"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 0.52,
-        "value": "516"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Aircraft pilots",
-          "de": "Fahrzeugführung im Flugverkehr"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "523"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Occupations in physical security, personal protection, fire protection and workplace safety",
-          "de": "Obj.-,Pers.-,Brandschutz,Arbeitssicherh."
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 0.26,
-        "value": "531"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Occupations in police and criminal investigation, jurisdiction and the penal institution",
-          "de": "Polizei,Kriminald.,Gerichts,Justizvollz."
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.13,
-        "value": "532"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Occupations in occupational health and safety administration, public health authority, and disinfection",
-          "de": "Gewerbe,Gesundheitsaufsicht,Desinfektion"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "533"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in cleaning services",
-          "de": "Reinigung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "541"
-      },
-      {
-        "absoluteFrequency": 74,
-        "label": {
-          "en": "Occupations in purchasing and sales",
-          "de": "Einkauf und Vertrieb"
-        },
-        "relativeFrequency": 0.71,
-        "validRelativeFrequency": 1.61,
-        "value": "611"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Trading occupations",
-          "de": "Handel"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "612"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Occupations in real estate and facility management",
-          "de": "Immobilienwirtschaft,Facility-Management"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 0.35,
-        "value": "613"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": "Sales occupations in retail trade (without product specialisation)",
-          "de": "Verkauf (ohne Produktspezialisierung)"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 0.41,
-        "value": "621"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Sales occupations (retail) selling foodstuffs",
-          "de": "Verkauf von Lebensmitteln"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "623"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Sales occupations (retail) selling drugstore products, pharmaceuticals, medical supplies and healthcare goods",
-          "de": "Verkauf drog.apotheken.Waren,Medizinbed."
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "624"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Sales occupations (retail) selling books, art, antiques, musical instruments, recordings or sheet music",
-          "de": "Buch-Kunst-Antiquitäten-,Musikfachhandel"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "625"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": "Occupations in tourism and the sports (and fitness) industry",
-          "de": "Tourismus und Sport"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.17,
-        "value": "631"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Occupations in hotels",
-          "de": "Hotellerie"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.07,
-        "value": "632"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Gastronomy occupations",
-          "de": "Gastronomie"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.09,
-        "value": "633"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Occupations in event organisation and management",
-          "de": "Veranstaltungsservice, -management"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 0.35,
-        "value": "634"
-      },
-      {
-        "absoluteFrequency": 47,
-        "label": {
-          "en": "Managing directors and executive board members",
-          "de": "Geschäftsführung und Vorstand"
-        },
-        "relativeFrequency": 0.45,
-        "validRelativeFrequency": 1.02,
-        "value": "711"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Legislators and senior officials of special interest organisations",
-          "de": "Angeh. gesetzgeb. Körp., Interessenorg."
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.09,
-        "value": "712"
-      },
-      {
-        "absoluteFrequency": 323,
-        "label": {
-          "en": "Occupations in business organisation and strategy",
-          "de": "Unternehmensorganisation und -strategie"
-        },
-        "relativeFrequency": 3.08,
-        "validRelativeFrequency": 7.04,
-        "value": "713"
-      },
-      {
-        "absoluteFrequency": 83,
-        "label": {
-          "en": "Office clerks and secretaries",
-          "de": "Büro und Sekretariat"
-        },
-        "relativeFrequency": 0.79,
-        "validRelativeFrequency": 1.81,
-        "value": "714"
-      },
-      {
-        "absoluteFrequency": 120,
-        "label": {
-          "en": "Occupations in human resources management and personnel service",
-          "de": "Personalwesen und -dienstleistung"
-        },
-        "relativeFrequency": 1.14,
-        "validRelativeFrequency": 2.62,
-        "value": "715"
-      },
-      {
-        "absoluteFrequency": 68,
-        "label": {
-          "en": "Occupations in insurance and financial services",
-          "de": "Versicherungs- u. Finanzdienstleistungen"
-        },
-        "relativeFrequency": 0.65,
-        "validRelativeFrequency": 1.48,
-        "value": "721"
-      },
-      {
-        "absoluteFrequency": 139,
-        "label": {
-          "en": "Occupations in accounting, controlling and auditing",
-          "de": "Rechnungswesen, Controlling und Revision"
-        },
-        "relativeFrequency": 1.32,
-        "validRelativeFrequency": 3.03,
-        "value": "722"
-      },
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": "Occupations in tax consultancy",
-          "de": "Steuerberatung"
-        },
-        "relativeFrequency": 0.33,
-        "validRelativeFrequency": 0.76,
-        "value": "723"
-      },
-      {
-        "absoluteFrequency": 90,
-        "label": {
-          "en": "Occupations in legal services, jurisdiction, and other officers of the court ",
-          "de": "Rechtsberatung, -sprechung und -ordnung"
-        },
-        "relativeFrequency": 0.86,
-        "validRelativeFrequency": 1.96,
-        "value": "731"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": "Occupations in public administration",
-          "de": "Verwaltung"
-        },
-        "relativeFrequency": 0.42,
-        "validRelativeFrequency": 0.96,
-        "value": "732"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": "Occupations in media, documentation and information services",
-          "de": "Medien-Dokumentations-Informationsdienst"
-        },
-        "relativeFrequency": 0.25,
-        "validRelativeFrequency": 0.57,
-        "value": "733"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Doctors’ receptionists and assistants",
-          "de": "Arzt- und Praxishilfe"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "811"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": "Laboratory occupations in medicine",
-          "de": "Medizinisches Laboratorium"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.17,
-        "value": "812"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Occupations in nursing, emergency medical services and obstetrics",
-          "de": "Gesundh.,Krankenpfl.,Rettungsd.Geburtsh."
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 0.5,
-        "value": "813"
-      },
-      {
-        "absoluteFrequency": 172,
-        "label": {
-          "en": "Occupations in human medicine and dentistry",
-          "de": "Human- und Zahnmedizin"
-        },
-        "relativeFrequency": 1.64,
-        "validRelativeFrequency": 3.75,
-        "value": "814"
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": "Occupations in veterinary medicine and non-medical animal health practitioners",
-          "de": "Tiermedizin und Tierheilkunde"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 0.87,
-        "value": "815"
-      },
-      {
-        "absoluteFrequency": 112,
-        "label": {
-          "en": "Occupations in psychology and non-medical psychotherapy",
-          "de": "Psychologie, nichtärztl. Psychotherapie"
-        },
-        "relativeFrequency": 1.07,
-        "validRelativeFrequency": 2.44,
-        "value": "816"
-      },
-      {
-        "absoluteFrequency": 27,
-        "label": {
-          "en": "Occupations in non-medical therapy and alternative medicine",
-          "de": "Nicht ärztliche Therapie und Heilkunde"
-        },
-        "relativeFrequency": 0.26,
-        "validRelativeFrequency": 0.59,
-        "value": "817"
-      },
-      {
-        "absoluteFrequency": 41,
-        "label": {
-          "en": "Occupations in pharmacy",
-          "de": "Pharmazie"
-        },
-        "relativeFrequency": 0.39,
-        "validRelativeFrequency": 0.89,
-        "value": "818"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Occupations in geriatric care",
-          "de": "Altenpflege"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.11,
-        "value": "821"
-      },
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": "Occupations providing nutritional advice or health counselling, and occupations in wellness",
-          "de": "Ernährungs-,Gesundheitsberatung,Wellness"
-        },
-        "relativeFrequency": 0.21,
-        "validRelativeFrequency": 0.48,
-        "value": "822"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Occupations in funeral services",
-          "de": "Bestattungswesen"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "824"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": "Technical occupations in medicine, orthopaedic and rehabilitation",
-          "de": "Medizin-, Orthopädie- und Rehatechnik"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 0.28,
-        "value": "825"
-      },
-      {
-        "absoluteFrequency": 307,
-        "label": {
-          "en": "Occupations in education and social work, and pedagogic specialists in social care work",
-          "de": "Erziehung,Sozialarb.,Heilerziehungspfl."
-        },
-        "relativeFrequency": 2.93,
-        "validRelativeFrequency": 6.69,
-        "value": "831"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Occupations in housekeeping and consumer counselling",
-          "de": "Hauswirtschaft und Verbraucherberatung"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.04,
-        "value": "832"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": "Occupations in theology and church community work",
-          "de": "Theologie und Gemeindearbeit"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 0.39,
-        "value": "833"
-      },
-      {
-        "absoluteFrequency": 510,
-        "label": {
-          "en": "Teachers in schools of general education",
-          "de": "Lehrtätigkeit an allgemeinbild. Schulen"
-        },
-        "relativeFrequency": 4.86,
-        "validRelativeFrequency": 11.12,
-        "value": "841"
-      },
-      {
-        "absoluteFrequency": 48,
-        "label": {
-          "en": "Teachers for occupation-specific subjects at vocational schools and in-company instructors in vocational training",
-          "de": "Lehrt.berufsb.Fächer,betr.Ausb.,Betr.päd"
-        },
-        "relativeFrequency": 0.46,
-        "validRelativeFrequency": 1.05,
-        "value": "842"
-      },
-      {
-        "absoluteFrequency": 532,
-        "label": {
-          "en": "Teachers and researcher at universities and colleges",
-          "de": "Lehr-,Forschungstätigkeit an Hochschulen"
-        },
-        "relativeFrequency": 5.07,
-        "validRelativeFrequency": 11.6,
-        "value": "843"
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": "Teachers at educational institutions other than schools (except driving, flying and sports instructors)",
-          "de": "Lehrtätigk. außerschul.Bildungseinricht."
-        },
-        "relativeFrequency": 0.56,
-        "validRelativeFrequency": 1.29,
-        "value": "844"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Driving, flying and sports instructors at educational institutions other than schools",
-          "de": "Fahr-,Sportunterricht außerschul. Bild."
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.07,
-        "value": "845"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Occupations in philology",
-          "de": "Sprach-, Literaturwissenschaften"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "911"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Occupations in the humanities",
-          "de": "Geisteswissenschaften"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 0.22,
-        "value": "912"
-      },
-      {
-        "absoluteFrequency": 75,
-        "label": {
-          "en": "Occupations in the social sciences",
-          "de": "Gesellschaftswissenschaften"
-        },
-        "relativeFrequency": 0.71,
-        "validRelativeFrequency": 1.63,
-        "value": "913"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "Occupations in economics",
-          "de": "Wirtschaftswissenschaften"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.15,
-        "value": "914"
-      },
-      {
-        "absoluteFrequency": 161,
-        "label": {
-          "en": "Occupations in advertising and marketing",
-          "de": "Werbung und Marketing"
-        },
-        "relativeFrequency": 1.53,
-        "validRelativeFrequency": 3.51,
-        "value": "921"
-      },
-      {
-        "absoluteFrequency": 61,
-        "label": {
-          "en": "Occupations in public relations",
-          "de": "Öffentlichkeitsarbeit"
-        },
-        "relativeFrequency": 0.58,
-        "validRelativeFrequency": 1.33,
-        "value": "922"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Occupations in publishing and media management",
-          "de": "Verlags- und Medienwirtschaft"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.11,
-        "value": "923"
-      },
-      {
-        "absoluteFrequency": 95,
-        "label": {
-          "en": "Occupations in editorial work and journalism",
-          "de": "Redaktion und Journalismus"
-        },
-        "relativeFrequency": 0.91,
-        "validRelativeFrequency": 2.07,
-        "value": "924"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": "Occupations in product and industrial design",
-          "de": "Produkt- und Industriedesign"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.17,
-        "value": "931"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": "Occupations in interior design, visual marketing, and interior decoration",
-          "de": "Innenarchitektur, Raumausstattung"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 0.41,
-        "value": "932"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Occupations in artisan craftwork and fine arts",
-          "de": "Kunsthandwerk und bildende Kunst"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.13,
-        "value": "933"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Artisans working with metal",
-          "de": "Kunsthandwerkliche Metallgestaltung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "935"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Musicians, singers and conductors",
-          "de": "Musik-, Gesang-, Dirigententätigkeiten"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.09,
-        "value": "941"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Actors, dancers, athletes and related occupations",
-          "de": "Schauspiel, Tanz und Bewegungskunst"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 0.13,
-        "value": "942"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Presenters and entertainers",
-          "de": "Moderation und Unterhaltung"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.02,
-        "value": "943"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": "Occupations in theatre, film and television productions",
-          "de": "Theater-, Film- und Fernsehproduktion"
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 0.17,
-        "value": "944"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "Occupations in event technology, cinematography, and sound engineering",
-          "de": "Veranstaltungs-, Kamera-, Tontechnik"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 0.15,
-        "value": "945"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Technical and management occupations in museums and exhibitions",
-          "de": "Museumstechnik und -management"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.09,
-        "value": "947"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4588,
     "missings": [
       {
-        "absoluteFrequency": 100,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.95,
+        "absoluteFrequency": 100,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       },
       {
-        "absoluteFrequency": 36,
         "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 0.34,
+        "absoluteFrequency": 36,
         "code": -966
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie Ihre Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Commissioned officers",
+          "de": "Offiziere"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Occupations in farming",
+          "de": "Landwirtschaft"
+        },
+        "validRelativeFrequency": 0.46,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 21,
+        "value": "111"
+      },
+      {
+        "label": {
+          "en": "Occupations in animal husbandry",
+          "de": "Tierwirtschaft"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "112"
+      },
+      {
+        "label": {
+          "en": "Occupations in forestry, hunting and landscape preservation",
+          "de": "Forst-,Jagdwirtschaft, Landschaftspflege"
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "117"
+      },
+      {
+        "label": {
+          "en": "Occupations in gardening",
+          "de": "Gartenbau"
+        },
+        "validRelativeFrequency": 0.81,
+        "relativeFrequency": 0.35,
+        "absoluteFrequency": 37,
+        "value": "121"
+      },
+      {
+        "label": {
+          "en": "Occupations in underground and surface mining and blasting engineering",
+          "de": "Berg-, Tagebau und Sprengtechnik"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "211"
+      },
+      {
+        "label": {
+          "en": "Occupations in plastic- and rubber-making and -processing",
+          "de": "Kunststoff,Kautschukherstell.,verarbeit"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "221"
+      },
+      {
+        "label": {
+          "en": "Occupations in colour coating and varnishing",
+          "de": "Farb- und Lacktechnik"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "222"
+      },
+      {
+        "label": {
+          "en": "Occupations in wood-working and -processing",
+          "de": "Holzbe- und -verarbeitung"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "223"
+      },
+      {
+        "label": {
+          "en": "Occupations in technical media design",
+          "de": "Technische Mediengestaltung"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "232"
+      },
+      {
+        "label": {
+          "en": "Occupations in photography and photographic technology",
+          "de": "Fototechnik und Fotografie"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "233"
+      },
+      {
+        "label": {
+          "en": "Occupations in printing technology, print finishing, and book binding",
+          "de": "Drucktechnik,-weiterverarb.,Buchbinderei"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "234"
+      },
+      {
+        "label": {
+          "en": "Occupations in metal-making",
+          "de": "Metallerzeugung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "241"
+      },
+      {
+        "label": {
+          "en": "Occupations in metal constructing and welding",
+          "de": "Metallbau und Schweißtechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "244"
+      },
+      {
+        "label": {
+          "en": "Occupations in precision mechanics and tool making ",
+          "de": "Feinwerk- und Werkzeugtechnik"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "245"
+      },
+      {
+        "label": {
+          "en": "Occupations in machine-building and -operating",
+          "de": "Maschinenbau- und Betriebstechnik"
+        },
+        "validRelativeFrequency": 0.65,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 30,
+        "value": "251"
+      },
+      {
+        "label": {
+          "en": "Technical occupations in the automotive, aeronautic, aerospace and ship building industries",
+          "de": "Fahrzeug-Luft-Raumfahrt-,Schiffbautechn."
+        },
+        "validRelativeFrequency": 0.59,
+        "relativeFrequency": 0.26,
+        "absoluteFrequency": 27,
+        "value": "252"
+      },
+      {
+        "label": {
+          "en": "Occupations in mechatronics, automation and control technology",
+          "de": "Mechatronik und Automatisierungstechnik"
+        },
+        "validRelativeFrequency": 0.26,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "261"
+      },
+      {
+        "label": {
+          "en": "Technical occupations in energy technologies",
+          "de": "Energietechnik"
+        },
+        "validRelativeFrequency": 0.26,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "262"
+      },
+      {
+        "label": {
+          "en": "Occupations in electrical engineering",
+          "de": "Elektrotechnik"
+        },
+        "validRelativeFrequency": 0.54,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 25,
+        "value": "263"
+      },
+      {
+        "label": {
+          "en": "Occupations in technical research and development",
+          "de": "Technische Forschung und Entwicklung"
+        },
+        "validRelativeFrequency": 2.64,
+        "relativeFrequency": 1.15,
+        "absoluteFrequency": 121,
+        "value": "271"
+      },
+      {
+        "label": {
+          "en": "Draftspersons, technical designers, and model makers",
+          "de": "Techn. Zeichnen, Konstruktion, Modellbau"
+        },
+        "validRelativeFrequency": 0.54,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 25,
+        "value": "272"
+      },
+      {
+        "label": {
+          "en": "Technical occupations in production planning and scheduling",
+          "de": "Technische Produktionsplanung,-steuerung"
+        },
+        "validRelativeFrequency": 2.05,
+        "relativeFrequency": 0.9,
+        "absoluteFrequency": 94,
+        "value": "273"
+      },
+      {
+        "label": {
+          "en": "Occupations in the production of clothing and other textile products",
+          "de": "Textilverarbeitung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "282"
+      },
+      {
+        "label": {
+          "en": "Occupations in leather- and fur-making and -processing",
+          "de": "Leder-, Pelzherstellung u. -verarbeitung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "283"
+      },
+      {
+        "label": {
+          "en": "Occupations in the production of foodstuffs, confectionery and tobacco products",
+          "de": "Lebensmittel- u. Genussmittelherstellung"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "292"
+      },
+      {
+        "label": {
+          "en": "Cooking occupations",
+          "de": "Speisenzubereitung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "293"
+      },
+      {
+        "label": {
+          "en": "Occupations in construction scheduling and supervision, and architecture",
+          "de": "Bauplanung u. -überwachung, Architektur"
+        },
+        "validRelativeFrequency": 2.33,
+        "relativeFrequency": 1.02,
+        "absoluteFrequency": 107,
+        "value": "311"
+      },
+      {
+        "label": {
+          "en": "Occupations in surveying and cartography",
+          "de": "Vermessung und Kartografie"
+        },
+        "validRelativeFrequency": 0.5,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "312"
+      },
+      {
+        "label": {
+          "en": "Occupations in building construction",
+          "de": "Hochbau"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "321"
+      },
+      {
+        "label": {
+          "en": "Occupations in civil engineering",
+          "de": "Tiefbau"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "322"
+      },
+      {
+        "label": {
+          "en": "Occupations in building services engineering",
+          "de": "Gebäudetechnik"
+        },
+        "validRelativeFrequency": 0.11,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "341"
+      },
+      {
+        "label": {
+          "en": "Occupations in plumping, sanitation, heating, ventilating, and air conditioning",
+          "de": "Klempnerei,Sanitär,Heizung,Klimatechnik"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "342"
+      },
+      {
+        "label": {
+          "en": "Occupations in building services and waste disposal ",
+          "de": "Ver- und Entsorgung"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
+        "value": "343"
+      },
+      {
+        "label": {
+          "en": "Occupations in mathematics and statistics",
+          "de": "Mathematik und Statistik"
+        },
+        "validRelativeFrequency": 0.33,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "411"
+      },
+      {
+        "label": {
+          "en": "Occupations in biology",
+          "de": "Biologie"
+        },
+        "validRelativeFrequency": 0.85,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 39,
+        "value": "412"
+      },
+      {
+        "label": {
+          "en": "Occupations in chemistry",
+          "de": "Chemie"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.32,
+        "absoluteFrequency": 34,
+        "value": "413"
+      },
+      {
+        "label": {
+          "en": "Occupations in physics",
+          "de": "Physik"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "414"
+      },
+      {
+        "label": {
+          "en": "Occupations in geology, geography and meteorology",
+          "de": "Geologie, Geografie und Meteorologie"
+        },
+        "validRelativeFrequency": 0.5,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "421"
+      },
+      {
+        "label": {
+          "en": "Occupations in environmental protection engineering",
+          "de": "Umweltschutztechnik"
+        },
+        "validRelativeFrequency": 0.11,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "422"
+      },
+      {
+        "label": {
+          "en": "Occupations in environmental protection management and environmental protection consulting",
+          "de": "Umweltmanagement und -beratung"
+        },
+        "validRelativeFrequency": 0.22,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "423"
+      },
+      {
+        "label": {
+          "en": "Occupations in computer science",
+          "de": "Informatik"
+        },
+        "validRelativeFrequency": 0.98,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 45,
+        "value": "431"
+      },
+      {
+        "label": {
+          "en": "Occupations in IT-system-analysis, IT-application-consulting and IT-sales",
+          "de": "IT-Systemanalyse,Anwenderber,IT-Vertrieb"
+        },
+        "validRelativeFrequency": 1.29,
+        "relativeFrequency": 0.56,
+        "absoluteFrequency": 59,
+        "value": "432"
+      },
+      {
+        "label": {
+          "en": "Occupations in IT-network engineering, IT-coordination, IT-administration and IT-organisation",
+          "de": "IT-Netzwerkt.,-Koord.,-Administr.,-Orga."
+        },
+        "validRelativeFrequency": 0.61,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
+        "value": "433"
+      },
+      {
+        "label": {
+          "en": "Occupations in software development and programming",
+          "de": "Softwareentwicklung und Programmierung"
+        },
+        "validRelativeFrequency": 1.87,
+        "relativeFrequency": 0.82,
+        "absoluteFrequency": 86,
+        "value": "434"
+      },
+      {
+        "label": {
+          "en": "Occupations in the inspection and maintenance of traffic infrastructure",
+          "de": "Überwachung,WartungVerkehrsinfrastruktur"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "512"
+      },
+      {
+        "label": {
+          "en": "Occupations in warehousing and logistics, in postal and other delivery services, and in cargo handling",
+          "de": "Lagerwirt.,Post,Zustellung,Güterumschlag"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "513"
+      },
+      {
+        "label": {
+          "en": "Service occupations in passenger traffic",
+          "de": "Servicekräfte im Personenverkehr"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "514"
+      },
+      {
+        "label": {
+          "en": "Occupations in traffic surveillance and control",
+          "de": "Überwachung u. Steuerung Verkehrsbetrieb"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "515"
+      },
+      {
+        "label": {
+          "en": "Management assistants in transport and logistics",
+          "de": "Kaufleute - Verkehr und Logistik"
+        },
+        "validRelativeFrequency": 0.52,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 24,
+        "value": "516"
+      },
+      {
+        "label": {
+          "en": "Aircraft pilots",
+          "de": "Fahrzeugführung im Flugverkehr"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "523"
+      },
+      {
+        "label": {
+          "en": "Occupations in physical security, personal protection, fire protection and workplace safety",
+          "de": "Obj.-,Pers.-,Brandschutz,Arbeitssicherh."
+        },
+        "validRelativeFrequency": 0.26,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "531"
+      },
+      {
+        "label": {
+          "en": "Occupations in police and criminal investigation, jurisdiction and the penal institution",
+          "de": "Polizei,Kriminald.,Gerichts,Justizvollz."
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "532"
+      },
+      {
+        "label": {
+          "en": "Occupations in occupational health and safety administration, public health authority, and disinfection",
+          "de": "Gewerbe,Gesundheitsaufsicht,Desinfektion"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "533"
+      },
+      {
+        "label": {
+          "en": "Occupations in cleaning services",
+          "de": "Reinigung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "541"
+      },
+      {
+        "label": {
+          "en": "Occupations in purchasing and sales",
+          "de": "Einkauf und Vertrieb"
+        },
+        "validRelativeFrequency": 1.61,
+        "relativeFrequency": 0.71,
+        "absoluteFrequency": 74,
+        "value": "611"
+      },
+      {
+        "label": {
+          "en": "Trading occupations",
+          "de": "Handel"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "612"
+      },
+      {
+        "label": {
+          "en": "Occupations in real estate and facility management",
+          "de": "Immobilienwirtschaft,Facility-Management"
+        },
+        "validRelativeFrequency": 0.35,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "613"
+      },
+      {
+        "label": {
+          "en": "Sales occupations in retail trade (without product specialisation)",
+          "de": "Verkauf (ohne Produktspezialisierung)"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "621"
+      },
+      {
+        "label": {
+          "en": "Sales occupations (retail) selling foodstuffs",
+          "de": "Verkauf von Lebensmitteln"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "623"
+      },
+      {
+        "label": {
+          "en": "Sales occupations (retail) selling drugstore products, pharmaceuticals, medical supplies and healthcare goods",
+          "de": "Verkauf drog.apotheken.Waren,Medizinbed."
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "624"
+      },
+      {
+        "label": {
+          "en": "Sales occupations (retail) selling books, art, antiques, musical instruments, recordings or sheet music",
+          "de": "Buch-Kunst-Antiquitäten-,Musikfachhandel"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "625"
+      },
+      {
+        "label": {
+          "en": "Occupations in tourism and the sports (and fitness) industry",
+          "de": "Tourismus und Sport"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
+        "value": "631"
+      },
+      {
+        "label": {
+          "en": "Occupations in hotels",
+          "de": "Hotellerie"
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "632"
+      },
+      {
+        "label": {
+          "en": "Gastronomy occupations",
+          "de": "Gastronomie"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "633"
+      },
+      {
+        "label": {
+          "en": "Occupations in event organisation and management",
+          "de": "Veranstaltungsservice, -management"
+        },
+        "validRelativeFrequency": 0.35,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "634"
+      },
+      {
+        "label": {
+          "en": "Managing directors and executive board members",
+          "de": "Geschäftsführung und Vorstand"
+        },
+        "validRelativeFrequency": 1.02,
+        "relativeFrequency": 0.45,
+        "absoluteFrequency": 47,
+        "value": "711"
+      },
+      {
+        "label": {
+          "en": "Legislators and senior officials of special interest organisations",
+          "de": "Angeh. gesetzgeb. Körp., Interessenorg."
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "712"
+      },
+      {
+        "label": {
+          "en": "Occupations in business organisation and strategy",
+          "de": "Unternehmensorganisation und -strategie"
+        },
+        "validRelativeFrequency": 7.04,
+        "relativeFrequency": 3.08,
+        "absoluteFrequency": 323,
+        "value": "713"
+      },
+      {
+        "label": {
+          "en": "Office clerks and secretaries",
+          "de": "Büro und Sekretariat"
+        },
+        "validRelativeFrequency": 1.81,
+        "relativeFrequency": 0.79,
+        "absoluteFrequency": 83,
+        "value": "714"
+      },
+      {
+        "label": {
+          "en": "Occupations in human resources management and personnel service",
+          "de": "Personalwesen und -dienstleistung"
+        },
+        "validRelativeFrequency": 2.62,
+        "relativeFrequency": 1.14,
+        "absoluteFrequency": 120,
+        "value": "715"
+      },
+      {
+        "label": {
+          "en": "Occupations in insurance and financial services",
+          "de": "Versicherungs- u. Finanzdienstleistungen"
+        },
+        "validRelativeFrequency": 1.48,
+        "relativeFrequency": 0.65,
+        "absoluteFrequency": 68,
+        "value": "721"
+      },
+      {
+        "label": {
+          "en": "Occupations in accounting, controlling and auditing",
+          "de": "Rechnungswesen, Controlling und Revision"
+        },
+        "validRelativeFrequency": 3.03,
+        "relativeFrequency": 1.32,
+        "absoluteFrequency": 139,
+        "value": "722"
+      },
+      {
+        "label": {
+          "en": "Occupations in tax consultancy",
+          "de": "Steuerberatung"
+        },
+        "validRelativeFrequency": 0.76,
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 35,
+        "value": "723"
+      },
+      {
+        "label": {
+          "en": "Occupations in legal services, jurisdiction, and other officers of the court ",
+          "de": "Rechtsberatung, -sprechung und -ordnung"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 90,
+        "value": "731"
+      },
+      {
+        "label": {
+          "en": "Occupations in public administration",
+          "de": "Verwaltung"
+        },
+        "validRelativeFrequency": 0.96,
+        "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
+        "value": "732"
+      },
+      {
+        "label": {
+          "en": "Occupations in media, documentation and information services",
+          "de": "Medien-Dokumentations-Informationsdienst"
+        },
+        "validRelativeFrequency": 0.57,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 26,
+        "value": "733"
+      },
+      {
+        "label": {
+          "en": "Doctors’ receptionists and assistants",
+          "de": "Arzt- und Praxishilfe"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "811"
+      },
+      {
+        "label": {
+          "en": "Laboratory occupations in medicine",
+          "de": "Medizinisches Laboratorium"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
+        "value": "812"
+      },
+      {
+        "label": {
+          "en": "Occupations in nursing, emergency medical services and obstetrics",
+          "de": "Gesundh.,Krankenpfl.,Rettungsd.Geburtsh."
+        },
+        "validRelativeFrequency": 0.5,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "813"
+      },
+      {
+        "label": {
+          "en": "Occupations in human medicine and dentistry",
+          "de": "Human- und Zahnmedizin"
+        },
+        "validRelativeFrequency": 3.75,
+        "relativeFrequency": 1.64,
+        "absoluteFrequency": 172,
+        "value": "814"
+      },
+      {
+        "label": {
+          "en": "Occupations in veterinary medicine and non-medical animal health practitioners",
+          "de": "Tiermedizin und Tierheilkunde"
+        },
+        "validRelativeFrequency": 0.87,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 40,
+        "value": "815"
+      },
+      {
+        "label": {
+          "en": "Occupations in psychology and non-medical psychotherapy",
+          "de": "Psychologie, nichtärztl. Psychotherapie"
+        },
+        "validRelativeFrequency": 2.44,
+        "relativeFrequency": 1.07,
+        "absoluteFrequency": 112,
+        "value": "816"
+      },
+      {
+        "label": {
+          "en": "Occupations in non-medical therapy and alternative medicine",
+          "de": "Nicht ärztliche Therapie und Heilkunde"
+        },
+        "validRelativeFrequency": 0.59,
+        "relativeFrequency": 0.26,
+        "absoluteFrequency": 27,
+        "value": "817"
+      },
+      {
+        "label": {
+          "en": "Occupations in pharmacy",
+          "de": "Pharmazie"
+        },
+        "validRelativeFrequency": 0.89,
+        "relativeFrequency": 0.39,
+        "absoluteFrequency": 41,
+        "value": "818"
+      },
+      {
+        "label": {
+          "en": "Occupations in geriatric care",
+          "de": "Altenpflege"
+        },
+        "validRelativeFrequency": 0.11,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "821"
+      },
+      {
+        "label": {
+          "en": "Occupations providing nutritional advice or health counselling, and occupations in wellness",
+          "de": "Ernährungs-,Gesundheitsberatung,Wellness"
+        },
+        "validRelativeFrequency": 0.48,
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 22,
+        "value": "822"
+      },
+      {
+        "label": {
+          "en": "Occupations in funeral services",
+          "de": "Bestattungswesen"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "824"
+      },
+      {
+        "label": {
+          "en": "Technical occupations in medicine, orthopaedic and rehabilitation",
+          "de": "Medizin-, Orthopädie- und Rehatechnik"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 13,
+        "value": "825"
+      },
+      {
+        "label": {
+          "en": "Occupations in education and social work, and pedagogic specialists in social care work",
+          "de": "Erziehung,Sozialarb.,Heilerziehungspfl."
+        },
+        "validRelativeFrequency": 6.69,
+        "relativeFrequency": 2.93,
+        "absoluteFrequency": 307,
+        "value": "831"
+      },
+      {
+        "label": {
+          "en": "Occupations in housekeeping and consumer counselling",
+          "de": "Hauswirtschaft und Verbraucherberatung"
+        },
+        "validRelativeFrequency": 0.04,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "832"
+      },
+      {
+        "label": {
+          "en": "Occupations in theology and church community work",
+          "de": "Theologie und Gemeindearbeit"
+        },
+        "validRelativeFrequency": 0.39,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "833"
+      },
+      {
+        "label": {
+          "en": "Teachers in schools of general education",
+          "de": "Lehrtätigkeit an allgemeinbild. Schulen"
+        },
+        "validRelativeFrequency": 11.12,
+        "relativeFrequency": 4.86,
+        "absoluteFrequency": 510,
+        "value": "841"
+      },
+      {
+        "label": {
+          "en": "Teachers for occupation-specific subjects at vocational schools and in-company instructors in vocational training",
+          "de": "Lehrt.berufsb.Fächer,betr.Ausb.,Betr.päd"
+        },
+        "validRelativeFrequency": 1.05,
+        "relativeFrequency": 0.46,
+        "absoluteFrequency": 48,
+        "value": "842"
+      },
+      {
+        "label": {
+          "en": "Teachers and researcher at universities and colleges",
+          "de": "Lehr-,Forschungstätigkeit an Hochschulen"
+        },
+        "validRelativeFrequency": 11.6,
+        "relativeFrequency": 5.07,
+        "absoluteFrequency": 532,
+        "value": "843"
+      },
+      {
+        "label": {
+          "en": "Teachers at educational institutions other than schools (except driving, flying and sports instructors)",
+          "de": "Lehrtätigk. außerschul.Bildungseinricht."
+        },
+        "validRelativeFrequency": 1.29,
+        "relativeFrequency": 0.56,
+        "absoluteFrequency": 59,
+        "value": "844"
+      },
+      {
+        "label": {
+          "en": "Driving, flying and sports instructors at educational institutions other than schools",
+          "de": "Fahr-,Sportunterricht außerschul. Bild."
+        },
+        "validRelativeFrequency": 0.07,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "845"
+      },
+      {
+        "label": {
+          "en": "Occupations in philology",
+          "de": "Sprach-, Literaturwissenschaften"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "911"
+      },
+      {
+        "label": {
+          "en": "Occupations in the humanities",
+          "de": "Geisteswissenschaften"
+        },
+        "validRelativeFrequency": 0.22,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "912"
+      },
+      {
+        "label": {
+          "en": "Occupations in the social sciences",
+          "de": "Gesellschaftswissenschaften"
+        },
+        "validRelativeFrequency": 1.63,
+        "relativeFrequency": 0.71,
+        "absoluteFrequency": 75,
+        "value": "913"
+      },
+      {
+        "label": {
+          "en": "Occupations in economics",
+          "de": "Wirtschaftswissenschaften"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "914"
+      },
+      {
+        "label": {
+          "en": "Occupations in advertising and marketing",
+          "de": "Werbung und Marketing"
+        },
+        "validRelativeFrequency": 3.51,
+        "relativeFrequency": 1.53,
+        "absoluteFrequency": 161,
+        "value": "921"
+      },
+      {
+        "label": {
+          "en": "Occupations in public relations",
+          "de": "Öffentlichkeitsarbeit"
+        },
+        "validRelativeFrequency": 1.33,
+        "relativeFrequency": 0.58,
+        "absoluteFrequency": 61,
+        "value": "922"
+      },
+      {
+        "label": {
+          "en": "Occupations in publishing and media management",
+          "de": "Verlags- und Medienwirtschaft"
+        },
+        "validRelativeFrequency": 0.11,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "923"
+      },
+      {
+        "label": {
+          "en": "Occupations in editorial work and journalism",
+          "de": "Redaktion und Journalismus"
+        },
+        "validRelativeFrequency": 2.07,
+        "relativeFrequency": 0.91,
+        "absoluteFrequency": 95,
+        "value": "924"
+      },
+      {
+        "label": {
+          "en": "Occupations in product and industrial design",
+          "de": "Produkt- und Industriedesign"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
+        "value": "931"
+      },
+      {
+        "label": {
+          "en": "Occupations in interior design, visual marketing, and interior decoration",
+          "de": "Innenarchitektur, Raumausstattung"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "932"
+      },
+      {
+        "label": {
+          "en": "Occupations in artisan craftwork and fine arts",
+          "de": "Kunsthandwerk und bildende Kunst"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "933"
+      },
+      {
+        "label": {
+          "en": "Artisans working with metal",
+          "de": "Kunsthandwerkliche Metallgestaltung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "935"
+      },
+      {
+        "label": {
+          "en": "Musicians, singers and conductors",
+          "de": "Musik-, Gesang-, Dirigententätigkeiten"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "941"
+      },
+      {
+        "label": {
+          "en": "Actors, dancers, athletes and related occupations",
+          "de": "Schauspiel, Tanz und Bewegungskunst"
+        },
+        "validRelativeFrequency": 0.13,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "942"
+      },
+      {
+        "label": {
+          "en": "Presenters and entertainers",
+          "de": "Moderation und Unterhaltung"
+        },
+        "validRelativeFrequency": 0.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "943"
+      },
+      {
+        "label": {
+          "en": "Occupations in theatre, film and television productions",
+          "de": "Theater-, Film- und Fernsehproduktion"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
+        "value": "944"
+      },
+      {
+        "label": {
+          "en": "Occupations in event technology, cinematography, and sound engineering",
+          "de": "Veranstaltungs-, Kamera-, Tontechnik"
+        },
+        "validRelativeFrequency": 0.15,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "945"
+      },
+      {
+        "label": {
+          "en": "Technical and management occupations in museums and exhibitions",
+          "de": "Museumstechnik und -management"
+        },
+        "validRelativeFrequency": 0.09,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "947"
       }
+    ],
+    "totalValidRelativeFrequency": 43.72,
+    "totalValidAbsoluteFrequency": 4588,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Berufsvariablen (KldB-5-Steller) generiert. Dabei wurde der dreistellige Code gemäß Destatis-Schlüsselverzeichnis für die \"Klassifizierung der Berufe (KldB)\" von 2010 (vgl. cl-destatis-kldb-2010) vergeben (ergänzt um Sondercodes, wenn nicht zuordenbar)."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-bocc21_v1",
+  "panelIdentifier": "gra2009-ds1-occ21_g2",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1080,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "occupation: German Classification of Occupation 2010 (3 digit)",
+    "de": "Beruf: KldB 2010 (3-stellig)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

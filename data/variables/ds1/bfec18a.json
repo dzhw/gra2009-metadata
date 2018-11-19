@@ -1,110 +1,122 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "participation in short further education at university",
-    "de": "Teilnahme kurze Fort-/Weiterbildung an Hochschule"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1303,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 44.42,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1200,
-        "label": {
-          "en": "yes",
-          "de": "ja"
-        },
-        "relativeFrequency": 11.44,
-        "validRelativeFrequency": 25.75,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie an kürzeren Bildungsangeboten von bzw. an Hochschulen teilgenommen (z. B. Kurse, Seminare, Workshops)?\r\nJa\r\nNein"
       },
-      {
-        "absoluteFrequency": 3461,
-        "label": {
-          "en": "no",
-          "de": "nein"
-        },
-        "relativeFrequency": 32.98,
-        "validRelativeFrequency": 74.25,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4661,
+      "questionNumber": "5.5",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie an kürzeren Bildungsangeboten von bzw. an Hochschulen teilgenommen (z. B. Kurse, Seminare, Workshops)?"
+      },
+      "questionNumber": "51",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 94,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.9,
+        "absoluteFrequency": 94,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 25.75,
+        "relativeFrequency": 11.44,
+        "absoluteFrequency": 1200,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 74.25,
+        "relativeFrequency": 32.98,
+        "absoluteFrequency": 3461,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 44.42,
+    "totalValidAbsoluteFrequency": 4661,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie an kürzeren Bildungsangeboten von bzw. an Hochschulen teilgenommen (z. B. Kurse, Seminare, Workshops)?\nJa\nNein"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "51",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie an kÃ¼rzeren Bildungsangeboten von bzw. an Hochschulen teilgenommen (z. B. Kurse, Seminare, Workshops)?"
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1303,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "participation in short further education at university",
+    "de": "Teilnahme kurze Fort-/Weiterbildung an Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

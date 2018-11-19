@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "in retrospect: study again",
-    "de": "Retrospektive: wieder studieren"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 726,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\r\nWieder studieren"
+      },
+      "questionNumber": "5.18",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 94.85,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 1,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "1",
-      "meanDeviation": "747.2304",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7467,
-        "label": {
-          "en": "Definitely",
-          "de": "auf jeden Fall"
-        },
-        "relativeFrequency": 71.15,
-        "validRelativeFrequency": 75.02,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1539,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 14.67,
-        "validRelativeFrequency": 15.46,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 622,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 5.93,
-        "validRelativeFrequency": 6.25,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 208,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.98,
-        "validRelativeFrequency": 2.09,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 118,
-        "label": {
-          "en": "Not definitely",
-          "de": "auf keinen Fall"
-        },
-        "relativeFrequency": 1.12,
-        "validRelativeFrequency": 1.19,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 9954,
     "missings": [
       {
-        "absoluteFrequency": 540,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 5.15,
+        "absoluteFrequency": 540,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\nWieder studieren"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Definitely",
+          "de": "auf jeden Fall"
+        },
+        "validRelativeFrequency": 75.02,
+        "relativeFrequency": 71.15,
+        "absoluteFrequency": 7467,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 15.46,
+        "relativeFrequency": 14.67,
+        "absoluteFrequency": 1539,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 6.25,
+        "relativeFrequency": 5.93,
+        "absoluteFrequency": 622,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 2.09,
+        "relativeFrequency": 1.98,
+        "absoluteFrequency": 208,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not definitely",
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 1.19,
+        "relativeFrequency": 1.12,
+        "absoluteFrequency": 118,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 94.85,
+    "totalValidAbsoluteFrequency": 9954,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 726,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "in retrospect: study again",
+    "de": "Retrospektive: wieder studieren"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

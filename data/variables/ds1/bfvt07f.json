@@ -1,119 +1,131 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "other forms of further education: exchange with colleagues/superior",
-    "de": "Weiterbildung andere Lernformen: Austausch Kolleg(inn)en/Vorgesetzten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1419,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 39.98,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 716,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 6.82,
-        "validRelativeFrequency": 17.07,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Lernen kann auch außerhalb von Kursen und Lehrgängen stattfinden (informelles Lernen). Haben Sie die folgenden Lernformen in den letzten 12 Monaten genutzt, um beruflich hinzuzulernen?\r\nLernen von bzw. im Austausch mit Kolleg(inn)en oder Vorgesetzten"
       },
-      {
-        "absoluteFrequency": 3479,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 33.15,
-        "validRelativeFrequency": 82.93,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4195,
+      "questionNumber": "6.6",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Lernen kann auch außerhalb von Kursen und Lehrgängen stattfinden (informelles Lernen). Haben Sie die folgenden Lernformen in den letzten 12 Monaten genutzt, um beruflich hinzuzulernen?"
+      },
+      "questionNumber": "78",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 146,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.39,
+        "absoluteFrequency": 146,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 414,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 3.95,
+        "absoluteFrequency": 414,
         "code": -988
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 17.07,
+        "relativeFrequency": 6.82,
+        "absoluteFrequency": 716,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 82.93,
+        "relativeFrequency": 33.15,
+        "absoluteFrequency": 3479,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 39.98,
+    "totalValidAbsoluteFrequency": 4195,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "6.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Lernen kann auch außerhalb von Kursen und Lehrgängen stattfinden (informelles Lernen). Haben Sie die folgenden Lernformen in den letzten 12 Monaten genutzt, um beruflich hinzuzulernen?\nLernen von bzw. im Austausch mit Kolleg(inn)en oder Vorgesetzten"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "78",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Lernen kann auch auÃŸerhalb von Kursen und LehrgÃ¤ngen stattfinden (informelles Lernen). Haben Sie die folgenden Lernformen in den letzten 12 Monaten genutzt, um beruflich hinzuzulernen?"
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1419,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "other forms of further education: exchange with colleagues/superior",
+    "de": "Weiterbildung andere Lernformen: Austausch Kolleg(inn)en/Vorgesetzten"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

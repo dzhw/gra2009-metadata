@@ -1,139 +1,151 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "employment of partner",
-    "de": "Erwerbstätigkeit Partner(in)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bdem12_v1,2,3,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ist Ihr(e) Partner(in) erwerbstätig?\r\nJa, Vollzeit erwerbstätig\r\nJa, Teilzeit beschäftigt\r\nJa, geringfügig beschäftigt\r\nNein"
+      },
+      "questionNumber": "8.3",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-dem13",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1465,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Ist Ihr(e) Partner(in) erwerbstätig?"
+      },
+      "questionNumber": "88",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 34.44,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2732,
-        "label": {
-          "en": "Yes, full time",
-          "de": "ja, Vollzeit"
-        },
-        "relativeFrequency": 26.03,
-        "validRelativeFrequency": 75.59,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 405,
-        "label": {
-          "en": "Yes, part time",
-          "de": "ja, Teilzeit"
-        },
-        "relativeFrequency": 3.86,
-        "validRelativeFrequency": 11.21,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 115,
-        "label": {
-          "en": "Yes, minimal",
-          "de": "ja, geringfügig"
-        },
-        "relativeFrequency": 1.1,
-        "validRelativeFrequency": 3.18,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 362,
-        "label": {
-          "en": "No",
-          "de": "nein"
-        },
-        "relativeFrequency": 3.45,
-        "validRelativeFrequency": 10.02,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3614,
     "missings": [
       {
-        "absoluteFrequency": 168,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.6,
+        "absoluteFrequency": 168,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 973,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 9.27,
+        "absoluteFrequency": 973,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, full time",
+          "de": "ja, Vollzeit"
+        },
+        "validRelativeFrequency": 75.59,
+        "relativeFrequency": 26.03,
+        "absoluteFrequency": 2732,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, part time",
+          "de": "ja, Teilzeit"
+        },
+        "validRelativeFrequency": 11.21,
+        "relativeFrequency": 3.86,
+        "absoluteFrequency": 405,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Yes, minimal",
+          "de": "ja, geringfügig"
+        },
+        "validRelativeFrequency": 3.18,
+        "relativeFrequency": 1.1,
+        "absoluteFrequency": 115,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 10.02,
+        "relativeFrequency": 3.45,
+        "absoluteFrequency": 362,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 34.44,
+    "totalValidAbsoluteFrequency": 3614,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "8.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ist Ihr(e) Partner(in) erwerbstätig?\nJa, Vollzeit erwerbstätig\nJa, Teilzeit beschäftigt\nJa, geringfügig beschäftigt\nNein"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "88",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Ist Ihr(e) Partner(in) erwerbstÃ¤tig?"
-      }
+    "expression": "if inlist(bdem12_v1,2,3,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-dem13",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1465,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "employment of partner",
+    "de": "Erwerbstätigkeit Partner(in)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

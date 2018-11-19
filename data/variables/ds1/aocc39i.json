@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: enjoy life",
-    "de": "Arbeits-/Lebensziele: Leben genießen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39i",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 741,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\r\nDas Leben genießen"
+      },
+      "questionNumber": "5.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.79,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "1513.735",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4780,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 45.55,
-        "validRelativeFrequency": 47.06,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4151,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 39.56,
-        "validRelativeFrequency": 40.87,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1041,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 9.92,
-        "validRelativeFrequency": 10.25,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 165,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.57,
-        "validRelativeFrequency": 1.62,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": "Not at all important",
-          "de": "gar nicht wichtig"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 0.2,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10157,
     "missings": [
       {
-        "absoluteFrequency": 337,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.21,
+        "absoluteFrequency": 337,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\nDas Leben genießen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 47.06,
+        "relativeFrequency": 45.55,
+        "absoluteFrequency": 4780,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 40.87,
+        "relativeFrequency": 39.56,
+        "absoluteFrequency": 4151,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 10.25,
+        "relativeFrequency": 9.92,
+        "absoluteFrequency": 1041,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 1.62,
+        "relativeFrequency": 1.57,
+        "absoluteFrequency": 165,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "gar nicht wichtig"
+        },
+        "validRelativeFrequency": 0.2,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.79,
+    "totalValidAbsoluteFrequency": 10157,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39i",
+  "surveyNumbers": [1],
+  "indexInDataSet": 741,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: enjoy life",
+    "de": "Arbeits-/Lebensziele: Leben genießen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

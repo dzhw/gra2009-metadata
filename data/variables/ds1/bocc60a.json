@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "risk of loss of employment",
-    "de": "Gefahr Beschäftigungsverlust"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sofern Sie zurzeit erwerbstätig sind: Befürchten Sie in den kommenden sechs Monaten die Beschäftigung bei Ihrem Arbeitgeber zu verlieren?; Erwägen Sie in den kommenden sechs Monaten Ihren jetzigen Arbeitgeber zu wechseln?\r\nSehr stark -- überhaupt nicht"
+      },
+      "questionNumber": "4.28",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1177,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sofern Sie zurzeit erwerbstätig sind: Befürchten Sie in den kommenden sechs Monaten die Beschäftigung bei Ihrem Arbeitgeber zu verlieren?; Erwägen Sie in den kommenden sechs Monaten Ihren jetzigen Arbeitgeber zu wechseln?"
+      },
+      "questionNumber": "45",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 38.35,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "231.2856",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 166,
-        "label": {
-          "en": "Very strong",
-          "de": "sehr stark"
-        },
-        "relativeFrequency": 1.58,
-        "validRelativeFrequency": 4.13,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 133,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 1.27,
-        "validRelativeFrequency": 3.31,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 289,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 2.75,
-        "validRelativeFrequency": 7.18,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 575,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 5.48,
-        "validRelativeFrequency": 14.29,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2861,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 27.26,
-        "validRelativeFrequency": 71.1,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4024,
     "missings": [
       {
-        "absoluteFrequency": 700,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 6.67,
+        "absoluteFrequency": 700,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "sehr stark"
+        },
+        "validRelativeFrequency": 4.13,
+        "relativeFrequency": 1.58,
+        "absoluteFrequency": 166,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 3.31,
+        "relativeFrequency": 1.27,
+        "absoluteFrequency": 133,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 7.18,
+        "relativeFrequency": 2.75,
+        "absoluteFrequency": 289,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 5.48,
+        "absoluteFrequency": 575,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 71.1,
+        "relativeFrequency": 27.26,
+        "absoluteFrequency": 2861,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 38.35,
+    "totalValidAbsoluteFrequency": 4024,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.28",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sofern Sie zurzeit erwerbstätig sind: Befürchten Sie in den kommenden sechs Monaten die Beschäftigung bei Ihrem Arbeitgeber zu verlieren?; Erwägen Sie in den kommenden sechs Monaten Ihren jetzigen Arbeitgeber zu wechseln?\nSehr stark -- überhaupt nicht"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "45",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sofern Sie zurzeit erwerbstÃ¤tig sind: BefÃ¼rchten Sie in den kommenden sechs Monaten die BeschÃ¤ftigung bei Ihrem Arbeitgeber zu verlieren?; ErwÃ¤gen Sie in den kommenden sechs Monaten Ihren jetzigen Arbeitgeber zu wechseln?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1177,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "risk of loss of employment",
+    "de": "Gefahr Beschäftigungsverlust"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

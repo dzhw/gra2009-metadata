@@ -1,319 +1,483 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "residence: NUTS2",
-    "de": "Wohnsitz: NUTS2"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-adem11a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "string",
-    "de": "string"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 781,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Wohnsitzvariable (erfasst als dreistellige Postleitzahl) generiert. Zur Aggregation wurde die Referenzliste \"Tercet NUTS-postal codes matching tables\" des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 verwendet (cl-eurostat-deplznuts-2010). Diese Referenzliste weist die fünfstellige Postleitzahl und die zugehörige NUTS-3 Region aus. Daraus wurden die dreistelligen Postleitzahlen und die NUTS-2 Regionen gebildet. Sofern die dreistellige Postleitzahl nicht eindeutig einer NUTS-2-Region zugeordnet werden konnte, wurde der Missingwert \"-966 nicht bestimmbar\" vergeben."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "character",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie Ihren Hauptwohnsitz an."
+      },
+      "questionNumber": "6.13",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 84.9,
     "statistics": {
-      "mode": "DE30 Berlin"
+      "meanDeviation": null,
+      "mode": "DE30 Berlin",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 581,
-        "relativeFrequency": 5.54,
-        "validRelativeFrequency": 6.52,
-        "value": "DE11 Stuttgart"
-      },
-      {
-        "absoluteFrequency": 184,
-        "relativeFrequency": 1.75,
-        "validRelativeFrequency": 2.07,
-        "value": "DE12 Karlsruhe"
-      },
-      {
-        "absoluteFrequency": 174,
-        "relativeFrequency": 1.66,
-        "validRelativeFrequency": 1.95,
-        "value": "DE13 Freiburg"
-      },
-      {
-        "absoluteFrequency": 205,
-        "relativeFrequency": 1.95,
-        "validRelativeFrequency": 2.3,
-        "value": "DE14 Tübingen"
-      },
-      {
-        "absoluteFrequency": 789,
-        "relativeFrequency": 7.52,
-        "validRelativeFrequency": 8.86,
-        "value": "DE21 Oberbayern"
-      },
-      {
-        "absoluteFrequency": 98,
-        "relativeFrequency": 0.93,
-        "validRelativeFrequency": 1.1,
-        "value": "DE22 Niederbayern"
-      },
-      {
-        "absoluteFrequency": 42,
-        "relativeFrequency": 0.4,
-        "validRelativeFrequency": 0.47,
-        "value": "DE23 Oberpfalz"
-      },
-      {
-        "absoluteFrequency": 55,
-        "relativeFrequency": 0.52,
-        "validRelativeFrequency": 0.62,
-        "value": "DE24 Oberfranken"
-      },
-      {
-        "absoluteFrequency": 155,
-        "relativeFrequency": 1.48,
-        "validRelativeFrequency": 1.74,
-        "value": "DE25 Mittelfranken"
-      },
-      {
-        "absoluteFrequency": 44,
-        "relativeFrequency": 0.42,
-        "validRelativeFrequency": 0.49,
-        "value": "DE26 Unterfranken"
-      },
-      {
-        "absoluteFrequency": 90,
-        "relativeFrequency": 0.86,
-        "validRelativeFrequency": 1.01,
-        "value": "DE27 Schwaben"
-      },
-      {
-        "absoluteFrequency": 800,
-        "relativeFrequency": 7.62,
-        "validRelativeFrequency": 8.98,
-        "value": "DE30 Berlin"
-      },
-      {
-        "absoluteFrequency": 194,
-        "relativeFrequency": 1.85,
-        "validRelativeFrequency": 2.18,
-        "value": "DE40 Brandenburg"
-      },
-      {
-        "absoluteFrequency": 98,
-        "relativeFrequency": 0.93,
-        "validRelativeFrequency": 1.1,
-        "value": "DE50 Bremen"
-      },
-      {
-        "absoluteFrequency": 332,
-        "relativeFrequency": 3.16,
-        "validRelativeFrequency": 3.73,
-        "value": "DE60 Hamburg"
-      },
-      {
-        "absoluteFrequency": 435,
-        "relativeFrequency": 4.15,
-        "validRelativeFrequency": 4.88,
-        "value": "DE71 Darmstadt"
-      },
-      {
-        "absoluteFrequency": 81,
-        "relativeFrequency": 0.77,
-        "validRelativeFrequency": 0.91,
-        "value": "DE72 Gießen"
-      },
-      {
-        "absoluteFrequency": 53,
-        "relativeFrequency": 0.51,
-        "validRelativeFrequency": 0.59,
-        "value": "DE73 Kassel"
-      },
-      {
-        "absoluteFrequency": 153,
-        "relativeFrequency": 1.46,
-        "validRelativeFrequency": 1.72,
-        "value": "DE80 Mecklenburg-Vorpommern"
-      },
-      {
-        "absoluteFrequency": 152,
-        "relativeFrequency": 1.45,
-        "validRelativeFrequency": 1.71,
-        "value": "DE91 Braunschweig"
-      },
-      {
-        "absoluteFrequency": 313,
-        "relativeFrequency": 2.98,
-        "validRelativeFrequency": 3.51,
-        "value": "DE92 Hannover"
-      },
-      {
-        "absoluteFrequency": 35,
-        "relativeFrequency": 0.33,
-        "validRelativeFrequency": 0.39,
-        "value": "DE93 Lüneburg"
-      },
-      {
-        "absoluteFrequency": 272,
-        "relativeFrequency": 2.59,
-        "validRelativeFrequency": 3.05,
-        "value": "DE94 Weser-Ems"
-      },
-      {
-        "absoluteFrequency": 436,
-        "relativeFrequency": 4.15,
-        "validRelativeFrequency": 4.89,
-        "value": "DEA1 Düsseldorf"
-      },
-      {
-        "absoluteFrequency": 351,
-        "relativeFrequency": 3.34,
-        "validRelativeFrequency": 3.94,
-        "value": "DEA2 Köln"
-      },
-      {
-        "absoluteFrequency": 125,
-        "relativeFrequency": 1.19,
-        "validRelativeFrequency": 1.4,
-        "value": "DEA3 Münster"
-      },
-      {
-        "absoluteFrequency": 349,
-        "relativeFrequency": 3.33,
-        "validRelativeFrequency": 3.92,
-        "value": "DEA4 Detmold"
-      },
-      {
-        "absoluteFrequency": 287,
-        "relativeFrequency": 2.73,
-        "validRelativeFrequency": 3.22,
-        "value": "DEA5 Arnsberg"
-      },
-      {
-        "absoluteFrequency": 132,
-        "relativeFrequency": 1.26,
-        "validRelativeFrequency": 1.48,
-        "value": "DEB1 Koblenz"
-      },
-      {
-        "absoluteFrequency": 81,
-        "relativeFrequency": 0.77,
-        "validRelativeFrequency": 0.91,
-        "value": "DEB2 Trier"
-      },
-      {
-        "absoluteFrequency": 134,
-        "relativeFrequency": 1.28,
-        "validRelativeFrequency": 1.5,
-        "value": "DEB3 Rheinhessen-Pfalz"
-      },
-      {
-        "absoluteFrequency": 68,
-        "relativeFrequency": 0.65,
-        "validRelativeFrequency": 0.76,
-        "value": "DEC0 Saarland"
-      },
-      {
-        "absoluteFrequency": 380,
-        "relativeFrequency": 3.62,
-        "validRelativeFrequency": 4.27,
-        "value": "DED2 Dresden"
-      },
-      {
-        "absoluteFrequency": 215,
-        "relativeFrequency": 2.05,
-        "validRelativeFrequency": 2.41,
-        "value": "DED4 Chemnitz"
-      },
-      {
-        "absoluteFrequency": 129,
-        "relativeFrequency": 1.23,
-        "validRelativeFrequency": 1.45,
-        "value": "DED5 Leipzig"
-      },
-      {
-        "absoluteFrequency": 182,
-        "relativeFrequency": 1.73,
-        "validRelativeFrequency": 2.04,
-        "value": "DEE0 Sachsen-Anhalt"
-      },
-      {
-        "absoluteFrequency": 255,
-        "relativeFrequency": 2.43,
-        "validRelativeFrequency": 2.86,
-        "value": "DEF0 Schleswig-Holstein"
-      },
-      {
-        "absoluteFrequency": 450,
-        "relativeFrequency": 4.29,
-        "validRelativeFrequency": 5.05,
-        "value": "DEG0 Thüringen"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 8909,
     "missings": [
       {
-        "absoluteFrequency": 1281,
         "label": {
           "en": null,
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 12.21,
+        "absoluteFrequency": 1281,
         "code": -966
       },
       {
-        "absoluteFrequency": 15,
         "label": {
           "en": null,
           "de": "unplausibler Wert"
         },
         "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
         "code": -968
       },
       {
-        "absoluteFrequency": 289,
         "label": {
           "en": null,
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.75,
+        "absoluteFrequency": 289,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.13",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie Ihren Hauptwohnsitz an."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.52,
+        "relativeFrequency": 5.54,
+        "absoluteFrequency": 581,
+        "value": "DE11 Stuttgart"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.07,
+        "relativeFrequency": 1.75,
+        "absoluteFrequency": 184,
+        "value": "DE12 Karlsruhe"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.95,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 174,
+        "value": "DE13 Freiburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.3,
+        "relativeFrequency": 1.95,
+        "absoluteFrequency": 205,
+        "value": "DE14 Tübingen"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8.86,
+        "relativeFrequency": 7.52,
+        "absoluteFrequency": 789,
+        "value": "DE21 Oberbayern"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.1,
+        "relativeFrequency": 0.93,
+        "absoluteFrequency": 98,
+        "value": "DE22 Niederbayern"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.4,
+        "absoluteFrequency": 42,
+        "value": "DE23 Oberpfalz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.62,
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 55,
+        "value": "DE24 Oberfranken"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.74,
+        "relativeFrequency": 1.48,
+        "absoluteFrequency": 155,
+        "value": "DE25 Mittelfranken"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.49,
+        "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
+        "value": "DE26 Unterfranken"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.01,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 90,
+        "value": "DE27 Schwaben"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 8.98,
+        "relativeFrequency": 7.62,
+        "absoluteFrequency": 800,
+        "value": "DE30 Berlin"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.18,
+        "relativeFrequency": 1.85,
+        "absoluteFrequency": 194,
+        "value": "DE40 Brandenburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.1,
+        "relativeFrequency": 0.93,
+        "absoluteFrequency": 98,
+        "value": "DE50 Bremen"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.73,
+        "relativeFrequency": 3.16,
+        "absoluteFrequency": 332,
+        "value": "DE60 Hamburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.88,
+        "relativeFrequency": 4.15,
+        "absoluteFrequency": 435,
+        "value": "DE71 Darmstadt"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.91,
+        "relativeFrequency": 0.77,
+        "absoluteFrequency": 81,
+        "value": "DE72 Gießen"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.59,
+        "relativeFrequency": 0.51,
+        "absoluteFrequency": 53,
+        "value": "DE73 Kassel"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.72,
+        "relativeFrequency": 1.46,
+        "absoluteFrequency": 153,
+        "value": "DE80 Mecklenburg-Vorpommern"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.71,
+        "relativeFrequency": 1.45,
+        "absoluteFrequency": 152,
+        "value": "DE91 Braunschweig"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.51,
+        "relativeFrequency": 2.98,
+        "absoluteFrequency": 313,
+        "value": "DE92 Hannover"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.39,
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 35,
+        "value": "DE93 Lüneburg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.05,
+        "relativeFrequency": 2.59,
+        "absoluteFrequency": 272,
+        "value": "DE94 Weser-Ems"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.89,
+        "relativeFrequency": 4.15,
+        "absoluteFrequency": 436,
+        "value": "DEA1 Düsseldorf"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.94,
+        "relativeFrequency": 3.34,
+        "absoluteFrequency": 351,
+        "value": "DEA2 Köln"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.4,
+        "relativeFrequency": 1.19,
+        "absoluteFrequency": 125,
+        "value": "DEA3 Münster"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.92,
+        "relativeFrequency": 3.33,
+        "absoluteFrequency": 349,
+        "value": "DEA4 Detmold"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.22,
+        "relativeFrequency": 2.73,
+        "absoluteFrequency": 287,
+        "value": "DEA5 Arnsberg"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.48,
+        "relativeFrequency": 1.26,
+        "absoluteFrequency": 132,
+        "value": "DEB1 Koblenz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.91,
+        "relativeFrequency": 0.77,
+        "absoluteFrequency": 81,
+        "value": "DEB2 Trier"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.5,
+        "relativeFrequency": 1.28,
+        "absoluteFrequency": 134,
+        "value": "DEB3 Rheinhessen-Pfalz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.76,
+        "relativeFrequency": 0.65,
+        "absoluteFrequency": 68,
+        "value": "DEC0 Saarland"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 4.27,
+        "relativeFrequency": 3.62,
+        "absoluteFrequency": 380,
+        "value": "DED2 Dresden"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.41,
+        "relativeFrequency": 2.05,
+        "absoluteFrequency": 215,
+        "value": "DED4 Chemnitz"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.45,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 129,
+        "value": "DED5 Leipzig"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.04,
+        "relativeFrequency": 1.73,
+        "absoluteFrequency": 182,
+        "value": "DEE0 Sachsen-Anhalt"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.86,
+        "relativeFrequency": 2.43,
+        "absoluteFrequency": 255,
+        "value": "DEF0 Schleswig-Holstein"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 5.05,
+        "relativeFrequency": 4.29,
+        "absoluteFrequency": 450,
+        "value": "DEG0 Thüringen"
       }
+    ],
+    "totalValidRelativeFrequency": 84.9,
+    "totalValidAbsoluteFrequency": 8909,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Wohnsitzvariable (erfasst als dreistellige Postleitzahl) generiert. Zur Aggregation wurde die Referenzliste \"Tercet NUTS-postal codes matching tables\" des Statistischen Amtes der Europäischen Union (Eurostat) von 2010 verwendet (cl-eurostat-deplznuts-2010). Diese Referenzliste weist die fünfstellige Postleitzahl und die zugehörige NUTS-3 Region aus. Daraus wurden die dreistelligen Postleitzahlen und die NUTS-2 Regionen gebildet. Sofern die dreistellige Postleitzahl nicht eindeutig einer NUTS-2-Region zugeordnet werden konnte, wurde der Missingwert \"-966 nicht bestimmbar\" vergeben."
     }
-  ],
+  },
+  "storageType": "character",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-adem11a",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 781,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "residence: NUTS2",
+    "de": "Wohnsitz: NUTS2"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "string",
+    "de": "string"
   }
 }

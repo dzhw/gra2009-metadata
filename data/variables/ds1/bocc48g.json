@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "change of workplace: to be near partner, family",
-    "de": "Wechsel Arbeitsplatz: Nähe Partner(in), Familie"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc47,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?\r\nNähe zum/zur Partner(in), zur Familie"
+      },
+      "questionNumber": "4.2",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 886,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?"
+      },
+      "questionNumber": "15",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 24.35,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "78.5778",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 411,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 3.92,
-        "validRelativeFrequency": 16.09,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 234,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 2.23,
-        "validRelativeFrequency": 9.16,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 194,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 1.85,
-        "validRelativeFrequency": 7.59,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 181,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.72,
-        "validRelativeFrequency": 7.08,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1535,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 14.63,
-        "validRelativeFrequency": 60.08,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2555,
     "missings": [
       {
-        "absoluteFrequency": 154,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.47,
+        "absoluteFrequency": 154,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2046,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.5,
+        "absoluteFrequency": 2046,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 16.09,
+        "relativeFrequency": 3.92,
+        "absoluteFrequency": 411,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 9.16,
+        "relativeFrequency": 2.23,
+        "absoluteFrequency": 234,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 7.59,
+        "relativeFrequency": 1.85,
+        "absoluteFrequency": 194,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 7.08,
+        "relativeFrequency": 1.72,
+        "absoluteFrequency": 181,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 60.08,
+        "relativeFrequency": 14.63,
+        "absoluteFrequency": 1535,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 24.35,
+    "totalValidAbsoluteFrequency": 2555,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem Maße trafen die folgenden Gründe für den Wechsel des Arbeitsplatzes zu?\nNähe zum/zur Partner(in), zur Familie"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "15",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem MaÃŸe trafen die folgenden GrÃ¼nde fÃ¼r den Wechsel des Arbeitsplatzes zu?"
-      }
+    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc47,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 886,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "change of workplace: to be near partner, family",
+    "de": "Wechsel Arbeitsplatz: Nähe Partner(in), Familie"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

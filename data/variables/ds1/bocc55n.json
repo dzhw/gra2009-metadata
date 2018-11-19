@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "acad. activities: committees",
-    "de": "wissenschaftliche Tätigkeiten: Gremien"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?\r\nMitwirkung in Gremien (anderer) Hochschulen/Forschungseinrichtungen"
+      },
+      "questionNumber": "4.17",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1107,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.41,
     "statistics": {
-      "firstQuartile": "5",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "229.803",
+      "firstQuartile": "5",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": "Very intensive",
-          "de": "sehr intensiv"
-        },
-        "relativeFrequency": 0.56,
-        "validRelativeFrequency": 1.3,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 149,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 1.42,
-        "validRelativeFrequency": 3.27,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 214,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 2.04,
-        "validRelativeFrequency": 4.7,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 462,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 4.4,
-        "validRelativeFrequency": 10.14,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3671,
-        "label": {
-          "en": "Not very intensive",
-          "de": "gar nicht intensiv"
-        },
-        "relativeFrequency": 34.98,
-        "validRelativeFrequency": 80.59,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4555,
     "missings": [
       {
-        "absoluteFrequency": 169,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.61,
+        "absoluteFrequency": 169,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very intensive",
+          "de": "sehr intensiv"
+        },
+        "validRelativeFrequency": 1.3,
+        "relativeFrequency": 0.56,
+        "absoluteFrequency": 59,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 3.27,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 149,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 4.7,
+        "relativeFrequency": 2.04,
+        "absoluteFrequency": 214,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 10.14,
+        "relativeFrequency": 4.4,
+        "absoluteFrequency": 462,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not very intensive",
+          "de": "gar nicht intensiv"
+        },
+        "validRelativeFrequency": 80.59,
+        "relativeFrequency": 34.98,
+        "absoluteFrequency": 3671,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.41,
+    "totalValidAbsoluteFrequency": 4555,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?\nMitwirkung in Gremien (anderer) Hochschulen/Forschungseinrichtungen"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit sind/waren Sie in folgende TÃ¤tigkeiten involviert?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1107,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "acad. activities: committees",
+    "de": "wissenschaftliche Tätigkeiten: Gremien"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

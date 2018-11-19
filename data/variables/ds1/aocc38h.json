@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "in retrospect: choose same type of degree",
-    "de": "Retrospektive: gleiche Abschlussart wählen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 730,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\r\nWieder den gleichen Studienabschluss erwerben (z. B. FH-Diplom, Uni-Bachelor)"
+      },
+      "questionNumber": "5.18",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 94.84,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1596.76",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4834,
-        "label": {
-          "en": "Definitely",
-          "de": "auf jeden Fall"
-        },
-        "relativeFrequency": 46.06,
-        "validRelativeFrequency": 48.57,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2181,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 20.78,
-        "validRelativeFrequency": 21.91,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1828,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 17.42,
-        "validRelativeFrequency": 18.37,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 751,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 7.16,
-        "validRelativeFrequency": 7.55,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 359,
-        "label": {
-          "en": "Not definitely",
-          "de": "auf keinen Fall"
-        },
-        "relativeFrequency": 3.42,
-        "validRelativeFrequency": 3.61,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 9953,
     "missings": [
       {
-        "absoluteFrequency": 541,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 5.16,
+        "absoluteFrequency": 541,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\nWieder den gleichen Studienabschluss erwerben (z. B. FH-Diplom, Uni-Bachelor)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Definitely",
+          "de": "auf jeden Fall"
+        },
+        "validRelativeFrequency": 48.57,
+        "relativeFrequency": 46.06,
+        "absoluteFrequency": 4834,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 21.91,
+        "relativeFrequency": 20.78,
+        "absoluteFrequency": 2181,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 18.37,
+        "relativeFrequency": 17.42,
+        "absoluteFrequency": 1828,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 7.55,
+        "relativeFrequency": 7.16,
+        "absoluteFrequency": 751,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not definitely",
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 3.61,
+        "relativeFrequency": 3.42,
+        "absoluteFrequency": 359,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 94.84,
+    "totalValidAbsoluteFrequency": 9953,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 730,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "in retrospect: choose same type of degree",
+    "de": "Retrospektive: gleiche Abschlussart wählen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

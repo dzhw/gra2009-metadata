@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "goals (further education at university): to balance out study deficits",
-    "de": "Ziele (WB an HS): Studiendefizite ausgleichen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\r\nDefizite aus dem Studium kompensieren"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1291,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?"
+      },
+      "questionNumber": "49",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 16.18,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "72.6474",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 182,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 1.73,
-        "validRelativeFrequency": 10.72,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 340,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 3.24,
-        "validRelativeFrequency": 20.02,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 291,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 2.77,
-        "validRelativeFrequency": 17.14,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 274,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.61,
-        "validRelativeFrequency": 16.14,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 611,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 5.82,
-        "validRelativeFrequency": 35.98,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1698,
     "missings": [
       {
-        "absoluteFrequency": 395,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.76,
+        "absoluteFrequency": 395,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 10.72,
+        "relativeFrequency": 1.73,
+        "absoluteFrequency": 182,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 20.02,
+        "relativeFrequency": 3.24,
+        "absoluteFrequency": 340,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 17.14,
+        "relativeFrequency": 2.77,
+        "absoluteFrequency": 291,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 16.14,
+        "relativeFrequency": 2.61,
+        "absoluteFrequency": 274,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 35.98,
+        "relativeFrequency": 5.82,
+        "absoluteFrequency": 611,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 16.18,
+    "totalValidAbsoluteFrequency": 1698,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\nDefizite aus dem Studium kompensieren"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "49",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele fÃ¼r Ihre Teilnahme an den lÃ¤ngerfristigen Bildungsangeboten der Hochschulen?"
-      }
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1291,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "goals (further education at university): to balance out study deficits",
+    "de": "Ziele (WB an HS): Studiendefizite ausgleichen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

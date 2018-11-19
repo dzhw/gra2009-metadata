@@ -1,144 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "number of children",
-    "de": "Anzahl der Kinder"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(adem14,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 794,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde in der Regel anhand der angegebenen Geburtsdaten der Kinder gebildet. Die Anzahl der Kinder entspricht jedoch nicht immer der Summe der angegebenen Kinder (Geburtsdaten), weil bei mehr als drei angegebenen Kindern Angaben zu den mittleren Kindern gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt wurden."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann wurden Ihre Kinder geboren?"
+      },
+      "questionNumber": "6.17",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 7.46,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "skewness": 1.9668,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "69.6822",
-      "meanValue": 1.4304,
-      "maximum": "6",
-      "mode": "1",
-      "median": "1",
+      "firstQuartile": "1",
       "standardDeviation": 0.7007,
-      "kurtosis": 8.5033
+      "median": "1",
+      "kurtosis": 8.5033,
+      "skewness": 1.9668,
+      "maximum": "6",
+      "minimum": "1",
+      "meanValue": 1.4304
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 521,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 4.96,
-        "validRelativeFrequency": 66.54,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 202,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 1.92,
-        "validRelativeFrequency": 25.8,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 49,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.47,
-        "validRelativeFrequency": 6.26,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 1.15,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.26,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 783,
     "missings": [
       {
-        "absoluteFrequency": 93,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.89,
+        "absoluteFrequency": 93,
         "code": -998
       },
       {
-        "absoluteFrequency": 9618,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 91.65,
+        "absoluteFrequency": 9618,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wann wurden Ihre Kinder geboren?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 66.54,
+        "relativeFrequency": 4.96,
+        "absoluteFrequency": 521,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 25.8,
+        "relativeFrequency": 1.92,
+        "absoluteFrequency": 202,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.26,
+        "relativeFrequency": 0.47,
+        "absoluteFrequency": 49,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.15,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.26,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 7.46,
+    "totalValidAbsoluteFrequency": 783,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(adem14,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde in der Regel anhand der angegebenen Geburtsdaten der Kinder gebildet. Die Anzahl der Kinder entspricht jedoch nicht immer der Summe der angegebenen Kinder (Geburtsdaten), weil bei mehr als drei angegebenen Kindern Angaben zu den mittleren Kindern gestrichen und durch die Angaben zum jüngsten bzw. ältesten Kind ersetzt wurden."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 794,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "number of children",
+    "de": "Anzahl der Kinder"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

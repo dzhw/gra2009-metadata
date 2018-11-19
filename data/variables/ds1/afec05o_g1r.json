@@ -1,182 +1,194 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "motivation for further acad. qualification: other, namely",
-    "de": "Motiv weitere akad. Qualifikation: Sonstiges, und zwar"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 410,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten sonstigen Motive für eine weitere akademische Qualifikation, die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\r\nSonstiges, und zwar:"
+      },
+      "questionNumber": "2.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 2.62,
     "statistics": {
-      "mode": "9"
+      "meanDeviation": null,
+      "mode": "9",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Having qualified work later",
-          "de": "später qualifizierte Arbeit haben"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 5.45,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Appropriate remuneration/higher income",
-          "de": "höheres Einkommen"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 5.82,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 30,
-        "label": {
-          "en": "Prestige",
-          "de": "Prestige"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 10.91,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": "Bachelor insufficient",
-          "de": "Bachelor ist nicht ausreichend"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 6.18,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Gathering experience of foreign countries",
-          "de": "Auslandserfahrung sammeln"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 5.82,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Entitlement to proceed with a doctorate",
-          "de": "Promotionsberechtigung"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 1.09,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Parental leave period",
-          "de": "Erziehungszeit"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.36,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": "Personal reasons",
-          "de": "persönl. Gründe"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 14.55,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 86,
-        "label": {
-          "en": "Master is obligatory for the occupation",
-          "de": "Master ist Pflicht für Beruf"
-        },
-        "relativeFrequency": 0.82,
-        "validRelativeFrequency": 31.27,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 51,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.49,
-        "validRelativeFrequency": 18.55,
-        "value": "10"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 275,
     "missings": [
       {
-        "absoluteFrequency": 5692,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 54.24,
+        "absoluteFrequency": 5692,
         "code": -998
       },
       {
-        "absoluteFrequency": 4527,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 43.14,
+        "absoluteFrequency": 4527,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\nSonstiges, und zwar:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Having qualified work later",
+          "de": "später qualifizierte Arbeit haben"
+        },
+        "validRelativeFrequency": 5.45,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Appropriate remuneration/higher income",
+          "de": "höheres Einkommen"
+        },
+        "validRelativeFrequency": 5.82,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Prestige",
+          "de": "Prestige"
+        },
+        "validRelativeFrequency": 10.91,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 30,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Bachelor insufficient",
+          "de": "Bachelor ist nicht ausreichend"
+        },
+        "validRelativeFrequency": 6.18,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Gathering experience of foreign countries",
+          "de": "Auslandserfahrung sammeln"
+        },
+        "validRelativeFrequency": 5.82,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Entitlement to proceed with a doctorate",
+          "de": "Promotionsberechtigung"
+        },
+        "validRelativeFrequency": 1.09,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Parental leave period",
+          "de": "Erziehungszeit"
+        },
+        "validRelativeFrequency": 0.36,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Personal reasons",
+          "de": "persönl. Gründe"
+        },
+        "validRelativeFrequency": 14.55,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 40,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Master is obligatory for the occupation",
+          "de": "Master ist Pflicht für Beruf"
+        },
+        "validRelativeFrequency": 31.27,
+        "relativeFrequency": 0.82,
+        "absoluteFrequency": 86,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 18.55,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 51,
+        "value": "10"
       }
+    ],
+    "totalValidRelativeFrequency": 2.62,
+    "totalValidAbsoluteFrequency": 275,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten sonstigen Motive für eine weitere akademische Qualifikation, die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 410,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for further acad. qualification: other, namely",
+    "de": "Motiv weitere akad. Qualifikation: Sonstiges, und zwar"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

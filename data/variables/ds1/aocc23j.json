@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "difficulties career start: underwork",
-    "de": "Schwierigkeiten Berufsstart: Unterforderung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 518,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\r\nGefühl der Unterforderung"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 69.97,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "825.8082",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 449,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 4.28,
-        "validRelativeFrequency": 6.11,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 728,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 6.94,
-        "validRelativeFrequency": 9.91,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1285,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 12.25,
-        "validRelativeFrequency": 17.5,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1649,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 15.71,
-        "validRelativeFrequency": 22.46,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3232,
-        "label": {
-          "en": "Not at all",
-          "de": "gar nicht"
-        },
-        "relativeFrequency": 30.8,
-        "validRelativeFrequency": 44.01,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7343,
     "missings": [
       {
-        "absoluteFrequency": 1063,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 10.13,
+        "absoluteFrequency": 1063,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\nGefühl der Unterforderung"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 6.11,
+        "relativeFrequency": 4.28,
+        "absoluteFrequency": 449,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 9.91,
+        "relativeFrequency": 6.94,
+        "absoluteFrequency": 728,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 17.5,
+        "relativeFrequency": 12.25,
+        "absoluteFrequency": 1285,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 22.46,
+        "relativeFrequency": 15.71,
+        "absoluteFrequency": 1649,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "gar nicht"
+        },
+        "validRelativeFrequency": 44.01,
+        "relativeFrequency": 30.8,
+        "absoluteFrequency": 3232,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 69.97,
+    "totalValidAbsoluteFrequency": 7343,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 518,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulties career start: underwork",
+    "de": "Schwierigkeiten Berufsstart: Unterforderung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

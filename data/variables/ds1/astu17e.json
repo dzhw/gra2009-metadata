@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "value of degree: knowledge for career",
-    "de": "Wert Studium: Kenntnisse für Beruf"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 320,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Worin sehen Sie rückblickend den Wert Ihres Studiums?\r\nIn der Vermittlung der Kenntnisse für den Beruf"
+      },
+      "questionNumber": "1.21",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.13,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1736.125",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1822,
-        "label": {
-          "en": "Very great value",
-          "de": "sehr großen Wert"
-        },
-        "relativeFrequency": 17.36,
-        "validRelativeFrequency": 17.69,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3531,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 33.65,
-        "validRelativeFrequency": 34.29,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2993,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 28.52,
-        "validRelativeFrequency": 29.06,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1477,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 14.07,
-        "validRelativeFrequency": 14.34,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 475,
-        "label": {
-          "en": "Very little value",
-          "de": "sehr geringen Wert"
-        },
-        "relativeFrequency": 4.53,
-        "validRelativeFrequency": 4.61,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10298,
     "missings": [
       {
-        "absoluteFrequency": 196,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.87,
+        "absoluteFrequency": 196,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.21",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Worin sehen Sie rückblickend den Wert Ihres Studiums?\nIn der Vermittlung der Kenntnisse für den Beruf"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very great value",
+          "de": "sehr großen Wert"
+        },
+        "validRelativeFrequency": 17.69,
+        "relativeFrequency": 17.36,
+        "absoluteFrequency": 1822,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 34.29,
+        "relativeFrequency": 33.65,
+        "absoluteFrequency": 3531,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 29.06,
+        "relativeFrequency": 28.52,
+        "absoluteFrequency": 2993,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 14.34,
+        "relativeFrequency": 14.07,
+        "absoluteFrequency": 1477,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very little value",
+          "de": "sehr geringen Wert"
+        },
+        "validRelativeFrequency": 4.61,
+        "relativeFrequency": 4.53,
+        "absoluteFrequency": 475,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.13,
+    "totalValidAbsoluteFrequency": 10298,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 320,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "value of degree: knowledge for career",
+    "de": "Wert Studium: Kenntnisse für Beruf"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

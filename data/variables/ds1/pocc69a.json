@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "acad. career: trust in abilities",
-    "de": "akad. Laufbahn: Vertrauen in Fähigkeiten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2161,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie an eine berufliche Laufbahn innerhalb der akademischen Forschung und Lehre denken: Inwieweit treffen folgende Aussagen auf Sie zu?,in hohem Maße,überhaupt nicht,Schwierigkeiten, die in der akademischen Forschung und Lehre entstehen könnten, sehe ich gelassen entgegen, da ich meinen Fähigkeiten Vertrauen kann."
+      },
+      "questionNumber": "40",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.89,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "94.8864",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 66,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 0.63,
-        "validRelativeFrequency": 10.68,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 204,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 1.94,
-        "validRelativeFrequency": 33.01,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 184,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 1.75,
-        "validRelativeFrequency": 29.77,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 120,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.14,
-        "validRelativeFrequency": 19.42,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 0.42,
-        "validRelativeFrequency": 7.12,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 618,
     "missings": [
       {
-        "absoluteFrequency": 52,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.5,
+        "absoluteFrequency": 52,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "40",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn Sie an eine berufliche Laufbahn innerhalb der akademischen Forschung und Lehre denken: Inwieweit treffen folgende Aussagen auf Sie zu?,in hohem Maße,überhaupt nicht,Schwierigkeiten, die in der akademischen Forschung und Lehre entstehen könnten, sehe ich gelassen entgegen, da ich meinen Fähigkeiten Vertrauen kann."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 10.68,
+        "relativeFrequency": 0.63,
+        "absoluteFrequency": 66,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 33.01,
+        "relativeFrequency": 1.94,
+        "absoluteFrequency": 204,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 29.77,
+        "relativeFrequency": 1.75,
+        "absoluteFrequency": 184,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 19.42,
+        "relativeFrequency": 1.14,
+        "absoluteFrequency": 120,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 7.12,
+        "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.89,
+    "totalValidAbsoluteFrequency": 618,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2161,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "acad. career: trust in abilities",
+    "de": "akad. Laufbahn: Vertrauen in Fähigkeiten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

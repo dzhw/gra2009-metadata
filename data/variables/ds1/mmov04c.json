@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "attitude towards mobility: living in another city",
-    "de": "Mobilitätseinstellung: Wohnen in anderer Stadt"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1545,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Jeder sollte mal eine Zeit lang in einer anderen Stadt gewohnt haben."
+      },
+      "questionNumber": "06",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.08,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "386.9586",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 770,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 7.34,
-        "validRelativeFrequency": 31.79,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 716,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 6.82,
-        "validRelativeFrequency": 29.56,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 509,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 4.85,
-        "validRelativeFrequency": 21.02,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 240,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.29,
-        "validRelativeFrequency": 9.91,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 187,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 1.78,
-        "validRelativeFrequency": 7.72,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2422,
     "missings": [
       {
-        "absoluteFrequency": 43,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.41,
+        "absoluteFrequency": 43,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "06",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Jeder sollte mal eine Zeit lang in einer anderen Stadt gewohnt haben."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 31.79,
+        "relativeFrequency": 7.34,
+        "absoluteFrequency": 770,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 29.56,
+        "relativeFrequency": 6.82,
+        "absoluteFrequency": 716,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 21.02,
+        "relativeFrequency": 4.85,
+        "absoluteFrequency": 509,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 9.91,
+        "relativeFrequency": 2.29,
+        "absoluteFrequency": 240,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 7.72,
+        "relativeFrequency": 1.78,
+        "absoluteFrequency": 187,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.08,
+    "totalValidAbsoluteFrequency": 2422,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1545,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "attitude towards mobility: living in another city",
+    "de": "Mobilitätseinstellung: Wohnen in anderer Stadt"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

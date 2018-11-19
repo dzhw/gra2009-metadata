@@ -1,103 +1,115 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "nationality",
-    "de": "Staatsangehörigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-dem08a",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 768,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Staatsangehörigkeit haben Sie?\r\nDeutsche Staatsangehörigkeit\r\nAndere Staatsangehörigkeit,"
+      },
+      "questionNumber": "6.10",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.58,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 9962,
-        "label": {
-          "en": "German nationality",
-          "de": "deutsche Staatsangehörigkeit"
-        },
-        "relativeFrequency": 94.93,
-        "validRelativeFrequency": 95.33,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 300,
-        "label": {
-          "en": "Other nationality",
-          "de": "andere Staatsangehörigkeit"
-        },
-        "relativeFrequency": 2.86,
-        "validRelativeFrequency": 2.87,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 188,
-        "label": {
-          "en": "Dual nationality ",
-          "de": "doppelte Staatsangehörigkeit"
-        },
-        "relativeFrequency": 1.79,
-        "validRelativeFrequency": 1.8,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10450,
     "missings": [
       {
-        "absoluteFrequency": 44,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.10",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Staatsangehörigkeit haben Sie?\nDeutsche Staatsangehörigkeit\nAndere Staatsangehörigkeit,"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "German nationality",
+          "de": "deutsche Staatsangehörigkeit"
+        },
+        "validRelativeFrequency": 95.33,
+        "relativeFrequency": 94.93,
+        "absoluteFrequency": 9962,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Other nationality",
+          "de": "andere Staatsangehörigkeit"
+        },
+        "validRelativeFrequency": 2.87,
+        "relativeFrequency": 2.86,
+        "absoluteFrequency": 300,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Dual nationality ",
+          "de": "doppelte Staatsangehörigkeit"
+        },
+        "validRelativeFrequency": 1.8,
+        "relativeFrequency": 1.79,
+        "absoluteFrequency": 188,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 99.58,
+    "totalValidAbsoluteFrequency": 10450,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-dem08a",
+  "surveyNumbers": [1],
+  "indexInDataSet": 768,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": "Wurde sowohl die deutsche als auch eine andere Staatsangehörigkeit angegeben, so wurde der Code 3 \"doppelte Staatsangehörigkeit\" vergeben."
+  },
+  "label": {
+    "en": "nationality",
+    "de": "Staatsangehörigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

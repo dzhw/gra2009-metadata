@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course of study: course coordinated",
-    "de": "Studium: Lehrveranstaltungen abgestimmt"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 244,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit treffen die folgenden Aussagen auf Ihr abgeschlossenes Studium zu?\r\nDie Lehrveranstaltungen waren inhaltlich gut aufeinander abgestimmt"
+      },
+      "questionNumber": "1.17",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.16,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "2683.506",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 512,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft genau zu"
-        },
-        "relativeFrequency": 4.88,
-        "validRelativeFrequency": 4.92,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2904,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 27.67,
-        "validRelativeFrequency": 27.91,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 4207,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 40.09,
-        "validRelativeFrequency": 40.43,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2322,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 22.13,
-        "validRelativeFrequency": 22.31,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 461,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft gar nicht zu"
-        },
-        "relativeFrequency": 4.39,
-        "validRelativeFrequency": 4.43,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10406,
     "missings": [
       {
-        "absoluteFrequency": 88,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.84,
+        "absoluteFrequency": 88,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf Ihr abgeschlossenes Studium zu?\nDie Lehrveranstaltungen waren inhaltlich gut aufeinander abgestimmt"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft genau zu"
+        },
+        "validRelativeFrequency": 4.92,
+        "relativeFrequency": 4.88,
+        "absoluteFrequency": 512,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 27.91,
+        "relativeFrequency": 27.67,
+        "absoluteFrequency": 2904,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 40.43,
+        "relativeFrequency": 40.09,
+        "absoluteFrequency": 4207,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 22.31,
+        "relativeFrequency": 22.13,
+        "absoluteFrequency": 2322,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft gar nicht zu"
+        },
+        "validRelativeFrequency": 4.43,
+        "relativeFrequency": 4.39,
+        "absoluteFrequency": 461,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99.16,
+    "totalValidAbsoluteFrequency": 10406,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 244,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: course coordinated",
+    "de": "Studium: Lehrveranstaltungen abgestimmt"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

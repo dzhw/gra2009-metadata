@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "type of work: income depends on success",
-    "de": "Arbeitsform: Einkommen erfolgsabhängig"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\r\nMein Einkommen hat erfolgsabhängige Bestandteile"
+      },
+      "questionNumber": "4.23",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1148,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?"
+      },
+      "questionNumber": "40",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.79,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "123.0558",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 443,
-        "label": {
-          "en": "Very strong",
-          "de": "trifft sehr stark zu"
-        },
-        "relativeFrequency": 4.22,
-        "validRelativeFrequency": 9.64,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 437,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 4.16,
-        "validRelativeFrequency": 9.51,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 360,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 3.43,
-        "validRelativeFrequency": 7.83,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 544,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 5.18,
-        "validRelativeFrequency": 11.84,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2811,
-        "label": {
-          "en": "Not at all",
-          "de": "trifft gar nicht zu"
-        },
-        "relativeFrequency": 26.79,
-        "validRelativeFrequency": 61.18,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4595,
     "missings": [
       {
-        "absoluteFrequency": 129,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.23,
+        "absoluteFrequency": 129,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "trifft sehr stark zu"
+        },
+        "validRelativeFrequency": 9.64,
+        "relativeFrequency": 4.22,
+        "absoluteFrequency": 443,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 9.51,
+        "relativeFrequency": 4.16,
+        "absoluteFrequency": 437,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 7.83,
+        "relativeFrequency": 3.43,
+        "absoluteFrequency": 360,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 11.84,
+        "relativeFrequency": 5.18,
+        "absoluteFrequency": 544,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "trifft gar nicht zu"
+        },
+        "validRelativeFrequency": 61.18,
+        "relativeFrequency": 26.79,
+        "absoluteFrequency": 2811,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.79,
+    "totalValidAbsoluteFrequency": 4595,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.23",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\nMein Einkommen hat erfolgsabhängige Bestandteile"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "40",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wÃ¼rden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1148,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of work: income depends on success",
+    "de": "Arbeitsform: Einkommen erfolgsabhängig"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

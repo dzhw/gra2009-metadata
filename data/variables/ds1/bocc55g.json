@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "acad. activities: foundational research",
-    "de": "wissenschaftliche Tätigkeiten: Grundlagenforschung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?\r\nMitarbeit an Grundlagenforschung"
+      },
+      "questionNumber": "4.17",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1100,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.5,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "10.3782",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 312,
-        "label": {
-          "en": "Very intensive",
-          "de": "sehr intensiv"
-        },
-        "relativeFrequency": 2.97,
-        "validRelativeFrequency": 6.83,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 305,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 2.91,
-        "validRelativeFrequency": 6.68,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 310,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 2.95,
-        "validRelativeFrequency": 6.79,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 524,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 4.99,
-        "validRelativeFrequency": 11.48,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3114,
-        "label": {
-          "en": "Not very intensive",
-          "de": "gar nicht intensiv"
-        },
-        "relativeFrequency": 29.67,
-        "validRelativeFrequency": 68.21,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4565,
     "missings": [
       {
-        "absoluteFrequency": 159,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.52,
+        "absoluteFrequency": 159,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very intensive",
+          "de": "sehr intensiv"
+        },
+        "validRelativeFrequency": 6.83,
+        "relativeFrequency": 2.97,
+        "absoluteFrequency": 312,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 6.68,
+        "relativeFrequency": 2.91,
+        "absoluteFrequency": 305,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 6.79,
+        "relativeFrequency": 2.95,
+        "absoluteFrequency": 310,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 11.48,
+        "relativeFrequency": 4.99,
+        "absoluteFrequency": 524,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not very intensive",
+          "de": "gar nicht intensiv"
+        },
+        "validRelativeFrequency": 68.21,
+        "relativeFrequency": 29.67,
+        "absoluteFrequency": 3114,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.5,
+    "totalValidAbsoluteFrequency": 4565,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?\nMitarbeit an Grundlagenforschung"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit sind/waren Sie in folgende TÃ¤tigkeiten involviert?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1100,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "acad. activities: foundational research",
+    "de": "wissenschaftliche Tätigkeiten: Grundlagenforschung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

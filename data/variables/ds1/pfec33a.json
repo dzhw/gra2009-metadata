@@ -1,171 +1,183 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "PhD: institutional context",
-    "de": "Promotion: institutioneller Rahmen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2020,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem institutionellen Rahmen promovierten Sie vorwiegend?,In welchem institutionellen Rahmen promovieren Sie vorwiegend?"
+      },
+      "questionNumber": "13",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.25,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 239,
-        "label": {
-          "en": "In a research project at a university",
-          "de": "In einem Forschungsprojekt an einer Universität/Hochschule"
-        },
-        "relativeFrequency": 2.28,
-        "validRelativeFrequency": 36.43,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 199,
-        "label": {
-          "en": "Has a lecture position at a university",
-          "de": "An einem Lehrstuhl an einer Universität/Hochschule (ohne direkte Projektzuordnung)"
-        },
-        "relativeFrequency": 1.9,
-        "validRelativeFrequency": 30.34,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 57,
-        "label": {
-          "en": "In a graduate school",
-          "de": "In einem Graduiertenkolleg, einem Promotionskolleg, einer Graduate School o. Ä."
-        },
-        "relativeFrequency": 0.54,
-        "validRelativeFrequency": 8.69,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": "In the private sector",
-          "de": "In der Privatwirtschaft/Industrie"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 2.59,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 76,
-        "label": {
-          "en": "Research outside of the university",
-          "de": "An einer außeruniversitären Forschungseinrichtung"
-        },
-        "relativeFrequency": 0.72,
-        "validRelativeFrequency": 11.59,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "In doctoral program",
-          "de": "Im Rahmen eins Promotionsprogramms einer Fördereinrichtung"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 1.37,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 54,
-        "label": {
-          "en": "No institutional integration",
-          "de": "Ohne institutionelle Einbindung"
-        },
-        "relativeFrequency": 0.51,
-        "validRelativeFrequency": 8.23,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Other please explain",
-          "de": "Sonstiges, und zwar"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.76,
-        "value": "8"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 656,
     "missings": [
       {
-        "absoluteFrequency": 14,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "13",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem institutionellen Rahmen promovierten Sie vorwiegend?,In welchem institutionellen Rahmen promovieren Sie vorwiegend?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "In a research project at a university",
+          "de": "In einem Forschungsprojekt an einer Universität/Hochschule"
+        },
+        "validRelativeFrequency": 36.43,
+        "relativeFrequency": 2.28,
+        "absoluteFrequency": 239,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Has a lecture position at a university",
+          "de": "An einem Lehrstuhl an einer Universität/Hochschule (ohne direkte Projektzuordnung)"
+        },
+        "validRelativeFrequency": 30.34,
+        "relativeFrequency": 1.9,
+        "absoluteFrequency": 199,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "In a graduate school",
+          "de": "In einem Graduiertenkolleg, einem Promotionskolleg, einer Graduate School o. Ä."
+        },
+        "validRelativeFrequency": 8.69,
+        "relativeFrequency": 0.54,
+        "absoluteFrequency": 57,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "In the private sector",
+          "de": "In der Privatwirtschaft/Industrie"
+        },
+        "validRelativeFrequency": 2.59,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Research outside of the university",
+          "de": "An einer außeruniversitären Forschungseinrichtung"
+        },
+        "validRelativeFrequency": 11.59,
+        "relativeFrequency": 0.72,
+        "absoluteFrequency": 76,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "In doctoral program",
+          "de": "Im Rahmen eins Promotionsprogramms einer Fördereinrichtung"
+        },
+        "validRelativeFrequency": 1.37,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "No institutional integration",
+          "de": "Ohne institutionelle Einbindung"
+        },
+        "validRelativeFrequency": 8.23,
+        "relativeFrequency": 0.51,
+        "absoluteFrequency": 54,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Other please explain",
+          "de": "Sonstiges, und zwar"
+        },
+        "validRelativeFrequency": 0.76,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "8"
       }
+    ],
+    "totalValidRelativeFrequency": 6.25,
+    "totalValidAbsoluteFrequency": 656,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2020,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD: institutional context",
+    "de": "Promotion: institutioneller Rahmen"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

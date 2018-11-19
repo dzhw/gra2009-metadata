@@ -1,110 +1,122 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "financing job-related further education for several days: employment",
-    "de": "mehrtägige berufl. Weiterbildung Finanzierung: eigene Erwerbstätigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1367,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 15.86,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1319,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 12.57,
-        "validRelativeFrequency": 79.27,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um Angaben zu beruflichen Fort- und Weiterbildungen der letzten 12 Monate. Bitte denken Sie dabei an alle Weiterbildungen, die Sie besucht haben und geben sie diese in der passenden Zeile an.\r\n3. Fort- /oder Weiterbildung\r\nFinanzierung \r\nDurch Mittel aus eigener Erwerbstätigkeit"
       },
-      {
-        "absoluteFrequency": 345,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 3.29,
-        "validRelativeFrequency": 20.73,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1664,
+      "questionNumber": "6.5",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Durch wen wurde die Weiterbildung finanziert?"
+      },
+      "questionNumber": "68",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 3091,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 29.45,
+        "absoluteFrequency": 3091,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 79.27,
+        "relativeFrequency": 12.57,
+        "absoluteFrequency": 1319,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 20.73,
+        "relativeFrequency": 3.29,
+        "absoluteFrequency": 345,
+        "value": "1"
+      }
+    ],
+    "totalValidRelativeFrequency": 15.86,
+    "totalValidAbsoluteFrequency": 1664,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "6.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um Angaben zu beruflichen Fort- und Weiterbildungen der letzten 12 Monate. Bitte denken Sie dabei an alle Weiterbildungen, die Sie besucht haben und geben sie diese in der passenden Zeile an.\n3. Fort- /oder Weiterbildung\nFinanzierung Durch Mittel aus eigener Erwerbstätigkeit"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "68",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Durch wen wurde die Weiterbildung finanziert?"
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1367,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "financing job-related further education for several days: employment",
+    "de": "mehrtägige berufl. Weiterbildung Finanzierung: eigene Erwerbstätigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

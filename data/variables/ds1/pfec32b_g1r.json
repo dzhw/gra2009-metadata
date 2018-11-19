@@ -1,120 +1,132 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "PhD: other final grade",
-    "de": "Promotion: sonstige Gesamtnote"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2019,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 6 \"Sonstiges, und zwar\" der Variable pfec32a (Gesamtnote Promotion) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.16,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "No grade given.",
-          "de": "unbenotet/keine Note vergeben"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 94.12,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Mit welcher Gesamtnote haben Sie Ihre Promotion abgeschlossen?,Sonstiges,,und zwar:"
       },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 5.88,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 17,
+      "questionNumber": "12",
+      "instrumentNumber": 4
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 12,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 399,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 3.8,
+        "absoluteFrequency": 399,
         "code": -989
       },
       {
-        "absoluteFrequency": 248,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 2.36,
+        "absoluteFrequency": 248,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Mit welcher Gesamtnote haben Sie Ihre Promotion abgeschlossen?,Sonstiges,,und zwar:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "No grade given.",
+          "de": "unbenotet/keine Note vergeben"
+        },
+        "validRelativeFrequency": 94.12,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 5.88,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "2"
       }
+    ],
+    "totalValidRelativeFrequency": 0.16,
+    "totalValidAbsoluteFrequency": 17,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 6 \"Sonstiges, und zwar\" der Variable pfec32a (Gesamtnote Promotion) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2019,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD: other final grade",
+    "de": "Promotion: sonstige Gesamtnote"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,93 +1,105 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd course of study: start (semester)",
-    "de": "3. Studium: Beginn (Semester)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 46,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 14.81,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 561,
-        "label": {
-          "en": "Summer semester",
-          "de": "Sommersemester"
-        },
-        "relativeFrequency": 5.35,
-        "validRelativeFrequency": 36.1,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nVon SS/WS 20.. Bis einschließlich SS/WS 20.. (z.B. WS 04/05 - SS 2009)\r\n von"
       },
-      {
-        "absoluteFrequency": 993,
-        "label": {
-          "en": "Winter semester",
-          "de": "Wintersemester"
-        },
-        "relativeFrequency": 9.46,
-        "validRelativeFrequency": 63.9,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1554,
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 8940,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 85.19,
+        "absoluteFrequency": 8940,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\nVon SS/WS 20.. Bis einschließlich SS/WS 20.. (z.B. WS 04/05 - SS 2009)\nvon"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Summer semester",
+          "de": "Sommersemester"
+        },
+        "validRelativeFrequency": 36.1,
+        "relativeFrequency": 5.35,
+        "absoluteFrequency": 561,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Winter semester",
+          "de": "Wintersemester"
+        },
+        "validRelativeFrequency": 63.9,
+        "relativeFrequency": 9.46,
+        "absoluteFrequency": 993,
+        "value": "2"
       }
+    ],
+    "totalValidRelativeFrequency": 14.81,
+    "totalValidAbsoluteFrequency": 1554,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 46,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd course of study: start (semester)",
+    "de": "3. Studium: Beginn (Semester)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

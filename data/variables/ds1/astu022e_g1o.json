@@ -1,153 +1,165 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "2nd degree: 2nd minor",
-    "de": "2. Abschluss: 2. Nebenfach"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu022e",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 138,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Studienfachangaben in codierter Form. Als Codierliste wurde die Destatis Fächersystematik (WiSe 2008/09) herangezogen (vgl. cl-destatis-studienfach-2009). Ergänzend wurde, weil in den Daten enthalten, der Fächercode 310 (\"Regenerative Energien\") aufgenommen. Es handelt sich dabei um einen neuen Code, der seit dem Schlüsselverzeichnis 2012/13 existiert."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse haben Sie erlangt?\r\nggf. 2. Abschluss\r\nStudienfach"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.08,
     "statistics": {
-      "mode": "multimodal"
+      "meanDeviation": null,
+      "mode": "multimodal",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Art history, aesthetics",
-          "de": "Kunstgeschichte, Kunstwissenschaft"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "92"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Dutch",
-          "de": "Niederländisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "119"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Physics",
-          "de": "Physik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "128"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Psychology",
-          "de": "Psychologie"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "132"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Business education",
-          "de": "Wirtschaftspädagogik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "181"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "General literary studies",
-          "de": "Allgemeine Literaturwissenschaft"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "188"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Technology learning area",
-          "de": "Lernbereich Technik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "199"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Medieval and modern history",
-          "de": "Mittlere und neuere Geschichte"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 12.5,
-        "value": "273"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 8,
     "missings": [
       {
-        "absoluteFrequency": 10486,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.92,
+        "absoluteFrequency": 10486,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Studienabschlüsse haben Sie erlangt?\nggf. 2. Abschluss\nStudienfach"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Art history, aesthetics",
+          "de": "Kunstgeschichte, Kunstwissenschaft"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "92"
+      },
+      {
+        "label": {
+          "en": "Dutch",
+          "de": "Niederländisch"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "119"
+      },
+      {
+        "label": {
+          "en": "Physics",
+          "de": "Physik"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "128"
+      },
+      {
+        "label": {
+          "en": "Psychology",
+          "de": "Psychologie"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "132"
+      },
+      {
+        "label": {
+          "en": "Business education",
+          "de": "Wirtschaftspädagogik"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "181"
+      },
+      {
+        "label": {
+          "en": "General literary studies",
+          "de": "Allgemeine Literaturwissenschaft"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "188"
+      },
+      {
+        "label": {
+          "en": "Technology learning area",
+          "de": "Lernbereich Technik"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "199"
+      },
+      {
+        "label": {
+          "en": "Medieval and modern history",
+          "de": "Mittlere und neuere Geschichte"
+        },
+        "validRelativeFrequency": 12.5,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "273"
       }
+    ],
+    "totalValidRelativeFrequency": 0.08,
+    "totalValidAbsoluteFrequency": 8,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Studienfachangaben in codierter Form. Als Codierliste wurde die Destatis Fächersystematik (WiSe 2008/09) herangezogen (vgl. cl-destatis-studienfach-2009). Ergänzend wurde, weil in den Daten enthalten, der Fächercode 310 (\"Regenerative Energien\") aufgenommen. Es handelt sich dabei um einen neuen Code, der seit dem Schlüsselverzeichnis 2012/13 existiert."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu022e",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 138,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd degree: 2nd minor",
+    "de": "2. Abschluss: 2. Nebenfach"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

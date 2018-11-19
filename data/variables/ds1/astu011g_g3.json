@@ -1,153 +1,165 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st course of study: subject group (1st minor)",
-    "de": "1. Studium: 1. Nebenfach (Fächergruppen)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu011g",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 12,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 22.4,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1290,
-        "label": {
-          "en": "Language and cultural sciences",
-          "de": "Sprach- und Kulturwissenschaften"
-        },
-        "relativeFrequency": 12.29,
-        "validRelativeFrequency": 54.87,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 63,
-        "label": {
-          "en": "Sports",
-          "de": "Sport"
-        },
-        "relativeFrequency": 0.6,
-        "validRelativeFrequency": 2.68,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 463,
-        "label": {
-          "en": "Legal, economic and social sciences",
-          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
-        },
-        "relativeFrequency": 4.41,
-        "validRelativeFrequency": 19.69,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 354,
-        "label": {
-          "en": "Mathematics, natural sciences",
-          "de": "Mathematik, Naturwissenschaften"
-        },
-        "relativeFrequency": 3.37,
-        "validRelativeFrequency": 15.06,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": "Medicine, health care sciences",
-          "de": "Humanmedizin/Gesundheitswissenschaften"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 0.47,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 22,
-        "label": {
-          "en": "Agricultural forestry and nutritional sciences  ",
-          "de": "Agrar-, Forst-, und Ernährungswissenschaften"
-        },
-        "relativeFrequency": 0.21,
-        "validRelativeFrequency": 0.94,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": "Engineering sciences",
-          "de": "Ingenieurwissenschaften"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 1.7,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 108,
-        "label": {
-          "en": "Art, aesthetics",
-          "de": "Kunst, Kunstwissenschaft"
-        },
-        "relativeFrequency": 1.03,
-        "validRelativeFrequency": 4.59,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2351,
     "missings": [
       {
-        "absoluteFrequency": 8143,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 77.6,
+        "absoluteFrequency": 8143,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Language and cultural sciences",
+          "de": "Sprach- und Kulturwissenschaften"
+        },
+        "validRelativeFrequency": 54.87,
+        "relativeFrequency": 12.29,
+        "absoluteFrequency": 1290,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Sports",
+          "de": "Sport"
+        },
+        "validRelativeFrequency": 2.68,
+        "relativeFrequency": 0.6,
+        "absoluteFrequency": 63,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Legal, economic and social sciences",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 19.69,
+        "relativeFrequency": 4.41,
+        "absoluteFrequency": 463,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Mathematics, natural sciences",
+          "de": "Mathematik, Naturwissenschaften"
+        },
+        "validRelativeFrequency": 15.06,
+        "relativeFrequency": 3.37,
+        "absoluteFrequency": 354,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Medicine, health care sciences",
+          "de": "Humanmedizin/Gesundheitswissenschaften"
+        },
+        "validRelativeFrequency": 0.47,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 11,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Agricultural forestry and nutritional sciences  ",
+          "de": "Agrar-, Forst-, und Ernährungswissenschaften"
+        },
+        "validRelativeFrequency": 0.94,
+        "relativeFrequency": 0.21,
+        "absoluteFrequency": 22,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Engineering sciences",
+          "de": "Ingenieurwissenschaften"
+        },
+        "validRelativeFrequency": 1.7,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 40,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Art, aesthetics",
+          "de": "Kunst, Kunstwissenschaft"
+        },
+        "validRelativeFrequency": 4.59,
+        "relativeFrequency": 1.03,
+        "absoluteFrequency": 108,
+        "value": "9"
       }
+    ],
+    "totalValidRelativeFrequency": 22.4,
+    "totalValidAbsoluteFrequency": 2351,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu011g",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 12,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st course of study: subject group (1st minor)",
+    "de": "1. Studium: 1. Nebenfach (Fächergruppen)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

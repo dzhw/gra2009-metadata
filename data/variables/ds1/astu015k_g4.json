@@ -1,113 +1,125 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "5th course of study: location of university (new or old federal states/abroad)",
-    "de": "5. Studium: Hochschule (Bundesländer Alt/Neu)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu015k",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 109,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
-    },
-    "rule": "recode astu015k_g3r (1/10 =1) (11/16 = 2) (21 = 3) (22 = 4), gen(astu015k_g4)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.96,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 69,
-        "label": {
-          "en": "Old federal state",
-          "de": "Alte Bundesländer"
-        },
-        "relativeFrequency": 0.66,
-        "validRelativeFrequency": 68.32,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": "New federal state (incl. Berlin)",
-          "de": "Neue Bundesländer (inkl. Berlin)"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 19.8,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Germany no further details",
-          "de": "Deutschland ohne nähere Angabe"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.99,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": "Abroad",
-          "de": "Ausland"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 10.89,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 101,
     "missings": [
       {
-        "absoluteFrequency": 10393,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.04,
+        "absoluteFrequency": 10393,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "validRelativeFrequency": 68.32,
+        "relativeFrequency": 0.66,
+        "absoluteFrequency": 69,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "validRelativeFrequency": 19.8,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 0.99,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 10.89,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 11,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 0.96,
+    "totalValidAbsoluteFrequency": 101,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode astu015k_g3r (1/10 =1) (11/16 = 2) (21 = 3) (22 = 4), gen(astu015k_g4)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Variablen zum Bundesland der Hochschule generiert. Zu Einzelheiten vgl. die Generierungsregel."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu015k",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 109,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "5th course of study: location of university (new or old federal states/abroad)",
+    "de": "5. Studium: Hochschule (Bundesländer Alt/Neu)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

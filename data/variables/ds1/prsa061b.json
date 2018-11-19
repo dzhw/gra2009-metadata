@@ -1,223 +1,223 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "1st research stay: duration (months)",
-    "de": "1. Forschungsaufenthalt: Dauer (Monate)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & prsa05==1",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2113,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte denken Sie im Folgenden an alle Forschungsaufenthalte von mindestens einmonatiger Dauer in Deutschland und im Ausland. Bitte geben Sie für alle Aufenthalte jeweils die grobe Dauer in Monaten und den Ort an. Runden Sie die Monate dabei auf.,Ort,Dauer in Monaten (aufgerundet),Monate"
+      },
+      "questionNumber": "35",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 1.03,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 6.625,
       "lowWhisker": 1,
-      "skewness": 6.1472,
-      "minimum": "1",
       "thirdQuartile": "3.25",
-      "meanDeviation": "1.4826",
-      "meanValue": 3.8148,
-      "maximum": "60",
-      "mode": "1",
-      "median": "2",
+      "firstQuartile": "1",
       "standardDeviation": 7.0368,
-      "kurtosis": 45.1426
+      "median": "2",
+      "kurtosis": 45.1426,
+      "skewness": 6.1472,
+      "maximum": "60",
+      "minimum": "1",
+      "meanValue": 3.8148
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 39,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.37,
-        "validRelativeFrequency": 36.11,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 16.67,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 22.22,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 6.48,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.93,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 10.19,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.85,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.93,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.85,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.93,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.93,
-        "value": "40"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.93,
-        "value": "60"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 108,
     "missings": [
       {
-        "absoluteFrequency": 2,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 566,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 5.39,
+        "absoluteFrequency": 566,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "35",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte denken Sie im Folgenden an alle Forschungsaufenthalte von mindestens einmonatiger Dauer in Deutschland und im Ausland. Bitte geben Sie für alle Aufenthalte jeweils die grobe Dauer in Monaten und den Ort an. Runden Sie die Monate dabei auf.,Ort,Dauer in Monaten (aufgerundet),Monate"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 36.11,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 39,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 22.22,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 24,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.48,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 10.19,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 11,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.85,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.85,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "40"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "60"
       }
+    ],
+    "totalValidRelativeFrequency": 1.03,
+    "totalValidAbsoluteFrequency": 108,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & prsa05==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2113,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st research stay: duration (months)",
+    "de": "1. Forschungsaufenthalt: Dauer (Monate)"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: enjoy life",
-    "de": "Arbeits-/Lebensziele: Leben genießen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39i",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1510,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Das Leben genießen"
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.38,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "262.4202",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1288,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 12.27,
-        "validRelativeFrequency": 52.49,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 929,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 8.85,
-        "validRelativeFrequency": 37.86,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 187,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 1.78,
-        "validRelativeFrequency": 7.62,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 1.63,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Not at all important",
-          "de": "überhaupt nicht wichtig"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 0.41,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2454,
     "missings": [
       {
-        "absoluteFrequency": 11,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.1,
+        "absoluteFrequency": 11,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Das Leben genießen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 52.49,
+        "relativeFrequency": 12.27,
+        "absoluteFrequency": 1288,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 37.86,
+        "relativeFrequency": 8.85,
+        "absoluteFrequency": 929,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 7.62,
+        "relativeFrequency": 1.78,
+        "absoluteFrequency": 187,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 1.63,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 40,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.38,
+    "totalValidAbsoluteFrequency": 2454,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39i",
+  "surveyNumbers": [4],
+  "indexInDataSet": 1510,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: enjoy life",
+    "de": "Arbeits-/Lebensziele: Leben genießen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

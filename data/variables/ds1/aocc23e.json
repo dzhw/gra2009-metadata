@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "difficulties career start: professional norms",
-    "de": "Schwierigkeiten Berufsstart: berufliche Normen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 513,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\r\nSchwierigkeiten mit bestimmten beruflichen Normen (z. B. geregelte Arbeitszeit, Kleidung, Betriebshierarchie)"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 69.91,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "1024.477",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 107,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 1.02,
-        "validRelativeFrequency": 1.46,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 358,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 3.41,
-        "validRelativeFrequency": 4.88,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 798,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 7.6,
-        "validRelativeFrequency": 10.88,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1855,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 17.68,
-        "validRelativeFrequency": 25.29,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 4218,
-        "label": {
-          "en": "Not at all",
-          "de": "gar nicht"
-        },
-        "relativeFrequency": 40.19,
-        "validRelativeFrequency": 57.5,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7336,
     "missings": [
       {
-        "absoluteFrequency": 1070,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 10.2,
+        "absoluteFrequency": 1070,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\nSchwierigkeiten mit bestimmten beruflichen Normen (z. B. geregelte Arbeitszeit, Kleidung, Betriebshierarchie)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 1.46,
+        "relativeFrequency": 1.02,
+        "absoluteFrequency": 107,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 4.88,
+        "relativeFrequency": 3.41,
+        "absoluteFrequency": 358,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 10.88,
+        "relativeFrequency": 7.6,
+        "absoluteFrequency": 798,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 25.29,
+        "relativeFrequency": 17.68,
+        "absoluteFrequency": 1855,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "gar nicht"
+        },
+        "validRelativeFrequency": 57.5,
+        "relativeFrequency": 40.19,
+        "absoluteFrequency": 4218,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 69.91,
+    "totalValidAbsoluteFrequency": 7336,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 513,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulties career start: professional norms",
+    "de": "Schwierigkeiten Berufsstart: berufliche Normen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

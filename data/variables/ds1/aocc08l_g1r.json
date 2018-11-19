@@ -1,181 +1,193 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "difficulties job search: other problems, namely",
-    "de": "Schwierigkeiten Stellensuche: sonstige Probleme, und zwar"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc06,-998,1,2,3)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 455,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zu sonstigen Schwierigkeiten bei der Stellensuche (Variable aocc08k), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchen Schwierigkeiten sind Sie bei Ihrer Stellensuche – unabhängig von deren Erfolg – bislang begegnet?\r\nAndere Probleme, und zwar:"
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 4.83,
     "statistics": {
-      "mode": "9"
+      "meanDeviation": null,
+      "mode": "9",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Gender discrimination",
-          "de": "Geschlechterdiskriminierung"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 2.96,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": "Other discriminations",
-          "de": "sonstige Diskriminierungen"
-        },
-        "relativeFrequency": 0.25,
-        "validRelativeFrequency": 5.13,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Age, duration of studies",
-          "de": "Alter, Studiendauer"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 3.16,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 60,
-        "label": {
-          "en": "Unclear application procedure",
-          "de": "undurchsichtiges Verfahren"
-        },
-        "relativeFrequency": 0.57,
-        "validRelativeFrequency": 11.83,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Practice/training requirement",
-          "de": "Praxis/Ausbildung verlangt"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 4.54,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Contents, ethics",
-          "de": "Inhalte, Ethik"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 1.18,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 65,
-        "label": {
-          "en": "Performance problems",
-          "de": "Leistungsprobleme"
-        },
-        "relativeFrequency": 0.62,
-        "validRelativeFrequency": 12.82,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 28,
-        "label": {
-          "en": "No specific occupational field",
-          "de": "kein konkretes Berufsfeld"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 5.52,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 268,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 2.55,
-        "validRelativeFrequency": 52.86,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 507,
     "missings": [
       {
-        "absoluteFrequency": 243,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.32,
+        "absoluteFrequency": 243,
         "code": -998
       },
       {
-        "absoluteFrequency": 3684,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 35.11,
+        "absoluteFrequency": 3684,
         "code": -989
       },
       {
-        "absoluteFrequency": 6060,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 57.75,
+        "absoluteFrequency": 6060,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.7",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welchen Schwierigkeiten sind Sie bei Ihrer Stellensuche – unabhängig von deren Erfolg – bislang begegnet?\nAndere Probleme, und zwar:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Gender discrimination",
+          "de": "Geschlechterdiskriminierung"
+        },
+        "validRelativeFrequency": 2.96,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Other discriminations",
+          "de": "sonstige Diskriminierungen"
+        },
+        "validRelativeFrequency": 5.13,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 26,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Age, duration of studies",
+          "de": "Alter, Studiendauer"
+        },
+        "validRelativeFrequency": 3.16,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Unclear application procedure",
+          "de": "undurchsichtiges Verfahren"
+        },
+        "validRelativeFrequency": 11.83,
+        "relativeFrequency": 0.57,
+        "absoluteFrequency": 60,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Practice/training requirement",
+          "de": "Praxis/Ausbildung verlangt"
+        },
+        "validRelativeFrequency": 4.54,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Contents, ethics",
+          "de": "Inhalte, Ethik"
+        },
+        "validRelativeFrequency": 1.18,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Performance problems",
+          "de": "Leistungsprobleme"
+        },
+        "validRelativeFrequency": 12.82,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 65,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "No specific occupational field",
+          "de": "kein konkretes Berufsfeld"
+        },
+        "validRelativeFrequency": 5.52,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 52.86,
+        "relativeFrequency": 2.55,
+        "absoluteFrequency": 268,
+        "value": "9"
       }
+    ],
+    "totalValidRelativeFrequency": 4.83,
+    "totalValidAbsoluteFrequency": 507,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc06,-998,1,2,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zu sonstigen Schwierigkeiten bei der Stellensuche (Variable aocc08k), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 455,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulties job search: other problems, namely",
+    "de": "Schwierigkeiten Stellensuche: sonstige Probleme, und zwar"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

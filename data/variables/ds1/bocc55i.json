@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "acad. activities: scientific methods",
-    "de": "wissenschaftliche Tätigkeiten: wissenschaftliche Methoden"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?\r\nAnwendung wissenschaftlicher Methoden, Verfahren oder Techniken"
+      },
+      "questionNumber": "4.17",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1102,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?"
+      },
+      "questionNumber": "32",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.49,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "180.8772",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 761,
-        "label": {
-          "en": "Very intensive",
-          "de": "sehr intensiv"
-        },
-        "relativeFrequency": 7.25,
-        "validRelativeFrequency": 16.67,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 961,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 9.16,
-        "validRelativeFrequency": 21.06,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 839,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 8,
-        "validRelativeFrequency": 18.38,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 651,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 6.2,
-        "validRelativeFrequency": 14.26,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1352,
-        "label": {
-          "en": "Not very intensive",
-          "de": "gar nicht intensiv"
-        },
-        "relativeFrequency": 12.88,
-        "validRelativeFrequency": 29.62,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4564,
     "missings": [
       {
-        "absoluteFrequency": 160,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.52,
+        "absoluteFrequency": 160,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very intensive",
+          "de": "sehr intensiv"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 7.25,
+        "absoluteFrequency": 761,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 21.06,
+        "relativeFrequency": 9.16,
+        "absoluteFrequency": 961,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 18.38,
+        "relativeFrequency": 8,
+        "absoluteFrequency": 839,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 14.26,
+        "relativeFrequency": 6.2,
+        "absoluteFrequency": 651,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not very intensive",
+          "de": "gar nicht intensiv"
+        },
+        "validRelativeFrequency": 29.62,
+        "relativeFrequency": 12.88,
+        "absoluteFrequency": 1352,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.49,
+    "totalValidAbsoluteFrequency": 4564,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit sind/waren Sie in folgende Tätigkeiten involviert?\nAnwendung wissenschaftlicher Methoden, Verfahren oder Techniken"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "32",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit sind/waren Sie in folgende TÃ¤tigkeiten involviert?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1102,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "acad. activities: scientific methods",
+    "de": "wissenschaftliche Tätigkeiten: wissenschaftliche Methoden"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

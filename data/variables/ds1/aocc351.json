@@ -1,122 +1,134 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st job: relevance of degree for position",
-    "de": "1. Stelle: Relevanz Hochschulabschluss für Position"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 706,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Arbeiten Sie in einer Position, in der ...\r\nerste Stelle\r\nein Hochschulabschluss zwingend erforderlich ist (z. B. Arzt/Ärztin, Apotheker/in, Lehrer/in)?\r\nein Hochschulabschluss die Regel ist?\r\nein Hochschulabschluss nicht die Regel, aber von Vorteil ist?\r\nein Hochschulabschluss keine Bedeutung hat?"
+      },
+      "questionNumber": "5.15",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 65.48,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2603,
-        "label": {
-          "en": "Absolutely applicable",
-          "de": "zwingend erforderlich"
-        },
-        "relativeFrequency": 24.8,
-        "validRelativeFrequency": 37.88,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1962,
-        "label": {
-          "en": "Generally applicable",
-          "de": "die Regel"
-        },
-        "relativeFrequency": 18.7,
-        "validRelativeFrequency": 28.55,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1090,
-        "label": {
-          "en": "Not generally applicable, but of advantage",
-          "de": "nicht die Regel, aber von Vorteil"
-        },
-        "relativeFrequency": 10.39,
-        "validRelativeFrequency": 15.86,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1216,
-        "label": {
-          "en": "Of no significance",
-          "de": "keine Bedeutung"
-        },
-        "relativeFrequency": 11.59,
-        "validRelativeFrequency": 17.7,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 6871,
     "missings": [
       {
-        "absoluteFrequency": 1535,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 14.63,
+        "absoluteFrequency": 1535,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.15",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Arbeiten Sie in einer Position, in der ...\nerste Stelle\nein Hochschulabschluss zwingend erforderlich ist (z. B. Arzt/Ärztin, Apotheker/in, Lehrer/in)?\nein Hochschulabschluss die Regel ist?\nein Hochschulabschluss nicht die Regel, aber von Vorteil ist?\nein Hochschulabschluss keine Bedeutung hat?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Absolutely applicable",
+          "de": "zwingend erforderlich"
+        },
+        "validRelativeFrequency": 37.88,
+        "relativeFrequency": 24.8,
+        "absoluteFrequency": 2603,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Generally applicable",
+          "de": "die Regel"
+        },
+        "validRelativeFrequency": 28.55,
+        "relativeFrequency": 18.7,
+        "absoluteFrequency": 1962,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Not generally applicable, but of advantage",
+          "de": "nicht die Regel, aber von Vorteil"
+        },
+        "validRelativeFrequency": 15.86,
+        "relativeFrequency": 10.39,
+        "absoluteFrequency": 1090,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Of no significance",
+          "de": "keine Bedeutung"
+        },
+        "validRelativeFrequency": 17.7,
+        "relativeFrequency": 11.59,
+        "absoluteFrequency": 1216,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 65.48,
+    "totalValidAbsoluteFrequency": 6871,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 706,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st job: relevance of degree for position",
+    "de": "1. Stelle: Relevanz Hochschulabschluss für Position"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

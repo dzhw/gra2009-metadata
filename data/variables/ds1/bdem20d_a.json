@@ -1,68 +1,61 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\r\nIch kann keine Kinder bekommen"
+      },
+      "questionNumber": "8.6",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?"
+      },
+      "questionNumber": "91",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bdem14_v1,2,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1478,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
   },
   "label": {
     "en": "reason for no children: cannot have children",
     "de": "Grund keine Kinder: kann keine Kinder bekommen"
   },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bdem14_v1,2,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1478,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 29.69,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 3116,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "8.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\nIch kann keine Kinder bekommen"
-      }
-    },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "91",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Rolle spielen die folgenden GrÃ¼nde dafÃ¼r, dass Sie bisher keine Kinder haben?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

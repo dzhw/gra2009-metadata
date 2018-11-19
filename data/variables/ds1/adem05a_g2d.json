@@ -1,253 +1,265 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "higher education entrance qualification: location (f. state/abroad)",
-    "de": "Studienberechtigung: Ort (Bundes-/Ausland)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-adem05a",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 755,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation des Ortes der Studienberechtigung (Bundesland/Land) generiert. Zu Einzelheiten vgl. Generierungsregel."
-    },
-    "rule": "recode adem05a_g1r (20/90 96 99 =100), gen(adem05a_g2d)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Bundesland bzw. in welchem Land und an welchem Ort haben Sie Ihre Studienberechtigung erworben?"
+      },
+      "questionNumber": "6.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.69,
     "statistics": {
-      "mode": "5"
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 305,
-        "label": {
-          "en": "Schleswig-Holstein",
-          "de": "Schleswig-Holstein"
-        },
-        "relativeFrequency": 2.91,
-        "validRelativeFrequency": 2.92,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 209,
-        "label": {
-          "en": "Hamburg",
-          "de": "Hamburg"
-        },
-        "relativeFrequency": 1.99,
-        "validRelativeFrequency": 2,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 990,
-        "label": {
-          "en": "Lower Saxony",
-          "de": "Niedersachsen"
-        },
-        "relativeFrequency": 9.43,
-        "validRelativeFrequency": 9.46,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 76,
-        "label": {
-          "en": "Bremen",
-          "de": "Bremen"
-        },
-        "relativeFrequency": 0.72,
-        "validRelativeFrequency": 0.73,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1748,
-        "label": {
-          "en": "North Rine-Westphalia",
-          "de": "Nordrhein-Westfalen"
-        },
-        "relativeFrequency": 16.66,
-        "validRelativeFrequency": 16.71,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 617,
-        "label": {
-          "en": "Hesse",
-          "de": "Hessen"
-        },
-        "relativeFrequency": 5.88,
-        "validRelativeFrequency": 5.9,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 470,
-        "label": {
-          "en": "Rhineland-Palatinate",
-          "de": "Rheinland-Pfalz"
-        },
-        "relativeFrequency": 4.48,
-        "validRelativeFrequency": 4.49,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 1506,
-        "label": {
-          "en": "Baden-Wuerttemberg",
-          "de": "Baden-Württemberg"
-        },
-        "relativeFrequency": 14.35,
-        "validRelativeFrequency": 14.4,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 1431,
-        "label": {
-          "en": "Bavaria",
-          "de": "Bayern"
-        },
-        "relativeFrequency": 13.64,
-        "validRelativeFrequency": 13.68,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 98,
-        "label": {
-          "en": "Saarland",
-          "de": "Saarland"
-        },
-        "relativeFrequency": 0.93,
-        "validRelativeFrequency": 0.94,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 481,
-        "label": {
-          "en": "Berlin",
-          "de": "Berlin"
-        },
-        "relativeFrequency": 4.58,
-        "validRelativeFrequency": 4.6,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 399,
-        "label": {
-          "en": "Brandenburg",
-          "de": "Brandenburg"
-        },
-        "relativeFrequency": 3.8,
-        "validRelativeFrequency": 3.81,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 253,
-        "label": {
-          "en": "Mecklenburg-Vorpommern",
-          "de": "Mecklenburg-Vorpommern"
-        },
-        "relativeFrequency": 2.41,
-        "validRelativeFrequency": 2.42,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 862,
-        "label": {
-          "en": "Saxony",
-          "de": "Sachsen"
-        },
-        "relativeFrequency": 8.21,
-        "validRelativeFrequency": 8.24,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 258,
-        "label": {
-          "en": "Saxony-Anhalt",
-          "de": "Sachsen-Anhalt"
-        },
-        "relativeFrequency": 2.46,
-        "validRelativeFrequency": 2.47,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 522,
-        "label": {
-          "en": "Thuringia",
-          "de": "Thüringen"
-        },
-        "relativeFrequency": 4.97,
-        "validRelativeFrequency": 4.99,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Old federal state",
-          "de": "neue Länder ohne nähere Angabe"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.01,
-        "value": "91"
-      },
-      {
-        "absoluteFrequency": 235,
-        "label": {
-          "en": "Abroad",
-          "de": "Ausland"
-        },
-        "relativeFrequency": 2.24,
-        "validRelativeFrequency": 2.25,
-        "value": "100"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10461,
     "missings": [
       {
-        "absoluteFrequency": 33,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.31,
+        "absoluteFrequency": 33,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem Bundesland bzw. in welchem Land und an welchem Ort haben Sie Ihre Studienberechtigung erworben?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Schleswig-Holstein",
+          "de": "Schleswig-Holstein"
+        },
+        "validRelativeFrequency": 2.92,
+        "relativeFrequency": 2.91,
+        "absoluteFrequency": 305,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Hamburg",
+          "de": "Hamburg"
+        },
+        "validRelativeFrequency": 2,
+        "relativeFrequency": 1.99,
+        "absoluteFrequency": 209,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Lower Saxony",
+          "de": "Niedersachsen"
+        },
+        "validRelativeFrequency": 9.46,
+        "relativeFrequency": 9.43,
+        "absoluteFrequency": 990,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Bremen",
+          "de": "Bremen"
+        },
+        "validRelativeFrequency": 0.73,
+        "relativeFrequency": 0.72,
+        "absoluteFrequency": 76,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "North Rine-Westphalia",
+          "de": "Nordrhein-Westfalen"
+        },
+        "validRelativeFrequency": 16.71,
+        "relativeFrequency": 16.66,
+        "absoluteFrequency": 1748,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Hesse",
+          "de": "Hessen"
+        },
+        "validRelativeFrequency": 5.9,
+        "relativeFrequency": 5.88,
+        "absoluteFrequency": 617,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Rhineland-Palatinate",
+          "de": "Rheinland-Pfalz"
+        },
+        "validRelativeFrequency": 4.49,
+        "relativeFrequency": 4.48,
+        "absoluteFrequency": 470,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Baden-Wuerttemberg",
+          "de": "Baden-Württemberg"
+        },
+        "validRelativeFrequency": 14.4,
+        "relativeFrequency": 14.35,
+        "absoluteFrequency": 1506,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Bavaria",
+          "de": "Bayern"
+        },
+        "validRelativeFrequency": 13.68,
+        "relativeFrequency": 13.64,
+        "absoluteFrequency": 1431,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Saarland",
+          "de": "Saarland"
+        },
+        "validRelativeFrequency": 0.94,
+        "relativeFrequency": 0.93,
+        "absoluteFrequency": 98,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Berlin",
+          "de": "Berlin"
+        },
+        "validRelativeFrequency": 4.6,
+        "relativeFrequency": 4.58,
+        "absoluteFrequency": 481,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Brandenburg",
+          "de": "Brandenburg"
+        },
+        "validRelativeFrequency": 3.81,
+        "relativeFrequency": 3.8,
+        "absoluteFrequency": 399,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "Mecklenburg-Vorpommern",
+          "de": "Mecklenburg-Vorpommern"
+        },
+        "validRelativeFrequency": 2.42,
+        "relativeFrequency": 2.41,
+        "absoluteFrequency": 253,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Saxony",
+          "de": "Sachsen"
+        },
+        "validRelativeFrequency": 8.24,
+        "relativeFrequency": 8.21,
+        "absoluteFrequency": 862,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Saxony-Anhalt",
+          "de": "Sachsen-Anhalt"
+        },
+        "validRelativeFrequency": 2.47,
+        "relativeFrequency": 2.46,
+        "absoluteFrequency": 258,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "Thuringia",
+          "de": "Thüringen"
+        },
+        "validRelativeFrequency": 4.99,
+        "relativeFrequency": 4.97,
+        "absoluteFrequency": 522,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Old federal state",
+          "de": "neue Länder ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 0.01,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "91"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 2.24,
+        "absoluteFrequency": 235,
+        "value": "100"
       }
+    ],
+    "totalValidRelativeFrequency": 99.69,
+    "totalValidAbsoluteFrequency": 10461,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode adem05a_g1r (20/90 96 99 =100), gen(adem05a_g2d)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation  des Ortes der Studienberechtigung (Bundesland/Land) generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-adem05a",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 755,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification: location (f. state/abroad)",
+    "de": "Studienberechtigung: Ort (Bundes-/Ausland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

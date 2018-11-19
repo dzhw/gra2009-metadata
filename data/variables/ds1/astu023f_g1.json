@@ -1,183 +1,195 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd degree: degree type",
-    "de": "3. Abschluss: Abschlussart"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 159,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-22)."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse haben Sie erlangt?\r\nggf. 3. Abschluss\r\nAngestrebte Abschlussart (z.B. Diplom, Bachelor, Staatsexamen)"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.29,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "Diploma Uni",
-          "de": "Diplom Uni"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 23.33,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Magister degree",
-          "de": "Magister"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.33,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Bachelor Uni ",
-          "de": "Bachelor Uni"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.33,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Master Uni",
-          "de": "Master Uni"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 6.67,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "State exams (except for teaching profession)",
-          "de": "Staatsexamen (ohne LA)"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 13.33,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Teaching profession grammar school",
-          "de": "LA Gymnasium"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.33,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Teaching profession, additional examination",
-          "de": "LA Erweiterung"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 10,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Examination outside the Federal Republic of Germany",
-          "de": "trad. Auslandsabschluss"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 10,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Leaving certificate, certificate",
-          "de": "Zertifikat"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 6.67,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Bachelor abroad ",
-          "de": "Bachelor im Ausland"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 10,
-        "value": "27"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Master abroad",
-          "de": "Master im Ausland"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 10,
-        "value": "28"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 30,
     "missings": [
       {
-        "absoluteFrequency": 10464,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.71,
+        "absoluteFrequency": 10464,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Studienabschlüsse haben Sie erlangt?\nggf. 3. Abschluss\nAngestrebte Abschlussart (z.B. Diplom, Bachelor, Staatsexamen)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Diploma Uni",
+          "de": "Diplom Uni"
+        },
+        "validRelativeFrequency": 23.33,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Magister degree",
+          "de": "Magister"
+        },
+        "validRelativeFrequency": 3.33,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Bachelor Uni ",
+          "de": "Bachelor Uni"
+        },
+        "validRelativeFrequency": 3.33,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Master Uni",
+          "de": "Master Uni"
+        },
+        "validRelativeFrequency": 6.67,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "State exams (except for teaching profession)",
+          "de": "Staatsexamen (ohne LA)"
+        },
+        "validRelativeFrequency": 13.33,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Teaching profession grammar school",
+          "de": "LA Gymnasium"
+        },
+        "validRelativeFrequency": 3.33,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Teaching profession, additional examination",
+          "de": "LA Erweiterung"
+        },
+        "validRelativeFrequency": 10,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "Examination outside the Federal Republic of Germany",
+          "de": "trad. Auslandsabschluss"
+        },
+        "validRelativeFrequency": 10,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "Leaving certificate, certificate",
+          "de": "Zertifikat"
+        },
+        "validRelativeFrequency": 6.67,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "Bachelor abroad ",
+          "de": "Bachelor im Ausland"
+        },
+        "validRelativeFrequency": 10,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": "Master abroad",
+          "de": "Master im Ausland"
+        },
+        "validRelativeFrequency": 10,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "28"
       }
+    ],
+    "totalValidRelativeFrequency": 0.29,
+    "totalValidAbsoluteFrequency": 30,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Abschlussangaben in codierter Form. Dabei wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-22)."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 159,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd degree: degree type",
+    "de": "3. Abschluss: Abschlussart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

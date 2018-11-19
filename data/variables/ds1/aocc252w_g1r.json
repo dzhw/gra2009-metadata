@@ -1,141 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "last job found: other, namely",
-    "de": "letzte Stelle gefunden: Sonstiges, und zwar"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ252w_g1",
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 648,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zu sonstigen Wegen der Stellenfindung bzgl. der letzten Stelle (Variable aocc252v), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf welche Weise haben Sie Ihre erste bzw. heutige Arbeitsstelle gefunden? (Mehrfachnennung möglich)\r\nheutige Stelle\r\nSonstiges, und zwar --> heutige Stelle"
+      },
+      "questionNumber": "5.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.6,
     "statistics": {
-      "mode": "9"
+      "meanDeviation": null,
+      "mode": "9",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Own job-seeking advert",
-          "de": "eigene Stellensuchanzeige"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 6.35,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": "Agency mediation ",
-          "de": "Agenturvermittlung"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 26.98,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Does not apply, as self-employed",
-          "de": "trifft nicht zu, weil selbstständig"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.59,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Temporary employment agency ",
-          "de": "Zeitarbeitsfirma/Leiharbeit"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 14.29,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 32,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.3,
-        "validRelativeFrequency": 50.79,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 63,
     "missings": [
       {
-        "absoluteFrequency": 1148,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 10.94,
+        "absoluteFrequency": 1148,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       },
       {
-        "absoluteFrequency": 7195,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 68.56,
+        "absoluteFrequency": 7195,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Auf welche Weise haben Sie Ihre erste bzw. heutige Arbeitsstelle gefunden? (Mehrfachnennung möglich)\nheutige Stelle\nSonstiges, und zwar --> heutige Stelle"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Own job-seeking advert",
+          "de": "eigene Stellensuchanzeige"
+        },
+        "validRelativeFrequency": 6.35,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Agency mediation ",
+          "de": "Agenturvermittlung"
+        },
+        "validRelativeFrequency": 26.98,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Does not apply, as self-employed",
+          "de": "trifft nicht zu, weil selbstständig"
+        },
+        "validRelativeFrequency": 1.59,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Temporary employment agency ",
+          "de": "Zeitarbeitsfirma/Leiharbeit"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 50.79,
+        "relativeFrequency": 0.3,
+        "absoluteFrequency": 32,
+        "value": "9"
       }
+    ],
+    "totalValidRelativeFrequency": 0.6,
+    "totalValidAbsoluteFrequency": 63,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zu sonstigen Wegen der Stellenfindung bzgl. der letzten Stelle (Variable aocc252v), die nicht den vorgegebenen Kategorien zugeordnet werden konnten, in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ252w_g1",
+  "surveyNumbers": [1],
+  "indexInDataSet": 648,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "last job found: other, namely",
+    "de": "letzte Stelle gefunden: Sonstiges, und zwar"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

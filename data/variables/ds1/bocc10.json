@@ -1,159 +1,171 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "type of self-employment",
-    "de": "Form der Selbständigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc09_v1,1,2,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welcher Form sind Sie als Selbständiger tätig bzw. beabsichtigen Sie tätig zu sein?\r\nAls Freiberufler(in) durch Übernahme (z. B. einer Praxis) oder Eintritt (z. B. in eine Kanzlei)\r\nAls Freiberufler(in) durch Gründung (z. B. einer Praxis)\r\nDurch Übernahme einer Firma\r\nDurch Gründung einer Firma\r\nAls sonstige(r) Selbständige(r) (z. B. auf Basis von Werkverträgen oder Honoraren)\r\nDas ist noch unklar"
+      },
+      "questionNumber": "4.8",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ10",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1078,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welcher Form sind Sie als Selbständige(r) tätig bzw. beabsichtigen Sie tätig zu sein?"
+      },
+      "questionNumber": "23",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 7.38,
     "statistics": {
-      "mode": "5"
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 120,
-        "label": {
-          "en": "As freelancer through takeover or entry",
-          "de": "als Freiberufler(in) durch Übernahme oder Eintritt"
-        },
-        "relativeFrequency": 1.14,
-        "validRelativeFrequency": 15.5,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 178,
-        "label": {
-          "en": "As freelancer through foundation",
-          "de": "als Freiberufler(in) durch Gründung"
-        },
-        "relativeFrequency": 1.7,
-        "validRelativeFrequency": 23,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 42,
-        "label": {
-          "en": "Through takeover of a company",
-          "de": "durch Übernahme einer Firma"
-        },
-        "relativeFrequency": 0.4,
-        "validRelativeFrequency": 5.43,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 150,
-        "label": {
-          "en": "Through foundation of a company",
-          "de": "durch Gründung einer Firma"
-        },
-        "relativeFrequency": 1.43,
-        "validRelativeFrequency": 19.38,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 201,
-        "label": {
-          "en": "As other self-employed",
-          "de": "als sonstige(r) Selbständige(r)"
-        },
-        "relativeFrequency": 1.92,
-        "validRelativeFrequency": 25.97,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 83,
-        "label": {
-          "en": "Not yet clear",
-          "de": "das ist noch unklar"
-        },
-        "relativeFrequency": 0.79,
-        "validRelativeFrequency": 10.72,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 774,
     "missings": [
       {
-        "absoluteFrequency": 41,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.39,
+        "absoluteFrequency": 41,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 3940,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 37.55,
+        "absoluteFrequency": 3940,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "As freelancer through takeover or entry",
+          "de": "als Freiberufler(in) durch Übernahme oder Eintritt"
+        },
+        "validRelativeFrequency": 15.5,
+        "relativeFrequency": 1.14,
+        "absoluteFrequency": 120,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "As freelancer through foundation",
+          "de": "als Freiberufler(in) durch Gründung"
+        },
+        "validRelativeFrequency": 23,
+        "relativeFrequency": 1.7,
+        "absoluteFrequency": 178,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Through takeover of a company",
+          "de": "durch Übernahme einer Firma"
+        },
+        "validRelativeFrequency": 5.43,
+        "relativeFrequency": 0.4,
+        "absoluteFrequency": 42,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Through foundation of a company",
+          "de": "durch Gründung einer Firma"
+        },
+        "validRelativeFrequency": 19.38,
+        "relativeFrequency": 1.43,
+        "absoluteFrequency": 150,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "As other self-employed",
+          "de": "als sonstige(r) Selbständige(r)"
+        },
+        "validRelativeFrequency": 25.97,
+        "relativeFrequency": 1.92,
+        "absoluteFrequency": 201,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Not yet clear",
+          "de": "das ist noch unklar"
+        },
+        "validRelativeFrequency": 10.72,
+        "relativeFrequency": 0.79,
+        "absoluteFrequency": 83,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 7.38,
+    "totalValidAbsoluteFrequency": 774,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.8",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welcher Form sind Sie als Selbständiger tätig bzw. beabsichtigen Sie tätig zu sein?\nAls Freiberufler(in) durch Übernahme (z. B. einer Praxis) oder Eintritt (z. B. in eine Kanzlei)\nAls Freiberufler(in) durch Gründung (z. B. einer Praxis)\nDurch Übernahme einer Firma\nDurch Gründung einer Firma\nAls sonstige(r) Selbständige(r) (z. B. auf Basis von Werkverträgen oder Honoraren)\nDas ist noch unklar"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "23",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welcher Form sind Sie als SelbstÃ¤ndige(r) tÃ¤tig bzw. beabsichtigen Sie tÃ¤tig zu sein?"
-      }
+    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc09_v1,1,2,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ10",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1078,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "type of self-employment",
+    "de": "Form der Selbständigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

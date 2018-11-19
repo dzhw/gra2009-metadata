@@ -1,173 +1,173 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "publication: number of articles in non-peer-reviewed journals (English-language)",
-    "de": "Publikation: Anzahl Aufsätze in Zeitschrift ohne peer-review (englischsprachig)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2105,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Aufsätze in Fachzeitschriften ohne Peer-Review-Verfahren"
+      },
+      "questionNumber": "33",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 1.32,
     "statistics": {
-      "firstQuartile": "0",
+      "meanDeviation": 0,
+      "mode": "0",
       "highWhisker": 2.5,
       "lowWhisker": 0,
-      "skewness": 2.4795,
-      "minimum": "0",
       "thirdQuartile": "1",
-      "meanDeviation": "2.9652",
-      "meanValue": 0.7174,
-      "maximum": "7",
-      "mode": "0",
-      "median": "0",
+      "firstQuartile": "0",
       "standardDeviation": 1.2021,
-      "kurtosis": 10.3438
+      "median": "0",
+      "kurtosis": 10.3438,
+      "skewness": 2.4795,
+      "maximum": "7",
+      "minimum": "0",
+      "meanValue": 0.7174
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 82,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.78,
-        "validRelativeFrequency": 59.42,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 34,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.32,
-        "validRelativeFrequency": 24.64,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 9.42,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2.17,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 1.45,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 2.17,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.72,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 138,
     "missings": [
       {
-        "absoluteFrequency": 532,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 5.07,
+        "absoluteFrequency": 532,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "33",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Aufsätze in Fachzeitschriften ohne Peer-Review-Verfahren"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 59.42,
+        "relativeFrequency": 0.78,
+        "absoluteFrequency": 82,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 24.64,
+        "relativeFrequency": 0.32,
+        "absoluteFrequency": 34,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 9.42,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 13,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.17,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.45,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.17,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.72,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "7"
       }
+    ],
+    "totalValidRelativeFrequency": 1.32,
+    "totalValidAbsoluteFrequency": 138,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2105,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "publication: number of articles in non-peer-reviewed journals (English-language)",
+    "de": "Publikation: Anzahl Aufsätze in Zeitschrift ohne peer-review (englischsprachig)"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

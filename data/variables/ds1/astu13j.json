@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course of study: opportunities to go in-depth",
-    "de": "Studium: Vertiefungsmöglichkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 213,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\r\nFachliche Vertiefungsmöglichkeiten"
+      },
+      "questionNumber": "1.15",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.93,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1957.032",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1362,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 12.98,
-        "validRelativeFrequency": 13.12,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3440,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 32.78,
-        "validRelativeFrequency": 33.13,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3188,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 30.38,
-        "validRelativeFrequency": 30.71,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1868,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 17.8,
-        "validRelativeFrequency": 17.99,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 524,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 4.99,
-        "validRelativeFrequency": 5.05,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10382,
     "missings": [
       {
-        "absoluteFrequency": 112,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.07,
+        "absoluteFrequency": 112,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.15",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\nFachliche Vertiefungsmöglichkeiten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 13.12,
+        "relativeFrequency": 12.98,
+        "absoluteFrequency": 1362,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 33.13,
+        "relativeFrequency": 32.78,
+        "absoluteFrequency": 3440,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 30.71,
+        "relativeFrequency": 30.38,
+        "absoluteFrequency": 3188,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 17.99,
+        "relativeFrequency": 17.8,
+        "absoluteFrequency": 1868,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 5.05,
+        "relativeFrequency": 4.99,
+        "absoluteFrequency": 524,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.93,
+    "totalValidAbsoluteFrequency": 10382,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 213,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: opportunities to go in-depth",
+    "de": "Studium: Vertiefungsmöglichkeit"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

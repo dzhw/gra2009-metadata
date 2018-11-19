@@ -1,210 +1,214 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "1st job: start (month)",
-    "de": "1. Tätigkeit: Beginn (Monat)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ241a",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 519,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\r\n1. Erwerbstätigkeit\r\nZeitraum (Monat/ Jahr)\r\nvon:\r\nMonat"
+      },
+      "questionNumber": "5.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 80.04,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 4.4478,
+      "mode": "10",
       "highWhisker": 12,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "10",
-      "meanDeviation": "256.4898",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "7",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "12",
-      "mode": "10",
-      "median": "7"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 686,
-        "label": {
-          "en": "January",
-          "de": "Januar"
-        },
-        "relativeFrequency": 6.54,
-        "validRelativeFrequency": 8.17,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 637,
-        "label": {
-          "en": "February",
-          "de": "Februar"
-        },
-        "relativeFrequency": 6.07,
-        "validRelativeFrequency": 7.58,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 698,
-        "label": {
-          "en": "March",
-          "de": "März"
-        },
-        "relativeFrequency": 6.65,
-        "validRelativeFrequency": 8.31,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 878,
-        "label": {
-          "en": "April ",
-          "de": "April"
-        },
-        "relativeFrequency": 8.37,
-        "validRelativeFrequency": 10.45,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 576,
-        "label": {
-          "en": "May",
-          "de": "Mai"
-        },
-        "relativeFrequency": 5.49,
-        "validRelativeFrequency": 6.86,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 441,
-        "label": {
-          "en": "June",
-          "de": "Juni"
-        },
-        "relativeFrequency": 4.2,
-        "validRelativeFrequency": 5.25,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 510,
-        "label": {
-          "en": "July",
-          "de": "Juli"
-        },
-        "relativeFrequency": 4.86,
-        "validRelativeFrequency": 6.07,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 856,
-        "label": {
-          "en": "August",
-          "de": "August"
-        },
-        "relativeFrequency": 8.16,
-        "validRelativeFrequency": 10.19,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 871,
-        "label": {
-          "en": "September",
-          "de": "September"
-        },
-        "relativeFrequency": 8.3,
-        "validRelativeFrequency": 10.37,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 1187,
-        "label": {
-          "en": "October",
-          "de": "Oktober"
-        },
-        "relativeFrequency": 11.31,
-        "validRelativeFrequency": 14.13,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 685,
-        "label": {
-          "en": "November",
-          "de": "November"
-        },
-        "relativeFrequency": 6.53,
-        "validRelativeFrequency": 8.16,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 374,
-        "label": {
-          "en": "December",
-          "de": "Dezember"
-        },
-        "relativeFrequency": 3.56,
-        "validRelativeFrequency": 4.45,
-        "value": "12"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 8399,
     "missings": [
       {
-        "absoluteFrequency": 7,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\n1. Erwerbstätigkeit\nZeitraum (Monat/ Jahr)\nvon:\nMonat"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "January",
+          "de": "Januar"
+        },
+        "validRelativeFrequency": 8.17,
+        "relativeFrequency": 6.54,
+        "absoluteFrequency": 686,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "validRelativeFrequency": 7.58,
+        "relativeFrequency": 6.07,
+        "absoluteFrequency": 637,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "validRelativeFrequency": 8.31,
+        "relativeFrequency": 6.65,
+        "absoluteFrequency": 698,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "April ",
+          "de": "April"
+        },
+        "validRelativeFrequency": 10.45,
+        "relativeFrequency": 8.37,
+        "absoluteFrequency": 878,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "validRelativeFrequency": 6.86,
+        "relativeFrequency": 5.49,
+        "absoluteFrequency": 576,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "validRelativeFrequency": 5.25,
+        "relativeFrequency": 4.2,
+        "absoluteFrequency": 441,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "validRelativeFrequency": 6.07,
+        "relativeFrequency": 4.86,
+        "absoluteFrequency": 510,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "validRelativeFrequency": 10.19,
+        "relativeFrequency": 8.16,
+        "absoluteFrequency": 856,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "validRelativeFrequency": 10.37,
+        "relativeFrequency": 8.3,
+        "absoluteFrequency": 871,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "October",
+          "de": "Oktober"
+        },
+        "validRelativeFrequency": 14.13,
+        "relativeFrequency": 11.31,
+        "absoluteFrequency": 1187,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "November",
+          "de": "November"
+        },
+        "validRelativeFrequency": 8.16,
+        "relativeFrequency": 6.53,
+        "absoluteFrequency": 685,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "validRelativeFrequency": 4.45,
+        "relativeFrequency": 3.56,
+        "absoluteFrequency": 374,
+        "value": "12"
       }
+    ],
+    "totalValidRelativeFrequency": 80.04,
+    "totalValidAbsoluteFrequency": 8399,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ241a",
+  "surveyNumbers": [1],
+  "indexInDataSet": 519,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st job: start (month)",
+    "de": "1. Tätigkeit: Beginn (Monat)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

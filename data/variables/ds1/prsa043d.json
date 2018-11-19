@@ -1,133 +1,133 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "publication: number of scientific books (English-language)",
-    "de": "Publikation: Anzahl wissenschaftliche Bücher (englischsprachig)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2107,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Wissenschaftliche Bücher"
+      },
+      "questionNumber": "33",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.93,
     "statistics": {
-      "firstQuartile": "0",
+      "meanDeviation": 0,
+      "mode": "0",
       "highWhisker": 0,
       "lowWhisker": 0,
-      "skewness": 3.0063,
-      "minimum": "0",
       "thirdQuartile": "0",
-      "meanDeviation": "22.239",
-      "meanValue": 0.1939,
-      "maximum": "3",
-      "mode": "0",
-      "median": "0",
+      "firstQuartile": "0",
       "standardDeviation": 0.4688,
-      "kurtosis": 14.8549
+      "median": "0",
+      "kurtosis": 14.8549,
+      "skewness": 3.0063,
+      "maximum": "3",
+      "minimum": "0",
+      "meanValue": 0.1939
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 81,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.77,
-        "validRelativeFrequency": 82.65,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 16.33,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.02,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 98,
     "missings": [
       {
-        "absoluteFrequency": 572,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 5.45,
+        "absoluteFrequency": 572,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "33",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Wissenschaftliche Bücher"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 82.65,
+        "relativeFrequency": 0.77,
+        "absoluteFrequency": 81,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 16.33,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.02,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 0.93,
+    "totalValidAbsoluteFrequency": 98,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2107,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "publication: number of scientific books (English-language)",
+    "de": "Publikation: Anzahl wissenschaftliche Bücher (englischsprachig)"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

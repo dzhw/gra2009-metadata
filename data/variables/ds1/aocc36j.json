@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "job satisfaction: provision of work materials",
-    "de": "Zufriedenheit Beschäftigung: Ausstattung Arbeitsmittel"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ36j",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 717,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind Sie mit Ihrer Beschäftigung?\r\nAusstattung mit Arbeitsmitteln"
+      },
+      "questionNumber": "5.16",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 68.79,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1273.553",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1826,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 17.4,
-        "validRelativeFrequency": 25.29,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2773,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 26.42,
-        "validRelativeFrequency": 38.41,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1604,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 15.28,
-        "validRelativeFrequency": 22.22,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 745,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 7.1,
-        "validRelativeFrequency": 10.32,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 271,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 2.58,
-        "validRelativeFrequency": 3.75,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7219,
     "missings": [
       {
-        "absoluteFrequency": 1187,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 11.31,
+        "absoluteFrequency": 1187,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind Sie mit Ihrer Beschäftigung?\nAusstattung mit Arbeitsmitteln"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 25.29,
+        "relativeFrequency": 17.4,
+        "absoluteFrequency": 1826,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 38.41,
+        "relativeFrequency": 26.42,
+        "absoluteFrequency": 2773,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 22.22,
+        "relativeFrequency": 15.28,
+        "absoluteFrequency": 1604,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 10.32,
+        "relativeFrequency": 7.1,
+        "absoluteFrequency": 745,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 3.75,
+        "relativeFrequency": 2.58,
+        "absoluteFrequency": 271,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 68.79,
+    "totalValidAbsoluteFrequency": 7219,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ36j",
+  "surveyNumbers": [1],
+  "indexInDataSet": 717,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "job satisfaction: provision of work materials",
+    "de": "Zufriedenheit Beschäftigung: Ausstattung Arbeitsmittel"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

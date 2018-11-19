@@ -1,68 +1,61 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Gründe sind dafür ausschlaggebend, dass Sie zurzeit nicht erwerbstätig sind?\r\nGesundheitliche Gründe"
+      },
+      "questionNumber": "3.2",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Gründe sind dafür ausschlaggebend, dass Sie zurzeit nicht erwerbstätig sind?"
+      },
+      "questionNumber": "11",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bocc44,-998,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 868,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
   },
   "label": {
     "en": "reason for unemployment: health reasons",
     "de": "Grund Erwerbslosigkeit: Gesundheitsgründe"
   },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,-998,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 868,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5.07,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 532,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "3.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Gründe sind dafür ausschlaggebend, dass Sie zurzeit nicht erwerbstätig sind?\nGesundheitliche Gründe"
-      }
-    },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "11",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche GrÃ¼nde sind dafÃ¼r ausschlaggebend, dass Sie zurzeit nicht erwerbstÃ¤tig sind?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

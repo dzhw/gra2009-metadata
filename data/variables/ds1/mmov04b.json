@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "attitude towards mobility: moving for career",
-    "de": "Mobilitätseinstellung: Umzug für Karriere"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1544,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Um Karriere zu machen sollte man bereit sein umzuziehen."
+      },
+      "questionNumber": "06",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.07,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "416.6106",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 534,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 5.09,
-        "validRelativeFrequency": 22.06,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 939,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 8.95,
-        "validRelativeFrequency": 38.79,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 566,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 5.39,
-        "validRelativeFrequency": 23.38,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 253,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.41,
-        "validRelativeFrequency": 10.45,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 129,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 1.23,
-        "validRelativeFrequency": 5.33,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2421,
     "missings": [
       {
-        "absoluteFrequency": 44,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "06",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Um Karriere zu machen sollte man bereit sein umzuziehen."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 22.06,
+        "relativeFrequency": 5.09,
+        "absoluteFrequency": 534,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 38.79,
+        "relativeFrequency": 8.95,
+        "absoluteFrequency": 939,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 23.38,
+        "relativeFrequency": 5.39,
+        "absoluteFrequency": 566,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 10.45,
+        "relativeFrequency": 2.41,
+        "absoluteFrequency": 253,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 5.33,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 129,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.07,
+    "totalValidAbsoluteFrequency": 2421,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1544,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "attitude towards mobility: moving for career",
+    "de": "Mobilitätseinstellung: Umzug für Karriere"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

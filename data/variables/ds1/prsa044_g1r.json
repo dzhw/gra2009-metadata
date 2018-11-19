@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "publication: other, namely",
-    "de": "Publikation: Sonstiges, und zwar"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2110,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Angaben zu den sonstigen Publikationsformaten in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Sonstiges, und zwar"
+      },
+      "questionNumber": "33",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.2,
     "statistics": {
-      "mode": "multimodal"
+      "meanDeviation": null,
+      "mode": "multimodal",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Patents",
-          "de": "Patente"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 14.29,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Poster",
-          "de": "Poster"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 14.29,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Reviews",
-          "de": "Rezensionen"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 14.29,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Discussion Papers/Working Paper",
-          "de": "Discussion Papers/Working Paper"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 19.05,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Conference proceeding",
-          "de": "Tagungsband"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 19.05,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 19.05,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 21,
     "missings": [
       {
-        "absoluteFrequency": 649,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 6.18,
+        "absoluteFrequency": 649,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "33",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Sonstiges, und zwar"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Patents",
+          "de": "Patente"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Poster",
+          "de": "Poster"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Reviews",
+          "de": "Rezensionen"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Discussion Papers/Working Paper",
+          "de": "Discussion Papers/Working Paper"
+        },
+        "validRelativeFrequency": 19.05,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Conference proceeding",
+          "de": "Tagungsband"
+        },
+        "validRelativeFrequency": 19.05,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 19.05,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 0.2,
+    "totalValidAbsoluteFrequency": 21,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Angaben zu den sonstigen Publikationsformaten in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2110,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "publication: other, namely",
+    "de": "Publikation: Sonstiges, und zwar"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

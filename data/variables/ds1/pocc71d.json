@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "expectations for professional future: research-related self-employment",
-    "de": "berufl. Zukunftsvorstellung: Selbstständigkeit mit Forschungsbezug"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2173,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden sind verschiedene berufliche Perspektiven aufgeführt. Wie stark streben Sie diese mit Blick auf Ihre eigene berufliche Zukunft (d.h. innerhalb der nächsten zehn Jahre) an?,in hohem Maße,überhaupt nicht,Selbständigkeit bzw. freiberufliche Tätigkeit mit Forschungs- oder Entwicklungsbezug"
+      },
+      "questionNumber": "42",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.02,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "88.956",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 30,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 4.75,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 74,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 0.71,
-        "validRelativeFrequency": 11.71,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 92,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 0.88,
-        "validRelativeFrequency": 14.56,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 152,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.45,
-        "validRelativeFrequency": 24.05,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 284,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 2.71,
-        "validRelativeFrequency": 44.94,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 632,
     "missings": [
       {
-        "absoluteFrequency": 38,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.36,
+        "absoluteFrequency": 38,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "42",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden sind verschiedene berufliche Perspektiven aufgeführt. Wie stark streben Sie diese mit Blick auf Ihre eigene berufliche Zukunft (d.h. innerhalb der nächsten zehn Jahre) an?,in hohem Maße,überhaupt nicht,Selbständigkeit bzw. freiberufliche Tätigkeit mit Forschungs- oder Entwicklungsbezug"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 4.75,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 30,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 11.71,
+        "relativeFrequency": 0.71,
+        "absoluteFrequency": 74,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 14.56,
+        "relativeFrequency": 0.88,
+        "absoluteFrequency": 92,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 24.05,
+        "relativeFrequency": 1.45,
+        "absoluteFrequency": 152,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 44.94,
+        "relativeFrequency": 2.71,
+        "absoluteFrequency": 284,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 6.02,
+    "totalValidAbsoluteFrequency": 632,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2173,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "expectations for professional future: research-related self-employment",
+    "de": "berufl. Zukunftsvorstellung: Selbstständigkeit mit Forschungsbezug"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

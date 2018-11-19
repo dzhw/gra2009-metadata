@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "reason against further acad. qualification: study fees",
-    "de": "Grund gegen weitere akad. Qualifikation: Studiengebühren"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 415,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\r\nEventuelle Studiengebühren übersteigen die finanziellen Möglichkeiten"
+      },
+      "questionNumber": "2.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 39.05,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "188.2902",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 955,
-        "label": {
-          "en": "Very strong",
-          "de": "sehr stark"
-        },
-        "relativeFrequency": 9.1,
-        "validRelativeFrequency": 23.3,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 831,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 7.92,
-        "validRelativeFrequency": 20.28,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 704,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 6.71,
-        "validRelativeFrequency": 17.18,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 566,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 5.39,
-        "validRelativeFrequency": 13.81,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1042,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 9.93,
-        "validRelativeFrequency": 25.43,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4098,
     "missings": [
       {
-        "absoluteFrequency": 434,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 4.14,
+        "absoluteFrequency": 434,
         "code": -998
       },
       {
-        "absoluteFrequency": 5962,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 56.81,
+        "absoluteFrequency": 5962,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\nEventuelle Studiengebühren übersteigen die finanziellen Möglichkeiten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "sehr stark"
+        },
+        "validRelativeFrequency": 23.3,
+        "relativeFrequency": 9.1,
+        "absoluteFrequency": 955,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 20.28,
+        "relativeFrequency": 7.92,
+        "absoluteFrequency": 831,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 17.18,
+        "relativeFrequency": 6.71,
+        "absoluteFrequency": 704,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 13.81,
+        "relativeFrequency": 5.39,
+        "absoluteFrequency": 566,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 25.43,
+        "relativeFrequency": 9.93,
+        "absoluteFrequency": 1042,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 39.05,
+    "totalValidAbsoluteFrequency": 4098,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 415,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason against further acad. qualification: study fees",
+    "de": "Grund gegen weitere akad. Qualifikation: Studiengebühren"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

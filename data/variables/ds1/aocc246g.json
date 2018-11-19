@@ -1,112 +1,124 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "6th job: full-time/part-time",
-    "de": "6. Tätigkeit: Arbeitszeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ246g",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 595,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\r\n6. Erwerbstätigkeit\r\nArbeitszeit (ggf. laut Arbeitstag)\r\nVollzeit mit (…) Std./ Woche\r\nTeilzeit mit (…) Std./ Woche"
+      },
+      "questionNumber": "5.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.19,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Full time",
-          "de": "Vollzeit"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 45,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Part time",
-          "de": "Teilzeit"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 30,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Without permanent working hours",
-          "de": "ohne fest vereinbarte Arbeitszeit"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 25,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 20,
     "missings": [
       {
-        "absoluteFrequency": 8386,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 79.91,
+        "absoluteFrequency": 8386,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\n6. Erwerbstätigkeit\nArbeitszeit (ggf. laut Arbeitstag)\nVollzeit mit (…) Std./ Woche\nTeilzeit mit (…) Std./ Woche"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Full time",
+          "de": "Vollzeit"
+        },
+        "validRelativeFrequency": 45,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Part time",
+          "de": "Teilzeit"
+        },
+        "validRelativeFrequency": 30,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Without permanent working hours",
+          "de": "ohne fest vereinbarte Arbeitszeit"
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 0.19,
+    "totalValidAbsoluteFrequency": 20,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ246g",
+  "surveyNumbers": [1],
+  "indexInDataSet": 595,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "6th job: full-time/part-time",
+    "de": "6. Tätigkeit: Arbeitszeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

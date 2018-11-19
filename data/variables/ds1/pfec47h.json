@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "PhD evaluation: work considered easy",
-    "de": "Beurteilung Promotionsphase: Arbeit fällt leicht"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2208,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit treffen die folgenden Aussagen auf Ihre Promotionsphase zu?,Während meiner Promotionsphase…,trifft voll und ganz zu,trifft überhaupt nicht zu,...fiel mir die Arbeit (bisher) leicht."
+      },
+      "questionNumber": "46",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.57,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "136.3992",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft voll und ganz zu"
-        },
-        "relativeFrequency": 0.33,
-        "validRelativeFrequency": 5.98,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 174,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 1.66,
-        "validRelativeFrequency": 29.74,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 224,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 2.13,
-        "validRelativeFrequency": 38.29,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 127,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.21,
-        "validRelativeFrequency": 21.71,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft überhaupt nicht zu"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 4.27,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 585,
     "missings": [
       {
-        "absoluteFrequency": 26,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.25,
+        "absoluteFrequency": 26,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 65,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.62,
+        "absoluteFrequency": 65,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "46",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf Ihre Promotionsphase zu?,Während meiner Promotionsphase…,trifft voll und ganz zu,trifft überhaupt nicht zu,...fiel mir die Arbeit (bisher) leicht."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft voll und ganz zu"
+        },
+        "validRelativeFrequency": 5.98,
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 35,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 29.74,
+        "relativeFrequency": 1.66,
+        "absoluteFrequency": 174,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 38.29,
+        "relativeFrequency": 2.13,
+        "absoluteFrequency": 224,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 21.71,
+        "relativeFrequency": 1.21,
+        "absoluteFrequency": 127,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 4.27,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 25,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.57,
+    "totalValidAbsoluteFrequency": 585,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2208,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD evaluation: work considered easy",
+    "de": "Beurteilung Promotionsphase: Arbeit fällt leicht"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

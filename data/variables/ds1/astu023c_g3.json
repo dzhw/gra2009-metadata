@@ -1,123 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd degree: subject group (major)",
-    "de": "3. Abschluss: Hauptfach (Fächergruppen)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu023c",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 152,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse haben Sie erlangt?"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.29,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Language and cultural sciences",
-          "de": "Sprach- und Kulturwissenschaften"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 40,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Legal, economic and social sciences",
-          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 13.33,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 11,
-        "label": {
-          "en": "Mathematics, natural sciences",
-          "de": "Mathematik, Naturwissenschaften"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 36.67,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Engineering sciences",
-          "de": "Ingenieurwissenschaften"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 3.33,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Art, aesthetics",
-          "de": "Kunst, Kunstwissenschaft"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 6.67,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 30,
     "missings": [
       {
-        "absoluteFrequency": 10464,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.71,
+        "absoluteFrequency": 10464,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Studienabschlüsse haben Sie erlangt?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Language and cultural sciences",
+          "de": "Sprach- und Kulturwissenschaften"
+        },
+        "validRelativeFrequency": 40,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Legal, economic and social sciences",
+          "de": "Rechts-, Wirtschafts- und Sozialwissenschaften"
+        },
+        "validRelativeFrequency": 13.33,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Mathematics, natural sciences",
+          "de": "Mathematik, Naturwissenschaften"
+        },
+        "validRelativeFrequency": 36.67,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 11,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Engineering sciences",
+          "de": "Ingenieurwissenschaften"
+        },
+        "validRelativeFrequency": 3.33,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Art, aesthetics",
+          "de": "Kunst, Kunstwissenschaft"
+        },
+        "validRelativeFrequency": 6.67,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "9"
       }
+    ],
+    "totalValidRelativeFrequency": 0.29,
+    "totalValidAbsoluteFrequency": 30,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus den ebenfalls generierten Studienbereichen generiert. Zur Aggregation wurde die Zuordnung der Destatis Fächersystematik (WiSe 2008/09) (vgl. cl-destatis-studienfach-2009) verwendet."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu023c",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 152,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd degree: subject group (major)",
+    "de": "3. Abschluss: Hauptfach (Fächergruppen)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

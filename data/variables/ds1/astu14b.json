@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course: lively discussions",
-    "de": "Lehrveranstaltungen: rege Diskussionen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 231,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\r\nEs gab rege Diskussionen"
+      },
+      "questionNumber": "1.16",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.22,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "2547.107",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 603,
-        "label": {
-          "en": "(Almost) all",
-          "de": "(fast) alle"
-        },
-        "relativeFrequency": 5.75,
-        "validRelativeFrequency": 5.79,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2321,
-        "label": {
-          "en": "Most",
-          "de": "die meisten"
-        },
-        "relativeFrequency": 22.12,
-        "validRelativeFrequency": 22.29,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 4173,
-        "label": {
-          "en": "Some",
-          "de": "manche"
-        },
-        "relativeFrequency": 39.77,
-        "validRelativeFrequency": 40.08,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3009,
-        "label": {
-          "en": "Few",
-          "de": "wenige"
-        },
-        "relativeFrequency": 28.67,
-        "validRelativeFrequency": 28.9,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 306,
-        "label": {
-          "en": "None",
-          "de": "keine"
-        },
-        "relativeFrequency": 2.92,
-        "validRelativeFrequency": 2.94,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10412,
     "missings": [
       {
-        "absoluteFrequency": 82,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.78,
+        "absoluteFrequency": 82,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\nEs gab rege Diskussionen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "(Almost) all",
+          "de": "(fast) alle"
+        },
+        "validRelativeFrequency": 5.79,
+        "relativeFrequency": 5.75,
+        "absoluteFrequency": 603,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Most",
+          "de": "die meisten"
+        },
+        "validRelativeFrequency": 22.29,
+        "relativeFrequency": 22.12,
+        "absoluteFrequency": 2321,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Some",
+          "de": "manche"
+        },
+        "validRelativeFrequency": 40.08,
+        "relativeFrequency": 39.77,
+        "absoluteFrequency": 4173,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Few",
+          "de": "wenige"
+        },
+        "validRelativeFrequency": 28.9,
+        "relativeFrequency": 28.67,
+        "absoluteFrequency": 3009,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "None",
+          "de": "keine"
+        },
+        "validRelativeFrequency": 2.94,
+        "relativeFrequency": 2.92,
+        "absoluteFrequency": 306,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99.22,
+    "totalValidAbsoluteFrequency": 10412,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 231,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course: lively discussions",
+    "de": "Lehrveranstaltungen: rege Diskussionen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

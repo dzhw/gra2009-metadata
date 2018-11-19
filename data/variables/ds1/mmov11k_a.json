@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Gründe sprechen derzeit gegen einen Umzug in eine andere Stadt?,Aus sonstigen Gründen,,und zwar:"
+      },
+      "questionNumber": "42",
+      "instrumentNumber": 5
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if mmov05==2 & inlist(mmov06,2,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "character",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1947,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
   },
   "label": {
     "en": "reasons against moving: other, namely",
     "de": "Gründe gegen Umzug: Sonstiges, und zwar"
   },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "string",
     "de": "string"
-  },
-  "filterDetails": {
-    "expression": "if mmov05==2 & inlist(mmov06,2,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1947,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "character",
-  "distribution": {
-    "totalValidRelativeFrequency": 14.11,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 1481,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "42",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Gründe sprechen derzeit gegen einen Umzug in eine andere Stadt?,Aus sonstigen Gründen,,und zwar:"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

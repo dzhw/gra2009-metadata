@@ -1,119 +1,131 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "employment after degree",
-    "de": "Erwerbstätigkeit nach Studienabschluss"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,-998,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ19",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 878,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 494,
-        "label": {
-          "en": "yes",
-          "de": "ja"
-        },
-        "relativeFrequency": 4.71,
-        "validRelativeFrequency": 94.1,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Waren Sie nach Ihrem ersten Studienabschluss aus dem Jahr 2008/2009 schon einmal in irgendeiner Form erwerbstätig?\r\nJa\r\nNein"
       },
-      {
-        "absoluteFrequency": 31,
-        "label": {
-          "en": "no",
-          "de": "nein"
-        },
-        "relativeFrequency": 0.3,
-        "validRelativeFrequency": 5.9,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 525,
+      "questionNumber": "3.4",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Waren Sie nach Ihrem ersten Studienabschluss aus dem Jahr 2008/2009 schon einmal in irgendeiner Form erwerbstätig?"
+      },
+      "questionNumber": "13",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 83,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.79,
+        "absoluteFrequency": 83,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 4147,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 39.52,
+        "absoluteFrequency": 4147,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 94.1,
+        "relativeFrequency": 4.71,
+        "absoluteFrequency": 494,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 5.9,
+        "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 5,
+    "totalValidAbsoluteFrequency": 525,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "3.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Waren Sie nach Ihrem ersten Studienabschluss aus dem Jahr 2008/2009 schon einmal in irgendeiner Form erwerbstätig?\nJa\nNein"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "13",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Waren Sie nach Ihrem ersten Studienabschluss aus dem Jahr 2008/2009 schon einmal in irgendeiner Form erwerbstÃ¤tig?"
-      }
+    "expression": "if inlist(bocc44,-998,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ19",
+  "surveyNumbers": [2],
+  "indexInDataSet": 878,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "employment after degree",
+    "de": "Erwerbstätigkeit nach Studienabschluss"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

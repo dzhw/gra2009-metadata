@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "goals (further education at university): to find a job",
-    "de": "Ziele (WB an HS): Stelle finden"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\r\nÜberhaupt Beschäftigung finden"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1290,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?"
+      },
+      "questionNumber": "49",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 16.22,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 2.9652,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "137.8818",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 322,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 3.07,
-        "validRelativeFrequency": 18.92,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 332,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 3.16,
-        "validRelativeFrequency": 19.51,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 229,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 2.18,
-        "validRelativeFrequency": 13.45,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 207,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.97,
-        "validRelativeFrequency": 12.16,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 612,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 5.83,
-        "validRelativeFrequency": 35.96,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1702,
     "missings": [
       {
-        "absoluteFrequency": 391,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.73,
+        "absoluteFrequency": 391,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 18.92,
+        "relativeFrequency": 3.07,
+        "absoluteFrequency": 322,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 19.51,
+        "relativeFrequency": 3.16,
+        "absoluteFrequency": 332,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 13.45,
+        "relativeFrequency": 2.18,
+        "absoluteFrequency": 229,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 12.16,
+        "relativeFrequency": 1.97,
+        "absoluteFrequency": 207,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 35.96,
+        "relativeFrequency": 5.83,
+        "absoluteFrequency": 612,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 16.22,
+    "totalValidAbsoluteFrequency": 1702,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\nÜberhaupt Beschäftigung finden"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "49",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren die folgenden Ziele fÃ¼r Ihre Teilnahme an den lÃ¤ngerfristigen Bildungsangeboten der Hochschulen?"
-      }
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1290,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "goals (further education at university): to find a job",
+    "de": "Ziele (WB an HS): Stelle finden"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

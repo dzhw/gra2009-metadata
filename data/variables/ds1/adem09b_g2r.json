@@ -1,211 +1,223 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "country of birth (NEPS classification)",
-    "de": "Geburtsland (NEPS-Klassifikation)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-adem09b",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 774,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Geburtslandvariable (bei Ausland) generiert. Zur Aggregation wurde eine projekteigene Codierliste (in Anlehnung an die Länderklassifikation des NEPS bei der Startkohorte 5, aber mit Anpassungen bei den europäischen Ländern) verwendet (vgl. cl-dzhw-23). Zu Einzelheiten vgl. Generierungsregel."
-    },
-    "rule": "recode adem09b_g1o (22 = 1) (35 = 2) (37 = 3) (39/41 43/46 68 = 4) (20 21 23/34 36 38 42 53 54 61 = 5) (48/52 63 64 62 = 6) (55 56 = 7) (57/60 = 8) (80/82 = 9) (65/67 85/87 = 10) (69/77 = 11) (88/90 = 12) (47 99 95/97 = -966), gen(adem09b_g2r)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie in Deutschland geboren?"
+      },
+      "questionNumber": "6.11",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 7.02,
     "statistics": {
-      "mode": "4"
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": "Italy",
-          "de": "Italien"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 2.44,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 108,
-        "label": {
-          "en": "Poland",
-          "de": "Polen"
-        },
-        "relativeFrequency": 1.03,
-        "validRelativeFrequency": 14.65,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": "Turkey",
-          "de": "Türkei"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 1.9,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 301,
-        "label": {
-          "en": "Former Soviet Union",
-          "de": "ehemalige Sowjetunion"
-        },
-        "relativeFrequency": 2.87,
-        "validRelativeFrequency": 40.84,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 142,
-        "label": {
-          "en": "EU (without Poland, Italy and countries in the former Soviet Union)",
-          "de": "EU (ohne Polen, Italien und Länder der ehem. Sowjetunion)"
-        },
-        "relativeFrequency": 1.35,
-        "validRelativeFrequency": 19.27,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": "Europe outside the EU (without countries in the former Soviet Union)",
-          "de": "Europa außerhalb der EU (ohne Länder der ehem. Sowjetunion)"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 3.26,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "North America",
-          "de": "Nordamerika"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 2.17,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": "Central and South America, the Caribbean",
-          "de": "Zentral- und Südamerika, Karibik"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 2.85,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Oceania and Polynesia",
-          "de": "Ozeanien und Polynesien"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.27,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": "Other, Middle East and North Africa",
-          "de": "sonstiger Naher Osten und Nordafrika"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 2.58,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 51,
-        "label": {
-          "en": "Other, Asia",
-          "de": "sonstiges Asien"
-        },
-        "relativeFrequency": 0.49,
-        "validRelativeFrequency": 6.92,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": "Other parts of Africa",
-          "de": "sonstiges Afrika"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 2.85,
-        "value": "12"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 737,
     "missings": [
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -998
       },
       {
-        "absoluteFrequency": 9720,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 92.62,
+        "absoluteFrequency": 9720,
         "code": -988
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -966
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.11",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sind Sie in Deutschland geboren?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Italy",
+          "de": "Italien"
+        },
+        "validRelativeFrequency": 2.44,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Poland",
+          "de": "Polen"
+        },
+        "validRelativeFrequency": 14.65,
+        "relativeFrequency": 1.03,
+        "absoluteFrequency": 108,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Turkey",
+          "de": "Türkei"
+        },
+        "validRelativeFrequency": 1.9,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Former Soviet Union",
+          "de": "ehemalige Sowjetunion"
+        },
+        "validRelativeFrequency": 40.84,
+        "relativeFrequency": 2.87,
+        "absoluteFrequency": 301,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "EU (without Poland, Italy and countries in the former Soviet Union)",
+          "de": "EU (ohne Polen, Italien und Länder der ehem. Sowjetunion)"
+        },
+        "validRelativeFrequency": 19.27,
+        "relativeFrequency": 1.35,
+        "absoluteFrequency": 142,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Europe outside the EU (without countries in the former Soviet Union)",
+          "de": "Europa außerhalb der EU (ohne Länder der ehem. Sowjetunion)"
+        },
+        "validRelativeFrequency": 3.26,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 24,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "North America",
+          "de": "Nordamerika"
+        },
+        "validRelativeFrequency": 2.17,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Central and South America, the Caribbean",
+          "de": "Zentral- und Südamerika, Karibik"
+        },
+        "validRelativeFrequency": 2.85,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 21,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Oceania and Polynesia",
+          "de": "Ozeanien und Polynesien"
+        },
+        "validRelativeFrequency": 0.27,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Other, Middle East and North Africa",
+          "de": "sonstiger Naher Osten und Nordafrika"
+        },
+        "validRelativeFrequency": 2.58,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Other, Asia",
+          "de": "sonstiges Asien"
+        },
+        "validRelativeFrequency": 6.92,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 51,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Other parts of Africa",
+          "de": "sonstiges Afrika"
+        },
+        "validRelativeFrequency": 2.85,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 21,
+        "value": "12"
       }
+    ],
+    "totalValidRelativeFrequency": 7.02,
+    "totalValidAbsoluteFrequency": 737,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode adem09b_g1o (22 = 1) (35 = 2) (37 = 3) (39/41 43/46 68 = 4) (20 21 23/34 36 38 42 53 54 61 = 5) (48/52 63 64 62 = 6) (55 56 = 7) (57/60 = 8) (80/82 = 9) (65/67 85/87 = 10) (69/77 = 11) (88/90 = 12) (47 99 95/97 = -966), gen(adem09b_g2r)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Geburtslandvariable (bei Ausland) generiert. Zur Aggregation wurde eine projekteigene Codierliste (in Anlehnung an die Länderklassifikation des NEPS bei der Startkohorte 5, aber mit Anpassungen bei den europäischen Ländern) verwendet (vgl. cl-dzhw-23). Zu Einzelheiten vgl. Generierungsregel."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-adem09b",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 774,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "country of birth (NEPS classification)",
+    "de": "Geburtsland (NEPS-Klassifikation)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

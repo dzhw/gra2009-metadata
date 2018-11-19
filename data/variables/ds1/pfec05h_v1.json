@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "motivation for PhD: contacts at higher education institution",
-    "de": "Motiv Promotion: Kontakt Hochschule"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-fec05h",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2135,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen die folgenden Motive für Ihre Promotion?,Wie wichtig waren Ihnen die folgenden Motive für Ihre Promotion?,sehr wichtig,überhaupt nicht wichtig,Den Kontakt zur Hochschule aufrecht erhalten"
+      },
+      "questionNumber": "36",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.05,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "8.8956",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 6.3,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 136,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 1.3,
-        "validRelativeFrequency": 21.42,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 130,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 1.24,
-        "validRelativeFrequency": 20.47,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 128,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.22,
-        "validRelativeFrequency": 20.16,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 201,
-        "label": {
-          "en": "Not at all important",
-          "de": "überhaupt nicht wichtig"
-        },
-        "relativeFrequency": 1.92,
-        "validRelativeFrequency": 31.65,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 635,
     "missings": [
       {
-        "absoluteFrequency": 35,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.33,
+        "absoluteFrequency": 35,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "36",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen die folgenden Motive für Ihre Promotion?,Wie wichtig waren Ihnen die folgenden Motive für Ihre Promotion?,sehr wichtig,überhaupt nicht wichtig,Den Kontakt zur Hochschule aufrecht erhalten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 6.3,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 40,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 21.42,
+        "relativeFrequency": 1.3,
+        "absoluteFrequency": 136,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 20.47,
+        "relativeFrequency": 1.24,
+        "absoluteFrequency": 130,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 20.16,
+        "relativeFrequency": 1.22,
+        "absoluteFrequency": 128,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "validRelativeFrequency": 31.65,
+        "relativeFrequency": 1.92,
+        "absoluteFrequency": 201,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 6.05,
+    "totalValidAbsoluteFrequency": 635,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec05h",
+  "surveyNumbers": [3],
+  "indexInDataSet": 2135,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for PhD: contacts at higher education institution",
+    "de": "Motiv Promotion: Kontakt Hochschule"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

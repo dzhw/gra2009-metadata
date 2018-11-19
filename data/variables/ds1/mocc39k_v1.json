@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: good working conditions",
-    "de": "Arbeits-/Lebensziele: gute Arbeitsbedingungen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39k",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1512,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Gute Arbeitsbedingungen haben"
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.37,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "72.6474",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1542,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 14.69,
-        "validRelativeFrequency": 62.89,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 826,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 7.87,
-        "validRelativeFrequency": 33.69,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 0.56,
-        "validRelativeFrequency": 2.41,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 0.41,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Not at all important",
-          "de": "überhaupt nicht wichtig"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 0.61,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2452,
     "missings": [
       {
-        "absoluteFrequency": 13,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.12,
+        "absoluteFrequency": 13,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Gute Arbeitsbedingungen haben"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 62.89,
+        "relativeFrequency": 14.69,
+        "absoluteFrequency": 1542,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 33.69,
+        "relativeFrequency": 7.87,
+        "absoluteFrequency": 826,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 2.41,
+        "relativeFrequency": 0.56,
+        "absoluteFrequency": 59,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 0.41,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "validRelativeFrequency": 0.61,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.37,
+    "totalValidAbsoluteFrequency": 2452,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39k",
+  "surveyNumbers": [4],
+  "indexInDataSet": 1512,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: good working conditions",
+    "de": "Arbeits-/Lebensziele: gute Arbeitsbedingungen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "moving (other town): attachment to current residence",
-    "de": "Umzug (Stadtwechsel): derzeitigem Wohnort verbunden"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1536,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Nun geht es um mögliche Umzüge in eine andere Stadt. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ich fühle mich meinem derzeitigen Wohnort sehr verbunden."
+      },
+      "questionNumber": "04",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.17,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "339.5154",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 990,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 9.43,
-        "validRelativeFrequency": 40.72,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 652,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 6.21,
-        "validRelativeFrequency": 26.82,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 450,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 4.29,
-        "validRelativeFrequency": 18.51,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 221,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.11,
-        "validRelativeFrequency": 9.09,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 118,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 1.12,
-        "validRelativeFrequency": 4.85,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2431,
     "missings": [
       {
-        "absoluteFrequency": 34,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.32,
+        "absoluteFrequency": 34,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "04",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Nun geht es um mögliche Umzüge in eine andere Stadt. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ich fühle mich meinem derzeitigen Wohnort sehr verbunden."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 40.72,
+        "relativeFrequency": 9.43,
+        "absoluteFrequency": 990,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 26.82,
+        "relativeFrequency": 6.21,
+        "absoluteFrequency": 652,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 18.51,
+        "relativeFrequency": 4.29,
+        "absoluteFrequency": 450,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 9.09,
+        "relativeFrequency": 2.11,
+        "absoluteFrequency": 221,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 4.85,
+        "relativeFrequency": 1.12,
+        "absoluteFrequency": 118,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.17,
+    "totalValidAbsoluteFrequency": 2431,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1536,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "moving (other town): attachment to current residence",
+    "de": "Umzug (Stadtwechsel): derzeitigem Wohnort verbunden"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

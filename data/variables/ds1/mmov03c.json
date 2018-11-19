@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "moving (abroad): contact to family at risk",
-    "de": "Umzug (Ausland): gefährdet Kontakt zur Familie"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1539,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Nun geht es um Umzüge ins Ausland. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ein Umzug ins Ausland gefährdet meinen Kontakt zur Familie."
+      },
+      "questionNumber": "05",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 22.86,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "247.5942",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 667,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 6.36,
-        "validRelativeFrequency": 27.8,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 622,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 5.93,
-        "validRelativeFrequency": 25.93,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 423,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 4.03,
-        "validRelativeFrequency": 17.63,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 427,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 4.07,
-        "validRelativeFrequency": 17.8,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 260,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 2.48,
-        "validRelativeFrequency": 10.84,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2399,
     "missings": [
       {
-        "absoluteFrequency": 66,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.63,
+        "absoluteFrequency": 66,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "05",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Nun geht es um Umzüge ins Ausland. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ein Umzug ins Ausland gefährdet meinen Kontakt zur Familie."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 27.8,
+        "relativeFrequency": 6.36,
+        "absoluteFrequency": 667,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 25.93,
+        "relativeFrequency": 5.93,
+        "absoluteFrequency": 622,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 17.63,
+        "relativeFrequency": 4.03,
+        "absoluteFrequency": 423,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 17.8,
+        "relativeFrequency": 4.07,
+        "absoluteFrequency": 427,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 10.84,
+        "relativeFrequency": 2.48,
+        "absoluteFrequency": 260,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 22.86,
+    "totalValidAbsoluteFrequency": 2399,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1539,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "moving (abroad): contact to family at risk",
+    "de": "Umzug (Ausland): gefährdet Kontakt zur Familie"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

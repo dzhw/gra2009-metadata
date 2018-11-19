@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "in retrospect: work after vocational training",
-    "de": "Retrospektive: Berufstätigkeit nach Berufsausbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 725,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\r\nNach einer Berufsausbildung ohne Studium berufstätig werden"
+      },
+      "questionNumber": "5.18",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 91.3,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "1891.798",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 250,
-        "label": {
-          "en": "Definitely",
-          "de": "auf jeden Fall"
-        },
-        "relativeFrequency": 2.38,
-        "validRelativeFrequency": 2.61,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 584,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 5.57,
-        "validRelativeFrequency": 6.1,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1860,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 17.72,
-        "validRelativeFrequency": 19.41,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2625,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 25.01,
-        "validRelativeFrequency": 27.4,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 4262,
-        "label": {
-          "en": "Not definitely",
-          "de": "auf keinen Fall"
-        },
-        "relativeFrequency": 40.61,
-        "validRelativeFrequency": 44.48,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 9581,
     "missings": [
       {
-        "absoluteFrequency": 913,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 8.7,
+        "absoluteFrequency": 913,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\nNach einer Berufsausbildung ohne Studium berufstätig werden"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Definitely",
+          "de": "auf jeden Fall"
+        },
+        "validRelativeFrequency": 2.61,
+        "relativeFrequency": 2.38,
+        "absoluteFrequency": 250,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 6.1,
+        "relativeFrequency": 5.57,
+        "absoluteFrequency": 584,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 19.41,
+        "relativeFrequency": 17.72,
+        "absoluteFrequency": 1860,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 27.4,
+        "relativeFrequency": 25.01,
+        "absoluteFrequency": 2625,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not definitely",
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 44.48,
+        "relativeFrequency": 40.61,
+        "absoluteFrequency": 4262,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 91.3,
+    "totalValidAbsoluteFrequency": 9581,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 725,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "in retrospect: work after vocational training",
+    "de": "Retrospektive: Berufstätigkeit nach Berufsausbildung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

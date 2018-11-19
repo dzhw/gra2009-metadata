@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "attitude towards mobility: whole life at one location",
-    "de": "Mobilitätseinstellung: ganzes Leben an einem Ort"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1548,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ich finde es gut, wenn jemand sein ganzes Leben an einem Ort wohnt."
+      },
+      "questionNumber": "06",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.06,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "238.6986",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 91,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 0.87,
-        "validRelativeFrequency": 3.76,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 312,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 2.97,
-        "validRelativeFrequency": 12.89,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1036,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 9.87,
-        "validRelativeFrequency": 42.81,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 571,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 5.44,
-        "validRelativeFrequency": 23.6,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 410,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 3.91,
-        "validRelativeFrequency": 16.94,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2420,
     "missings": [
       {
-        "absoluteFrequency": 45,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.43,
+        "absoluteFrequency": 45,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "06",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Ich finde es gut, wenn jemand sein ganzes Leben an einem Ort wohnt."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 3.76,
+        "relativeFrequency": 0.87,
+        "absoluteFrequency": 91,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 12.89,
+        "relativeFrequency": 2.97,
+        "absoluteFrequency": 312,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 42.81,
+        "relativeFrequency": 9.87,
+        "absoluteFrequency": 1036,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 23.6,
+        "relativeFrequency": 5.44,
+        "absoluteFrequency": 571,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 16.94,
+        "relativeFrequency": 3.91,
+        "absoluteFrequency": 410,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.06,
+    "totalValidAbsoluteFrequency": 2420,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1548,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "attitude towards mobility: whole life at one location",
+    "de": "Mobilitätseinstellung: ganzes Leben an einem Ort"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

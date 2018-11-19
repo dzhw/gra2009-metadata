@@ -1,68 +1,61 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche organisatorischen Formen bevorzugen Sie für Ihre berufliche Fort- und Weiterbildung?\r\nSonstige, und zwar:"
+      },
+      "questionNumber": "7.3",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche organisatorischen Formen bevorzugen Sie für Ihre berufliche Fort- und Weiterbildung?"
+      },
+      "questionNumber": "83",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bfvt08,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "character",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1442,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
   },
   "label": {
     "en": "further education: other, namely",
     "de": "Fort-/Weiterbildung: Sonstiges, und zwar"
   },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "string",
     "de": "string"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfvt08,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1442,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "character",
-  "distribution": {
-    "totalValidRelativeFrequency": 38.1,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 3998,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "7.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche organisatorischen Formen bevorzugen Sie für Ihre berufliche Fort- und Weiterbildung?\nSonstige, und zwar:"
-      }
-    },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "83",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche organisatorischen Formen bevorzugen Sie fÃ¼r Ihre berufliche Fort- und Weiterbildung?"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

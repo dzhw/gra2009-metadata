@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course of study: well structured",
-    "de": "Studium: gut gegliedert"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 241,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit treffen die folgenden Aussagen auf Ihr abgeschlossenes Studium zu?\r\nDas Studium war gut gegliedert"
+      },
+      "questionNumber": "1.17",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.29,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1568.591",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1737,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft genau zu"
-        },
-        "relativeFrequency": 16.55,
-        "validRelativeFrequency": 16.67,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4713,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 44.91,
-        "validRelativeFrequency": 45.23,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2795,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 26.63,
-        "validRelativeFrequency": 26.82,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 983,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 9.37,
-        "validRelativeFrequency": 9.43,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 192,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft gar nicht zu"
-        },
-        "relativeFrequency": 1.83,
-        "validRelativeFrequency": 1.84,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10420,
     "missings": [
       {
-        "absoluteFrequency": 74,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.71,
+        "absoluteFrequency": 74,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf Ihr abgeschlossenes Studium zu?\nDas Studium war gut gegliedert"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft genau zu"
+        },
+        "validRelativeFrequency": 16.67,
+        "relativeFrequency": 16.55,
+        "absoluteFrequency": 1737,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 45.23,
+        "relativeFrequency": 44.91,
+        "absoluteFrequency": 4713,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 26.82,
+        "relativeFrequency": 26.63,
+        "absoluteFrequency": 2795,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 9.43,
+        "relativeFrequency": 9.37,
+        "absoluteFrequency": 983,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft gar nicht zu"
+        },
+        "validRelativeFrequency": 1.84,
+        "relativeFrequency": 1.83,
+        "absoluteFrequency": 192,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99.29,
+    "totalValidAbsoluteFrequency": 10420,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 241,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: well structured",
+    "de": "Studium: gut gegliedert"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

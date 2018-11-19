@@ -1,122 +1,134 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "2nd study abroad: type",
-    "de": "2. Auslandserfahrung: Art"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 181,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie im Rahmen Ihres abgeschlossenen Studiums Auslandserfahrungen gemacht?\r\nJa,\r\nund zwar:\r\nArt des Auslandsaufenthaltes"
+      },
+      "questionNumber": "1.7",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 9.21,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 135,
-        "label": {
-          "en": "Study abroad",
-          "de": "Auslandsstudium"
-        },
-        "relativeFrequency": 1.29,
-        "validRelativeFrequency": 13.98,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 592,
-        "label": {
-          "en": "Apprenticeship abroad",
-          "de": "Auslandspraktikum"
-        },
-        "relativeFrequency": 5.64,
-        "validRelativeFrequency": 61.28,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 111,
-        "label": {
-          "en": "Language course",
-          "de": "Sprachkurs"
-        },
-        "relativeFrequency": 1.06,
-        "validRelativeFrequency": 11.49,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 128,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 1.22,
-        "validRelativeFrequency": 13.25,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 966,
     "missings": [
       {
-        "absoluteFrequency": 2415,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 23.01,
+        "absoluteFrequency": 2415,
         "code": -998
       },
       {
-        "absoluteFrequency": 7113,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 67.78,
+        "absoluteFrequency": 7113,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.7",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie im Rahmen Ihres abgeschlossenen Studiums Auslandserfahrungen gemacht?\nJa,\nund zwar:\nArt des Auslandsaufenthaltes"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Study abroad",
+          "de": "Auslandsstudium"
+        },
+        "validRelativeFrequency": 13.98,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 135,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Apprenticeship abroad",
+          "de": "Auslandspraktikum"
+        },
+        "validRelativeFrequency": 61.28,
+        "relativeFrequency": 5.64,
+        "absoluteFrequency": 592,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Language course",
+          "de": "Sprachkurs"
+        },
+        "validRelativeFrequency": 11.49,
+        "relativeFrequency": 1.06,
+        "absoluteFrequency": 111,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 13.25,
+        "relativeFrequency": 1.22,
+        "absoluteFrequency": 128,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 9.21,
+    "totalValidAbsoluteFrequency": 966,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 181,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd study abroad: type",
+    "de": "2. Auslandserfahrung: Art"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "experiences 2nd training phase: further education opportunities",
-    "de": "Erfahrungen 2. Ausbildungsphase: Weiterbildungschancen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec07,-998,4,5,6)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 425,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Erfahrungen haben Sie (bisher) in Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\r\nLern- und Weiterbildungschancen"
+      },
+      "questionNumber": "3.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 11.27,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "152.7078",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 233,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 2.22,
-        "validRelativeFrequency": 19.7,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 467,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 4.45,
-        "validRelativeFrequency": 39.48,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 323,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 3.08,
-        "validRelativeFrequency": 27.3,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 130,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 1.24,
-        "validRelativeFrequency": 10.99,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 30,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 2.54,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1183,
     "missings": [
       {
-        "absoluteFrequency": 68,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.65,
+        "absoluteFrequency": 68,
         "code": -998
       },
       {
-        "absoluteFrequency": 9243,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 88.08,
+        "absoluteFrequency": 9243,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "3.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Erfahrungen haben Sie (bisher) in Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\nLern- und Weiterbildungschancen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 19.7,
+        "relativeFrequency": 2.22,
+        "absoluteFrequency": 233,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 39.48,
+        "relativeFrequency": 4.45,
+        "absoluteFrequency": 467,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 27.3,
+        "relativeFrequency": 3.08,
+        "absoluteFrequency": 323,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 10.99,
+        "relativeFrequency": 1.24,
+        "absoluteFrequency": 130,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 2.54,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 30,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 11.27,
+    "totalValidAbsoluteFrequency": 1183,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec07,-998,4,5,6)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 425,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "experiences 2nd training phase: further education opportunities",
+    "de": "Erfahrungen 2. Ausbildungsphase: Weiterbildungschancen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,121 +1,133 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "PhD: subject-specific context with studies",
-    "de": "Promotion: fachlicher Zusammenhang mit Studium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2017,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bestand zwischen Ihrem Studium und Ihrer Promotion ein fachlicher Zusammenhang?,Besteht zwischen Ihrem Studium und Ihrer Promotion ein fachlicher Zusammenhang?"
+      },
+      "questionNumber": "11",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.25,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 499,
-        "label": {
-          "en": "Yes, a close professional relationship",
-          "de": "ja, ein enger fachlicher Zusammenhang"
-        },
-        "relativeFrequency": 4.76,
-        "validRelativeFrequency": 76.07,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 142,
-        "label": {
-          "en": "Yes, a loose professional relationship",
-          "de": "ja, ein loser fachlicher Zusammenhang"
-        },
-        "relativeFrequency": 1.35,
-        "validRelativeFrequency": 21.65,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "No",
-          "de": "nein"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 2.29,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 656,
     "missings": [
       {
-        "absoluteFrequency": 14,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "11",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bestand zwischen Ihrem Studium und Ihrer Promotion ein fachlicher Zusammenhang?,Besteht zwischen Ihrem Studium und Ihrer Promotion ein fachlicher Zusammenhang?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, a close professional relationship",
+          "de": "ja, ein enger fachlicher Zusammenhang"
+        },
+        "validRelativeFrequency": 76.07,
+        "relativeFrequency": 4.76,
+        "absoluteFrequency": 499,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, a loose professional relationship",
+          "de": "ja, ein loser fachlicher Zusammenhang"
+        },
+        "validRelativeFrequency": 21.65,
+        "relativeFrequency": 1.35,
+        "absoluteFrequency": 142,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 2.29,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 6.25,
+    "totalValidAbsoluteFrequency": 656,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2017,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD: subject-specific context with studies",
+    "de": "Promotion: fachlicher Zusammenhang mit Studium"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

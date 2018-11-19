@@ -1,112 +1,124 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "apartment during studies: main/second apartment",
-    "de": "Wohnung Studium: Haupt-/Zweitwohnung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1565,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Um Ihre Wohnsituation besser nachvollziehen zu können, bitten wir Sie im Folgenden um einige Angaben zu Ihren Wohnungen der letzten Jahre. Zunächst bitten wir Sie uns dabei mitzuteilen, wo und wie Sie direkt während Ihres Studienabschlusses 2008/09 gewohnt haben,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie (Mehrfachnennung möglich),Handelte es sich um"
+      },
+      "questionNumber": "07.1",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 22.32,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1577,
-        "label": {
-          "en": "Single apartment",
-          "de": "einzige Wohnung"
-        },
-        "relativeFrequency": 15.03,
-        "validRelativeFrequency": 67.34,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 524,
-        "label": {
-          "en": "Main apartment",
-          "de": "Hauptwohnung"
-        },
-        "relativeFrequency": 4.99,
-        "validRelativeFrequency": 22.37,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 241,
-        "label": {
-          "en": "Second apartment",
-          "de": "Zweitwohnung"
-        },
-        "relativeFrequency": 2.3,
-        "validRelativeFrequency": 10.29,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2342,
     "missings": [
       {
-        "absoluteFrequency": 123,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.17,
+        "absoluteFrequency": 123,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "07.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Um Ihre Wohnsituation besser nachvollziehen zu können, bitten wir Sie im Folgenden um einige Angaben zu Ihren Wohnungen der letzten Jahre. Zunächst bitten wir Sie uns dabei mitzuteilen, wo und wie Sie direkt während Ihres Studienabschlusses 2008/09 gewohnt haben,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie (Mehrfachnennung möglich),Handelte es sich um"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Single apartment",
+          "de": "einzige Wohnung"
+        },
+        "validRelativeFrequency": 67.34,
+        "relativeFrequency": 15.03,
+        "absoluteFrequency": 1577,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Main apartment",
+          "de": "Hauptwohnung"
+        },
+        "validRelativeFrequency": 22.37,
+        "relativeFrequency": 4.99,
+        "absoluteFrequency": 524,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Second apartment",
+          "de": "Zweitwohnung"
+        },
+        "validRelativeFrequency": 10.29,
+        "relativeFrequency": 2.3,
+        "absoluteFrequency": 241,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 22.32,
+    "totalValidAbsoluteFrequency": 2342,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1565,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "apartment during studies: main/second apartment",
+    "de": "Wohnung Studium: Haupt-/Zweitwohnung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

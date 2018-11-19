@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "motivation for PhD: do something different",
-    "de": "Motiv Promotion: etwas anderes machen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-fec05f",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2133,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen die folgenden Motive für Ihre Promotion?,Wie wichtig waren Ihnen die folgenden Motive für Ihre Promotion?,sehr wichtig,überhaupt nicht wichtig,Etwas ganz anderes machen als bisher"
+      },
+      "questionNumber": "36",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.04,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "90.4386",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 2.21,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 41,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 0.39,
-        "validRelativeFrequency": 6.47,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 75,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 0.71,
-        "validRelativeFrequency": 11.83,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 165,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.57,
-        "validRelativeFrequency": 26.03,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 339,
-        "label": {
-          "en": "Not at all important",
-          "de": "überhaupt nicht wichtig"
-        },
-        "relativeFrequency": 3.23,
-        "validRelativeFrequency": 53.47,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 634,
     "missings": [
       {
-        "absoluteFrequency": 36,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.34,
+        "absoluteFrequency": 36,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "36",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen die folgenden Motive für Ihre Promotion?,Wie wichtig waren Ihnen die folgenden Motive für Ihre Promotion?,sehr wichtig,überhaupt nicht wichtig,Etwas ganz anderes machen als bisher"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 2.21,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 6.47,
+        "relativeFrequency": 0.39,
+        "absoluteFrequency": 41,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 11.83,
+        "relativeFrequency": 0.71,
+        "absoluteFrequency": 75,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 26.03,
+        "relativeFrequency": 1.57,
+        "absoluteFrequency": 165,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "validRelativeFrequency": 53.47,
+        "relativeFrequency": 3.23,
+        "absoluteFrequency": 339,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 6.04,
+    "totalValidAbsoluteFrequency": 634,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec05f",
+  "surveyNumbers": [3],
+  "indexInDataSet": 2133,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for PhD: do something different",
+    "de": "Motiv Promotion: etwas anderes machen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

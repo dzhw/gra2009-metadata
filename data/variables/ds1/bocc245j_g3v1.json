@@ -1,121 +1,133 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "5th job: location of work (new or old federal states/abroad)",
-    "de": "5. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-bocc245j_v1",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ245j_g3",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1011,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
-    },
-    "rule": "recode bocc245j_g2v1d (1/10 92 =1) (11/16 91 = 2), gen(bocc245j_g3v1)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      },
+      "questionNumber": "4.5",
+      "instrumentNumber": 2
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 3.21,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 213,
-        "label": {
-          "en": "Old federal state",
-          "de": "Alte Bundesländer"
-        },
-        "relativeFrequency": 2.03,
-        "validRelativeFrequency": 63.2,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 100,
-        "label": {
-          "en": "New federal state (incl. Berlin)",
-          "de": "Neue Bundesländer (inkl. Berlin)"
-        },
-        "relativeFrequency": 0.95,
-        "validRelativeFrequency": 29.67,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": "Abroad",
-          "de": "Ausland"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 7.12,
-        "value": "100"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 337,
     "missings": [
       {
-        "absoluteFrequency": 4387,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 41.8,
+        "absoluteFrequency": 4387,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "validRelativeFrequency": 63.2,
+        "relativeFrequency": 2.03,
+        "absoluteFrequency": 213,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "validRelativeFrequency": 29.67,
+        "relativeFrequency": 0.95,
+        "absoluteFrequency": 100,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 7.12,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 24,
+        "value": "100"
       }
+    ],
+    "totalValidRelativeFrequency": 3.21,
+    "totalValidAbsoluteFrequency": 337,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode bocc245j_g2v1d (1/10 92 =1) (11/16 91 = 2), gen(bocc245j_g3v1)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-bocc245j_v1",
+  "panelIdentifier": "gra2009-ds1-occ245j_g3",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1011,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": "Der angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  },
+  "label": {
+    "en": "5th job: location of work (new or old federal states/abroad)",
+    "de": "5. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

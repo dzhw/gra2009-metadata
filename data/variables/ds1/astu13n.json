@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course of study: practice of professional behaviour",
-    "de": "Studium: Einübung professionelles Handeln"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 217,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\r\nEinübung in beruflich-professionelles Handeln"
+      },
+      "questionNumber": "1.15",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.98,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "2209.074",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 400,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 3.81,
-        "validRelativeFrequency": 3.85,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1890,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 18.01,
-        "validRelativeFrequency": 18.2,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3430,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 32.69,
-        "validRelativeFrequency": 33.02,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3434,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 32.72,
-        "validRelativeFrequency": 33.06,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1233,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 11.75,
-        "validRelativeFrequency": 11.87,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10387,
     "missings": [
       {
-        "absoluteFrequency": 107,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.02,
+        "absoluteFrequency": 107,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.15",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\nEinübung in beruflich-professionelles Handeln"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 3.85,
+        "relativeFrequency": 3.81,
+        "absoluteFrequency": 400,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 18.2,
+        "relativeFrequency": 18.01,
+        "absoluteFrequency": 1890,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 33.02,
+        "relativeFrequency": 32.69,
+        "absoluteFrequency": 3430,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 33.06,
+        "relativeFrequency": 32.72,
+        "absoluteFrequency": 3434,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 11.87,
+        "relativeFrequency": 11.75,
+        "absoluteFrequency": 1233,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.98,
+    "totalValidAbsoluteFrequency": 10387,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 217,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: practice of professional behaviour",
+    "de": "Studium: Einübung professionelles Handeln"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

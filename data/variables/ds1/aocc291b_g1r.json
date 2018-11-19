@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st job: other size of company",
-    "de": "1. Stelle: sonstige Betriebsgröße"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 673,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 8 \"Sonstiges, und zwar\" der Variable aocc291a (Betriebsgröße der ersten Stelle) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welcher der folgenden Betriebsgrößen ist Ihr Betrieb/Ihre Dienststelle zuzuordnen?\r\nSonstiges, und zwar:\r\nerste Stelle"
+      },
+      "questionNumber": "5.9",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.65,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 33,
-        "label": {
-          "en": "Higher education",
-          "de": "Hochschule"
-        },
-        "relativeFrequency": 0.31,
-        "validRelativeFrequency": 48.53,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Educational institutions",
-          "de": "Bildungsträger"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 17.65,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": "Law institutions",
-          "de": "Anstalt des öffentl. Rechts"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 25,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "International organisations",
-          "de": "Internat. Organisation"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 1.47,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Public office",
-          "de": "Dienststelle (Behörde, Kirche)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 2.94,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": "Consulting",
-          "de": "Beratungsstelle"
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 4.41,
-        "value": "9"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 68,
     "missings": [
       {
-        "absoluteFrequency": 1575,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 15.01,
+        "absoluteFrequency": 1575,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       },
       {
-        "absoluteFrequency": 6763,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 64.45,
+        "absoluteFrequency": 6763,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welcher der folgenden Betriebsgrößen ist Ihr Betrieb/Ihre Dienststelle zuzuordnen?\nSonstiges, und zwar:\nerste Stelle"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Higher education",
+          "de": "Hochschule"
+        },
+        "validRelativeFrequency": 48.53,
+        "relativeFrequency": 0.31,
+        "absoluteFrequency": 33,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Educational institutions",
+          "de": "Bildungsträger"
+        },
+        "validRelativeFrequency": 17.65,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Law institutions",
+          "de": "Anstalt des öffentl. Rechts"
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "International organisations",
+          "de": "Internat. Organisation"
+        },
+        "validRelativeFrequency": 1.47,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Public office",
+          "de": "Dienststelle (Behörde, Kirche)"
+        },
+        "validRelativeFrequency": 2.94,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Consulting",
+          "de": "Beratungsstelle"
+        },
+        "validRelativeFrequency": 4.41,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "9"
       }
+    ],
+    "totalValidRelativeFrequency": 0.65,
+    "totalValidAbsoluteFrequency": 68,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten zusätzlichen Angaben zur Ausprägung 8 \"Sonstiges, und zwar\" der Variable aocc291a (Betriebsgröße der ersten Stelle) in codierter Form. Dazu wurde anhand der offenen Angaben (oder basierend auf bereits angelegten Listen auf Basis der Nennungen bisheriger Kohorten) eine Codierliste erstellt.\r\nHinweis: In der Regel wurden die offenen Nennungen den vorgegebenen Kategorien zur Betriebsgröße zugeordnet. Sie wurden nur dann gesondert vercodet, wenn statt der Betriebsgröße die Betriebsform angegeben wurde."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 673,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st job: other size of company",
+    "de": "1. Stelle: sonstige Betriebsgröße"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

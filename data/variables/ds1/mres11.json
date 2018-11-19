@@ -1,131 +1,143 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "commute between apartments: frequency",
-    "de": "Pendeln zwischen Wohnungen: Häufigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "-",
-    "description": {
-      "en": null,
-      "de": "Wenn derzeit mehr als eine Wohnung"
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1890,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sie haben angegeben, dass Sie derzeit mehr als eine Wohnung bewohnen. Wie häufig pendeln Sie in der Regel zwischen Ihren Wohnungen?"
+      },
+      "questionNumber": "35",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.95,
     "statistics": {
-      "mode": "4"
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "More than once a week",
-          "de": "mehr als einmal in der Woche"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 7,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 28,
-        "label": {
-          "en": "Once a week",
-          "de": "einmal pro Woche (z.B. Wochenendpendler)"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 28,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": "Less than once a week",
-          "de": "weniger als einmal in der Woche"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 21,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": "Does not apply",
-          "de": "trifft nicht zu"
-        },
-        "relativeFrequency": 0.42,
-        "validRelativeFrequency": 44,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 100,
     "missings": [
       {
-        "absoluteFrequency": 1,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 2364,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 22.53,
+        "absoluteFrequency": 2364,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "35",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sie haben angegeben, dass Sie derzeit mehr als eine Wohnung bewohnen. Wie häufig pendeln Sie in der Regel zwischen Ihren Wohnungen?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "More than once a week",
+          "de": "mehr als einmal in der Woche"
+        },
+        "validRelativeFrequency": 7,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Once a week",
+          "de": "einmal pro Woche (z.B. Wochenendpendler)"
+        },
+        "validRelativeFrequency": 28,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Less than once a week",
+          "de": "weniger als einmal in der Woche"
+        },
+        "validRelativeFrequency": 21,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 21,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Does not apply",
+          "de": "trifft nicht zu"
+        },
+        "validRelativeFrequency": 44,
+        "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 0.95,
+    "totalValidAbsoluteFrequency": 100,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": "Wenn derzeit mehr als eine Wohnung"
+    },
+    "expression": "-"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1890,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "commute between apartments: frequency",
+    "de": "Pendeln zwischen Wohnungen: Häufigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

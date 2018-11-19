@@ -1,131 +1,143 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "Habilitation: status",
-    "de": "Habilitation: Status"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2177,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie eine Habilitation begonnen, geplant oder abgeschlossen?"
+      },
+      "questionNumber": "43",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.59,
     "statistics": {
-      "mode": "6"
+      "meanDeviation": null,
+      "mode": "6",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Yes, but not yet finished",
-          "de": "ja, aber noch nicht beendet"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 2.04,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Yes, but recently interrupted",
-          "de": "ja, zurzeit unterbrochen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.17,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 73,
-        "label": {
-          "en": "No, but planned",
-          "de": "nein, ist aber geplant"
-        },
-        "relativeFrequency": 0.7,
-        "validRelativeFrequency": 12.44,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 501,
-        "label": {
-          "en": "No, not planned",
-          "de": "nein, auch nicht geplant"
-        },
-        "relativeFrequency": 4.77,
-        "validRelativeFrequency": 85.35,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 587,
     "missings": [
       {
-        "absoluteFrequency": 24,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.23,
+        "absoluteFrequency": 24,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 65,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.62,
+        "absoluteFrequency": 65,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "43",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie eine Habilitation begonnen, geplant oder abgeschlossen?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, but not yet finished",
+          "de": "ja, aber noch nicht beendet"
+        },
+        "validRelativeFrequency": 2.04,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Yes, but recently interrupted",
+          "de": "ja, zurzeit unterbrochen"
+        },
+        "validRelativeFrequency": 0.17,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "No, but planned",
+          "de": "nein, ist aber geplant"
+        },
+        "validRelativeFrequency": 12.44,
+        "relativeFrequency": 0.7,
+        "absoluteFrequency": 73,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "No, not planned",
+          "de": "nein, auch nicht geplant"
+        },
+        "validRelativeFrequency": 85.35,
+        "relativeFrequency": 4.77,
+        "absoluteFrequency": 501,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 5.59,
+    "totalValidAbsoluteFrequency": 587,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2177,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "Habilitation: status",
+    "de": "Habilitation: Status"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

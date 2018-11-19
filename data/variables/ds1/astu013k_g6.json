@@ -1,102 +1,114 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd course of study: university (Uni/FH)",
-    "de": "3. Studium: Hochschule (Uni/FH)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu013k",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 67,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulartvariablen generiert. Dabei wurden die 6 Hochschultypen zu den beiden Kategorien \"Universität\" und \"Fachhochschule\" aggregiert. Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
-    },
-    "rule": "recode astu013k_g5r (1 2 3 4 = 1) (5 6 = 2), gen(astu013k_g6)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 13.22,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1132,
-        "label": {
-          "en": "University",
-          "de": "Universitäten"
-        },
-        "relativeFrequency": 10.79,
-        "validRelativeFrequency": 81.61,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
       },
-      {
-        "absoluteFrequency": 255,
-        "label": {
-          "en": "University of applied science",
-          "de": "Fachhochschulen"
-        },
-        "relativeFrequency": 2.43,
-        "validRelativeFrequency": 18.39,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1387,
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 8940,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 85.19,
+        "absoluteFrequency": 8940,
         "code": -998
       },
       {
-        "absoluteFrequency": 167,
         "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 1.59,
+        "absoluteFrequency": 167,
         "code": -966
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "University",
+          "de": "Universitäten"
+        },
+        "validRelativeFrequency": 81.61,
+        "relativeFrequency": 10.79,
+        "absoluteFrequency": 1132,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "University of applied science",
+          "de": "Fachhochschulen"
+        },
+        "validRelativeFrequency": 18.39,
+        "relativeFrequency": 2.43,
+        "absoluteFrequency": 255,
+        "value": "2"
       }
+    ],
+    "totalValidRelativeFrequency": 13.22,
+    "totalValidAbsoluteFrequency": 1387,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode astu013k_g5r (1 2 3 4 = 1) (5 6 = 2), gen(astu013k_g6)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Hochschulartvariablen generiert. Dabei wurden die 6 Hochschultypen zu den beiden Kategorien \"Universität\" und \"Fachhochschule\" aggregiert. Die generierte Variable hat die Ausprägung 1 \"Universität\", wenn es eine Universität, Pädagogische Hochschule, Theologische/Kirchliche Hochschule oder Kunsthochschule ist. Sie hat die Ausprägung 2 \"Fachhochschule\", wenn es sich um eine Fachhochschule oder Verwaltungsfachhochschule handelt.\r\n\r\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu013k",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 67,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd course of study: university (Uni/FH)",
+    "de": "3. Studium: Hochschule (Uni/FH)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

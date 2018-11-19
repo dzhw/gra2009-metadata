@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "important for career: organisational skills",
-    "de": "wichtig für Beruf: Organisationsfähigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-ski01g",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 255,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über  diese Kenntnisse und Fähigkeiten (rechte Spalte)?\r\nWichtigkeit für die berufliche Tätigkeit\r\nOrganisationsfähigkeit"
+      },
+      "questionNumber": "1.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.86,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "917.7294",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 6080,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 57.94,
-        "validRelativeFrequency": 59.82,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3328,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 31.71,
-        "validRelativeFrequency": 32.74,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 642,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 6.12,
-        "validRelativeFrequency": 6.32,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 91,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.87,
-        "validRelativeFrequency": 0.9,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 0.23,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10164,
     "missings": [
       {
-        "absoluteFrequency": 330,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.14,
+        "absoluteFrequency": 330,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\nWichtigkeit für die berufliche Tätigkeit\nOrganisationsfähigkeit"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 59.82,
+        "relativeFrequency": 57.94,
+        "absoluteFrequency": 6080,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 32.74,
+        "relativeFrequency": 31.71,
+        "absoluteFrequency": 3328,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 6.32,
+        "relativeFrequency": 6.12,
+        "absoluteFrequency": 642,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 0.9,
+        "relativeFrequency": 0.87,
+        "absoluteFrequency": 91,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 0.23,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.86,
+    "totalValidAbsoluteFrequency": 10164,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-ski01g",
+  "surveyNumbers": [1],
+  "indexInDataSet": 255,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "important for career: organisational skills",
+    "de": "wichtig für Beruf: Organisationsfähigkeit"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

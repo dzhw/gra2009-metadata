@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course of study: reflection on internships/practical semesters",
-    "de": "Studium: Aufarbeitung Praktika/Praxissemester"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 212,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\r\nAufarbeitung von studienbegleitenden Pflichtpraktika/Praxissemestern"
+      },
+      "questionNumber": "1.15",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 91.52,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "1068.955",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 585,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 5.57,
-        "validRelativeFrequency": 6.09,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1839,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 17.52,
-        "validRelativeFrequency": 19.15,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 3060,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 29.16,
-        "validRelativeFrequency": 31.86,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2560,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 24.39,
-        "validRelativeFrequency": 26.66,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1560,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 14.87,
-        "validRelativeFrequency": 16.24,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 9604,
     "missings": [
       {
-        "absoluteFrequency": 890,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 8.48,
+        "absoluteFrequency": 890,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.15",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie beurteilen Sie die folgenden Aspekte Ihres abgeschlossenen Studiums?\nAufarbeitung von studienbegleitenden Pflichtpraktika/Praxissemestern"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 6.09,
+        "relativeFrequency": 5.57,
+        "absoluteFrequency": 585,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 19.15,
+        "relativeFrequency": 17.52,
+        "absoluteFrequency": 1839,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 31.86,
+        "relativeFrequency": 29.16,
+        "absoluteFrequency": 3060,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 26.66,
+        "relativeFrequency": 24.39,
+        "absoluteFrequency": 2560,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 16.24,
+        "relativeFrequency": 14.87,
+        "absoluteFrequency": 1560,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 91.52,
+    "totalValidAbsoluteFrequency": 9604,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 212,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: reflection on internships/practical semesters",
+    "de": "Studium: Aufarbeitung Praktika/Praxissemester"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

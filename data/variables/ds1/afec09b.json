@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "experiences 2nd training phase: quality of acad. support",
-    "de": "Erfahrungen 2. Ausbildungsphase: fachliche Qualität der Betreuung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec07,-998,4,5,6)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 423,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Erfahrungen haben Sie (bisher) in Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\r\nFachliche Qualität der Betreuung"
+      },
+      "questionNumber": "3.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 11.32,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "229.803",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 347,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 3.31,
-        "validRelativeFrequency": 29.21,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 510,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 4.86,
-        "validRelativeFrequency": 42.93,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 234,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 2.23,
-        "validRelativeFrequency": 19.7,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 79,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 0.75,
-        "validRelativeFrequency": 6.65,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 1.52,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1188,
     "missings": [
       {
-        "absoluteFrequency": 63,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.6,
+        "absoluteFrequency": 63,
         "code": -998
       },
       {
-        "absoluteFrequency": 9243,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 88.08,
+        "absoluteFrequency": 9243,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "3.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Erfahrungen haben Sie (bisher) in Ihrer Ausbildungs- bzw. Praktikumsphase gemacht?\nFachliche Qualität der Betreuung"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 29.21,
+        "relativeFrequency": 3.31,
+        "absoluteFrequency": 347,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 42.93,
+        "relativeFrequency": 4.86,
+        "absoluteFrequency": 510,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 19.7,
+        "relativeFrequency": 2.23,
+        "absoluteFrequency": 234,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 6.65,
+        "relativeFrequency": 0.75,
+        "absoluteFrequency": 79,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 1.52,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 11.32,
+    "totalValidAbsoluteFrequency": 1188,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec07,-998,4,5,6)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 423,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "experiences 2nd training phase: quality of acad. support",
+    "de": "Erfahrungen 2. Ausbildungsphase: fachliche Qualität der Betreuung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

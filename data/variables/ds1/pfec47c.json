@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "PhD evaluation: flexible time management",
-    "de": "Beurteilung Promotionsphase: flexible Zeiteinteilung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2203,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit treffen die folgenden Aussagen auf Ihre Promotionsphase zu?,Während meiner Promotionsphase…,trifft voll und ganz zu,trifft überhaupt nicht zu,...konnte ich mir die Zeit, die ich an meiner Promotion/Dissertation arbeitete, flexibel einteilen.,...kann ich mir die Zeit, die ich an meiner Promotion/Dissertation arbeite, flexibel einteilen."
+      },
+      "questionNumber": "46",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.56,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "112.6776",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 242,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft voll und ganz zu"
-        },
-        "relativeFrequency": 2.31,
-        "validRelativeFrequency": 41.51,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 196,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 1.87,
-        "validRelativeFrequency": 33.62,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 86,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 0.82,
-        "validRelativeFrequency": 14.75,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 49,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.47,
-        "validRelativeFrequency": 8.4,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft überhaupt nicht zu"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 1.72,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 583,
     "missings": [
       {
-        "absoluteFrequency": 28,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 65,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.62,
+        "absoluteFrequency": 65,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "46",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf Ihre Promotionsphase zu?,Während meiner Promotionsphase…,trifft voll und ganz zu,trifft überhaupt nicht zu,...konnte ich mir die Zeit, die ich an meiner Promotion/Dissertation arbeitete, flexibel einteilen.,...kann ich mir die Zeit, die ich an meiner Promotion/Dissertation arbeite, flexibel einteilen."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft voll und ganz zu"
+        },
+        "validRelativeFrequency": 41.51,
+        "relativeFrequency": 2.31,
+        "absoluteFrequency": 242,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 33.62,
+        "relativeFrequency": 1.87,
+        "absoluteFrequency": 196,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 14.75,
+        "relativeFrequency": 0.82,
+        "absoluteFrequency": 86,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 8.4,
+        "relativeFrequency": 0.47,
+        "absoluteFrequency": 49,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 1.72,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.56,
+    "totalValidAbsoluteFrequency": 583,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2203,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD evaluation: flexible time management",
+    "de": "Beurteilung Promotionsphase: flexible Zeiteinteilung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

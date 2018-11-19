@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st job: location of work (new or old federal states/abroad)",
-    "de": "1. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-aocc241j",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ241j_g3",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 530,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
-    },
-    "rule": "recode aocc241j_g2d (1/10 92 =1) (11/16 91 = 2), gen(aocc241j_g3)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben."
+      },
+      "questionNumber": "5.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 73.8,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 5588,
-        "label": {
-          "en": "Old federal state",
-          "de": "Alte Bundesländer"
-        },
-        "relativeFrequency": 53.25,
-        "validRelativeFrequency": 72.15,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1871,
-        "label": {
-          "en": "New federal state (incl. Berlin)",
-          "de": "Neue Bundesländer (inkl. Berlin)"
-        },
-        "relativeFrequency": 17.83,
-        "validRelativeFrequency": 24.16,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": "Germany no further details",
-          "de": "Deutschland ohne nähere Angabe"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 0.22,
-        "value": "93"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Multiple German federal states",
-          "de": "mehrere deutsche Bundesländer (alte und neue)"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 0.19,
-        "value": "94"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Germany and abroad",
-          "de": "Deutschland und Ausland"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 0.12,
-        "value": "95"
-      },
-      {
-        "absoluteFrequency": 245,
-        "label": {
-          "en": "Abroad",
-          "de": "Ausland"
-        },
-        "relativeFrequency": 2.33,
-        "validRelativeFrequency": 3.16,
-        "value": "100"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7745,
     "missings": [
       {
-        "absoluteFrequency": 658,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 6.27,
+        "absoluteFrequency": 658,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       },
       {
-        "absoluteFrequency": 3,
         "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
         "code": -966
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Old federal state",
+          "de": "Alte Bundesländer"
+        },
+        "validRelativeFrequency": 72.15,
+        "relativeFrequency": 53.25,
+        "absoluteFrequency": 5588,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "New federal state (incl. Berlin)",
+          "de": "Neue Bundesländer (inkl. Berlin)"
+        },
+        "validRelativeFrequency": 24.16,
+        "relativeFrequency": 17.83,
+        "absoluteFrequency": 1871,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Germany no further details",
+          "de": "Deutschland ohne nähere Angabe"
+        },
+        "validRelativeFrequency": 0.22,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "93"
+      },
+      {
+        "label": {
+          "en": "Multiple German federal states",
+          "de": "mehrere deutsche Bundesländer (alte und neue)"
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "94"
+      },
+      {
+        "label": {
+          "en": "Germany and abroad",
+          "de": "Deutschland und Ausland"
+        },
+        "validRelativeFrequency": 0.12,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "95"
+      },
+      {
+        "label": {
+          "en": "Abroad",
+          "de": "Ausland"
+        },
+        "validRelativeFrequency": 3.16,
+        "relativeFrequency": 2.33,
+        "absoluteFrequency": 245,
+        "value": "100"
       }
+    ],
+    "totalValidRelativeFrequency": 73.8,
+    "totalValidAbsoluteFrequency": 7745,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode aocc241j_g2d (1/10 92 =1) (11/16 91 = 2), gen(aocc241j_g3)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus dem Tätigkeitsort (Bundesland/Ausland) generiert. Zu Einzelheiten vgl. Generierungsregel."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-aocc241j",
+  "panelIdentifier": "gra2009-ds1-occ241j_g3",
+  "surveyNumbers": [1],
+  "indexInDataSet": 530,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st job: location of work (new or old federal states/abroad)",
+    "de": "1. Tätigkeit: Arbeitsort (neue, alte Bundesländer bzw. Ausland)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

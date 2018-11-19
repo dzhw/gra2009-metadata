@@ -1,219 +1,223 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "1st apartment: moved in (month)",
-    "de": "1. Wohnung: Einzug (Monat)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mres021,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1567,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Nun bitten wir Sie, alle Wohnungen aufzulisten, in denen Sie seit dem Ende Ihres Studiums 2008/09 gelebt haben.,Uns interessiert dabei nur, wo Sie tatsächlich gelebt haben, nicht wo Sie ihren Wohnsitz gemeldet hatten. Denken Sie dabei bitte auch an Zweit- und Nebenwohnungen. Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,von:"
+      },
+      "questionNumber": "08.1",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 16.9,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 2.9652,
+      "mode": "10",
       "highWhisker": 12,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "9",
-      "meanDeviation": "46.7019",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "8",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "12",
-      "mode": "10",
-      "median": "8"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 150,
-        "label": {
-          "en": "January",
-          "de": "Januar"
-        },
-        "relativeFrequency": 1.43,
-        "validRelativeFrequency": 8.46,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 118,
-        "label": {
-          "en": "February",
-          "de": "Februar"
-        },
-        "relativeFrequency": 1.12,
-        "validRelativeFrequency": 6.66,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 145,
-        "label": {
-          "en": "March",
-          "de": "März"
-        },
-        "relativeFrequency": 1.38,
-        "validRelativeFrequency": 8.18,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 165,
-        "label": {
-          "en": "April ",
-          "de": "April"
-        },
-        "relativeFrequency": 1.57,
-        "validRelativeFrequency": 9.31,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 107,
-        "label": {
-          "en": "May",
-          "de": "Mai"
-        },
-        "relativeFrequency": 1.02,
-        "validRelativeFrequency": 6.03,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 74,
-        "label": {
-          "en": "June",
-          "de": "Juni"
-        },
-        "relativeFrequency": 0.71,
-        "validRelativeFrequency": 4.17,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 126,
-        "label": {
-          "en": "July",
-          "de": "Juli"
-        },
-        "relativeFrequency": 1.2,
-        "validRelativeFrequency": 7.11,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 186,
-        "label": {
-          "en": "August",
-          "de": "August"
-        },
-        "relativeFrequency": 1.77,
-        "validRelativeFrequency": 10.49,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 263,
-        "label": {
-          "en": "September",
-          "de": "September"
-        },
-        "relativeFrequency": 2.51,
-        "validRelativeFrequency": 14.83,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 272,
-        "label": {
-          "en": "October",
-          "de": "Oktober"
-        },
-        "relativeFrequency": 2.59,
-        "validRelativeFrequency": 15.34,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 102,
-        "label": {
-          "en": "November",
-          "de": "November"
-        },
-        "relativeFrequency": 0.97,
-        "validRelativeFrequency": 5.75,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 65,
-        "label": {
-          "en": "December",
-          "de": "Dezember"
-        },
-        "relativeFrequency": 0.62,
-        "validRelativeFrequency": 3.67,
-        "value": "12"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1773,
     "missings": [
       {
-        "absoluteFrequency": 189,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.8,
+        "absoluteFrequency": 189,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 503,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 4.79,
+        "absoluteFrequency": 503,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "08.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Nun bitten wir Sie, alle Wohnungen aufzulisten, in denen Sie seit dem Ende Ihres Studiums 2008/09 gelebt haben.,Uns interessiert dabei nur, wo Sie tatsächlich gelebt haben, nicht wo Sie ihren Wohnsitz gemeldet hatten. Denken Sie dabei bitte auch an Zweit- und Nebenwohnungen. Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,von:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "January",
+          "de": "Januar"
+        },
+        "validRelativeFrequency": 8.46,
+        "relativeFrequency": 1.43,
+        "absoluteFrequency": 150,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "validRelativeFrequency": 6.66,
+        "relativeFrequency": 1.12,
+        "absoluteFrequency": 118,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "validRelativeFrequency": 8.18,
+        "relativeFrequency": 1.38,
+        "absoluteFrequency": 145,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "April ",
+          "de": "April"
+        },
+        "validRelativeFrequency": 9.31,
+        "relativeFrequency": 1.57,
+        "absoluteFrequency": 165,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "validRelativeFrequency": 6.03,
+        "relativeFrequency": 1.02,
+        "absoluteFrequency": 107,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 0.71,
+        "absoluteFrequency": 74,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "validRelativeFrequency": 7.11,
+        "relativeFrequency": 1.2,
+        "absoluteFrequency": 126,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "validRelativeFrequency": 10.49,
+        "relativeFrequency": 1.77,
+        "absoluteFrequency": 186,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "validRelativeFrequency": 14.83,
+        "relativeFrequency": 2.51,
+        "absoluteFrequency": 263,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "October",
+          "de": "Oktober"
+        },
+        "validRelativeFrequency": 15.34,
+        "relativeFrequency": 2.59,
+        "absoluteFrequency": 272,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "November",
+          "de": "November"
+        },
+        "validRelativeFrequency": 5.75,
+        "relativeFrequency": 0.97,
+        "absoluteFrequency": 102,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "validRelativeFrequency": 3.67,
+        "relativeFrequency": 0.62,
+        "absoluteFrequency": 65,
+        "value": "12"
       }
+    ],
+    "totalValidRelativeFrequency": 16.9,
+    "totalValidAbsoluteFrequency": 1773,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mres021,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1567,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st apartment: moved in (month)",
+    "de": "1. Wohnung: Einzug (Monat)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

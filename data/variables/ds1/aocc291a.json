@@ -1,162 +1,174 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st job: size of company",
-    "de": "1. Stelle: Betriebsgröße"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 672,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welcher der folgenden Betriebsgrößen ist Ihr Betrieb/Ihre Dienststelle zuzuordnen?\r\nErste Stelle\r\nÜber 1000 Mitarbeiter/innen\r\nÜber 500 bis 1000 Mitarbeiter/innen \r\nÜber 100 bis 500 Mitarbeiter/innen\r\nÜber 20 bis 100 Mitarbeiter/innen\r\n5 bis 20 Mitarbeiter/innen\r\nWeniger als 5 Mitarbeiter/innen\r\nFreischaffend, ohne Mitarbeiter/innen\r\nSonstiges"
+      },
+      "questionNumber": "5.9",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 65.14,
     "statistics": {
-      "mode": "4"
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1512,
-        "label": {
-          "en": "Over 1000 employees",
-          "de": "über 1000 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 14.41,
-        "validRelativeFrequency": 22.12,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 479,
-        "label": {
-          "en": "Over 500 to 1000 employees",
-          "de": "500 bis 1000 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 4.56,
-        "validRelativeFrequency": 7.01,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1060,
-        "label": {
-          "en": "Over 100 to 500 employees",
-          "de": "100 bis 500 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 10.1,
-        "validRelativeFrequency": 15.51,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1552,
-        "label": {
-          "en": "Over 20 to 100 employees",
-          "de": "20 bis 100 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 14.79,
-        "validRelativeFrequency": 22.7,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1494,
-        "label": {
-          "en": "5 to 20 employees",
-          "de": "5 bis 20 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 14.24,
-        "validRelativeFrequency": 21.85,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 459,
-        "label": {
-          "en": "Less than 5 employees",
-          "de": "weniger als 5 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 4.37,
-        "validRelativeFrequency": 6.71,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 207,
-        "label": {
-          "en": "Freelance, no employees",
-          "de": "freischaffend, ohne Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 1.97,
-        "validRelativeFrequency": 3.03,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 73,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.7,
-        "validRelativeFrequency": 1.07,
-        "value": "8"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 6836,
     "missings": [
       {
-        "absoluteFrequency": 1570,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 14.96,
+        "absoluteFrequency": 1570,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welcher der folgenden Betriebsgrößen ist Ihr Betrieb/Ihre Dienststelle zuzuordnen?\nErste Stelle\nÜber 1000 Mitarbeiter/innen\nÜber 500 bis 1000 Mitarbeiter/innen Über 100 bis 500 Mitarbeiter/innen\nÜber 20 bis 100 Mitarbeiter/innen\n5 bis 20 Mitarbeiter/innen\nWeniger als 5 Mitarbeiter/innen\nFreischaffend, ohne Mitarbeiter/innen\nSonstiges"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Over 1000 employees",
+          "de": "über 1000 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 22.12,
+        "relativeFrequency": 14.41,
+        "absoluteFrequency": 1512,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Over 500 to 1000 employees",
+          "de": "500 bis 1000 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 7.01,
+        "relativeFrequency": 4.56,
+        "absoluteFrequency": 479,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Over 100 to 500 employees",
+          "de": "100 bis 500 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 15.51,
+        "relativeFrequency": 10.1,
+        "absoluteFrequency": 1060,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Over 20 to 100 employees",
+          "de": "20 bis 100 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 22.7,
+        "relativeFrequency": 14.79,
+        "absoluteFrequency": 1552,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "5 to 20 employees",
+          "de": "5 bis 20 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 21.85,
+        "relativeFrequency": 14.24,
+        "absoluteFrequency": 1494,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Less than 5 employees",
+          "de": "weniger als 5 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 6.71,
+        "relativeFrequency": 4.37,
+        "absoluteFrequency": 459,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Freelance, no employees",
+          "de": "freischaffend, ohne Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 3.03,
+        "relativeFrequency": 1.97,
+        "absoluteFrequency": 207,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 1.07,
+        "relativeFrequency": 0.7,
+        "absoluteFrequency": 73,
+        "value": "8"
       }
+    ],
+    "totalValidRelativeFrequency": 65.14,
+    "totalValidAbsoluteFrequency": 6836,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 672,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st job: size of company",
+    "de": "1. Stelle: Betriebsgröße"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

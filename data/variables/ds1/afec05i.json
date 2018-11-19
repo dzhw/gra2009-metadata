@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "motivation for further acad. qualification: subject specialisation",
-    "de": "Motiv weitere akad. Qualifikation: fachliche Spezialisierung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-fec05i",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 404,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\r\nMich für ein bestimmtes Fachgebiet spezialisieren"
+      },
+      "questionNumber": "2.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 54.12,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "732.4044",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1952,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 18.6,
-        "validRelativeFrequency": 34.37,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1829,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 17.43,
-        "validRelativeFrequency": 32.21,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 946,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 9.01,
-        "validRelativeFrequency": 16.66,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 500,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 4.76,
-        "validRelativeFrequency": 8.8,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 452,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 4.31,
-        "validRelativeFrequency": 7.96,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5679,
     "missings": [
       {
-        "absoluteFrequency": 288,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.74,
+        "absoluteFrequency": 288,
         "code": -998
       },
       {
-        "absoluteFrequency": 4527,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 43.14,
+        "absoluteFrequency": 4527,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\nMich für ein bestimmtes Fachgebiet spezialisieren"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 34.37,
+        "relativeFrequency": 18.6,
+        "absoluteFrequency": 1952,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 32.21,
+        "relativeFrequency": 17.43,
+        "absoluteFrequency": 1829,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 16.66,
+        "relativeFrequency": 9.01,
+        "absoluteFrequency": 946,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 8.8,
+        "relativeFrequency": 4.76,
+        "absoluteFrequency": 500,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 7.96,
+        "relativeFrequency": 4.31,
+        "absoluteFrequency": 452,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 54.12,
+    "totalValidAbsoluteFrequency": 5679,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec05i",
+  "surveyNumbers": [1],
+  "indexInDataSet": 404,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for further acad. qualification: subject specialisation",
+    "de": "Motiv weitere akad. Qualifikation: fachliche Spezialisierung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

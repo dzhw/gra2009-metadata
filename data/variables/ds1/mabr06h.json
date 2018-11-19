@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "academic activities abroad: funding opportunities for research projects",
-    "de": "wissenschaftl. Tätigkeit Ausland: Finanzierungsmöglichkeiten Forschungsprojekte"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1974,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie die Situation im Land/in den Ländern Ihrer wissenschaftlichen Tätigkeit im Vergleich zu Deutschland hinsichtlich der folgenden Aspekte ein?,in Deutschland besser,in Deutschland schlechter,Finanzierungsmöglichkeiten für Forschungsprojekte"
+      },
+      "questionNumber": "48",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.87,
     "statistics": {
-      "mode": "multimodal"
+      "meanDeviation": null,
+      "mode": "multimodal",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Better in Germany",
-          "de": "in Deutschland besser"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 9.89,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 5.49,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 26.37,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 14.29,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Worse in Germany",
-          "de": "in Deutschland schlechter"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 17.58,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 24,
-        "label": {
-          "en": "Can't say",
-          "de": "kann ich nicht beurteilen"
-        },
-        "relativeFrequency": 0.23,
-        "validRelativeFrequency": 26.37,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 91,
     "missings": [
       {
-        "absoluteFrequency": 66,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.63,
+        "absoluteFrequency": 66,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 2308,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 21.99,
+        "absoluteFrequency": 2308,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "48",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie die Situation im Land/in den Ländern Ihrer wissenschaftlichen Tätigkeit im Vergleich zu Deutschland hinsichtlich der folgenden Aspekte ein?,in Deutschland besser,in Deutschland schlechter,Finanzierungsmöglichkeiten für Forschungsprojekte"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Better in Germany",
+          "de": "in Deutschland besser"
+        },
+        "validRelativeFrequency": 9.89,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 5.49,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 26.37,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 24,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 14.29,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 13,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Worse in Germany",
+          "de": "in Deutschland schlechter"
+        },
+        "validRelativeFrequency": 17.58,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Can't say",
+          "de": "kann ich nicht beurteilen"
+        },
+        "validRelativeFrequency": 26.37,
+        "relativeFrequency": 0.23,
+        "absoluteFrequency": 24,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 0.87,
+    "totalValidAbsoluteFrequency": 91,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1974,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "academic activities abroad: funding opportunities for research projects",
+    "de": "wissenschaftl. Tätigkeit Ausland: Finanzierungsmöglichkeiten Forschungsprojekte"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

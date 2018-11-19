@@ -1,169 +1,181 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st further acad. qualification: type of degree",
-    "de": "1. weitere akad. Qualifikation: Abschlussart"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\r\n1. Studienangebot\r\nAngestrebter oder erreichter Abschluss\r\nSchlüssel siehe unten"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1195,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgenden Tableau ein!"
+      },
+      "questionNumber": "47",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 16.97,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 30,
-        "label": {
-          "en": "No certification pursued",
-          "de": "kein Abschluss angestrebt"
-        },
-        "relativeFrequency": 0.29,
-        "validRelativeFrequency": 1.68,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1498,
-        "label": {
-          "en": "Master",
-          "de": "Master"
-        },
-        "relativeFrequency": 14.27,
-        "validRelativeFrequency": 84.11,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 43,
-        "label": {
-          "en": "Bachelor",
-          "de": "Bachelor"
-        },
-        "relativeFrequency": 0.41,
-        "validRelativeFrequency": 2.41,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 54,
-        "label": {
-          "en": "Diploma / Magister degree",
-          "de": "Diplom / Magister"
-        },
-        "relativeFrequency": 0.51,
-        "validRelativeFrequency": 3.03,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 50,
-        "label": {
-          "en": "State exams",
-          "de": "Staatsexamen"
-        },
-        "relativeFrequency": 0.48,
-        "validRelativeFrequency": 2.81,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 88,
-        "label": {
-          "en": "Certificate",
-          "de": "Zertifikat"
-        },
-        "relativeFrequency": 0.84,
-        "validRelativeFrequency": 4.94,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": "Other degree",
-          "de": "sonstiger Abschluss"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 1.01,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1781,
     "missings": [
       {
-        "absoluteFrequency": 312,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.97,
+        "absoluteFrequency": 312,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "No certification pursued",
+          "de": "kein Abschluss angestrebt"
+        },
+        "validRelativeFrequency": 1.68,
+        "relativeFrequency": 0.29,
+        "absoluteFrequency": 30,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Master",
+          "de": "Master"
+        },
+        "validRelativeFrequency": 84.11,
+        "relativeFrequency": 14.27,
+        "absoluteFrequency": 1498,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Bachelor",
+          "de": "Bachelor"
+        },
+        "validRelativeFrequency": 2.41,
+        "relativeFrequency": 0.41,
+        "absoluteFrequency": 43,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Diploma / Magister degree",
+          "de": "Diplom / Magister"
+        },
+        "validRelativeFrequency": 3.03,
+        "relativeFrequency": 0.51,
+        "absoluteFrequency": 54,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "State exams",
+          "de": "Staatsexamen"
+        },
+        "validRelativeFrequency": 2.81,
+        "relativeFrequency": 0.48,
+        "absoluteFrequency": 50,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Certificate",
+          "de": "Zertifikat"
+        },
+        "validRelativeFrequency": 4.94,
+        "relativeFrequency": 0.84,
+        "absoluteFrequency": 88,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Other degree",
+          "de": "sonstiger Abschluss"
+        },
+        "validRelativeFrequency": 1.01,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "7"
+      }
+    ],
+    "totalValidRelativeFrequency": 16.97,
+    "totalValidAbsoluteFrequency": 1781,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\n1. Studienangebot\nAngestrebter oder erreichter Abschluss\nSchlüssel siehe unten"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "47",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie diese lÃ¤ngerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergefÃ¼hrt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgenden Tableau ein!"
-      }
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1195,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st further acad. qualification: type of degree",
+    "de": "1. weitere akad. Qualifikation: Abschlussart"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

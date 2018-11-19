@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "motivation for further acad. qualification: lack of confidence career prospects",
-    "de": "Motiv weitere akad. Qualifikation: geringes Vertrauen Berufschancen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-fec05n",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 409,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\r\nGeringes Vertrauen in die Berufschancen mit meinem ersten Studienabschluss"
+      },
+      "questionNumber": "2.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 53.13,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 2.9652,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "367.6848",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1248,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 11.89,
-        "validRelativeFrequency": 22.39,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 983,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 9.37,
-        "validRelativeFrequency": 17.63,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 753,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 7.18,
-        "validRelativeFrequency": 13.51,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 735,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 7,
-        "validRelativeFrequency": 13.18,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1856,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 17.69,
-        "validRelativeFrequency": 33.29,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5575,
     "missings": [
       {
-        "absoluteFrequency": 392,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.74,
+        "absoluteFrequency": 392,
         "code": -998
       },
       {
-        "absoluteFrequency": 4527,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 43.14,
+        "absoluteFrequency": 4527,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind/waren Ihnen folgende Motive für Ihr weiteres Studium/Ihre Promotion?\nGeringes Vertrauen in die Berufschancen mit meinem ersten Studienabschluss"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 22.39,
+        "relativeFrequency": 11.89,
+        "absoluteFrequency": 1248,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 17.63,
+        "relativeFrequency": 9.37,
+        "absoluteFrequency": 983,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 13.51,
+        "relativeFrequency": 7.18,
+        "absoluteFrequency": 753,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 13.18,
+        "relativeFrequency": 7,
+        "absoluteFrequency": 735,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 33.29,
+        "relativeFrequency": 17.69,
+        "absoluteFrequency": 1856,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 53.13,
+    "totalValidAbsoluteFrequency": 5575,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec05n",
+  "surveyNumbers": [1],
+  "indexInDataSet": 409,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "motivation for further acad. qualification: lack of confidence career prospects",
+    "de": "Motiv weitere akad. Qualifikation: geringes Vertrauen Berufschancen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

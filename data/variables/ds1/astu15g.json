@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course of study: learning goals achieved",
-    "de": "Studium: Lernziele erreicht"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 246,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit treffen die folgenden Aussagen auf Ihr abgeschlossenes Studium zu?\r\nSoweit mir die Qualifikations- und Lernziele\r\nder Lehrveranstaltungen bekannt waren, wurden diese meistens erreicht ."
+      },
+      "questionNumber": "1.17",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.42,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 0,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1833.976",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1765,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft genau zu"
-        },
-        "relativeFrequency": 16.82,
-        "validRelativeFrequency": 17.09,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 5211,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 49.66,
-        "validRelativeFrequency": 50.46,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2772,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 26.42,
-        "validRelativeFrequency": 26.84,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 528,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 5.03,
-        "validRelativeFrequency": 5.11,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 52,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft gar nicht zu"
-        },
-        "relativeFrequency": 0.5,
-        "validRelativeFrequency": 0.5,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10328,
     "missings": [
       {
-        "absoluteFrequency": 166,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.58,
+        "absoluteFrequency": 166,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.17",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf Ihr abgeschlossenes Studium zu?\nSoweit mir die Qualifikations- und Lernziele\nder Lehrveranstaltungen bekannt waren, wurden diese meistens erreicht ."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft genau zu"
+        },
+        "validRelativeFrequency": 17.09,
+        "relativeFrequency": 16.82,
+        "absoluteFrequency": 1765,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 50.46,
+        "relativeFrequency": 49.66,
+        "absoluteFrequency": 5211,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 26.84,
+        "relativeFrequency": 26.42,
+        "absoluteFrequency": 2772,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 5.11,
+        "relativeFrequency": 5.03,
+        "absoluteFrequency": 528,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft gar nicht zu"
+        },
+        "validRelativeFrequency": 0.5,
+        "relativeFrequency": 0.5,
+        "absoluteFrequency": 52,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.42,
+    "totalValidAbsoluteFrequency": 10328,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 246,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: learning goals achieved",
+    "de": "Studium: Lernziele erreicht"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

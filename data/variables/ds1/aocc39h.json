@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: dedicated to family",
-    "de": "Arbeits-/Lebensziele: Familie widmen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39h",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 740,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\r\nMich der Familie widmen"
+      },
+      "questionNumber": "5.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.76,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "2090.466",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3254,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 31.01,
-        "validRelativeFrequency": 32.05,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4435,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 42.26,
-        "validRelativeFrequency": 43.68,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1873,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 17.85,
-        "validRelativeFrequency": 18.45,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 463,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 4.41,
-        "validRelativeFrequency": 4.56,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 129,
-        "label": {
-          "en": "Not at all important",
-          "de": "gar nicht wichtig"
-        },
-        "relativeFrequency": 1.23,
-        "validRelativeFrequency": 1.27,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10154,
     "missings": [
       {
-        "absoluteFrequency": 340,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.24,
+        "absoluteFrequency": 340,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\nMich der Familie widmen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 32.05,
+        "relativeFrequency": 31.01,
+        "absoluteFrequency": 3254,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 43.68,
+        "relativeFrequency": 42.26,
+        "absoluteFrequency": 4435,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 18.45,
+        "relativeFrequency": 17.85,
+        "absoluteFrequency": 1873,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 4.56,
+        "relativeFrequency": 4.41,
+        "absoluteFrequency": 463,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "gar nicht wichtig"
+        },
+        "validRelativeFrequency": 1.27,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 129,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.76,
+    "totalValidAbsoluteFrequency": 10154,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39h",
+  "surveyNumbers": [1],
+  "indexInDataSet": 740,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: dedicated to family",
+    "de": "Arbeits-/Lebensziele: Familie widmen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

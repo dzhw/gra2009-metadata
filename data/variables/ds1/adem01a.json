@@ -1,113 +1,125 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "higher education entrance qualification",
-    "de": "Studienberechtigung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 748,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Mit welcher Studienberechtigung haben Sie Ihr (erstes) Studium begonnen?\r\nAllgemeine Hochschulreife\r\nFachgebundene Hochschulreife\r\nFachhochschulreife\r\nAusländische Studienberechtigung\r\nAndere"
+      },
+      "questionNumber": "6.1",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.02,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 8661,
-        "label": {
-          "en": "General matriculation standard",
-          "de": "allgemeine Hochschulreife"
-        },
-        "relativeFrequency": 82.53,
-        "validRelativeFrequency": 83.35,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 345,
-        "label": {
-          "en": "Subject-related matriculation standard",
-          "de": "fachgebundene Hochschulreife"
-        },
-        "relativeFrequency": 3.29,
-        "validRelativeFrequency": 3.32,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1220,
-        "label": {
-          "en": "Entitlement to study at universities of applied sciences",
-          "de": "Fachhochschulreife"
-        },
-        "relativeFrequency": 11.63,
-        "validRelativeFrequency": 11.74,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 165,
-        "label": {
-          "en": "Foreign study authorisation",
-          "de": "ausländische Studienberechtigung"
-        },
-        "relativeFrequency": 1.57,
-        "validRelativeFrequency": 1.59,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10391,
     "missings": [
       {
-        "absoluteFrequency": 103,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.98,
+        "absoluteFrequency": 103,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Mit welcher Studienberechtigung haben Sie Ihr (erstes) Studium begonnen?\nAllgemeine Hochschulreife\nFachgebundene Hochschulreife\nFachhochschulreife\nAusländische Studienberechtigung\nAndere"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "General matriculation standard",
+          "de": "allgemeine Hochschulreife"
+        },
+        "validRelativeFrequency": 83.35,
+        "relativeFrequency": 82.53,
+        "absoluteFrequency": 8661,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Subject-related matriculation standard",
+          "de": "fachgebundene Hochschulreife"
+        },
+        "validRelativeFrequency": 3.32,
+        "relativeFrequency": 3.29,
+        "absoluteFrequency": 345,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Entitlement to study at universities of applied sciences",
+          "de": "Fachhochschulreife"
+        },
+        "validRelativeFrequency": 11.74,
+        "relativeFrequency": 11.63,
+        "absoluteFrequency": 1220,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Foreign study authorisation",
+          "de": "ausländische Studienberechtigung"
+        },
+        "validRelativeFrequency": 1.59,
+        "relativeFrequency": 1.57,
+        "absoluteFrequency": 165,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 99.02,
+    "totalValidAbsoluteFrequency": 10391,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 748,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification",
+    "de": "Studienberechtigung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

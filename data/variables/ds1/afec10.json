@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "2nd training phase: overall evaluation",
-    "de": "2. Ausbildungsphase: Gesamturteil"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec07,-998,4,5,6)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 433,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die zweite Phase Ihrer Ausbildung aufgrund Ihrer (bisherigen) Erfahrungen insgesamt?\r\nIch halte die zweite Ausbildungsphase für …:"
+      },
+      "questionNumber": "3.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 11.28,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "118.608",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 707,
-        "label": {
-          "en": "Very helpful",
-          "de": "sehr hilfreich"
-        },
-        "relativeFrequency": 6.74,
-        "validRelativeFrequency": 59.71,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 342,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 3.26,
-        "validRelativeFrequency": 28.89,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 92,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 0.88,
-        "validRelativeFrequency": 7.77,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 31,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 0.3,
-        "validRelativeFrequency": 2.62,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Not very helpful",
-          "de": "gar nicht hilfreich"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 1.01,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1184,
     "missings": [
       {
-        "absoluteFrequency": 67,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.64,
+        "absoluteFrequency": 67,
         "code": -998
       },
       {
-        "absoluteFrequency": 9243,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 88.08,
+        "absoluteFrequency": 9243,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "3.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie beurteilen Sie die zweite Phase Ihrer Ausbildung aufgrund Ihrer (bisherigen) Erfahrungen insgesamt?\nIch halte die zweite Ausbildungsphase für …:"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very helpful",
+          "de": "sehr hilfreich"
+        },
+        "validRelativeFrequency": 59.71,
+        "relativeFrequency": 6.74,
+        "absoluteFrequency": 707,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 28.89,
+        "relativeFrequency": 3.26,
+        "absoluteFrequency": 342,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 7.77,
+        "relativeFrequency": 0.88,
+        "absoluteFrequency": 92,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 2.62,
+        "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not very helpful",
+          "de": "gar nicht hilfreich"
+        },
+        "validRelativeFrequency": 1.01,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 11.28,
+    "totalValidAbsoluteFrequency": 1184,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec07,-998,4,5,6)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 433,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd training phase: overall evaluation",
+    "de": "2. Ausbildungsphase: Gesamturteil"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

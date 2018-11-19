@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "important for career: independent working",
-    "de": "wichtig für Beruf: selbständiges Arbeiten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-ski01t",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 268,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über  diese Kenntnisse und Fähigkeiten (rechte Spalte)?\r\nWichtigkeit für die berufliche Tätigkeit\r\n Selbständiges Arbeiten"
+      },
+      "questionNumber": "1.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.72,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "395.8542",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7448,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 70.97,
-        "validRelativeFrequency": 73.38,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2380,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 22.68,
-        "validRelativeFrequency": 23.45,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 277,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 2.64,
-        "validRelativeFrequency": 2.73,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.33,
-        "validRelativeFrequency": 0.34,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 0.1,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10150,
     "missings": [
       {
-        "absoluteFrequency": 344,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.28,
+        "absoluteFrequency": 344,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\nWichtigkeit für die berufliche Tätigkeit\nSelbständiges Arbeiten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 73.38,
+        "relativeFrequency": 70.97,
+        "absoluteFrequency": 7448,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 23.45,
+        "relativeFrequency": 22.68,
+        "absoluteFrequency": 2380,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 2.73,
+        "relativeFrequency": 2.64,
+        "absoluteFrequency": 277,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 0.34,
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 35,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 0.1,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.72,
+    "totalValidAbsoluteFrequency": 10150,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-ski01t",
+  "surveyNumbers": [1],
+  "indexInDataSet": 268,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "important for career: independent working",
+    "de": "wichtig für Beruf: selbständiges Arbeiten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

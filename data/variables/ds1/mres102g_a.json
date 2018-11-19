@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie uns nun die nächste Wohnung, in die Sinach Ihrem Studienabschluss 2008/2009 eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,Ort (falls PLZ nicht bekannt):"
+      },
+      "questionNumber": "32.1",
+      "instrumentNumber": 5
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1 & mres091==1 & mres101==1"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält zusätzliche offene Angaben zum Wohnort. Die Angaben wurden nicht codiert."
+    }
+  },
+  "storageType": "character",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1864,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
   },
   "label": {
     "en": "9th apartment: location (other)",
     "de": "9. Wohnung: Ort (Sonstiges)"
   },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "string",
     "de": "string"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mres021,1,-998) & mres031==1 & mres041==1 & mres051==1 & mres061==1 & mres071==1 & mres081==1 & mres091==1 & mres101==1",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1864,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält zusätzliche offene Angaben zum Wohnort. Die Angaben wurden nicht codiert."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "character",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.04,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 4,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "32.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie uns nun die nächste Wohnung, in die Sinach Ihrem Studienabschluss 2008/2009 eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um,Ort (falls PLZ nicht bekannt):"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

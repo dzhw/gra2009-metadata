@@ -1,143 +1,155 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "higher education entrance qualification: educational background",
-    "de": "Studienberechtigung: Bildungsweg"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 750,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Über welchen Bildungsweg haben Sie Ihre Studien- berechtigung erworben?\r\nGymnasium\r\nFachgymnasium\r\nGesamtschule\r\nAbendgymnasium, Kolleg\r\nFachoberschule\r\nSonstige berufliche Schule\r\nAnderer Bildungsweg"
+      },
+      "questionNumber": "6.2",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.57,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7590,
-        "label": {
-          "en": "A-Level, maturity grammar school",
-          "de": "Gymnasium bzw. EOS"
-        },
-        "relativeFrequency": 72.33,
-        "validRelativeFrequency": 72.64,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 616,
-        "label": {
-          "en": "Specialised grammar school",
-          "de": "Fachgymnasium"
-        },
-        "relativeFrequency": 5.87,
-        "validRelativeFrequency": 5.9,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 395,
-        "label": {
-          "en": "Comprehensive",
-          "de": "Gesamtschule"
-        },
-        "relativeFrequency": 3.76,
-        "validRelativeFrequency": 3.78,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 285,
-        "label": {
-          "en": "Evening school, lectures",
-          "de": "Abendgymnasium, Kolleg"
-        },
-        "relativeFrequency": 2.72,
-        "validRelativeFrequency": 2.73,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 832,
-        "label": {
-          "en": "Technical college",
-          "de": "Fachoberschule"
-        },
-        "relativeFrequency": 7.93,
-        "validRelativeFrequency": 7.96,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 359,
-        "label": {
-          "en": "Other vocational schools",
-          "de": "sonstige berufl. Schule"
-        },
-        "relativeFrequency": 3.42,
-        "validRelativeFrequency": 3.44,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 372,
-        "label": {
-          "en": "Another educational path",
-          "de": "anderer Bildungsweg"
-        },
-        "relativeFrequency": 3.54,
-        "validRelativeFrequency": 3.56,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10449,
     "missings": [
       {
-        "absoluteFrequency": 45,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.43,
+        "absoluteFrequency": 45,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Über welchen Bildungsweg haben Sie Ihre Studien- berechtigung erworben?\nGymnasium\nFachgymnasium\nGesamtschule\nAbendgymnasium, Kolleg\nFachoberschule\nSonstige berufliche Schule\nAnderer Bildungsweg"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "A-Level, maturity grammar school",
+          "de": "Gymnasium bzw. EOS"
+        },
+        "validRelativeFrequency": 72.64,
+        "relativeFrequency": 72.33,
+        "absoluteFrequency": 7590,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Specialised grammar school",
+          "de": "Fachgymnasium"
+        },
+        "validRelativeFrequency": 5.9,
+        "relativeFrequency": 5.87,
+        "absoluteFrequency": 616,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Comprehensive",
+          "de": "Gesamtschule"
+        },
+        "validRelativeFrequency": 3.78,
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 395,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Evening school, lectures",
+          "de": "Abendgymnasium, Kolleg"
+        },
+        "validRelativeFrequency": 2.73,
+        "relativeFrequency": 2.72,
+        "absoluteFrequency": 285,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Technical college",
+          "de": "Fachoberschule"
+        },
+        "validRelativeFrequency": 7.96,
+        "relativeFrequency": 7.93,
+        "absoluteFrequency": 832,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Other vocational schools",
+          "de": "sonstige berufl. Schule"
+        },
+        "validRelativeFrequency": 3.44,
+        "relativeFrequency": 3.42,
+        "absoluteFrequency": 359,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Another educational path",
+          "de": "anderer Bildungsweg"
+        },
+        "validRelativeFrequency": 3.56,
+        "relativeFrequency": 3.54,
+        "absoluteFrequency": 372,
+        "value": "7"
       }
+    ],
+    "totalValidRelativeFrequency": 99.57,
+    "totalValidAbsoluteFrequency": 10449,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 750,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "higher education entrance qualification: educational background",
+    "de": "Studienberechtigung: Bildungsweg"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

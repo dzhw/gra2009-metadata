@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "reason against further acad. qualification: to earn money",
-    "de": "Grund gegen weitere akad. Qualifikation: Geld verdienen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 411,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\r\nDer Wunsch, möglichst bald selbst Geld zu verdienen"
+      },
+      "questionNumber": "2.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 39.2,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "330.6198",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2142,
-        "label": {
-          "en": "Very strong",
-          "de": "sehr stark"
-        },
-        "relativeFrequency": 20.41,
-        "validRelativeFrequency": 52.07,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1202,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 11.45,
-        "validRelativeFrequency": 29.22,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 399,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 3.8,
-        "validRelativeFrequency": 9.7,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 195,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 1.86,
-        "validRelativeFrequency": 4.74,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 176,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 1.68,
-        "validRelativeFrequency": 4.28,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4114,
     "missings": [
       {
-        "absoluteFrequency": 418,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.98,
+        "absoluteFrequency": 418,
         "code": -998
       },
       {
-        "absoluteFrequency": 5962,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 56.81,
+        "absoluteFrequency": 5962,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\nDer Wunsch, möglichst bald selbst Geld zu verdienen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "sehr stark"
+        },
+        "validRelativeFrequency": 52.07,
+        "relativeFrequency": 20.41,
+        "absoluteFrequency": 2142,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 29.22,
+        "relativeFrequency": 11.45,
+        "absoluteFrequency": 1202,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 9.7,
+        "relativeFrequency": 3.8,
+        "absoluteFrequency": 399,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 4.74,
+        "relativeFrequency": 1.86,
+        "absoluteFrequency": 195,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 4.28,
+        "relativeFrequency": 1.68,
+        "absoluteFrequency": 176,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 39.2,
+    "totalValidAbsoluteFrequency": 4114,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 411,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason against further acad. qualification: to earn money",
+    "de": "Grund gegen weitere akad. Qualifikation: Geld verdienen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

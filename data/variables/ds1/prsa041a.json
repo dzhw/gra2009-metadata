@@ -1,243 +1,243 @@
 {
-  "scaleLevel": {
-    "en": "ratio",
-    "de": "verhältnis"
-  },
-  "label": {
-    "en": "publication: number of articles in peer-reviewed journals",
-    "de": "Publikation: Anzahl Aufsätze in Zeitschrift mit peer-review (insgesamt)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2092,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Aufsätze in Fachzeitschriften mit Peer-Review-Verfahren"
+      },
+      "questionNumber": "33",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 4.54,
     "statistics": {
-      "firstQuartile": "0",
+      "meanDeviation": 1.4826,
+      "mode": "0",
       "highWhisker": 7.5,
       "lowWhisker": 0,
-      "skewness": 14.5863,
-      "minimum": "0",
       "thirdQuartile": "3",
-      "meanDeviation": "12.6021",
-      "meanValue": 2.1681,
-      "maximum": "99",
-      "mode": "0",
-      "median": "1",
+      "firstQuartile": "0",
       "standardDeviation": 5.1086,
-      "kurtosis": 272.8276
+      "median": "1",
+      "kurtosis": 272.8276,
+      "skewness": 14.5863,
+      "maximum": "99",
+      "minimum": "0",
+      "meanValue": 2.1681
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 166,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 1.58,
-        "validRelativeFrequency": 34.87,
-        "value": "0"
-      },
-      {
-        "absoluteFrequency": 99,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.94,
-        "validRelativeFrequency": 20.8,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 69,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.66,
-        "validRelativeFrequency": 14.5,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 58,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.55,
-        "validRelativeFrequency": 12.18,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.28,
-        "validRelativeFrequency": 6.09,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 2.94,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 3.15,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.84,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 8,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.08,
-        "validRelativeFrequency": 1.68,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.42,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 1.05,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.63,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 3,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.03,
-        "validRelativeFrequency": 0.63,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.21,
-        "value": "99"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 476,
     "missings": [
       {
-        "absoluteFrequency": 194,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.85,
+        "absoluteFrequency": 194,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "33",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie viele wissenschaftliche Publikationen haben Sie im Rahmen ihrer Promotion in folgenden Formaten veröffentlicht?,Anzahl insgesamt,Davon Ko-Autorenschaft,Davon englischsprachige Beiträge,Aufsätze in Fachzeitschriften mit Peer-Review-Verfahren"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 34.87,
+        "relativeFrequency": 1.58,
+        "absoluteFrequency": 166,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 20.8,
+        "relativeFrequency": 0.94,
+        "absoluteFrequency": 99,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 14.5,
+        "relativeFrequency": 0.66,
+        "absoluteFrequency": 69,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 12.18,
+        "relativeFrequency": 0.55,
+        "absoluteFrequency": 58,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 6.09,
+        "relativeFrequency": 0.28,
+        "absoluteFrequency": 29,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.94,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 3.15,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.84,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.68,
+        "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.42,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 1.05,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.63,
+        "relativeFrequency": 0.03,
+        "absoluteFrequency": 3,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 0.21,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "99"
       }
+    ],
+    "totalValidRelativeFrequency": 4.54,
+    "totalValidAbsoluteFrequency": 476,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2092,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "publication: number of articles in peer-reviewed journals",
+    "de": "Publikation: Anzahl Aufsätze in Zeitschrift mit peer-review (insgesamt)"
+  },
+  "scaleLevel": {
+    "en": "ratio",
+    "de": "verhältnis"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

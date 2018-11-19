@@ -1,139 +1,151 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "employment: appropriate for degree level",
-    "de": "Beschäftigung: geeignetes Abschlussniveau"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welches Abschlussniveau war/ist Ihrer Meinung nach für Ihre Beschäftigung am besten geeignet?\r\nPromotion\r\nMaster, Diplom, Staatsexamen, Magister\r\nBachelor \r\nEs ist kein Hochschulabschluss erforderlich"
+      },
+      "questionNumber": "4.26",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1160,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welches Abschlussniveau war bzw. ist Ihrer Meinung nach für Ihre Beschäftigung am besten geeignet?"
+      },
+      "questionNumber": "43",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 44.42,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 377,
-        "label": {
-          "en": "Doctorate",
-          "de": "Promotion"
-        },
-        "relativeFrequency": 3.59,
-        "validRelativeFrequency": 8.09,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3035,
-        "label": {
-          "en": "Master/Diploma/State Exam/Magister",
-          "de": "Master/Diplom/Staatsexamen/Magister"
-        },
-        "relativeFrequency": 28.92,
-        "validRelativeFrequency": 65.11,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 801,
-        "label": {
-          "en": "Bachelor",
-          "de": "Bachelor"
-        },
-        "relativeFrequency": 7.63,
-        "validRelativeFrequency": 17.19,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 448,
-        "label": {
-          "en": "No higher education degree needed",
-          "de": "Es ist kein Hochschulabschluss erforderlich"
-        },
-        "relativeFrequency": 4.27,
-        "validRelativeFrequency": 9.61,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4661,
     "missings": [
       {
-        "absoluteFrequency": 63,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.6,
+        "absoluteFrequency": 63,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Doctorate",
+          "de": "Promotion"
+        },
+        "validRelativeFrequency": 8.09,
+        "relativeFrequency": 3.59,
+        "absoluteFrequency": 377,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Master/Diploma/State Exam/Magister",
+          "de": "Master/Diplom/Staatsexamen/Magister"
+        },
+        "validRelativeFrequency": 65.11,
+        "relativeFrequency": 28.92,
+        "absoluteFrequency": 3035,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Bachelor",
+          "de": "Bachelor"
+        },
+        "validRelativeFrequency": 17.19,
+        "relativeFrequency": 7.63,
+        "absoluteFrequency": 801,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "No higher education degree needed",
+          "de": "Es ist kein Hochschulabschluss erforderlich"
+        },
+        "validRelativeFrequency": 9.61,
+        "relativeFrequency": 4.27,
+        "absoluteFrequency": 448,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 44.42,
+    "totalValidAbsoluteFrequency": 4661,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.26",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welches Abschlussniveau war/ist Ihrer Meinung nach für Ihre Beschäftigung am besten geeignet?\nPromotion\nMaster, Diplom, Staatsexamen, Magister\nBachelor Es ist kein Hochschulabschluss erforderlich"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "43",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welches Abschlussniveau war bzw. ist Ihrer Meinung nach fÃ¼r Ihre BeschÃ¤ftigung am besten geeignet?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1160,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "employment: appropriate for degree level",
+    "de": "Beschäftigung: geeignetes Abschlussniveau"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

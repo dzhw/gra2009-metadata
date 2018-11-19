@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "reason job: lack of alternatives",
-    "de": "Grund Stelle: Mangel an Alternativen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie an die Entscheidung für Ihre heutige bzw. letzte Stelle zurückdenken: Wie wichtig waren Ihnen damals die folgenden Aspekte?\r\nMangel an beruflichen Alternativen"
+      },
+      "questionNumber": "4.4",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 928,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn Sie an die Entscheidung für Ihre heutige bzw. letzte Stelle zurückdenken. Wie wichtig waren Ihnen damals die folgenden Aspekte?"
+      },
+      "questionNumber": "18",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.61,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "206.0814",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 539,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 5.14,
-        "validRelativeFrequency": 11.78,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 841,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 8.01,
-        "validRelativeFrequency": 18.38,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 980,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 9.34,
-        "validRelativeFrequency": 21.42,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 800,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 7.62,
-        "validRelativeFrequency": 17.48,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1416,
-        "label": {
-          "en": "Not at all important",
-          "de": "überhaupt nicht wichtig"
-        },
-        "relativeFrequency": 13.49,
-        "validRelativeFrequency": 30.94,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4576,
     "missings": [
       {
-        "absoluteFrequency": 148,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.41,
+        "absoluteFrequency": 148,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 11.78,
+        "relativeFrequency": 5.14,
+        "absoluteFrequency": 539,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 18.38,
+        "relativeFrequency": 8.01,
+        "absoluteFrequency": 841,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 21.42,
+        "relativeFrequency": 9.34,
+        "absoluteFrequency": 980,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 17.48,
+        "relativeFrequency": 7.62,
+        "absoluteFrequency": 800,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "validRelativeFrequency": 30.94,
+        "relativeFrequency": 13.49,
+        "absoluteFrequency": 1416,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.61,
+    "totalValidAbsoluteFrequency": 4576,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn Sie an die Entscheidung für Ihre heutige bzw. letzte Stelle zurückdenken: Wie wichtig waren Ihnen damals die folgenden Aspekte?\nMangel an beruflichen Alternativen"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn Sie an die Entscheidung fÃ¼r Ihre heutige bzw. letzte Stelle zurÃ¼ckdenken. Wie wichtig waren Ihnen damals die folgenden Aspekte?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 928,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason job: lack of alternatives",
+    "de": "Grund Stelle: Mangel an Alternativen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

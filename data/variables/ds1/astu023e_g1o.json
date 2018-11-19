@@ -1,83 +1,95 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd degree: 2nd minor",
-    "de": "3. Abschluss: 2. Nebenfach"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu023e",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 156,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Studienfachangaben in codierter Form. Als Codierliste wurde die Destatis Fächersystematik (WiSe 2008/09) herangezogen (vgl. cl-destatis-studienfach-2009). Ergänzend wurde, weil in den Daten enthalten, der Fächercode 310 (\"Regenerative Energien\") aufgenommen. Es handelt sich dabei um einen neuen Code, der seit dem Schlüsselverzeichnis 2012/13 existiert."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse haben Sie erlangt?\r\nggf. 3. Abschluss\r\nStudienfach"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.01,
     "statistics": {
-      "mode": "68"
+      "meanDeviation": null,
+      "mode": "68",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "History",
-          "de": "Geschichte"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 100,
-        "value": "68"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1,
     "missings": [
       {
-        "absoluteFrequency": 10493,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.99,
+        "absoluteFrequency": 10493,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Studienabschlüsse haben Sie erlangt?\nggf. 3. Abschluss\nStudienfach"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "History",
+          "de": "Geschichte"
+        },
+        "validRelativeFrequency": 100,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "68"
       }
+    ],
+    "totalValidRelativeFrequency": 0.01,
+    "totalValidAbsoluteFrequency": 1,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Studienfachangaben in codierter Form. Als Codierliste wurde die Destatis Fächersystematik (WiSe 2008/09) herangezogen (vgl. cl-destatis-studienfach-2009). Ergänzend wurde, weil in den Daten enthalten, der Fächercode 310 (\"Regenerative Energien\") aufgenommen. Es handelt sich dabei um einen neuen Code, der seit dem Schlüsselverzeichnis 2012/13 existiert."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu023e",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 156,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd degree: 2nd minor",
+    "de": "3. Abschluss: 2. Nebenfach"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

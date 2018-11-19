@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "present: introduction to new areas of expertise",
-    "de": "vorhanden: Einarbeitung in neue Fachgebiete"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 301,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über  diese Kenntnisse und Fähigkeiten (rechte Spalte)?\r\nbei Studienabschluss vorhanden\r\n Fähigkeit, sich in neue Fachgebiete einzuarbeiten"
+      },
+      "questionNumber": "1.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.1,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "2696.849",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2426,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 23.12,
-        "validRelativeFrequency": 23.56,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4692,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 44.71,
-        "validRelativeFrequency": 45.58,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2472,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 23.56,
-        "validRelativeFrequency": 24.01,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 607,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 5.78,
-        "validRelativeFrequency": 5.9,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 98,
-        "label": {
-          "en": "To a minor degree",
-          "de": "in geringem Maße"
-        },
-        "relativeFrequency": 0.93,
-        "validRelativeFrequency": 0.95,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10295,
     "missings": [
       {
-        "absoluteFrequency": 199,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.9,
+        "absoluteFrequency": 199,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\nbei Studienabschluss vorhanden\nFähigkeit, sich in neue Fachgebiete einzuarbeiten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 23.56,
+        "relativeFrequency": 23.12,
+        "absoluteFrequency": 2426,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 45.58,
+        "relativeFrequency": 44.71,
+        "absoluteFrequency": 4692,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 24.01,
+        "relativeFrequency": 23.56,
+        "absoluteFrequency": 2472,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 5.9,
+        "relativeFrequency": 5.78,
+        "absoluteFrequency": 607,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "To a minor degree",
+          "de": "in geringem Maße"
+        },
+        "validRelativeFrequency": 0.95,
+        "relativeFrequency": 0.93,
+        "absoluteFrequency": 98,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.1,
+    "totalValidAbsoluteFrequency": 10295,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 301,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "present: introduction to new areas of expertise",
+    "de": "vorhanden: Einarbeitung in neue Fachgebiete"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

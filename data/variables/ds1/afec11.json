@@ -1,122 +1,134 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "2nd training phase: evaluation of duration",
-    "de": "2. Ausbildungsphase: Beurteilung Dauer"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec07,-998,3,4,5,6)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 434,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie beurteilen Sie die Dauer der zweiten Ausbildungsphase/des Praktikums?\r\nZu lang \r\nRichtig\r\nZu kurz \r\nGanz überflüssig"
+      },
+      "questionNumber": "3.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 14.17,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 312,
-        "label": {
-          "en": "Too long",
-          "de": "zu lang"
-        },
-        "relativeFrequency": 2.97,
-        "validRelativeFrequency": 20.98,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 941,
-        "label": {
-          "en": "Correct",
-          "de": "richtig"
-        },
-        "relativeFrequency": 8.97,
-        "validRelativeFrequency": 63.28,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 213,
-        "label": {
-          "en": "Too short",
-          "de": "zu kurz"
-        },
-        "relativeFrequency": 2.03,
-        "validRelativeFrequency": 14.32,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": "Completely superfluous",
-          "de": "ganz überflüssig"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 1.41,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1487,
     "missings": [
       {
-        "absoluteFrequency": 66,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.63,
+        "absoluteFrequency": 66,
         "code": -998
       },
       {
-        "absoluteFrequency": 8941,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 85.2,
+        "absoluteFrequency": 8941,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "3.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie beurteilen Sie die Dauer der zweiten Ausbildungsphase/des Praktikums?\nZu lang Richtig\nZu kurz Ganz überflüssig"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Too long",
+          "de": "zu lang"
+        },
+        "validRelativeFrequency": 20.98,
+        "relativeFrequency": 2.97,
+        "absoluteFrequency": 312,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Correct",
+          "de": "richtig"
+        },
+        "validRelativeFrequency": 63.28,
+        "relativeFrequency": 8.97,
+        "absoluteFrequency": 941,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Too short",
+          "de": "zu kurz"
+        },
+        "validRelativeFrequency": 14.32,
+        "relativeFrequency": 2.03,
+        "absoluteFrequency": 213,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Completely superfluous",
+          "de": "ganz überflüssig"
+        },
+        "validRelativeFrequency": 1.41,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 21,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 14.17,
+    "totalValidAbsoluteFrequency": 1487,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec07,-998,3,4,5,6)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 434,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd training phase: evaluation of duration",
+    "de": "2. Ausbildungsphase: Beurteilung Dauer"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

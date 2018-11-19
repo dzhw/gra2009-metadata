@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "reason against further acad. qualification: lack of self-confidence",
-    "de": "Grund gegen weitere akad. Qualifikation: fehlendes Selbstvertrauen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 417,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\r\nFehlendes Selbstvertrauen in meine Fähigkeit, das erfolgreich zu meistern"
+      },
+      "questionNumber": "2.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 38.96,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "415.128",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 80,
-        "label": {
-          "en": "Very strong",
-          "de": "sehr stark"
-        },
-        "relativeFrequency": 0.76,
-        "validRelativeFrequency": 1.96,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 265,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 2.53,
-        "validRelativeFrequency": 6.48,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 474,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 4.52,
-        "validRelativeFrequency": 11.59,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 754,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 7.19,
-        "validRelativeFrequency": 18.44,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2515,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 23.97,
-        "validRelativeFrequency": 61.52,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4088,
     "missings": [
       {
-        "absoluteFrequency": 444,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 4.23,
+        "absoluteFrequency": 444,
         "code": -998
       },
       {
-        "absoluteFrequency": 5962,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 56.81,
+        "absoluteFrequency": 5962,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\nFehlendes Selbstvertrauen in meine Fähigkeit, das erfolgreich zu meistern"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "sehr stark"
+        },
+        "validRelativeFrequency": 1.96,
+        "relativeFrequency": 0.76,
+        "absoluteFrequency": 80,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 6.48,
+        "relativeFrequency": 2.53,
+        "absoluteFrequency": 265,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 11.59,
+        "relativeFrequency": 4.52,
+        "absoluteFrequency": 474,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 18.44,
+        "relativeFrequency": 7.19,
+        "absoluteFrequency": 754,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 61.52,
+        "relativeFrequency": 23.97,
+        "absoluteFrequency": 2515,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 38.96,
+    "totalValidAbsoluteFrequency": 4088,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 417,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason against further acad. qualification: lack of self-confidence",
+    "de": "Grund gegen weitere akad. Qualifikation: fehlendes Selbstvertrauen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

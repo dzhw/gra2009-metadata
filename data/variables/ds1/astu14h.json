@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "course: use of foreign languages",
-    "de": "Lehrveranstaltungen: Einsatz Fremdsprache"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 237,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\r\nDie Lehre fand in einer Fremdsprache statt"
+      },
+      "questionNumber": "1.16",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99,
     "statistics": {
-      "firstQuartile": "4",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 2.5,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "1776.155",
+      "firstQuartile": "4",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": "(Almost) all",
-          "de": "(fast) alle"
-        },
-        "relativeFrequency": 1.4,
-        "validRelativeFrequency": 1.41,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 432,
-        "label": {
-          "en": "Most",
-          "de": "die meisten"
-        },
-        "relativeFrequency": 4.12,
-        "validRelativeFrequency": 4.16,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1345,
-        "label": {
-          "en": "Some",
-          "de": "manche"
-        },
-        "relativeFrequency": 12.82,
-        "validRelativeFrequency": 12.95,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3103,
-        "label": {
-          "en": "Few",
-          "de": "wenige"
-        },
-        "relativeFrequency": 29.57,
-        "validRelativeFrequency": 29.87,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 5362,
-        "label": {
-          "en": "None",
-          "de": "keine"
-        },
-        "relativeFrequency": 51.1,
-        "validRelativeFrequency": 51.61,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10389,
     "missings": [
       {
-        "absoluteFrequency": 105,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1,
+        "absoluteFrequency": 105,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.16",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Auf wie viele Lehrveranstaltungen, die Sie in Ihrem Studium besucht haben, trifft Folgendes zu?\nDie Lehre fand in einer Fremdsprache statt"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "(Almost) all",
+          "de": "(fast) alle"
+        },
+        "validRelativeFrequency": 1.41,
+        "relativeFrequency": 1.4,
+        "absoluteFrequency": 147,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Most",
+          "de": "die meisten"
+        },
+        "validRelativeFrequency": 4.16,
+        "relativeFrequency": 4.12,
+        "absoluteFrequency": 432,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Some",
+          "de": "manche"
+        },
+        "validRelativeFrequency": 12.95,
+        "relativeFrequency": 12.82,
+        "absoluteFrequency": 1345,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Few",
+          "de": "wenige"
+        },
+        "validRelativeFrequency": 29.87,
+        "relativeFrequency": 29.57,
+        "absoluteFrequency": 3103,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "None",
+          "de": "keine"
+        },
+        "validRelativeFrequency": 51.61,
+        "relativeFrequency": 51.1,
+        "absoluteFrequency": 5362,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99,
+    "totalValidAbsoluteFrequency": 10389,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 237,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course: use of foreign languages",
+    "de": "Lehrveranstaltungen: Einsatz Fremdsprache"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

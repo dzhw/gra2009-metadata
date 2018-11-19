@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: time for oneself and own interests",
-    "de": "Arbeits-/Lebensziele: Zeit für sich selbst und eigene Interessen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39l",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1513,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Genug Zeit für mich und meine Interessen haben"
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.41,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "286.1418",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1244,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 11.85,
-        "validRelativeFrequency": 50.63,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 957,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 9.12,
-        "validRelativeFrequency": 38.95,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 207,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 1.97,
-        "validRelativeFrequency": 8.42,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 35,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.33,
-        "validRelativeFrequency": 1.42,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": "Not at all important",
-          "de": "überhaupt nicht wichtig"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 0.57,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2457,
     "missings": [
       {
-        "absoluteFrequency": 8,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.08,
+        "absoluteFrequency": 8,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Die ersten beiden Fragen beziehen sich ganz allgemein auf Ihre Person.,Zunächst würden wir gerne von Ihnen wissen, wie wichtig Ihnen folgende Arbeits- bzw. Lebensziele sind.,sehr wichtig,überhaupt nicht wichtig,Genug Zeit für mich und meine Interessen haben"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 50.63,
+        "relativeFrequency": 11.85,
+        "absoluteFrequency": 1244,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 38.95,
+        "relativeFrequency": 9.12,
+        "absoluteFrequency": 957,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 8.42,
+        "relativeFrequency": 1.97,
+        "absoluteFrequency": 207,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 1.42,
+        "relativeFrequency": 0.33,
+        "absoluteFrequency": 35,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "überhaupt nicht wichtig"
+        },
+        "validRelativeFrequency": 0.57,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.41,
+    "totalValidAbsoluteFrequency": 2457,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39l",
+  "surveyNumbers": [4],
+  "indexInDataSet": 1513,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: time for oneself and own interests",
+    "de": "Arbeits-/Lebensziele: Zeit für sich selbst und eigene Interessen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

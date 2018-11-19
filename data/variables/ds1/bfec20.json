@@ -1,119 +1,131 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "requirement further education at the university",
-    "de": "Bedarf Weiterbildung an Hochschule"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfvt08,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1427,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 38.2,
-    "statistics": {
-      "mode": "2"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1310,
-        "label": {
-          "en": "yes",
-          "de": "ja"
-        },
-        "relativeFrequency": 12.48,
-        "validRelativeFrequency": 32.68,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Gibt es spezielle Themenbereiche, die Hochschulen im Rahmen wissenschaftlicher Weiterbildung und Qualifizierung für Sie anbieten sollten?; Wenn ja: Tragen Sie hier bitte die für Sie wichtigsten Themen bzw. Fachgebiete ein.\r\nJa\r\nNein"
       },
-      {
-        "absoluteFrequency": 2699,
-        "label": {
-          "en": "no",
-          "de": "nein"
-        },
-        "relativeFrequency": 25.72,
-        "validRelativeFrequency": 67.32,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4009,
+      "questionNumber": "7.2",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Gibt es spezielle Themenbereiche, die Hochschulen im Rahmen wissenschaftlicher Weiterbildung und Qualifizierung für Sie anbieten sollten?"
+      },
+      "questionNumber": "81",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 200,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.91,
+        "absoluteFrequency": 200,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 546,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 5.2,
+        "absoluteFrequency": 546,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 32.68,
+        "relativeFrequency": 12.48,
+        "absoluteFrequency": 1310,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 67.32,
+        "relativeFrequency": 25.72,
+        "absoluteFrequency": 2699,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 38.2,
+    "totalValidAbsoluteFrequency": 4009,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "7.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Gibt es spezielle Themenbereiche, die Hochschulen im Rahmen wissenschaftlicher Weiterbildung und Qualifizierung für Sie anbieten sollten?; Wenn ja: Tragen Sie hier bitte die für Sie wichtigsten Themen bzw. Fachgebiete ein.\nJa\nNein"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "81",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Gibt es spezielle Themenbereiche, die Hochschulen im Rahmen wissenschaftlicher Weiterbildung und Qualifizierung fÃ¼r Sie anbieten sollten?"
-      }
+    "expression": "if inlist(bfvt08,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1427,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "requirement further education at the university",
+    "de": "Bedarf Weiterbildung an Hochschule"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

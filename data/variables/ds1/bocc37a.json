@@ -1,148 +1,152 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "satisfaction: overall job situation",
-    "de": "Zufriedenheit: berufliche Situation insgesamt"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind Sie alles in allem …\r\nmit Ihrer beruflichen Situation?"
+      },
+      "questionNumber": "8.9",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ37a",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1495,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind Sie alles in allem ..."
+      },
+      "questionNumber": "94",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.77,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "902.9034",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 926,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 8.82,
-        "validRelativeFrequency": 20.16,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2224,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 21.19,
-        "validRelativeFrequency": 48.42,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 986,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 9.4,
-        "validRelativeFrequency": 21.47,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 317,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 3.02,
-        "validRelativeFrequency": 6.9,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 140,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 1.33,
-        "validRelativeFrequency": 3.05,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4593,
     "missings": [
       {
-        "absoluteFrequency": 162,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.54,
+        "absoluteFrequency": 162,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 20.16,
+        "relativeFrequency": 8.82,
+        "absoluteFrequency": 926,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 48.42,
+        "relativeFrequency": 21.19,
+        "absoluteFrequency": 2224,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 21.47,
+        "relativeFrequency": 9.4,
+        "absoluteFrequency": 986,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 6.9,
+        "relativeFrequency": 3.02,
+        "absoluteFrequency": 317,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 3.05,
+        "relativeFrequency": 1.33,
+        "absoluteFrequency": 140,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.77,
+    "totalValidAbsoluteFrequency": 4593,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "8.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind Sie alles in allem …\nmit Ihrer beruflichen Situation?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "94",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind Sie alles in allem ..."
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ37a",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1495,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "satisfaction: overall job situation",
+    "de": "Zufriedenheit: berufliche Situation insgesamt"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

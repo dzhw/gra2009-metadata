@@ -1,111 +1,123 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "difficulties job search: other degree required",
-    "de": "Schwierigkeiten Stellensuche: anderer Studienabschluss verlangt"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc06,-998,1,2,3)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 446,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 49.26,
-    "statistics": {
-      "mode": "0"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4412,
-        "label": {
-          "en": "Not stated",
-          "de": "nicht genannt"
-        },
-        "relativeFrequency": 42.04,
-        "validRelativeFrequency": 85.36,
-        "value": "0"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchen Schwierigkeiten sind Sie bei Ihrer Stellensuche – unabhängig von deren Erfolg – bislang begegnet?\r\nOft wird ein anderer Studienabschluss verlangt (z. B. Uni-Abschluss statt FH-Abschluss, Master statt Bachelor)"
       },
-      {
-        "absoluteFrequency": 757,
-        "label": {
-          "en": "Stated",
-          "de": "genannt"
-        },
-        "relativeFrequency": 7.21,
-        "validRelativeFrequency": 14.64,
-        "value": "1"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 5169,
+      "questionNumber": "4.7",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "0",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 243,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.32,
+        "absoluteFrequency": 243,
         "code": -998
       },
       {
-        "absoluteFrequency": 3684,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 35.11,
+        "absoluteFrequency": 3684,
         "code": -989
       },
       {
-        "absoluteFrequency": 1398,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 13.32,
+        "absoluteFrequency": 1398,
         "code": -988
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.7",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welchen Schwierigkeiten sind Sie bei Ihrer Stellensuche – unabhängig von deren Erfolg – bislang begegnet?\nOft wird ein anderer Studienabschluss verlangt (z. B. Uni-Abschluss statt FH-Abschluss, Master statt Bachelor)"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not stated",
+          "de": "nicht genannt"
+        },
+        "validRelativeFrequency": 85.36,
+        "relativeFrequency": 42.04,
+        "absoluteFrequency": 4412,
+        "value": "0"
+      },
+      {
+        "label": {
+          "en": "Stated",
+          "de": "genannt"
+        },
+        "validRelativeFrequency": 14.64,
+        "relativeFrequency": 7.21,
+        "absoluteFrequency": 757,
+        "value": "1"
       }
+    ],
+    "totalValidRelativeFrequency": 49.26,
+    "totalValidAbsoluteFrequency": 5169,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc06,-998,1,2,3)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 446,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulties job search: other degree required",
+    "de": "Schwierigkeiten Stellensuche: anderer Studienabschluss verlangt"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

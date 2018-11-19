@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein.\r\nName und Ort\r\n(ggf. Standort) der Hochschule"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) herangezogen (vgl. cl-destatis-hochschule-2015). Ergänzt wurde diese Liste zum einen um Sondercodes für deutsche Hochschulen, die nur in älteren Schlüsselverzeichnissen enthalten waren, sowie Angaben, die nicht zuordenbar waren. Zum anderen wurden Sondercodes für ausländische Hochschulen aufgenommen."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-afec021m",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 345,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": "Falls ein zweites Fach vercodet wurde, wurde auch ein zweiter Hochschulcode vergeben."
   },
   "label": {
     "en": "1st further acad. qualification: 2nd university",
     "de": "1. weitere akad. Qualifikation: 2. Hochschule"
   },
-  "derivedVariablesIdentifier": "gra2009-ds1-afec021m",
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 345,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) herangezogen (vgl. cl-destatis-hochschule-2015). Ergänzt wurde diese Liste zum einen um Sondercodes für deutsche Hochschulen, die nur in älteren Schlüsselverzeichnissen enthalten waren, sowie Angaben, die nicht zuordenbar waren. Zum anderen wurden Sondercodes für ausländische Hochschulen aufgenommen."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 5.25,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 551,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein.\nName und Ort\n(ggf. Standort) der Hochschule"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": "Falls ein zweites Fach vercodet wurde, wurde auch ein zweiter Hochschulcode vergeben."
   }
 }

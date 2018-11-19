@@ -1,179 +1,191 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "7th job: company",
-    "de": "7. Tätigkeit: Betrieb"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
+      },
+      "questionNumber": "4.5",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1044,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen. / Haben Sie weitere berufliche Tätigkeiten ausgeübt?"
+      },
+      "questionNumber": "19f",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.49,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "Company A",
-          "de": "Betrieb A"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 23.53,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Company B",
-          "de": "Betrieb B"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 19.61,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "Company C",
-          "de": "Betrieb C"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 13.73,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Company D",
-          "de": "Betrieb D"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 19.61,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Company E",
-          "de": "Betrieb E"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 7.84,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Company F",
-          "de": "Betrieb F"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 7.84,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Company G",
-          "de": "Betrieb G"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 3.92,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Self-employed",
-          "de": "selbstständig"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 3.92,
-        "value": "8"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 51,
     "missings": [
       {
-        "absoluteFrequency": 4673,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 44.53,
+        "absoluteFrequency": 4673,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Company A",
+          "de": "Betrieb A"
+        },
+        "validRelativeFrequency": 23.53,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Company B",
+          "de": "Betrieb B"
+        },
+        "validRelativeFrequency": 19.61,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Company C",
+          "de": "Betrieb C"
+        },
+        "validRelativeFrequency": 13.73,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Company D",
+          "de": "Betrieb D"
+        },
+        "validRelativeFrequency": 19.61,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Company E",
+          "de": "Betrieb E"
+        },
+        "validRelativeFrequency": 7.84,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Company F",
+          "de": "Betrieb F"
+        },
+        "validRelativeFrequency": 7.84,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Company G",
+          "de": "Betrieb G"
+        },
+        "validRelativeFrequency": 3.92,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Self-employed",
+          "de": "selbstständig"
+        },
+        "validRelativeFrequency": 3.92,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "8"
+      }
+    ],
+    "totalValidRelativeFrequency": 0.49,
+    "totalValidAbsoluteFrequency": 51,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nähere Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie im Jahr 2010 und danach ausgeübt haben. Bitte geben Sie auch Tätigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen."
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "19f",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine nÃ¤here Beschreibung der verschiedenen beruflichen TÃ¤tigkeiten, die Sie im Jahr 2010 und danach ausgeÃ¼bt haben. Bitte geben Sie auch TÃ¤tigkeiten an, die Sie bereits vorher begonnen haben, wenn diese in das Jahr 2010 hineinreichen. / Haben Sie weitere berufliche TÃ¤tigkeiten ausgeÃ¼bt?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1044,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
-    "de": "Selbständigkeit wurde immer gleich kodiert, unabhängig davon, zum wievielten Mal eine Selbständigkeit im Beschäftigungstableau auftaucht.\nDer angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+    "de": "Selbständigkeit wurde immer gleich kodiert, unabhängig davon, zum wievielten Mal eine Selbständigkeit im Beschäftigungstableau auftaucht.\r\nDer angegebene Eingangsfilter entspricht der Papierversion des Fragebogens."
+  },
+  "label": {
+    "en": "7th job: company",
+    "de": "7. Tätigkeit: Betrieb"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

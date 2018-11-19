@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "attitude towards mobility: prefer not to socialize",
-    "de": "Mobilitätseinstellung: keine sozialen Beziehungen pflegen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1547,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Wer häufig umzieht, kann keine sozialen Beziehungen mehr pflegen."
+      },
+      "questionNumber": "06",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.05,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "74.13",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "3",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 202,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 1.92,
-        "validRelativeFrequency": 8.35,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 599,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 5.71,
-        "validRelativeFrequency": 24.76,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 649,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 6.18,
-        "validRelativeFrequency": 26.83,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 643,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 6.13,
-        "validRelativeFrequency": 26.58,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 326,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 3.11,
-        "validRelativeFrequency": 13.48,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2419,
     "missings": [
       {
-        "absoluteFrequency": 46,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.44,
+        "absoluteFrequency": 46,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "06",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Und inwiefern stimmen Sie diesen Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,Wer häufig umzieht, kann keine sozialen Beziehungen mehr pflegen."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 8.35,
+        "relativeFrequency": 1.92,
+        "absoluteFrequency": 202,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 24.76,
+        "relativeFrequency": 5.71,
+        "absoluteFrequency": 599,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 26.83,
+        "relativeFrequency": 6.18,
+        "absoluteFrequency": 649,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 26.58,
+        "relativeFrequency": 6.13,
+        "absoluteFrequency": 643,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 13.48,
+        "relativeFrequency": 3.11,
+        "absoluteFrequency": 326,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.05,
+    "totalValidAbsoluteFrequency": 2419,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1547,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "attitude towards mobility: prefer not to socialize",
+    "de": "Mobilitätseinstellung: keine sozialen Beziehungen pflegen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

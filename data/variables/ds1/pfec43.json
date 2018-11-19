@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "involvement in scientific community",
-    "de": "Einbindung in wissenschaftliche Gemeinschaft"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2076,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark waren Sie durch die Promotion in die wissenschaftliche Gemeinschaft eingebunden?,Wie stark sind Sie durch die Promotion in die wissenschaftliche Gemeinschaft eingebunden?"
+      },
+      "questionNumber": "29",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.17,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "71.1648",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 86,
-        "label": {
-          "en": "Very strong",
-          "de": "sehr stark"
-        },
-        "relativeFrequency": 0.82,
-        "validRelativeFrequency": 13.27,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 190,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 1.81,
-        "validRelativeFrequency": 29.32,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 170,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 1.62,
-        "validRelativeFrequency": 26.23,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 142,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 1.35,
-        "validRelativeFrequency": 21.91,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 60,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 0.57,
-        "validRelativeFrequency": 9.26,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 648,
     "missings": [
       {
-        "absoluteFrequency": 22,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.21,
+        "absoluteFrequency": 22,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "29",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark waren Sie durch die Promotion in die wissenschaftliche Gemeinschaft eingebunden?,Wie stark sind Sie durch die Promotion in die wissenschaftliche Gemeinschaft eingebunden?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "sehr stark"
+        },
+        "validRelativeFrequency": 13.27,
+        "relativeFrequency": 0.82,
+        "absoluteFrequency": 86,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 29.32,
+        "relativeFrequency": 1.81,
+        "absoluteFrequency": 190,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 26.23,
+        "relativeFrequency": 1.62,
+        "absoluteFrequency": 170,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 21.91,
+        "relativeFrequency": 1.35,
+        "absoluteFrequency": 142,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 9.26,
+        "relativeFrequency": 0.57,
+        "absoluteFrequency": 60,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 6.17,
+    "totalValidAbsoluteFrequency": 648,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2076,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "involvement in scientific community",
+    "de": "Einbindung in wissenschaftliche Gemeinschaft"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

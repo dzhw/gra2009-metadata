@@ -1,139 +1,151 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st further acad. qualification: status",
-    "de": "1. weitere akad. Qualifikation: Status"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfec14,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\r\n1. Studienangebot\r\nStand\r\nSchlüssel siehe unten"
+      },
+      "questionNumber": "5.2",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1185,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgenden Tableau ein!"
+      },
+      "questionNumber": "47",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 17.26,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 178,
-        "label": {
-          "en": "Started",
-          "de": "begonnen"
-        },
-        "relativeFrequency": 1.7,
-        "validRelativeFrequency": 9.83,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1542,
-        "label": {
-          "en": "Already completed",
-          "de": "bereits abgeschlossen"
-        },
-        "relativeFrequency": 14.69,
-        "validRelativeFrequency": 85.15,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 72,
-        "label": {
-          "en": "Terminated",
-          "de": "abgebrochen"
-        },
-        "relativeFrequency": 0.69,
-        "validRelativeFrequency": 3.98,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": "Interrupted",
-          "de": "unterbrochen"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 1.05,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1811,
     "missings": [
       {
-        "absoluteFrequency": 282,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.69,
+        "absoluteFrequency": 282,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 2662,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 25.37,
+        "absoluteFrequency": 2662,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Started",
+          "de": "begonnen"
+        },
+        "validRelativeFrequency": 9.83,
+        "relativeFrequency": 1.7,
+        "absoluteFrequency": 178,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Already completed",
+          "de": "bereits abgeschlossen"
+        },
+        "validRelativeFrequency": 85.15,
+        "relativeFrequency": 14.69,
+        "absoluteFrequency": 1542,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Terminated",
+          "de": "abgebrochen"
+        },
+        "validRelativeFrequency": 3.98,
+        "relativeFrequency": 0.69,
+        "absoluteFrequency": 72,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Interrupted",
+          "de": "unterbrochen"
+        },
+        "validRelativeFrequency": 1.05,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 17.26,
+    "totalValidAbsoluteFrequency": 1811,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "5.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\n1. Studienangebot\nStand\nSchlüssel siehe unten"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "47",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie diese lÃ¤ngerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergefÃ¼hrt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgenden Tableau ein!"
-      }
+    "expression": "if inlist(bfec14,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1185,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st further acad. qualification: status",
+    "de": "1. weitere akad. Qualifikation: Status"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

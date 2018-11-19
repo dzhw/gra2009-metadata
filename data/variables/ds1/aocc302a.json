@@ -1,392 +1,404 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "last job: sector",
-    "de": "letzte Stelle: Branche"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ302a",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 678,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welchem Wirtschaftsbereich gehört der Betrieb bzw. die Einrichtung schwerpunktmäßig an, in dem/der Sie arbeiten?\r\nBitte Wert aus der Klappliste eintragen:\r\nheutige Stelle"
+      },
+      "questionNumber": "5.10",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 69.74,
     "statistics": {
-      "mode": "25"
+      "meanDeviation": null,
+      "mode": "25",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 85,
-        "label": {
-          "en": "Agriculture, forestry and fishery",
-          "de": "Land-/Forstwirtschaft, Fischerei"
-        },
-        "relativeFrequency": 0.81,
-        "validRelativeFrequency": 1.16,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 119,
-        "label": {
-          "en": "Energy and water management, mining",
-          "de": "Energie-/Wasserwirtschaft, Bergbau"
-        },
-        "relativeFrequency": 1.13,
-        "validRelativeFrequency": 1.63,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 94,
-        "label": {
-          "en": "Chemical industry",
-          "de": "chemische Industrie"
-        },
-        "relativeFrequency": 0.9,
-        "validRelativeFrequency": 1.28,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 277,
-        "label": {
-          "en": "Machine/vehicle construction",
-          "de": "Maschinen-/Fahrzeugbau"
-        },
-        "relativeFrequency": 2.64,
-        "validRelativeFrequency": 3.79,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 117,
-        "label": {
-          "en": "Electrical engineering, electronics, EDP devices, office machines",
-          "de": "Elektrotechnik, Elektronik, EDV-Geräte"
-        },
-        "relativeFrequency": 1.11,
-        "validRelativeFrequency": 1.6,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 49,
-        "label": {
-          "en": "Metal production/processing",
-          "de": "Metallerzeugung/-verarbeitung"
-        },
-        "relativeFrequency": 0.47,
-        "validRelativeFrequency": 0.67,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 90,
-        "label": {
-          "en": "Construction company",
-          "de": "Bauunternehmen (Bauhauptgewerbe)"
-        },
-        "relativeFrequency": 0.86,
-        "validRelativeFrequency": 1.23,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 157,
-        "label": {
-          "en": "Other processing trades",
-          "de": "sonstiges verarbeitendes Gewerbe"
-        },
-        "relativeFrequency": 1.5,
-        "validRelativeFrequency": 2.15,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 288,
-        "label": {
-          "en": "Commerce",
-          "de": "Handel"
-        },
-        "relativeFrequency": 2.74,
-        "validRelativeFrequency": 3.94,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 115,
-        "label": {
-          "en": "Banks, lending business",
-          "de": "Banken, Kreditgewerbe"
-        },
-        "relativeFrequency": 1.1,
-        "validRelativeFrequency": 1.57,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 72,
-        "label": {
-          "en": "Insurance business",
-          "de": "Versicherungsgewerbe"
-        },
-        "relativeFrequency": 0.69,
-        "validRelativeFrequency": 0.98,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 81,
-        "label": {
-          "en": "Transport",
-          "de": "Transport"
-        },
-        "relativeFrequency": 0.77,
-        "validRelativeFrequency": 1.11,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 52,
-        "label": {
-          "en": "Telecommunications",
-          "de": "Telekommunikation"
-        },
-        "relativeFrequency": 0.5,
-        "validRelativeFrequency": 0.71,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 305,
-        "label": {
-          "en": "Engineering office",
-          "de": "Ingenieurbüro"
-        },
-        "relativeFrequency": 2.91,
-        "validRelativeFrequency": 4.17,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 153,
-        "label": {
-          "en": "Software development",
-          "de": "Softwareentwicklung"
-        },
-        "relativeFrequency": 1.46,
-        "validRelativeFrequency": 2.09,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 110,
-        "label": {
-          "en": "EDP services",
-          "de": "EDV-Dienstleistungen"
-        },
-        "relativeFrequency": 1.05,
-        "validRelativeFrequency": 1.5,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 207,
-        "label": {
-          "en": "Legal, economic, personnel consultation",
-          "de": "Rechts-/Wirtschafts-/Personalberatung"
-        },
-        "relativeFrequency": 1.97,
-        "validRelativeFrequency": 2.83,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 129,
-        "label": {
-          "en": "Press, radio, television",
-          "de": "Presse, Rundfunk, Fernsehen"
-        },
-        "relativeFrequency": 1.23,
-        "validRelativeFrequency": 1.76,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 49,
-        "label": {
-          "en": "Publishing",
-          "de": "Verlagswesen"
-        },
-        "relativeFrequency": 0.47,
-        "validRelativeFrequency": 0.67,
-        "value": "19"
-      },
-      {
-        "absoluteFrequency": 633,
-        "label": {
-          "en": "Health care",
-          "de": "Gesundheitswesen"
-        },
-        "relativeFrequency": 6.03,
-        "validRelativeFrequency": 8.65,
-        "value": "20"
-      },
-      {
-        "absoluteFrequency": 496,
-        "label": {
-          "en": "Social services",
-          "de": "soziale Dienstleistungen"
-        },
-        "relativeFrequency": 4.73,
-        "validRelativeFrequency": 6.78,
-        "value": "21"
-      },
-      {
-        "absoluteFrequency": 578,
-        "label": {
-          "en": "Other services",
-          "de": "sonstige Dienstleistungen"
-        },
-        "relativeFrequency": 5.51,
-        "validRelativeFrequency": 7.9,
-        "value": "22"
-      },
-      {
-        "absoluteFrequency": 141,
-        "label": {
-          "en": "Private training and further training",
-          "de": "private Aus- und Weiterbildung"
-        },
-        "relativeFrequency": 1.34,
-        "validRelativeFrequency": 1.93,
-        "value": "23"
-      },
-      {
-        "absoluteFrequency": 895,
-        "label": {
-          "en": "Schools",
-          "de": "Schulen"
-        },
-        "relativeFrequency": 8.53,
-        "validRelativeFrequency": 12.23,
-        "value": "24"
-      },
-      {
-        "absoluteFrequency": 950,
-        "label": {
-          "en": "Higher education institution",
-          "de": "Hochschulen"
-        },
-        "relativeFrequency": 9.05,
-        "validRelativeFrequency": 12.98,
-        "value": "25"
-      },
-      {
-        "absoluteFrequency": 245,
-        "label": {
-          "en": "Research facilities",
-          "de": "Forschungseinrichtungen"
-        },
-        "relativeFrequency": 2.33,
-        "validRelativeFrequency": 3.35,
-        "value": "26"
-      },
-      {
-        "absoluteFrequency": 120,
-        "label": {
-          "en": "Art, culture",
-          "de": "Kunst, Kultur"
-        },
-        "relativeFrequency": 1.14,
-        "validRelativeFrequency": 1.64,
-        "value": "27"
-      },
-      {
-        "absoluteFrequency": 72,
-        "label": {
-          "en": "Churches, religious communities",
-          "de": "Kirchen, Glaubensgemeinschaften"
-        },
-        "relativeFrequency": 0.69,
-        "validRelativeFrequency": 0.98,
-        "value": "28"
-      },
-      {
-        "absoluteFrequency": 154,
-        "label": {
-          "en": "Occupational, economic associations, parties, clubs, international org.",
-          "de": "Berufs-/Wirtschaftsverbände, Parteien, Vereine, internat. Organisationen"
-        },
-        "relativeFrequency": 1.47,
-        "validRelativeFrequency": 2.1,
-        "value": "29"
-      },
-      {
-        "absoluteFrequency": 462,
-        "label": {
-          "en": "General public administration",
-          "de": "allg. öffentliche Verwaltung"
-        },
-        "relativeFrequency": 4.4,
-        "validRelativeFrequency": 6.31,
-        "value": "30"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 0.31,
-        "value": "31"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7318,
     "missings": [
       {
-        "absoluteFrequency": 1088,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 10.37,
+        "absoluteFrequency": 1088,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.10",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welchem Wirtschaftsbereich gehört der Betrieb bzw. die Einrichtung schwerpunktmäßig an, in dem/der Sie arbeiten?\nBitte Wert aus der Klappliste eintragen:\nheutige Stelle"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Agriculture, forestry and fishery",
+          "de": "Land-/Forstwirtschaft, Fischerei"
+        },
+        "validRelativeFrequency": 1.16,
+        "relativeFrequency": 0.81,
+        "absoluteFrequency": 85,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Energy and water management, mining",
+          "de": "Energie-/Wasserwirtschaft, Bergbau"
+        },
+        "validRelativeFrequency": 1.63,
+        "relativeFrequency": 1.13,
+        "absoluteFrequency": 119,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Chemical industry",
+          "de": "chemische Industrie"
+        },
+        "validRelativeFrequency": 1.28,
+        "relativeFrequency": 0.9,
+        "absoluteFrequency": 94,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Machine/vehicle construction",
+          "de": "Maschinen-/Fahrzeugbau"
+        },
+        "validRelativeFrequency": 3.79,
+        "relativeFrequency": 2.64,
+        "absoluteFrequency": 277,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Electrical engineering, electronics, EDP devices, office machines",
+          "de": "Elektrotechnik, Elektronik, EDV-Geräte"
+        },
+        "validRelativeFrequency": 1.6,
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 117,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Metal production/processing",
+          "de": "Metallerzeugung/-verarbeitung"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.47,
+        "absoluteFrequency": 49,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Construction company",
+          "de": "Bauunternehmen (Bauhauptgewerbe)"
+        },
+        "validRelativeFrequency": 1.23,
+        "relativeFrequency": 0.86,
+        "absoluteFrequency": 90,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Other processing trades",
+          "de": "sonstiges verarbeitendes Gewerbe"
+        },
+        "validRelativeFrequency": 2.15,
+        "relativeFrequency": 1.5,
+        "absoluteFrequency": 157,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Commerce",
+          "de": "Handel"
+        },
+        "validRelativeFrequency": 3.94,
+        "relativeFrequency": 2.74,
+        "absoluteFrequency": 288,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Banks, lending business",
+          "de": "Banken, Kreditgewerbe"
+        },
+        "validRelativeFrequency": 1.57,
+        "relativeFrequency": 1.1,
+        "absoluteFrequency": 115,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Insurance business",
+          "de": "Versicherungsgewerbe"
+        },
+        "validRelativeFrequency": 0.98,
+        "relativeFrequency": 0.69,
+        "absoluteFrequency": 72,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Transport",
+          "de": "Transport"
+        },
+        "validRelativeFrequency": 1.11,
+        "relativeFrequency": 0.77,
+        "absoluteFrequency": 81,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "Telecommunications",
+          "de": "Telekommunikation"
+        },
+        "validRelativeFrequency": 0.71,
+        "relativeFrequency": 0.5,
+        "absoluteFrequency": 52,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Engineering office",
+          "de": "Ingenieurbüro"
+        },
+        "validRelativeFrequency": 4.17,
+        "relativeFrequency": 2.91,
+        "absoluteFrequency": 305,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Software development",
+          "de": "Softwareentwicklung"
+        },
+        "validRelativeFrequency": 2.09,
+        "relativeFrequency": 1.46,
+        "absoluteFrequency": 153,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "EDP services",
+          "de": "EDV-Dienstleistungen"
+        },
+        "validRelativeFrequency": 1.5,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 110,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Legal, economic, personnel consultation",
+          "de": "Rechts-/Wirtschafts-/Personalberatung"
+        },
+        "validRelativeFrequency": 2.83,
+        "relativeFrequency": 1.97,
+        "absoluteFrequency": 207,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "Press, radio, television",
+          "de": "Presse, Rundfunk, Fernsehen"
+        },
+        "validRelativeFrequency": 1.76,
+        "relativeFrequency": 1.23,
+        "absoluteFrequency": 129,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "Publishing",
+          "de": "Verlagswesen"
+        },
+        "validRelativeFrequency": 0.67,
+        "relativeFrequency": 0.47,
+        "absoluteFrequency": 49,
+        "value": "19"
+      },
+      {
+        "label": {
+          "en": "Health care",
+          "de": "Gesundheitswesen"
+        },
+        "validRelativeFrequency": 8.65,
+        "relativeFrequency": 6.03,
+        "absoluteFrequency": 633,
+        "value": "20"
+      },
+      {
+        "label": {
+          "en": "Social services",
+          "de": "soziale Dienstleistungen"
+        },
+        "validRelativeFrequency": 6.78,
+        "relativeFrequency": 4.73,
+        "absoluteFrequency": 496,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": "Other services",
+          "de": "sonstige Dienstleistungen"
+        },
+        "validRelativeFrequency": 7.9,
+        "relativeFrequency": 5.51,
+        "absoluteFrequency": 578,
+        "value": "22"
+      },
+      {
+        "label": {
+          "en": "Private training and further training",
+          "de": "private Aus- und Weiterbildung"
+        },
+        "validRelativeFrequency": 1.93,
+        "relativeFrequency": 1.34,
+        "absoluteFrequency": 141,
+        "value": "23"
+      },
+      {
+        "label": {
+          "en": "Schools",
+          "de": "Schulen"
+        },
+        "validRelativeFrequency": 12.23,
+        "relativeFrequency": 8.53,
+        "absoluteFrequency": 895,
+        "value": "24"
+      },
+      {
+        "label": {
+          "en": "Higher education institution",
+          "de": "Hochschulen"
+        },
+        "validRelativeFrequency": 12.98,
+        "relativeFrequency": 9.05,
+        "absoluteFrequency": 950,
+        "value": "25"
+      },
+      {
+        "label": {
+          "en": "Research facilities",
+          "de": "Forschungseinrichtungen"
+        },
+        "validRelativeFrequency": 3.35,
+        "relativeFrequency": 2.33,
+        "absoluteFrequency": 245,
+        "value": "26"
+      },
+      {
+        "label": {
+          "en": "Art, culture",
+          "de": "Kunst, Kultur"
+        },
+        "validRelativeFrequency": 1.64,
+        "relativeFrequency": 1.14,
+        "absoluteFrequency": 120,
+        "value": "27"
+      },
+      {
+        "label": {
+          "en": "Churches, religious communities",
+          "de": "Kirchen, Glaubensgemeinschaften"
+        },
+        "validRelativeFrequency": 0.98,
+        "relativeFrequency": 0.69,
+        "absoluteFrequency": 72,
+        "value": "28"
+      },
+      {
+        "label": {
+          "en": "Occupational, economic associations, parties, clubs, international org.",
+          "de": "Berufs-/Wirtschaftsverbände, Parteien, Vereine, internat. Organisationen"
+        },
+        "validRelativeFrequency": 2.1,
+        "relativeFrequency": 1.47,
+        "absoluteFrequency": 154,
+        "value": "29"
+      },
+      {
+        "label": {
+          "en": "General public administration",
+          "de": "allg. öffentliche Verwaltung"
+        },
+        "validRelativeFrequency": 6.31,
+        "relativeFrequency": 4.4,
+        "absoluteFrequency": 462,
+        "value": "30"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 0.31,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "31"
       }
+    ],
+    "totalValidRelativeFrequency": 69.74,
+    "totalValidAbsoluteFrequency": 7318,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ302a",
+  "surveyNumbers": [1],
+  "indexInDataSet": 678,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "last job: sector",
+    "de": "letzte Stelle: Branche"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

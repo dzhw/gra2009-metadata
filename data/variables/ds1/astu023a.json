@@ -1,93 +1,105 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd degree: semester",
-    "de": "3. Abschluss: Semester"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 148,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.29,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Summer semester",
-          "de": "Sommersemester"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 53.33,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse haben Sie erlangt?\r\nAbschlusssemester\r\nggf. 3. Abschluss\r\n im WS 20"
       },
-      {
-        "absoluteFrequency": 14,
-        "label": {
-          "en": "Winter semester",
-          "de": "Wintersemester"
-        },
-        "relativeFrequency": 0.13,
-        "validRelativeFrequency": 46.67,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 30,
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 10464,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.71,
+        "absoluteFrequency": 10464,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Studienabschlüsse haben Sie erlangt?\nAbschlusssemester\nggf. 3. Abschluss\nim WS 20"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Summer semester",
+          "de": "Sommersemester"
+        },
+        "validRelativeFrequency": 53.33,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Winter semester",
+          "de": "Wintersemester"
+        },
+        "validRelativeFrequency": 46.67,
+        "relativeFrequency": 0.13,
+        "absoluteFrequency": 14,
+        "value": "2"
       }
+    ],
+    "totalValidRelativeFrequency": 0.29,
+    "totalValidAbsoluteFrequency": 30,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 148,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd degree: semester",
+    "de": "3. Abschluss: Semester"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

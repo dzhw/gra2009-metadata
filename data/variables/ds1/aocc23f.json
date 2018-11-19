@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "difficulties career start: implementation of one's own ideas",
-    "de": "Schwierigkeiten Berufsstart: eigene Vorstellungen durchsetzen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 514,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\r\nMangelnde Möglichkeiten, die eigenen beruflichen Vorstellungen durchzusetzen"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 69.77,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "852.495",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 342,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 3.26,
-        "validRelativeFrequency": 4.67,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 958,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 9.13,
-        "validRelativeFrequency": 13.08,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1784,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 17,
-        "validRelativeFrequency": 24.36,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2359,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 22.48,
-        "validRelativeFrequency": 32.22,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1879,
-        "label": {
-          "en": "Not at all",
-          "de": "gar nicht"
-        },
-        "relativeFrequency": 17.91,
-        "validRelativeFrequency": 25.66,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7322,
     "missings": [
       {
-        "absoluteFrequency": 1084,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 10.33,
+        "absoluteFrequency": 1084,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\nMangelnde Möglichkeiten, die eigenen beruflichen Vorstellungen durchzusetzen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 4.67,
+        "relativeFrequency": 3.26,
+        "absoluteFrequency": 342,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 13.08,
+        "relativeFrequency": 9.13,
+        "absoluteFrequency": 958,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 24.36,
+        "relativeFrequency": 17,
+        "absoluteFrequency": 1784,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 32.22,
+        "relativeFrequency": 22.48,
+        "absoluteFrequency": 2359,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "gar nicht"
+        },
+        "validRelativeFrequency": 25.66,
+        "relativeFrequency": 17.91,
+        "absoluteFrequency": 1879,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 69.77,
+    "totalValidAbsoluteFrequency": 7322,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 514,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulties career start: implementation of one's own ideas",
+    "de": "Schwierigkeiten Berufsstart: eigene Vorstellungen durchsetzen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

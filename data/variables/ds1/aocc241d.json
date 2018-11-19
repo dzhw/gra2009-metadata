@@ -1,124 +1,124 @@
 {
-  "scaleLevel": {
-    "en": "interval",
-    "de": "intervall"
-  },
-  "label": {
-    "en": "1st job: end (year)",
-    "de": "1. Tätigkeit: Ende (Jahr)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": true,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ241d",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 522,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\r\n1. Erwerbstätigkeit\r\nZeitraum (Monat/ Jahr)\r\nbis:\r\nJahr"
+      },
+      "questionNumber": "5.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 31.43,
     "statistics": {
-      "firstQuartile": "2009",
+      "meanDeviation": 0,
+      "mode": "2009",
       "highWhisker": 2010,
       "lowWhisker": 2008,
-      "skewness": 0.3053,
-      "minimum": "2008",
       "thirdQuartile": "2010",
-      "meanDeviation": "1513.735",
-      "meanValue": 2009.3129,
-      "maximum": "2010",
-      "mode": "2009",
-      "median": "2009",
+      "firstQuartile": "2009",
       "standardDeviation": 0.5081,
-      "kurtosis": 2.1726
+      "median": "2009",
+      "kurtosis": 2.1726,
+      "skewness": 0.3053,
+      "maximum": "2010",
+      "minimum": "2008",
+      "meanValue": 2009.3129
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 71,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 0.68,
-        "validRelativeFrequency": 2.15,
-        "value": "2008"
-      },
-      {
-        "absoluteFrequency": 2124,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 20.24,
-        "validRelativeFrequency": 64.4,
-        "value": "2009"
-      },
-      {
-        "absoluteFrequency": 1103,
-        "label": {
-          "en": null,
-          "de": null
-        },
-        "relativeFrequency": 10.51,
-        "validRelativeFrequency": 33.44,
-        "value": "2010"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3298,
     "missings": [
       {
-        "absoluteFrequency": 5108,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 48.68,
+        "absoluteFrequency": 5108,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\n1. Erwerbstätigkeit\nZeitraum (Monat/ Jahr)\nbis:\nJahr"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 2.15,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 71,
+        "value": "2008"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 64.4,
+        "relativeFrequency": 20.24,
+        "absoluteFrequency": 2124,
+        "value": "2009"
+      },
+      {
+        "label": {
+          "en": null,
+          "de": null
+        },
+        "validRelativeFrequency": 33.44,
+        "relativeFrequency": 10.51,
+        "absoluteFrequency": 1103,
+        "value": "2010"
       }
+    ],
+    "totalValidRelativeFrequency": 31.43,
+    "totalValidAbsoluteFrequency": 3298,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": true,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ241d",
+  "surveyNumbers": [1],
+  "indexInDataSet": 522,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st job: end (year)",
+    "de": "1. Tätigkeit: Ende (Jahr)"
+  },
+  "scaleLevel": {
+    "en": "interval",
+    "de": "intervall"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "difficulties career start: compatibility of career and family",
-    "de": "Schwierigkeiten Berufsstart: Vereinbarkeit Beruf und Familie"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 516,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\r\nProbleme mit der Vereinbarkeit von Beruf und Familie/Partnerschaft"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 69.84,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "699.7872",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 335,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 3.19,
-        "validRelativeFrequency": 4.57,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 805,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 7.67,
-        "validRelativeFrequency": 10.98,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1179,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 11.23,
-        "validRelativeFrequency": 16.09,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1651,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 15.73,
-        "validRelativeFrequency": 22.53,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 3359,
-        "label": {
-          "en": "Not at all",
-          "de": "gar nicht"
-        },
-        "relativeFrequency": 32.01,
-        "validRelativeFrequency": 45.83,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7329,
     "missings": [
       {
-        "absoluteFrequency": 1077,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 10.26,
+        "absoluteFrequency": 1077,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\nProbleme mit der Vereinbarkeit von Beruf und Familie/Partnerschaft"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 4.57,
+        "relativeFrequency": 3.19,
+        "absoluteFrequency": 335,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 10.98,
+        "relativeFrequency": 7.67,
+        "absoluteFrequency": 805,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 16.09,
+        "relativeFrequency": 11.23,
+        "absoluteFrequency": 1179,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 22.53,
+        "relativeFrequency": 15.73,
+        "absoluteFrequency": 1651,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "gar nicht"
+        },
+        "validRelativeFrequency": 45.83,
+        "relativeFrequency": 32.01,
+        "absoluteFrequency": 3359,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 69.84,
+    "totalValidAbsoluteFrequency": 7329,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 516,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulties career start: compatibility of career and family",
+    "de": "Schwierigkeiten Berufsstart: Vereinbarkeit Beruf und Familie"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

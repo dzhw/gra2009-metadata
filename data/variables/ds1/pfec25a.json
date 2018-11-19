@@ -1,219 +1,223 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "PhD: submission of dissertation (month)",
-    "de": "Promotion: Abgabe Dissertation (Monat)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2) | (pfec12_v1==3 & pfec22==1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2004,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann haben Sie Ihre Dissertationsschrift abgegeben?,Monat"
+      },
+      "questionNumber": "05",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 2.7,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 4.4478,
+      "mode": "3",
       "highWhisker": 12,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "9",
-      "meanDeviation": "4.4478",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "6",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "12",
-      "mode": "3",
-      "median": "6"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "January",
-          "de": "Januar"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 8.13,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": "February",
-          "de": "Februar"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 7.07,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 39,
-        "label": {
-          "en": "March",
-          "de": "März"
-        },
-        "relativeFrequency": 0.37,
-        "validRelativeFrequency": 13.78,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": "April ",
-          "de": "April"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 7.42,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 32,
-        "label": {
-          "en": "May",
-          "de": "Mai"
-        },
-        "relativeFrequency": 0.3,
-        "validRelativeFrequency": 11.31,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": "June",
-          "de": "Juni"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 8.83,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": "July",
-          "de": "Juli"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 7.07,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "August",
-          "de": "August"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 4.24,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": "September",
-          "de": "September"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 8.83,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 29,
-        "label": {
-          "en": "October",
-          "de": "Oktober"
-        },
-        "relativeFrequency": 0.28,
-        "validRelativeFrequency": 10.25,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": "November",
-          "de": "November"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 6.71,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": "December",
-          "de": "Dezember"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 6.36,
-        "value": "12"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 283,
     "missings": [
       {
-        "absoluteFrequency": 16,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 377,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 3.59,
+        "absoluteFrequency": 377,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "05",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wann haben Sie Ihre Dissertationsschrift abgegeben?,Monat"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "January",
+          "de": "Januar"
+        },
+        "validRelativeFrequency": 8.13,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "February",
+          "de": "Februar"
+        },
+        "validRelativeFrequency": 7.07,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "March",
+          "de": "März"
+        },
+        "validRelativeFrequency": 13.78,
+        "relativeFrequency": 0.37,
+        "absoluteFrequency": 39,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "April ",
+          "de": "April"
+        },
+        "validRelativeFrequency": 7.42,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 21,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "May",
+          "de": "Mai"
+        },
+        "validRelativeFrequency": 11.31,
+        "relativeFrequency": 0.3,
+        "absoluteFrequency": 32,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "June",
+          "de": "Juni"
+        },
+        "validRelativeFrequency": 8.83,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 25,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "July",
+          "de": "Juli"
+        },
+        "validRelativeFrequency": 7.07,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "August",
+          "de": "August"
+        },
+        "validRelativeFrequency": 4.24,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "September",
+          "de": "September"
+        },
+        "validRelativeFrequency": 8.83,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 25,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "October",
+          "de": "Oktober"
+        },
+        "validRelativeFrequency": 10.25,
+        "relativeFrequency": 0.28,
+        "absoluteFrequency": 29,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "November",
+          "de": "November"
+        },
+        "validRelativeFrequency": 6.71,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "December",
+          "de": "Dezember"
+        },
+        "validRelativeFrequency": 6.36,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "12"
       }
+    ],
+    "totalValidRelativeFrequency": 2.7,
+    "totalValidAbsoluteFrequency": 283,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2) | (pfec12_v1==3 & pfec22==1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2004,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD: submission of dissertation (month)",
+    "de": "Promotion: Abgabe Dissertation (Monat)"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "important for career: time management",
-    "de": "wichtig für Beruf: Zeitmanagement"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-ski01p",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 264,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über  diese Kenntnisse und Fähigkeiten (rechte Spalte)?\r\nWichtigkeit für die berufliche Tätigkeit\r\n Zeitmanagement"
+      },
+      "questionNumber": "1.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.8,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "972.5856",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 5832,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 55.57,
-        "validRelativeFrequency": 57.41,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3525,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 33.59,
-        "validRelativeFrequency": 34.7,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 681,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 6.49,
-        "validRelativeFrequency": 6.7,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 95,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.91,
-        "validRelativeFrequency": 0.94,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 0.25,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10158,
     "missings": [
       {
-        "absoluteFrequency": 336,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.2,
+        "absoluteFrequency": 336,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\nWichtigkeit für die berufliche Tätigkeit\nZeitmanagement"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 57.41,
+        "relativeFrequency": 55.57,
+        "absoluteFrequency": 5832,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 34.7,
+        "relativeFrequency": 33.59,
+        "absoluteFrequency": 3525,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 6.7,
+        "relativeFrequency": 6.49,
+        "absoluteFrequency": 681,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 0.94,
+        "relativeFrequency": 0.91,
+        "absoluteFrequency": 95,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 0.25,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 25,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.8,
+    "totalValidAbsoluteFrequency": 10158,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-ski01p",
+  "surveyNumbers": [1],
+  "indexInDataSet": 264,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "important for career: time management",
+    "de": "wichtig für Beruf: Zeitmanagement"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

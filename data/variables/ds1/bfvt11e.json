@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "goals (further education outside university): job security",
-    "de": "Ziele (WB außerhalb HS): Beschäftigungssicherung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfvt08,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen die folgenden Ziele für Ihre Teilnahme an Bildungs-/Qualifikationsangeboten außerhalb von Hochschulen?\r\nMeine Beschäftigung sichern"
+      },
+      "questionNumber": "7.4",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1447,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen die folgenden Ziele für Ihre Teilnahme an Bildungs-/Qualifikationsangeboten außerhalb von Hochschulen?"
+      },
+      "questionNumber": "84",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 37.43,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "381.0282",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 795,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 7.58,
-        "validRelativeFrequency": 20.24,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1114,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 10.62,
-        "validRelativeFrequency": 28.36,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 946,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 9.01,
-        "validRelativeFrequency": 24.08,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 538,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 5.13,
-        "validRelativeFrequency": 13.7,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 535,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 5.1,
-        "validRelativeFrequency": 13.62,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 3928,
     "missings": [
       {
-        "absoluteFrequency": 281,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 2.68,
+        "absoluteFrequency": 281,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 546,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 5.2,
+        "absoluteFrequency": 546,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 20.24,
+        "relativeFrequency": 7.58,
+        "absoluteFrequency": 795,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 28.36,
+        "relativeFrequency": 10.62,
+        "absoluteFrequency": 1114,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 24.08,
+        "relativeFrequency": 9.01,
+        "absoluteFrequency": 946,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 13.7,
+        "relativeFrequency": 5.13,
+        "absoluteFrequency": 538,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 13.62,
+        "relativeFrequency": 5.1,
+        "absoluteFrequency": 535,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 37.43,
+    "totalValidAbsoluteFrequency": 3928,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "7.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen die folgenden Ziele für Ihre Teilnahme an Bildungs-/Qualifikationsangeboten außerhalb von Hochschulen?\nMeine Beschäftigung sichern"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "84",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen die folgenden Ziele fÃ¼r Ihre Teilnahme an Bildungs-/Qualifikationsangeboten auÃŸerhalb von Hochschulen?"
-      }
+    "expression": "if inlist(bfvt08,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1447,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "goals (further education outside university): job security",
+    "de": "Ziele (WB außerhalb HS): Beschäftigungssicherung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

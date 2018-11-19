@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "expectations for professional future: undecided",
-    "de": "berufl. Zukunftsvorstellung: unentschlossen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2176,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden sind verschiedene berufliche Perspektiven aufgeführt. Wie stark streben Sie diese mit Blick auf Ihre eigene berufliche Zukunft (d.h. innerhalb der nächsten zehn Jahre) an?,in hohem Maße,überhaupt nicht,Ich bin noch unentschlossen."
+      },
+      "questionNumber": "42",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.46,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "42.9954",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 80,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 0.76,
-        "validRelativeFrequency": 13.96,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 68,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 0.65,
-        "validRelativeFrequency": 11.87,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 1.4,
-        "validRelativeFrequency": 25.65,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 97,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 0.92,
-        "validRelativeFrequency": 16.93,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 181,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 1.72,
-        "validRelativeFrequency": 31.59,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 573,
     "missings": [
       {
-        "absoluteFrequency": 97,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.92,
+        "absoluteFrequency": 97,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "42",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden sind verschiedene berufliche Perspektiven aufgeführt. Wie stark streben Sie diese mit Blick auf Ihre eigene berufliche Zukunft (d.h. innerhalb der nächsten zehn Jahre) an?,in hohem Maße,überhaupt nicht,Ich bin noch unentschlossen."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 13.96,
+        "relativeFrequency": 0.76,
+        "absoluteFrequency": 80,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 11.87,
+        "relativeFrequency": 0.65,
+        "absoluteFrequency": 68,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 25.65,
+        "relativeFrequency": 1.4,
+        "absoluteFrequency": 147,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 16.93,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 97,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 31.59,
+        "relativeFrequency": 1.72,
+        "absoluteFrequency": 181,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.46,
+    "totalValidAbsoluteFrequency": 573,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2176,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "expectations for professional future: undecided",
+    "de": "berufl. Zukunftsvorstellung: unentschlossen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

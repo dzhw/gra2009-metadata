@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: ongoing further education and training",
-    "de": "Arbeits-/Lebensziele: andauernde Fort-/ und Weiterbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39o",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 747,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\r\nMich kontinuierlich fort- bzw. weiterbilden"
+      },
+      "questionNumber": "5.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.77,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "2429.981",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3327,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 31.7,
-        "validRelativeFrequency": 32.76,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4843,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 46.15,
-        "validRelativeFrequency": 47.69,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1688,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 16.09,
-        "validRelativeFrequency": 16.62,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 269,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.56,
-        "validRelativeFrequency": 2.65,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 28,
-        "label": {
-          "en": "Not at all important",
-          "de": "gar nicht wichtig"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 0.28,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10155,
     "missings": [
       {
-        "absoluteFrequency": 339,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.23,
+        "absoluteFrequency": 339,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\nMich kontinuierlich fort- bzw. weiterbilden"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 32.76,
+        "relativeFrequency": 31.7,
+        "absoluteFrequency": 3327,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 47.69,
+        "relativeFrequency": 46.15,
+        "absoluteFrequency": 4843,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 16.62,
+        "relativeFrequency": 16.09,
+        "absoluteFrequency": 1688,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 2.65,
+        "relativeFrequency": 2.56,
+        "absoluteFrequency": 269,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "gar nicht wichtig"
+        },
+        "validRelativeFrequency": 0.28,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.77,
+    "totalValidAbsoluteFrequency": 10155,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39o",
+  "surveyNumbers": [1],
+  "indexInDataSet": 747,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: ongoing further education and training",
+    "de": "Arbeits-/Lebensziele: andauernde Fort-/ und Weiterbildung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,60 +1,53 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\r\nName und Ort (ggf. Standort) der Hochschule"
+      },
+      "questionNumber": "1.1",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) herangezogen (vgl. cl-destatis-hochschule-2015). Ergänzt wurde diese Liste zum einen um Sondercodes für deutsche Hochschulen, die nur in älteren Schlüsselverzeichnissen enthalten waren, sowie Angaben, die nicht zuordenbar waren. Zum anderen wurden Sondercodes für ausländische Hochschulen aufgenommen."
+    }
+  },
+  "storageType": "integer",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu015k",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 106,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
   },
   "label": {
     "en": "5th course of study: university",
     "de": "5. Studium: Hochschule"
   },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu015k",
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "numeric",
     "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 106,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Hochschulangaben in codierter Form. Als Codierliste für deutsche Hochschulen wurde das Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) herangezogen (vgl. cl-destatis-hochschule-2015). Ergänzt wurde diese Liste zum einen um Sondercodes für deutsche Hochschulen, die nur in älteren Schlüsselverzeichnissen enthalten waren, sowie Angaben, die nicht zuordenbar waren. Zum anderen wurden Sondercodes für ausländische Hochschulen aufgenommen."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.96,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 101,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\nName und Ort (ggf. Standort) der Hochschule"
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

@@ -1,128 +1,132 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "title of current situation",
-    "de": "Bezeichnung derzeitige Situation"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihre derzeitige Tätigkeit bzw. Situation bezeichnen?\r\nAls kurzfristige Übergangssituation\r\nAls Situation, die voraussichtlich mittelfristigen Bestand haben wird \r\nAls Situation, die vermutlich langfristig stabil sein wird"
+      },
+      "questionNumber": "1.2",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ03",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 825,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie Ihre derzeitige Tätigkeit bzw. Situation bezeichnen?"
+      },
+      "questionNumber": "02",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 39.1,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "3",
       "highWhisker": 3,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "160.1208",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "3",
-      "mode": "3",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 675,
-        "label": {
-          "en": "Short-term",
-          "de": "kurzfristig"
-        },
-        "relativeFrequency": 6.43,
-        "validRelativeFrequency": 16.45,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1660,
-        "label": {
-          "en": "Medium-term",
-          "de": "mittelfristig"
-        },
-        "relativeFrequency": 15.82,
-        "validRelativeFrequency": 40.46,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1768,
-        "label": {
-          "en": "Long-term",
-          "de": "langfristig"
-        },
-        "relativeFrequency": 16.85,
-        "validRelativeFrequency": 43.09,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4103,
     "missings": [
       {
-        "absoluteFrequency": 652,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 6.21,
+        "absoluteFrequency": 652,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Short-term",
+          "de": "kurzfristig"
+        },
+        "validRelativeFrequency": 16.45,
+        "relativeFrequency": 6.43,
+        "absoluteFrequency": 675,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Medium-term",
+          "de": "mittelfristig"
+        },
+        "validRelativeFrequency": 40.46,
+        "relativeFrequency": 15.82,
+        "absoluteFrequency": 1660,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Long-term",
+          "de": "langfristig"
+        },
+        "validRelativeFrequency": 43.09,
+        "relativeFrequency": 16.85,
+        "absoluteFrequency": 1768,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 39.1,
+    "totalValidAbsoluteFrequency": 4103,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie Ihre derzeitige Tätigkeit bzw. Situation bezeichnen?\nAls kurzfristige Übergangssituation\nAls Situation, die voraussichtlich mittelfristigen Bestand haben wird Als Situation, die vermutlich langfristig stabil sein wird"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "02",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wÃ¼rden Sie Ihre derzeitige TÃ¤tigkeit bzw. Situation bezeichnen?"
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ03",
+  "surveyNumbers": [2],
+  "indexInDataSet": 825,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "title of current situation",
+    "de": "Bezeichnung derzeitige Situation"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

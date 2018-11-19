@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "reason against further acad. qualification: no opportunities to study near home",
-    "de": "Grund gegen weitere akad. Qualifikation: kein heimatnahes Studienangebot"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 413,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\r\nDas Fehlen eines passenden Studienangebotes in der Nähe des Heimatortes"
+      },
+      "questionNumber": "2.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 38.9,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 0,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "342.4806",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "5",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "5"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 271,
-        "label": {
-          "en": "Very strong",
-          "de": "sehr stark"
-        },
-        "relativeFrequency": 2.58,
-        "validRelativeFrequency": 6.64,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 395,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 3.76,
-        "validRelativeFrequency": 9.68,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 539,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 5.14,
-        "validRelativeFrequency": 13.2,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 770,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 7.34,
-        "validRelativeFrequency": 18.86,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 2107,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 20.08,
-        "validRelativeFrequency": 51.62,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4082,
     "missings": [
       {
-        "absoluteFrequency": 450,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 4.29,
+        "absoluteFrequency": 450,
         "code": -998
       },
       {
-        "absoluteFrequency": 5962,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 56.81,
+        "absoluteFrequency": 5962,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie stark sprechen aus Ihrer Sicht folgende Gründe gegenwärtig gegen die Aufnahme einer weiteren akademischen Qualifizierung?\nDas Fehlen eines passenden Studienangebotes in der Nähe des Heimatortes"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very strong",
+          "de": "sehr stark"
+        },
+        "validRelativeFrequency": 6.64,
+        "relativeFrequency": 2.58,
+        "absoluteFrequency": 271,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 9.68,
+        "relativeFrequency": 3.76,
+        "absoluteFrequency": 395,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 13.2,
+        "relativeFrequency": 5.14,
+        "absoluteFrequency": 539,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 18.86,
+        "relativeFrequency": 7.34,
+        "absoluteFrequency": 770,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 51.62,
+        "relativeFrequency": 20.08,
+        "absoluteFrequency": 2107,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 38.9,
+    "totalValidAbsoluteFrequency": 4082,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 413,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason against further acad. qualification: no opportunities to study near home",
+    "de": "Grund gegen weitere akad. Qualifikation: kein heimatnahes Studienangebot"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

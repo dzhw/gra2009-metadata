@@ -1,150 +1,162 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "PhD: status",
-    "de": "Promotion: Status"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie eine Promotion begonnen oder abgeschlossen?\r\nJa, abgeschlossen\r\nJa, aber noch nicht beendet\r\nJa, aber abgebrochen\r\nJa, zurzeit unterbrochen\r\nNein, ist aber geplant\r\nNein, auch nicht geplant"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-fec12",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 854,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie eine Promotion begonnen oder abgeschlossen?"
+      },
+      "questionNumber": "08",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 45.15,
     "statistics": {
-      "mode": "6"
+      "meanDeviation": null,
+      "mode": "6",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 411,
-        "label": {
-          "en": "Yes, completed",
-          "de": "ja, abgeschlossen"
-        },
-        "relativeFrequency": 3.92,
-        "validRelativeFrequency": 8.67,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 577,
-        "label": {
-          "en": "Yes, but not yet finished",
-          "de": "ja, aber noch nicht beendet"
-        },
-        "relativeFrequency": 5.5,
-        "validRelativeFrequency": 12.18,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 100,
-        "label": {
-          "en": "Yes, but terminated",
-          "de": "ja, aber abgebrochen"
-        },
-        "relativeFrequency": 0.95,
-        "validRelativeFrequency": 2.11,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 48,
-        "label": {
-          "en": "Yes, currently interrupted",
-          "de": "ja, zurzeit unterbrochen"
-        },
-        "relativeFrequency": 0.46,
-        "validRelativeFrequency": 1.01,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 216,
-        "label": {
-          "en": "No, but planned",
-          "de": "nein, aber geplant"
-        },
-        "relativeFrequency": 2.06,
-        "validRelativeFrequency": 4.56,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 3386,
-        "label": {
-          "en": "No, not planned",
-          "de": "nein, nicht geplant"
-        },
-        "relativeFrequency": 32.27,
-        "validRelativeFrequency": 71.46,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4738,
     "missings": [
       {
-        "absoluteFrequency": 17,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, completed",
+          "de": "ja, abgeschlossen"
+        },
+        "validRelativeFrequency": 8.67,
+        "relativeFrequency": 3.92,
+        "absoluteFrequency": 411,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, but not yet finished",
+          "de": "ja, aber noch nicht beendet"
+        },
+        "validRelativeFrequency": 12.18,
+        "relativeFrequency": 5.5,
+        "absoluteFrequency": 577,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Yes, but terminated",
+          "de": "ja, aber abgebrochen"
+        },
+        "validRelativeFrequency": 2.11,
+        "relativeFrequency": 0.95,
+        "absoluteFrequency": 100,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Yes, currently interrupted",
+          "de": "ja, zurzeit unterbrochen"
+        },
+        "validRelativeFrequency": 1.01,
+        "relativeFrequency": 0.46,
+        "absoluteFrequency": 48,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "No, but planned",
+          "de": "nein, aber geplant"
+        },
+        "validRelativeFrequency": 4.56,
+        "relativeFrequency": 2.06,
+        "absoluteFrequency": 216,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "No, not planned",
+          "de": "nein, nicht geplant"
+        },
+        "validRelativeFrequency": 71.46,
+        "relativeFrequency": 32.27,
+        "absoluteFrequency": 3386,
+        "value": "6"
+      }
+    ],
+    "totalValidRelativeFrequency": 45.15,
+    "totalValidAbsoluteFrequency": 4738,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie eine Promotion begonnen oder abgeschlossen?\nJa, abgeschlossen\nJa, aber noch nicht beendet\nJa, aber abgebrochen\nJa, zurzeit unterbrochen\nNein, ist aber geplant\nNein, auch nicht geplant"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "08",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie eine Promotion begonnen oder abgeschlossen?"
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec12",
+  "surveyNumbers": [2],
+  "indexInDataSet": 854,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD: status",
+    "de": "Promotion: Status"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

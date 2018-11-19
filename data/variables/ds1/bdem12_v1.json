@@ -1,120 +1,132 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "family status",
-    "de": "Familienstand"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie zur Zeit ...\r\nohne feste(n) Partner(in)?\r\nin fester Partnerschaft?\r\nverheiratet?"
+      },
+      "questionNumber": "8.2",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-dem12",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1464,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie zurzeit ..."
+      },
+      "questionNumber": "87",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.83,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 973,
-        "label": {
-          "en": "No partner",
-          "de": "ohne feste Partner(in)"
-        },
-        "relativeFrequency": 9.27,
-        "validRelativeFrequency": 21.16,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2038,
-        "label": {
-          "en": "Permanent relationship",
-          "de": "in fester Partnerschaft"
-        },
-        "relativeFrequency": 19.42,
-        "validRelativeFrequency": 44.31,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1588,
-        "label": {
-          "en": "Married",
-          "de": "verheiratet"
-        },
-        "relativeFrequency": 15.13,
-        "validRelativeFrequency": 34.53,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4599,
     "missings": [
       {
-        "absoluteFrequency": 156,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.49,
+        "absoluteFrequency": 156,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "No partner",
+          "de": "ohne feste Partner(in)"
+        },
+        "validRelativeFrequency": 21.16,
+        "relativeFrequency": 9.27,
+        "absoluteFrequency": 973,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Permanent relationship",
+          "de": "in fester Partnerschaft"
+        },
+        "validRelativeFrequency": 44.31,
+        "relativeFrequency": 19.42,
+        "absoluteFrequency": 2038,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Married",
+          "de": "verheiratet"
+        },
+        "validRelativeFrequency": 34.53,
+        "relativeFrequency": 15.13,
+        "absoluteFrequency": 1588,
+        "value": "3"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.83,
+    "totalValidAbsoluteFrequency": 4599,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "8.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sind Sie zur Zeit ...\nohne feste(n) Partner(in)?\nin fester Partnerschaft?\nverheiratet?"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "87",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sind Sie zurzeit ..."
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-dem12",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1464,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "family status",
+    "de": "Familienstand"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

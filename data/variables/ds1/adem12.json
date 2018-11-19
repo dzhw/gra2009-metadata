@@ -1,103 +1,115 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "family status",
-    "de": "Familienstand"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-dem12",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 785,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sind Sie …\r\nohne feste/n Partner/in?\r\nin fester Lebensgemeinschaft mit einer/einem Partner/in?\r\nverheiratet?"
+      },
+      "questionNumber": "6.14",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.31,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3608,
-        "label": {
-          "en": "No partner",
-          "de": "ohne feste Partner(in)"
-        },
-        "relativeFrequency": 34.38,
-        "validRelativeFrequency": 34.62,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 5667,
-        "label": {
-          "en": "Permanent relationship",
-          "de": "in fester Partnerschaft"
-        },
-        "relativeFrequency": 54,
-        "validRelativeFrequency": 54.38,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1147,
-        "label": {
-          "en": "Married",
-          "de": "verheiratet"
-        },
-        "relativeFrequency": 10.93,
-        "validRelativeFrequency": 11.01,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10422,
     "missings": [
       {
-        "absoluteFrequency": 72,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.69,
+        "absoluteFrequency": 72,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sind Sie …\nohne feste/n Partner/in?\nin fester Lebensgemeinschaft mit einer/einem Partner/in?\nverheiratet?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "No partner",
+          "de": "ohne feste Partner(in)"
+        },
+        "validRelativeFrequency": 34.62,
+        "relativeFrequency": 34.38,
+        "absoluteFrequency": 3608,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Permanent relationship",
+          "de": "in fester Partnerschaft"
+        },
+        "validRelativeFrequency": 54.38,
+        "relativeFrequency": 54,
+        "absoluteFrequency": 5667,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Married",
+          "de": "verheiratet"
+        },
+        "validRelativeFrequency": 11.01,
+        "relativeFrequency": 10.93,
+        "absoluteFrequency": 1147,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 99.31,
+    "totalValidAbsoluteFrequency": 10422,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-dem12",
+  "surveyNumbers": [1],
+  "indexInDataSet": 785,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "family status",
+    "de": "Familienstand"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

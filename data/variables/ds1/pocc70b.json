@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "acad. science: freedom of design",
-    "de": "akad. Wissenschaft: Gestaltungsspielraum"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2164,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, inwieweit die folgenden Angaben in der akademischen Wissenschaft auf Sie zutreffen.,trifft überhaupt nicht zu,trifft voll und ganz zu,Hoher inhaltlicher Gestaltungsspielraum"
+      },
+      "questionNumber": "41",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.84,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "56.3388",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 51,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft überhaupt nicht zu"
-        },
-        "relativeFrequency": 0.49,
-        "validRelativeFrequency": 8.32,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 126,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 1.2,
-        "validRelativeFrequency": 20.55,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 158,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 1.51,
-        "validRelativeFrequency": 25.77,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 190,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.81,
-        "validRelativeFrequency": 31,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 88,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft voll und ganz zu"
-        },
-        "relativeFrequency": 0.84,
-        "validRelativeFrequency": 14.36,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 613,
     "missings": [
       {
-        "absoluteFrequency": 57,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.54,
+        "absoluteFrequency": 57,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "41",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, inwieweit die folgenden Angaben in der akademischen Wissenschaft auf Sie zutreffen.,trifft überhaupt nicht zu,trifft voll und ganz zu,Hoher inhaltlicher Gestaltungsspielraum"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 8.32,
+        "relativeFrequency": 0.49,
+        "absoluteFrequency": 51,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 20.55,
+        "relativeFrequency": 1.2,
+        "absoluteFrequency": 126,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 25.77,
+        "relativeFrequency": 1.51,
+        "absoluteFrequency": 158,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 31,
+        "relativeFrequency": 1.81,
+        "absoluteFrequency": 190,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft voll und ganz zu"
+        },
+        "validRelativeFrequency": 14.36,
+        "relativeFrequency": 0.84,
+        "absoluteFrequency": 88,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.84,
+    "totalValidAbsoluteFrequency": 613,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2164,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "acad. science: freedom of design",
+    "de": "akad. Wissenschaft: Gestaltungsspielraum"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

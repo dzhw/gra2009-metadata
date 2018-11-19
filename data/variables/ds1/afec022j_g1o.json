@@ -1,162 +1,174 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "2nd further acad. qualification: 3rd subject",
-    "de": "2. weitere akad. Qualifikation: 3. Studienfach"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-afec022j",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(afec01,-998,1)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 370,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable enthält die offen erfassten Studienfachangaben in codierter Form. Als Codierliste wurde die Destatis Fächersystematik (WiSe 2008/09) herangezogen (vgl. cl-destatis-studienfach-2009). Ergänzend wurde, weil in den Daten enthalten, der Fächercode 310 (\"Regenerative Energien\") aufgenommen. Es handelt sich dabei um einen neuen Code, der seit dem Schlüsselverzeichnis 2012/13 existiert."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein.\r\nStudienfach/ Promotionsfach"
+      },
+      "questionNumber": "2.1",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.09,
     "statistics": {
-      "mode": "52"
+      "meanDeviation": null,
+      "mode": "52",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Interdisciplinary studies (focusing on language and cultural sciences)",
-          "de": "Interdisziplinäre Studien (Schwerp. Sprach- und Kulturwissenschaften)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "English studies/English",
-          "de": "Anglistik/Englisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Business administration",
-          "de": "Betriebswirtschaftslehre"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "21"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Education (pedagogics)",
-          "de": "Erziehungswissenschaft (Pädagogik)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 22.22,
-        "value": "52"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Spanish",
-          "de": "Spanisch"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "150"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Economic sciences",
-          "de": "Wirtschaftswissenschaften"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "184"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Biomedicine",
-          "de": "Biomedizin"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "300"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Communications and publishing ",
-          "de": "Kommunikationswissenschaft/Publizistik"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 11.11,
-        "value": "303"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 9,
     "missings": [
       {
-        "absoluteFrequency": 5958,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 56.78,
+        "absoluteFrequency": 5958,
         "code": -998
       },
       {
-        "absoluteFrequency": 4527,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 43.14,
+        "absoluteFrequency": 4527,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "2.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein.\nStudienfach/ Promotionsfach"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Interdisciplinary studies (focusing on language and cultural sciences)",
+          "de": "Interdisziplinäre Studien (Schwerp. Sprach- und Kulturwissenschaften)"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "English studies/English",
+          "de": "Anglistik/Englisch"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "Business administration",
+          "de": "Betriebswirtschaftslehre"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "21"
+      },
+      {
+        "label": {
+          "en": "Education (pedagogics)",
+          "de": "Erziehungswissenschaft (Pädagogik)"
+        },
+        "validRelativeFrequency": 22.22,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "52"
+      },
+      {
+        "label": {
+          "en": "Spanish",
+          "de": "Spanisch"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "150"
+      },
+      {
+        "label": {
+          "en": "Economic sciences",
+          "de": "Wirtschaftswissenschaften"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "184"
+      },
+      {
+        "label": {
+          "en": "Biomedicine",
+          "de": "Biomedizin"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "300"
+      },
+      {
+        "label": {
+          "en": "Communications and publishing ",
+          "de": "Kommunikationswissenschaft/Publizistik"
+        },
+        "validRelativeFrequency": 11.11,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "303"
       }
+    ],
+    "totalValidRelativeFrequency": 0.09,
+    "totalValidAbsoluteFrequency": 9,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(afec01,-998,1)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable enthält die offen erfassten Studienfachangaben in codierter Form. Als Codierliste wurde die Destatis Fächersystematik (WiSe 2008/09) herangezogen (vgl. cl-destatis-studienfach-2009). Ergänzend wurde, weil in den Daten enthalten, der Fächercode 310 (\"Regenerative Energien\") aufgenommen. Es handelt sich dabei um einen neuen Code, der seit dem Schlüsselverzeichnis 2012/13 existiert."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-afec022j",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 370,
+  "accessWays": ["onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "2nd further acad. qualification: 3rd subject",
+    "de": "2. weitere akad. Qualifikation: 3. Studienfach"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

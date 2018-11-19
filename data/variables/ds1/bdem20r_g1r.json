@@ -1,158 +1,170 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "reason for no children: other, namely",
-    "de": "Grund keine Kinder: Sonstiges, und zwar"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bdem14_v1,2,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\r\nSonstiges, und zwar:"
+      },
+      "questionNumber": "8.6",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1492,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?"
+      },
+      "questionNumber": "91",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 2.27,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 101,
-        "label": {
-          "en": "planned/pregnant",
-          "de": "in Planung/schwanger"
-        },
-        "relativeFrequency": 0.96,
-        "validRelativeFrequency": 42.44,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 26,
-        "label": {
-          "en": "only recently married/partnership",
-          "de": "zu kurze Partnerschaft/erst heiraten"
-        },
-        "relativeFrequency": 0.25,
-        "validRelativeFrequency": 10.92,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "Same-sex marriage/partnership",
-          "de": "gleichgeschlechtliche Partnerschaft"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 4.2,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 18,
-        "label": {
-          "en": "Reason of partners",
-          "de": "Gründe des Partners"
-        },
-        "relativeFrequency": 0.17,
-        "validRelativeFrequency": 7.56,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 83,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.79,
-        "validRelativeFrequency": 34.87,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 238,
     "missings": [
       {
-        "absoluteFrequency": 315,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3,
+        "absoluteFrequency": 315,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 1388,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 13.23,
+        "absoluteFrequency": 1388,
         "code": -989
       },
       {
-        "absoluteFrequency": 2814,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 26.82,
+        "absoluteFrequency": 2814,
         "code": -988
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "planned/pregnant",
+          "de": "in Planung/schwanger"
+        },
+        "validRelativeFrequency": 42.44,
+        "relativeFrequency": 0.96,
+        "absoluteFrequency": 101,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "only recently married/partnership",
+          "de": "zu kurze Partnerschaft/erst heiraten"
+        },
+        "validRelativeFrequency": 10.92,
+        "relativeFrequency": 0.25,
+        "absoluteFrequency": 26,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Same-sex marriage/partnership",
+          "de": "gleichgeschlechtliche Partnerschaft"
+        },
+        "validRelativeFrequency": 4.2,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Reason of partners",
+          "de": "Gründe des Partners"
+        },
+        "validRelativeFrequency": 7.56,
+        "relativeFrequency": 0.17,
+        "absoluteFrequency": 18,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 34.87,
+        "relativeFrequency": 0.79,
+        "absoluteFrequency": 83,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 2.27,
+    "totalValidAbsoluteFrequency": 238,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "8.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Rolle spielen die folgenden Gründe dafür, dass Sie bisher keine Kinder haben?\nSonstiges, und zwar:"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "91",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Rolle spielen die folgenden GrÃ¼nde dafÃ¼r, dass Sie bisher keine Kinder haben?"
-      }
+    "expression": "if inlist(bdem14_v1,2,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1492,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "reason for no children: other, namely",
+    "de": "Grund keine Kinder: Sonstiges, und zwar"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

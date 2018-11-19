@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "difficulties career start: qualification deficit",
-    "de": "Schwierigkeiten Berufsstart: Qualifikationsdefizit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 511,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\r\nEmpfand Qualifikationsdefizit"
+      },
+      "questionNumber": "5.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 69.41,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "532.2534",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 435,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 4.15,
-        "validRelativeFrequency": 5.97,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1283,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 12.23,
-        "validRelativeFrequency": 17.61,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1891,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 18.02,
-        "validRelativeFrequency": 25.96,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2033,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 19.37,
-        "validRelativeFrequency": 27.91,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1642,
-        "label": {
-          "en": "Not at all",
-          "de": "gar nicht"
-        },
-        "relativeFrequency": 15.65,
-        "validRelativeFrequency": 22.54,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7284,
     "missings": [
       {
-        "absoluteFrequency": 1122,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 10.69,
+        "absoluteFrequency": 1122,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "In welchem Maße traten bei Ihrem Berufsstart folgende Probleme auf?\nEmpfand Qualifikationsdefizit"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 5.97,
+        "relativeFrequency": 4.15,
+        "absoluteFrequency": 435,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 17.61,
+        "relativeFrequency": 12.23,
+        "absoluteFrequency": 1283,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 25.96,
+        "relativeFrequency": 18.02,
+        "absoluteFrequency": 1891,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 27.91,
+        "relativeFrequency": 19.37,
+        "absoluteFrequency": 2033,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "gar nicht"
+        },
+        "validRelativeFrequency": 22.54,
+        "relativeFrequency": 15.65,
+        "absoluteFrequency": 1642,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 69.41,
+    "totalValidAbsoluteFrequency": 7284,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 511,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "difficulties career start: qualification deficit",
+    "de": "Schwierigkeiten Berufsstart: Qualifikationsdefizit"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

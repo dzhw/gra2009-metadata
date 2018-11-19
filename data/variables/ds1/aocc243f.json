@@ -1,152 +1,164 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd job: type of employment",
-    "de": "3. Tätigkeit: Art des Arbeitsverhältnisses"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ243f",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 552,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\r\n3. Erwerbstätigkeit\r\nArt des Arbeitsverhältnisses\r\nSchlüssel siehe unten"
+      },
+      "questionNumber": "5.4",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 7.11,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 139,
-        "label": {
-          "en": "Unlimited",
-          "de": "unbefristet"
-        },
-        "relativeFrequency": 1.32,
-        "validRelativeFrequency": 18.63,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 311,
-        "label": {
-          "en": "Limited (fixed-term contract)",
-          "de": "befristet (Zeitvertrag)"
-        },
-        "relativeFrequency": 2.96,
-        "validRelativeFrequency": 41.69,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Limited (via ABM)",
-          "de": "befristet (ABM o. Ä.)"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.54,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 102,
-        "label": {
-          "en": "Apprenticeship",
-          "de": "Ausbildungsverhältnis"
-        },
-        "relativeFrequency": 0.97,
-        "validRelativeFrequency": 13.67,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 97,
-        "label": {
-          "en": "Fee/works contract",
-          "de": "Honorar-/Werkvertrag"
-        },
-        "relativeFrequency": 0.92,
-        "validRelativeFrequency": 13,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 76,
-        "label": {
-          "en": "Self-employed/freelance",
-          "de": "selbstständig/freiberuflich"
-        },
-        "relativeFrequency": 0.72,
-        "validRelativeFrequency": 10.19,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 17,
-        "label": {
-          "en": "Other",
-          "de": "Sonstige"
-        },
-        "relativeFrequency": 0.16,
-        "validRelativeFrequency": 2.28,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 746,
     "missings": [
       {
-        "absoluteFrequency": 7660,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 72.99,
+        "absoluteFrequency": 7660,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.4",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Im Folgenden bitten wir Sie um eine Beschreibung der verschiedenen beruflichen Tätigkeiten, die Sie seit Ihrem Studienabschluss ausgeübt haben.\n3. Erwerbstätigkeit\nArt des Arbeitsverhältnisses\nSchlüssel siehe unten"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Unlimited",
+          "de": "unbefristet"
+        },
+        "validRelativeFrequency": 18.63,
+        "relativeFrequency": 1.32,
+        "absoluteFrequency": 139,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Limited (fixed-term contract)",
+          "de": "befristet (Zeitvertrag)"
+        },
+        "validRelativeFrequency": 41.69,
+        "relativeFrequency": 2.96,
+        "absoluteFrequency": 311,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Limited (via ABM)",
+          "de": "befristet (ABM o. Ä.)"
+        },
+        "validRelativeFrequency": 0.54,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Apprenticeship",
+          "de": "Ausbildungsverhältnis"
+        },
+        "validRelativeFrequency": 13.67,
+        "relativeFrequency": 0.97,
+        "absoluteFrequency": 102,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Fee/works contract",
+          "de": "Honorar-/Werkvertrag"
+        },
+        "validRelativeFrequency": 13,
+        "relativeFrequency": 0.92,
+        "absoluteFrequency": 97,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Self-employed/freelance",
+          "de": "selbstständig/freiberuflich"
+        },
+        "validRelativeFrequency": 10.19,
+        "relativeFrequency": 0.72,
+        "absoluteFrequency": 76,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstige"
+        },
+        "validRelativeFrequency": 2.28,
+        "relativeFrequency": 0.16,
+        "absoluteFrequency": 17,
+        "value": "7"
       }
+    ],
+    "totalValidRelativeFrequency": 7.11,
+    "totalValidAbsoluteFrequency": 746,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ243f",
+  "surveyNumbers": [1],
+  "indexInDataSet": 552,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd job: type of employment",
+    "de": "3. Tätigkeit: Art des Arbeitsverhältnisses"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

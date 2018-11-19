@@ -1,131 +1,143 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "1st apartment: main/second apartment",
-    "de": "1. Wohnung: Haupt-/Zweitwohnung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mres021,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1583,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Nun bitten wir Sie, alle Wohnungen aufzulisten, in denen Sie seit dem Ende Ihres Studiums 2008/09 gelebt haben.,Uns interessiert dabei nur, wo Sie tatsächlich gelebt haben, nicht wo Sie ihren Wohnsitz gemeldet hatten. Denken Sie dabei bitte auch an Zweit- und Nebenwohnungen. Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um"
+      },
+      "questionNumber": "08.1",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 17.16,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1556,
-        "label": {
-          "en": "The main apartment",
-          "de": "Hauptwohnung"
-        },
-        "relativeFrequency": 14.83,
-        "validRelativeFrequency": 86.4,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 147,
-        "label": {
-          "en": "Second apartment for professional reasons",
-          "de": "Zweitwohnung aus beruflichen Gründen"
-        },
-        "relativeFrequency": 1.4,
-        "validRelativeFrequency": 8.16,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 55,
-        "label": {
-          "en": "Second apartment for other reasons",
-          "de": "Zweitwohnung aus sonstigen Gründen"
-        },
-        "relativeFrequency": 0.52,
-        "validRelativeFrequency": 3.05,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 43,
-        "label": {
-          "en": "50-50",
-          "de": "teils, teils"
-        },
-        "relativeFrequency": 0.41,
-        "validRelativeFrequency": 2.39,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 1801,
     "missings": [
       {
-        "absoluteFrequency": 161,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.53,
+        "absoluteFrequency": 161,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 503,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 4.79,
+        "absoluteFrequency": 503,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "08.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Nun bitten wir Sie, alle Wohnungen aufzulisten, in denen Sie seit dem Ende Ihres Studiums 2008/09 gelebt haben.,Uns interessiert dabei nur, wo Sie tatsächlich gelebt haben, nicht wo Sie ihren Wohnsitz gemeldet hatten. Denken Sie dabei bitte auch an Zweit- und Nebenwohnungen. Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss eingezogen sind.,Zeitraum (Monat/Jahr),Wohnort,Wohnten Sie die meiste Zeit(Mehrfachnennung möglich),Handelte es sich um"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "The main apartment",
+          "de": "Hauptwohnung"
+        },
+        "validRelativeFrequency": 86.4,
+        "relativeFrequency": 14.83,
+        "absoluteFrequency": 1556,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Second apartment for professional reasons",
+          "de": "Zweitwohnung aus beruflichen Gründen"
+        },
+        "validRelativeFrequency": 8.16,
+        "relativeFrequency": 1.4,
+        "absoluteFrequency": 147,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Second apartment for other reasons",
+          "de": "Zweitwohnung aus sonstigen Gründen"
+        },
+        "validRelativeFrequency": 3.05,
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 55,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "50-50",
+          "de": "teils, teils"
+        },
+        "validRelativeFrequency": 2.39,
+        "relativeFrequency": 0.41,
+        "absoluteFrequency": 43,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 17.16,
+    "totalValidAbsoluteFrequency": 1801,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mres021,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1583,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "1st apartment: main/second apartment",
+    "de": "1. Wohnung: Haupt-/Zweitwohnung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

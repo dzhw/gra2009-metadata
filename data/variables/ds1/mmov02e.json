@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "moving (other town): better leisure opportunities",
-    "de": "Umzug (Stadtwechsel): bessere Freizeitmöglichkeiten"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1535,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Nun geht es um mögliche Umzüge in eine andere Stadt. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,In einer anderen Stadt hätte ich bessere Freizeitmöglichkeiten."
+      },
+      "questionNumber": "04",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 23.04,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "5",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "5",
-      "meanDeviation": "99.3342",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "5",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 149,
-        "label": {
-          "en": "I agree",
-          "de": "stimme sehr zu"
-        },
-        "relativeFrequency": 1.42,
-        "validRelativeFrequency": 6.16,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 318,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 3.03,
-        "validRelativeFrequency": 13.15,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 611,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 5.82,
-        "validRelativeFrequency": 25.27,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 662,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 6.31,
-        "validRelativeFrequency": 27.38,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 678,
-        "label": {
-          "en": "I do not agree at all",
-          "de": "stimme überhaupt nicht zu"
-        },
-        "relativeFrequency": 6.46,
-        "validRelativeFrequency": 28.04,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 2418,
     "missings": [
       {
-        "absoluteFrequency": 47,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.45,
+        "absoluteFrequency": 47,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "04",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Nun geht es um mögliche Umzüge in eine andere Stadt. Inwiefern stimmen Sie folgenden Aussagen zu?,stimme sehr zu,stimme überhaupt nicht zu,In einer anderen Stadt hätte ich bessere Freizeitmöglichkeiten."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I agree",
+          "de": "stimme sehr zu"
+        },
+        "validRelativeFrequency": 6.16,
+        "relativeFrequency": 1.42,
+        "absoluteFrequency": 149,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 13.15,
+        "relativeFrequency": 3.03,
+        "absoluteFrequency": 318,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 25.27,
+        "relativeFrequency": 5.82,
+        "absoluteFrequency": 611,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 27.38,
+        "relativeFrequency": 6.31,
+        "absoluteFrequency": 662,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "I do not agree at all",
+          "de": "stimme überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 28.04,
+        "relativeFrequency": 6.46,
+        "absoluteFrequency": 678,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 23.04,
+    "totalValidAbsoluteFrequency": 2418,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1535,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "moving (other town): better leisure opportunities",
+    "de": "Umzug (Stadtwechsel): bessere Freizeitmöglichkeiten"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,68 +1,61 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie Ihre Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit. \r\nAufgabenbereich (z. B. Management, Finanzcontrolling, Qualitätswesen, Personal, Logistik, Software):"
+      },
+      "questionNumber": "4.9",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte nennen Sie Ihre Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit."
+      },
+      "questionNumber": "24",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": null,
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
+    }
+  },
+  "storageType": "character",
+  "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1082,
+  "accessWays": ["not-accessible"],
+  "annotations": {
+    "en": null,
+    "de": null
   },
   "label": {
     "en": "occupation: area of responsibility 1",
     "de": "Beruf: Aufgabenbereich 1"
   },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
   "dataType": {
     "en": "string",
     "de": "string"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["not-accessible"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1082,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "character",
-  "distribution": {
-    "totalValidRelativeFrequency": 41.72,
-    "statistics": null,
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": null,
-    "totalValidAbsoluteFrequency": 4378,
-    "missings": null
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.9",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie Ihre Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen Tätigkeit. Aufgabenbereich (z. B. Management, Finanzcontrolling, Qualitätswesen, Personal, Logistik, Software):"
-      }
-    },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "24",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte nennen Sie Ihre Berufsbezeichnung, Ihren Aufgabenbereich sowie typische Arbeitsschwerpunkte Ihrer beruflichen TÃ¤tigkeit."
-      }
-    }
-  ],
-  "relatedVariables": null,
-  "annotations": {
-    "en": null,
-    "de": null
   }
 }

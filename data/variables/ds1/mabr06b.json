@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "academic activities abroad: compatibility of family and career",
-    "de": "wissenschaftl. Tätigkeit Ausland: Vereinbarkeit Familie und Beruf"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1968,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie die Situation im Land/in den Ländern Ihrer wissenschaftlichen Tätigkeit im Vergleich zu Deutschland hinsichtlich der folgenden Aspekte ein?,in Deutschland besser,in Deutschland schlechter,Vereinbarkeit von Familie und Beruf"
+      },
+      "questionNumber": "48",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.88,
     "statistics": {
-      "mode": "3"
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Better in Germany",
-          "de": "in Deutschland besser"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 9.78,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 9.78,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 25,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 0.24,
-        "validRelativeFrequency": 27.17,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 19,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.18,
-        "validRelativeFrequency": 20.65,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Worse in Germany",
-          "de": "in Deutschland schlechter"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 16.3,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Can't say",
-          "de": "kann ich nicht beurteilen"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 16.3,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 92,
     "missings": [
       {
-        "absoluteFrequency": 65,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.62,
+        "absoluteFrequency": 65,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 2308,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 21.99,
+        "absoluteFrequency": 2308,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "48",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie die Situation im Land/in den Ländern Ihrer wissenschaftlichen Tätigkeit im Vergleich zu Deutschland hinsichtlich der folgenden Aspekte ein?,in Deutschland besser,in Deutschland schlechter,Vereinbarkeit von Familie und Beruf"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Better in Germany",
+          "de": "in Deutschland besser"
+        },
+        "validRelativeFrequency": 9.78,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 9.78,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 27.17,
+        "relativeFrequency": 0.24,
+        "absoluteFrequency": 25,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 20.65,
+        "relativeFrequency": 0.18,
+        "absoluteFrequency": 19,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Worse in Germany",
+          "de": "in Deutschland schlechter"
+        },
+        "validRelativeFrequency": 16.3,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Can't say",
+          "de": "kann ich nicht beurteilen"
+        },
+        "validRelativeFrequency": 16.3,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 0.88,
+    "totalValidAbsoluteFrequency": 92,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1968,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "academic activities abroad: compatibility of family and career",
+    "de": "wissenschaftl. Tätigkeit Ausland: Vereinbarkeit Familie und Beruf"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

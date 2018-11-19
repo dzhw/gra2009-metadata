@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "PhD evaluation: doubts about suitability",
-    "de": "Beurteilung Promotionsphase: Zweifel an Eignung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2207,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Inwieweit treffen die folgenden Aussagen auf Ihre Promotionsphase zu?,Während meiner Promotionsphase…,trifft voll und ganz zu,trifft überhaupt nicht zu,...hatte ich häufig Zweifel an meiner fachlichen Eignung.,...habe ich häufig Zweifel an meiner fachlichen Eignung."
+      },
+      "questionNumber": "46",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.53,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "34.0998",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "3",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "3"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 46,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft voll und ganz zu"
-        },
-        "relativeFrequency": 0.44,
-        "validRelativeFrequency": 7.93,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 116,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 1.11,
-        "validRelativeFrequency": 20,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 140,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 1.33,
-        "validRelativeFrequency": 24.14,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 161,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.53,
-        "validRelativeFrequency": 27.76,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 117,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft überhaupt nicht zu"
-        },
-        "relativeFrequency": 1.11,
-        "validRelativeFrequency": 20.17,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 580,
     "missings": [
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 65,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.62,
+        "absoluteFrequency": 65,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "46",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Inwieweit treffen die folgenden Aussagen auf Ihre Promotionsphase zu?,Während meiner Promotionsphase…,trifft voll und ganz zu,trifft überhaupt nicht zu,...hatte ich häufig Zweifel an meiner fachlichen Eignung.,...habe ich häufig Zweifel an meiner fachlichen Eignung."
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft voll und ganz zu"
+        },
+        "validRelativeFrequency": 7.93,
+        "relativeFrequency": 0.44,
+        "absoluteFrequency": 46,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 20,
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 116,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 24.14,
+        "relativeFrequency": 1.33,
+        "absoluteFrequency": 140,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 27.76,
+        "relativeFrequency": 1.53,
+        "absoluteFrequency": 161,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 20.17,
+        "relativeFrequency": 1.11,
+        "absoluteFrequency": 117,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.53,
+    "totalValidAbsoluteFrequency": 580,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2207,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD evaluation: doubts about suitability",
+    "de": "Beurteilung Promotionsphase: Zweifel an Eignung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

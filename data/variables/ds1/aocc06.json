@@ -1,123 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "start of job search",
-    "de": "Beginn Stellensuche"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 439,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wann etwa haben Sie damit begonnen, sich ernsthaft um eine Stelle (auch Referendariat, Vikariat, Anerkennungspraktikum u. Ä.) für die Zeit nach dem Studium zu bemühen?\r\nNach dem Examen\r\nWährend der Examenszeit \r\nVor Beginn des Examens \r\nBislang noch nicht\r\nIch brauchte nicht zu suchen, denn ich hatte bereits eine Stelle sicher"
+      },
+      "questionNumber": "4.5",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.49,
     "statistics": {
-      "mode": "2"
+      "meanDeviation": null,
+      "mode": "2",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2166,
-        "label": {
-          "en": "After the exam",
-          "de": "nach dem Examen"
-        },
-        "relativeFrequency": 20.64,
-        "validRelativeFrequency": 20.75,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3325,
-        "label": {
-          "en": "During the exam",
-          "de": "während Examen"
-        },
-        "relativeFrequency": 31.68,
-        "validRelativeFrequency": 31.85,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1266,
-        "label": {
-          "en": "Before the exam",
-          "de": "vor Examen"
-        },
-        "relativeFrequency": 12.06,
-        "validRelativeFrequency": 12.13,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2605,
-        "label": {
-          "en": "Until now nothing",
-          "de": "bislang noch nicht"
-        },
-        "relativeFrequency": 24.82,
-        "validRelativeFrequency": 24.95,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1079,
-        "label": {
-          "en": "Had secure position",
-          "de": "hatte Stelle sicher"
-        },
-        "relativeFrequency": 10.28,
-        "validRelativeFrequency": 10.33,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10441,
     "missings": [
       {
-        "absoluteFrequency": 53,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.51,
+        "absoluteFrequency": 53,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.5",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wann etwa haben Sie damit begonnen, sich ernsthaft um eine Stelle (auch Referendariat, Vikariat, Anerkennungspraktikum u. Ä.) für die Zeit nach dem Studium zu bemühen?\nNach dem Examen\nWährend der Examenszeit Vor Beginn des Examens Bislang noch nicht\nIch brauchte nicht zu suchen, denn ich hatte bereits eine Stelle sicher"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "After the exam",
+          "de": "nach dem Examen"
+        },
+        "validRelativeFrequency": 20.75,
+        "relativeFrequency": 20.64,
+        "absoluteFrequency": 2166,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "During the exam",
+          "de": "während Examen"
+        },
+        "validRelativeFrequency": 31.85,
+        "relativeFrequency": 31.68,
+        "absoluteFrequency": 3325,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Before the exam",
+          "de": "vor Examen"
+        },
+        "validRelativeFrequency": 12.13,
+        "relativeFrequency": 12.06,
+        "absoluteFrequency": 1266,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Until now nothing",
+          "de": "bislang noch nicht"
+        },
+        "validRelativeFrequency": 24.95,
+        "relativeFrequency": 24.82,
+        "absoluteFrequency": 2605,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Had secure position",
+          "de": "hatte Stelle sicher"
+        },
+        "validRelativeFrequency": 10.33,
+        "relativeFrequency": 10.28,
+        "absoluteFrequency": 1079,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 99.49,
+    "totalValidAbsoluteFrequency": 10441,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 439,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "start of job search",
+    "de": "Beginn Stellensuche"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

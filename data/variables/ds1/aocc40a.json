@@ -1,103 +1,115 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "vocational training before start of degree",
-    "de": "Ausbildung vor Studienbeginn"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 759,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie vor dem Erststudium eine berufliche Ausbildung abgeschlossen?\r\nJa, vor/mit dem Erwerb der Hochschulreife \r\nJa, nach dem Erwerb der Hochschulreife\r\nNein"
+      },
+      "questionNumber": "6.6",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.55,
     "statistics": {
-      "mode": "3"
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1383,
-        "label": {
-          "en": "Yes, prior to/with the procurement of matriculation standard",
-          "de": "ja, vor/mit Erwerb der HS-Reife"
-        },
-        "relativeFrequency": 13.18,
-        "validRelativeFrequency": 13.24,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1187,
-        "label": {
-          "en": "Yes, after procurement of matriculation standard",
-          "de": "ja, nach Erwerb der HS-Reife"
-        },
-        "relativeFrequency": 11.31,
-        "validRelativeFrequency": 11.36,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 7877,
-        "label": {
-          "en": "No",
-          "de": "nein"
-        },
-        "relativeFrequency": 75.06,
-        "validRelativeFrequency": 75.4,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10447,
     "missings": [
       {
-        "absoluteFrequency": 47,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.45,
+        "absoluteFrequency": 47,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie vor dem Erststudium eine berufliche Ausbildung abgeschlossen?\nJa, vor/mit dem Erwerb der Hochschulreife Ja, nach dem Erwerb der Hochschulreife\nNein"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, prior to/with the procurement of matriculation standard",
+          "de": "ja, vor/mit Erwerb der HS-Reife"
+        },
+        "validRelativeFrequency": 13.24,
+        "relativeFrequency": 13.18,
+        "absoluteFrequency": 1383,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, after procurement of matriculation standard",
+          "de": "ja, nach Erwerb der HS-Reife"
+        },
+        "validRelativeFrequency": 11.36,
+        "relativeFrequency": 11.31,
+        "absoluteFrequency": 1187,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 75.4,
+        "relativeFrequency": 75.06,
+        "absoluteFrequency": 7877,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 99.55,
+    "totalValidAbsoluteFrequency": 10447,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 759,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "vocational training before start of degree",
+    "de": "Ausbildung vor Studienbeginn"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "work/life goals: political engagement",
-    "de": "Arbeits-/Lebensziele: politisch engagieren"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ39f",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 738,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\r\nMich politisch engagieren"
+      },
+      "questionNumber": "5.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.86,
     "statistics": {
-      "firstQuartile": "3",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1.5,
-      "minimum": "1",
       "thirdQuartile": "4",
-      "meanDeviation": "1289.862",
+      "firstQuartile": "3",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 437,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 4.16,
-        "validRelativeFrequency": 4.3,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1186,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 11.3,
-        "validRelativeFrequency": 11.67,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2854,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 27.2,
-        "validRelativeFrequency": 28.08,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 3704,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 35.3,
-        "validRelativeFrequency": 36.44,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1984,
-        "label": {
-          "en": "Not at all important",
-          "de": "gar nicht wichtig"
-        },
-        "relativeFrequency": 18.91,
-        "validRelativeFrequency": 19.52,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10165,
     "missings": [
       {
-        "absoluteFrequency": 329,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.14,
+        "absoluteFrequency": 329,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\nMich politisch engagieren"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 4.3,
+        "relativeFrequency": 4.16,
+        "absoluteFrequency": 437,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 11.67,
+        "relativeFrequency": 11.3,
+        "absoluteFrequency": 1186,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 28.08,
+        "relativeFrequency": 27.2,
+        "absoluteFrequency": 2854,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 36.44,
+        "relativeFrequency": 35.3,
+        "absoluteFrequency": 3704,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all important",
+          "de": "gar nicht wichtig"
+        },
+        "validRelativeFrequency": 19.52,
+        "relativeFrequency": 18.91,
+        "absoluteFrequency": 1984,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.86,
+    "totalValidAbsoluteFrequency": 10165,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ39f",
+  "surveyNumbers": [1],
+  "indexInDataSet": 738,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "work/life goals: political engagement",
+    "de": "Arbeits-/Lebensziele: politisch engagieren"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

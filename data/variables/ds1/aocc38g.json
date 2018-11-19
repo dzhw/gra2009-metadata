@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "in retrospect: choose same type of university",
-    "de": "Retrospektive: gleichen Hochschultyp wählen"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 729,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\r\nWieder den gleichen Hochschultyp (z. B. FH, Uni) wählen"
+      },
+      "questionNumber": "5.18",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 95.4,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "1372.888",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 6096,
-        "label": {
-          "en": "Definitely",
-          "de": "auf jeden Fall"
-        },
-        "relativeFrequency": 58.09,
-        "validRelativeFrequency": 60.89,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2047,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 19.51,
-        "validRelativeFrequency": 20.45,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1308,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 12.46,
-        "validRelativeFrequency": 13.07,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 382,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 3.64,
-        "validRelativeFrequency": 3.82,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 178,
-        "label": {
-          "en": "Not definitely",
-          "de": "auf keinen Fall"
-        },
-        "relativeFrequency": 1.7,
-        "validRelativeFrequency": 1.78,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10011,
     "missings": [
       {
-        "absoluteFrequency": 483,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 4.6,
+        "absoluteFrequency": 483,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie würden Sie sich hinsichtlich Ihres beruflichen Werdegangs aus heutiger Sicht verhalten?\nWieder den gleichen Hochschultyp (z. B. FH, Uni) wählen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Definitely",
+          "de": "auf jeden Fall"
+        },
+        "validRelativeFrequency": 60.89,
+        "relativeFrequency": 58.09,
+        "absoluteFrequency": 6096,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 20.45,
+        "relativeFrequency": 19.51,
+        "absoluteFrequency": 2047,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 13.07,
+        "relativeFrequency": 12.46,
+        "absoluteFrequency": 1308,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 3.82,
+        "relativeFrequency": 3.64,
+        "absoluteFrequency": 382,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not definitely",
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 1.78,
+        "relativeFrequency": 1.7,
+        "absoluteFrequency": 178,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 95.4,
+    "totalValidAbsoluteFrequency": 10011,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 729,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "in retrospect: choose same type of university",
+    "de": "Retrospektive: gleichen Hochschultyp wählen"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

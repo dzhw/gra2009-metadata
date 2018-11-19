@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "value of degree: longer lasting learning",
-    "de": "Wert Studium: Bildung über längere Zeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 317,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Worin sehen Sie rückblickend den Wert Ihres Studiums?\r\nIn der Chance, mich über eine längere Zeit zu bilden"
+      },
+      "questionNumber": "1.21",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.21,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1823.598",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 3191,
-        "label": {
-          "en": "Very great value",
-          "de": "sehr großen Wert"
-        },
-        "relativeFrequency": 30.41,
-        "validRelativeFrequency": 30.96,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4059,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 38.68,
-        "validRelativeFrequency": 39.38,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2025,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 19.3,
-        "validRelativeFrequency": 19.65,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 795,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 7.58,
-        "validRelativeFrequency": 7.71,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 236,
-        "label": {
-          "en": "Very little value",
-          "de": "sehr geringen Wert"
-        },
-        "relativeFrequency": 2.25,
-        "validRelativeFrequency": 2.29,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10306,
     "missings": [
       {
-        "absoluteFrequency": 188,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.79,
+        "absoluteFrequency": 188,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.21",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Worin sehen Sie rückblickend den Wert Ihres Studiums?\nIn der Chance, mich über eine längere Zeit zu bilden"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very great value",
+          "de": "sehr großen Wert"
+        },
+        "validRelativeFrequency": 30.96,
+        "relativeFrequency": 30.41,
+        "absoluteFrequency": 3191,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 39.38,
+        "relativeFrequency": 38.68,
+        "absoluteFrequency": 4059,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 19.65,
+        "relativeFrequency": 19.3,
+        "absoluteFrequency": 2025,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 7.71,
+        "relativeFrequency": 7.58,
+        "absoluteFrequency": 795,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very little value",
+          "de": "sehr geringen Wert"
+        },
+        "validRelativeFrequency": 2.29,
+        "relativeFrequency": 2.25,
+        "absoluteFrequency": 236,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.21,
+    "totalValidAbsoluteFrequency": 10306,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 317,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "value of degree: longer lasting learning",
+    "de": "Wert Studium: Bildung über längere Zeit"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

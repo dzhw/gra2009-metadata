@@ -1,110 +1,122 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "requirement further education",
-    "de": "Bedarf Weiterbildung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1421,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 43.97,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4068,
-        "label": {
-          "en": "yes",
-          "de": "ja"
-        },
-        "relativeFrequency": 38.77,
-        "validRelativeFrequency": 88.17,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sehen Sie für sich persönlich generell (weiteren) Bedarf zur Teilnahme an Weiterbildung und Qualifizierung?; Wenn ja: Tragen Sie hier bitte die für Sie wichtigsten Themen bzw. Fachgebiete ein.\r\nJa\r\nNein"
       },
-      {
-        "absoluteFrequency": 546,
-        "label": {
-          "en": "no",
-          "de": "nein"
-        },
-        "relativeFrequency": 5.2,
-        "validRelativeFrequency": 11.83,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4614,
+      "questionNumber": "7.1",
+      "instrumentNumber": 2
+    },
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Sehen Sie für sich persönlich generell (weiteren) Bedarf zur Teilnahme an Weiterbildung und Qualifizierung?"
+      },
+      "questionNumber": "79",
+      "instrumentNumber": 3
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 141,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.34,
+        "absoluteFrequency": 141,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes",
+          "de": "ja"
+        },
+        "validRelativeFrequency": 88.17,
+        "relativeFrequency": 38.77,
+        "absoluteFrequency": 4068,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "no",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 11.83,
+        "relativeFrequency": 5.2,
+        "absoluteFrequency": 546,
+        "value": "2"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.97,
+    "totalValidAbsoluteFrequency": 4614,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "7.1",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sehen Sie für sich persönlich generell (weiteren) Bedarf zur Teilnahme an Weiterbildung und Qualifizierung?; Wenn ja: Tragen Sie hier bitte die für Sie wichtigsten Themen bzw. Fachgebiete ein.\nJa\nNein"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "79",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Sehen Sie fÃ¼r sich persÃ¶nlich generell (weiteren) Bedarf zur Teilnahme an Weiterbildung und Qualifizierung?"
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1421,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "requirement further education",
+    "de": "Bedarf Weiterbildung"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

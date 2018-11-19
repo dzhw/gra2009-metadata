@@ -1,113 +1,125 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "employment during studies",
-    "de": "Erwerbstätigkeit während Studium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 192,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Waren Sie im Laufe Ihres Studiums erwerbstätig (einschließlich Jobben)?\r\nJa, überwiegend während der gesamten Studiendauer\r\nJa, während Teilen des Studiums \r\nJa, aber nur gelegentlich\r\nNein"
+      },
+      "questionNumber": "1.10",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.73,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 4015,
-        "label": {
-          "en": "Yes, total duration of studies",
-          "de": "ja, gesamte Studiendauer"
-        },
-        "relativeFrequency": 38.26,
-        "validRelativeFrequency": 38.36,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3148,
-        "label": {
-          "en": "Yes, during parts",
-          "de": "ja, während Teilen"
-        },
-        "relativeFrequency": 30,
-        "validRelativeFrequency": 30.08,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1835,
-        "label": {
-          "en": "Yes, only occasionally",
-          "de": "ja, nur gelegentlich"
-        },
-        "relativeFrequency": 17.49,
-        "validRelativeFrequency": 17.53,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 1468,
-        "label": {
-          "en": "No",
-          "de": "nein"
-        },
-        "relativeFrequency": 13.99,
-        "validRelativeFrequency": 14.03,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10466,
     "missings": [
       {
-        "absoluteFrequency": 28,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.10",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Waren Sie im Laufe Ihres Studiums erwerbstätig (einschließlich Jobben)?\nJa, überwiegend während der gesamten Studiendauer\nJa, während Teilen des Studiums Ja, aber nur gelegentlich\nNein"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, total duration of studies",
+          "de": "ja, gesamte Studiendauer"
+        },
+        "validRelativeFrequency": 38.36,
+        "relativeFrequency": 38.26,
+        "absoluteFrequency": 4015,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, during parts",
+          "de": "ja, während Teilen"
+        },
+        "validRelativeFrequency": 30.08,
+        "relativeFrequency": 30,
+        "absoluteFrequency": 3148,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Yes, only occasionally",
+          "de": "ja, nur gelegentlich"
+        },
+        "validRelativeFrequency": 17.53,
+        "relativeFrequency": 17.49,
+        "absoluteFrequency": 1835,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 14.03,
+        "relativeFrequency": 13.99,
+        "absoluteFrequency": 1468,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 99.73,
+    "totalValidAbsoluteFrequency": 10466,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 192,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "employment during studies",
+    "de": "Erwerbstätigkeit während Studium"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

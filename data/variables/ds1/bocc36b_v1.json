@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "job satisfaction: job position",
-    "de": "Zufriedenheit Beschäftigung: berufliche Position"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind/waren Sie mit Ihrer Beschäftigung? In Bezug auf…\r\nBerufliche Position"
+      },
+      "questionNumber": "4.27",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ36b",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1162,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie zufrieden sind/waren Sie mit Ihrer Beschäftigung? In Bezug auf …"
+      },
+      "questionNumber": "44",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 43.85,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "894.0078",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1164,
-        "label": {
-          "en": "Highly satisfied",
-          "de": "sehr zufrieden"
-        },
-        "relativeFrequency": 11.09,
-        "validRelativeFrequency": 25.29,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 2137,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 20.36,
-        "validRelativeFrequency": 46.44,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 898,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 8.56,
-        "validRelativeFrequency": 19.51,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 295,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 2.81,
-        "validRelativeFrequency": 6.41,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 108,
-        "label": {
-          "en": "Dissatisfied",
-          "de": "unzufrieden"
-        },
-        "relativeFrequency": 1.03,
-        "validRelativeFrequency": 2.35,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4602,
     "missings": [
       {
-        "absoluteFrequency": 122,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.16,
+        "absoluteFrequency": 122,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Highly satisfied",
+          "de": "sehr zufrieden"
+        },
+        "validRelativeFrequency": 25.29,
+        "relativeFrequency": 11.09,
+        "absoluteFrequency": 1164,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 46.44,
+        "relativeFrequency": 20.36,
+        "absoluteFrequency": 2137,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 19.51,
+        "relativeFrequency": 8.56,
+        "absoluteFrequency": 898,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 6.41,
+        "relativeFrequency": 2.81,
+        "absoluteFrequency": 295,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Dissatisfied",
+          "de": "unzufrieden"
+        },
+        "validRelativeFrequency": 2.35,
+        "relativeFrequency": 1.03,
+        "absoluteFrequency": 108,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 43.85,
+    "totalValidAbsoluteFrequency": 4602,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.27",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind/waren Sie mit Ihrer Beschäftigung? In Bezug auf…\nBerufliche Position"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "44",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie zufrieden sind/waren Sie mit Ihrer BeschÃ¤ftigung? In Bezug auf â€¦"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ36b",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1162,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "job satisfaction: job position",
+    "de": "Zufriedenheit Beschäftigung: berufliche Position"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

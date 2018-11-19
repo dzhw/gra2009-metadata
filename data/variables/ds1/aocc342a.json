@@ -1,140 +1,144 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "last job: adequacy of position",
-    "de": "letzte Stelle: Position adäquat"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(aocc19,-998,1,2)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ342a",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 703,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Würden Sie sagen, dass Sie entsprechend Ihrer Hochschulqualifikation beschäftigt sind?\r\nheutige Stelle\r\nHinsichtlich der beruflichen Position"
+      },
+      "questionNumber": "5.14",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 68.37,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "751.6782",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2843,
-        "label": {
-          "en": "Definitely",
-          "de": "auf jeden Fall"
-        },
-        "relativeFrequency": 27.09,
-        "validRelativeFrequency": 39.62,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1904,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 18.14,
-        "validRelativeFrequency": 26.54,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1052,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 10.02,
-        "validRelativeFrequency": 14.66,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 545,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 5.19,
-        "validRelativeFrequency": 7.6,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 831,
-        "label": {
-          "en": "Not definitely",
-          "de": "auf keinen Fall"
-        },
-        "relativeFrequency": 7.92,
-        "validRelativeFrequency": 11.58,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 7175,
     "missings": [
       {
-        "absoluteFrequency": 1231,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 11.73,
+        "absoluteFrequency": 1231,
         "code": -998
       },
       {
-        "absoluteFrequency": 2088,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "5.14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Würden Sie sagen, dass Sie entsprechend Ihrer Hochschulqualifikation beschäftigt sind?\nheutige Stelle\nHinsichtlich der beruflichen Position"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Definitely",
+          "de": "auf jeden Fall"
+        },
+        "validRelativeFrequency": 39.62,
+        "relativeFrequency": 27.09,
+        "absoluteFrequency": 2843,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 26.54,
+        "relativeFrequency": 18.14,
+        "absoluteFrequency": 1904,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 14.66,
+        "relativeFrequency": 10.02,
+        "absoluteFrequency": 1052,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 7.6,
+        "relativeFrequency": 5.19,
+        "absoluteFrequency": 545,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not definitely",
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 11.58,
+        "relativeFrequency": 7.92,
+        "absoluteFrequency": 831,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 68.37,
+    "totalValidAbsoluteFrequency": 7175,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(aocc19,-998,1,2)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ342a",
+  "surveyNumbers": [1],
+  "indexInDataSet": 703,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "last job: adequacy of position",
+    "de": "letzte Stelle: Position adäquat"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

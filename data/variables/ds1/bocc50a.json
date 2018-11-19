@@ -1,169 +1,181 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "self-employment: number of workers",
-    "de": "Selbstständigkeit: Anzahl Mitarbeiter(innen)"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc09_v1,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Beschäftigen Sie fest angestellte Mitarbeiter(innen)?\r\n500 und mehr Mitarbeiter(innen)\r\n250 bis 499 Mitarbeiter(innen)\r\n100 bis 249 Mitarbeiter(innen)\r\n50 bis 99 Mitarbeiter(innen)\r\n20 bis 49 Mitarbeiter(innen)\r\n10 bis 19 Mitarbeiter(innen)\r\n5 bis 9 Mitarbeiter(innen)\r\nUnter 5 Mitarbeiter(innen)\r\nFreischaffend, ohne Mitarbeiter(innen)\r\nSonstiges"
+      },
+      "questionNumber": "4.7",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1076,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Beschäftigen Sie fest angestellte Mitarbeiter(innen)?"
+      },
+      "questionNumber": "22",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 3.08,
     "statistics": {
-      "mode": "9"
+      "meanDeviation": null,
+      "mode": "9",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "More than 500 employees",
-          "de": "500 und mehr Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.62,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "20 to 49 employees",
-          "de": "20 bis 49 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 1.55,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 13,
-        "label": {
-          "en": "10 to 19 employees",
-          "de": "10 bis 19 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 0.12,
-        "validRelativeFrequency": 4.02,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 12,
-        "label": {
-          "en": "5 to 9 employees",
-          "de": "5 bis 9 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 0.11,
-        "validRelativeFrequency": 3.72,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 44,
-        "label": {
-          "en": "Under 5 employees",
-          "de": "unter 5 Mitarbeiter(innen)"
-        },
-        "relativeFrequency": 0.42,
-        "validRelativeFrequency": 13.62,
-        "value": "8"
-      },
-      {
-        "absoluteFrequency": 245,
-        "label": {
-          "en": "No employees",
-          "de": "freischaffend"
-        },
-        "relativeFrequency": 2.33,
-        "validRelativeFrequency": 75.85,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Other",
-          "de": "Sonstiges"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.62,
-        "value": "10"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 323,
     "missings": [
       {
-        "absoluteFrequency": 43,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.41,
+        "absoluteFrequency": 43,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 4389,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 41.82,
+        "absoluteFrequency": 4389,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "More than 500 employees",
+          "de": "500 und mehr Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 0.62,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "20 to 49 employees",
+          "de": "20 bis 49 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 1.55,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "10 to 19 employees",
+          "de": "10 bis 19 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 4.02,
+        "relativeFrequency": 0.12,
+        "absoluteFrequency": 13,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "5 to 9 employees",
+          "de": "5 bis 9 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 3.72,
+        "relativeFrequency": 0.11,
+        "absoluteFrequency": 12,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Under 5 employees",
+          "de": "unter 5 Mitarbeiter(innen)"
+        },
+        "validRelativeFrequency": 13.62,
+        "relativeFrequency": 0.42,
+        "absoluteFrequency": 44,
+        "value": "8"
+      },
+      {
+        "label": {
+          "en": "No employees",
+          "de": "freischaffend"
+        },
+        "validRelativeFrequency": 75.85,
+        "relativeFrequency": 2.33,
+        "absoluteFrequency": 245,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Other",
+          "de": "Sonstiges"
+        },
+        "validRelativeFrequency": 0.62,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "10"
+      }
+    ],
+    "totalValidRelativeFrequency": 3.08,
+    "totalValidAbsoluteFrequency": 323,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.7",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Beschäftigen Sie fest angestellte Mitarbeiter(innen)?\n500 und mehr Mitarbeiter(innen)\n250 bis 499 Mitarbeiter(innen)\n100 bis 249 Mitarbeiter(innen)\n50 bis 99 Mitarbeiter(innen)\n20 bis 49 Mitarbeiter(innen)\n10 bis 19 Mitarbeiter(innen)\n5 bis 9 Mitarbeiter(innen)\nUnter 5 Mitarbeiter(innen)\nFreischaffend, ohne Mitarbeiter(innen)\nSonstiges"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "22",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "BeschÃ¤ftigen Sie fest angestellte Mitarbeiter(innen)?"
-      }
+    "expression": "if (inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))) & inlist(bocc09_v1,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1076,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "self-employment: number of workers",
+    "de": "Selbstständigkeit: Anzahl Mitarbeiter(innen)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

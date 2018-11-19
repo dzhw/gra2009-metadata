@@ -1,149 +1,153 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "acad. science: autonomy regarding working hours",
-    "de": "akad. Wissenschaft: Arbeitszeitautonomie"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2168,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Bitte geben Sie an, inwieweit die folgenden Angaben in der akademischen Wissenschaft auf Sie zutreffen.,trifft überhaupt nicht zu,trifft voll und ganz zu,Hohe Arbeitszeitautonomie"
+      },
+      "questionNumber": "41",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.87,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "4",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "4.25",
-      "meanDeviation": "54.8562",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "4",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "4",
-      "median": "4"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 73,
-        "label": {
-          "en": "Not at all accurate",
-          "de": "trifft überhaupt nicht zu"
-        },
-        "relativeFrequency": 0.7,
-        "validRelativeFrequency": 11.85,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 101,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 0.96,
-        "validRelativeFrequency": 16.4,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 110,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 1.05,
-        "validRelativeFrequency": 17.86,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 178,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 1.7,
-        "validRelativeFrequency": 28.9,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 154,
-        "label": {
-          "en": "Is highly accurate",
-          "de": "trifft voll und ganz zu"
-        },
-        "relativeFrequency": 1.47,
-        "validRelativeFrequency": 25,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 616,
     "missings": [
       {
-        "absoluteFrequency": 54,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.51,
+        "absoluteFrequency": 54,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 6,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "41",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Bitte geben Sie an, inwieweit die folgenden Angaben in der akademischen Wissenschaft auf Sie zutreffen.,trifft überhaupt nicht zu,trifft voll und ganz zu,Hohe Arbeitszeitautonomie"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Not at all accurate",
+          "de": "trifft überhaupt nicht zu"
+        },
+        "validRelativeFrequency": 11.85,
+        "relativeFrequency": 0.7,
+        "absoluteFrequency": 73,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 16.4,
+        "relativeFrequency": 0.96,
+        "absoluteFrequency": 101,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 17.86,
+        "relativeFrequency": 1.05,
+        "absoluteFrequency": 110,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 28.9,
+        "relativeFrequency": 1.7,
+        "absoluteFrequency": 178,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Is highly accurate",
+          "de": "trifft voll und ganz zu"
+        },
+        "validRelativeFrequency": 25,
+        "relativeFrequency": 1.47,
+        "absoluteFrequency": 154,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 5.87,
+    "totalValidAbsoluteFrequency": 616,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2168,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "acad. science: autonomy regarding working hours",
+    "de": "akad. Wissenschaft: Arbeitszeitautonomie"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

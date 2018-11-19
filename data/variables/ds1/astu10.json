@@ -1,93 +1,105 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "course of study: Full time/part time",
-    "de": "Studium: Vollzeit/Teilzeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 197,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 99.33,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 10369,
-        "label": {
-          "en": "Full time study",
-          "de": "Vollzeitstudium"
-        },
-        "relativeFrequency": 98.81,
-        "validRelativeFrequency": 99.47,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Worum handelte es sich bei Ihrem abgeschlossenen Studium?\r\nUm ein Vollzeitstudium \r\nUm ein Teilzeitstudium"
       },
-      {
-        "absoluteFrequency": 55,
-        "label": {
-          "en": "Part time study",
-          "de": "Teilzeitstudium"
-        },
-        "relativeFrequency": 0.52,
-        "validRelativeFrequency": 0.53,
-        "value": "2"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10424,
+      "questionNumber": "1.12",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 70,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.67,
+        "absoluteFrequency": 70,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.12",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Worum handelte es sich bei Ihrem abgeschlossenen Studium?\nUm ein Vollzeitstudium Um ein Teilzeitstudium"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Full time study",
+          "de": "Vollzeitstudium"
+        },
+        "validRelativeFrequency": 99.47,
+        "relativeFrequency": 98.81,
+        "absoluteFrequency": 10369,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Part time study",
+          "de": "Teilzeitstudium"
+        },
+        "validRelativeFrequency": 0.53,
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 55,
+        "value": "2"
       }
+    ],
+    "totalValidRelativeFrequency": 99.33,
+    "totalValidAbsoluteFrequency": 10424,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 197,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "course of study: Full time/part time",
+    "de": "Studium: Vollzeit/Teilzeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

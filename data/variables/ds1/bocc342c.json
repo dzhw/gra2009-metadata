@@ -1,157 +1,161 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "employment: adequacy of skills",
-    "de": "Beschäftigung: fachlich adäquat"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Würden Sie sagen, dass Sie Ihrer Hochschulqualifikation entsprechend beschäftigt sind/waren?\r\nHinsichtlich der fachlichen Qualifikation (Studienfachrichtung)"
+      },
+      "questionNumber": "4.25",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ342c",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1159,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Würden Sie sagen, dass Sie Ihrer Hochschulqualifikation entsprechend beschäftigt sind/waren?"
+      },
+      "questionNumber": "42",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 44.3,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "1",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "563.388",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2186,
-        "label": {
-          "en": "Definitely",
-          "de": "auf jeden Fall"
-        },
-        "relativeFrequency": 20.83,
-        "validRelativeFrequency": 47.02,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1258,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 11.99,
-        "validRelativeFrequency": 27.06,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 619,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 5.9,
-        "validRelativeFrequency": 13.31,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 347,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 3.31,
-        "validRelativeFrequency": 7.46,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 239,
-        "label": {
-          "en": "Not definitely",
-          "de": "auf keinen Fall"
-        },
-        "relativeFrequency": 2.28,
-        "validRelativeFrequency": 5.14,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4649,
     "missings": [
       {
-        "absoluteFrequency": 75,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.71,
+        "absoluteFrequency": 75,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Definitely",
+          "de": "auf jeden Fall"
+        },
+        "validRelativeFrequency": 47.02,
+        "relativeFrequency": 20.83,
+        "absoluteFrequency": 2186,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 27.06,
+        "relativeFrequency": 11.99,
+        "absoluteFrequency": 1258,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 13.31,
+        "relativeFrequency": 5.9,
+        "absoluteFrequency": 619,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 7.46,
+        "relativeFrequency": 3.31,
+        "absoluteFrequency": 347,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not definitely",
+          "de": "auf keinen Fall"
+        },
+        "validRelativeFrequency": 5.14,
+        "relativeFrequency": 2.28,
+        "absoluteFrequency": 239,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 44.3,
+    "totalValidAbsoluteFrequency": 4649,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.25",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Würden Sie sagen, dass Sie Ihrer Hochschulqualifikation entsprechend beschäftigt sind/waren?\nHinsichtlich der fachlichen Qualifikation (Studienfachrichtung)"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "42",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "WÃ¼rden Sie sagen, dass Sie Ihrer Hochschulqualifikation entsprechend beschÃ¤ftigt sind/waren?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ342c",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1159,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "employment: adequacy of skills",
+    "de": "Beschäftigung: fachlich adäquat"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

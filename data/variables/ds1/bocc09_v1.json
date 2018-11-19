@@ -1,139 +1,151 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "planned self-employment",
-    "de": "geplante Selbstständigkeit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie vor, sich beruflich selbständig zu machen?\r\nIch bin schon selbständig\r\nJa, ich erwäge es ernsthaft \r\nNein, weil derzeit einiges dagegen spricht\r\nNein, kommt für mich gar nicht in Frage"
+      },
+      "questionNumber": "4.6",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": "gra2009-ds1-occ09",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1075,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie vor, sich beruflich selbständig zu machen?"
+      },
+      "questionNumber": "21",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 44.66,
     "statistics": {
-      "mode": "4"
+      "meanDeviation": null,
+      "mode": "4",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 329,
-        "label": {
-          "en": "I am already self-employed",
-          "de": "Ich bin schon selbständig"
-        },
-        "relativeFrequency": 3.14,
-        "validRelativeFrequency": 7.02,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 449,
-        "label": {
-          "en": "Yes, I am serious about it",
-          "de": "ja, ich erwäge es ernsthaft"
-        },
-        "relativeFrequency": 4.28,
-        "validRelativeFrequency": 9.58,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 1748,
-        "label": {
-          "en": "No, recently speaks against it",
-          "de": "nein, weil zurzeit einiges dagegen spricht"
-        },
-        "relativeFrequency": 16.66,
-        "validRelativeFrequency": 37.29,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 2161,
-        "label": {
-          "en": "No, not a question in my mind",
-          "de": "nein, kommt für mich gar nicht in Frage"
-        },
-        "relativeFrequency": 20.59,
-        "validRelativeFrequency": 46.11,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4687,
     "missings": [
       {
-        "absoluteFrequency": 37,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.35,
+        "absoluteFrequency": 37,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "I am already self-employed",
+          "de": "Ich bin schon selbständig"
+        },
+        "validRelativeFrequency": 7.02,
+        "relativeFrequency": 3.14,
+        "absoluteFrequency": 329,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, I am serious about it",
+          "de": "ja, ich erwäge es ernsthaft"
+        },
+        "validRelativeFrequency": 9.58,
+        "relativeFrequency": 4.28,
+        "absoluteFrequency": 449,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "No, recently speaks against it",
+          "de": "nein, weil zurzeit einiges dagegen spricht"
+        },
+        "validRelativeFrequency": 37.29,
+        "relativeFrequency": 16.66,
+        "absoluteFrequency": 1748,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "No, not a question in my mind",
+          "de": "nein, kommt für mich gar nicht in Frage"
+        },
+        "validRelativeFrequency": 46.11,
+        "relativeFrequency": 20.59,
+        "absoluteFrequency": 2161,
+        "value": "4"
+      }
+    ],
+    "totalValidRelativeFrequency": 44.66,
+    "totalValidAbsoluteFrequency": 4687,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "4.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie vor, sich beruflich selbständig zu machen?\nIch bin schon selbständig\nJa, ich erwäge es ernsthaft Nein, weil derzeit einiges dagegen spricht\nNein, kommt für mich gar nicht in Frage"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "21",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie vor, sich beruflich selbstÃ¤ndig zu machen?"
-      }
+    "expression": "if inlist(bocc44,1,-998) | (bocc44==2 & inlist(bocc19_v1,1,-998))"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ09",
+  "surveyNumbers": [2],
+  "indexInDataSet": 1075,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "planned self-employment",
+    "de": "geplante Selbstständigkeit"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

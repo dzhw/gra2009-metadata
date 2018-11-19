@@ -1,121 +1,133 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "qualification position",
-    "de": "Qualifikationsstelle"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & inlist(pfec33a,1,2,4,5,8)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 2022,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Hatten Sie eine Qualifikationsstelle (eine Stelle, bei der laut Arbeitsvertrag die Promotion zu Ihren Dienstaufgaben gehört)?,Haben Sie eine Qualifikationsstelle (eine Stelle, bei der laut Arbeitsvertrag die Promotion zu Ihren Dienstaufgaben gehört)?"
+      },
+      "questionNumber": "14",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.13,
     "statistics": {
-      "mode": "3"
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 150,
-        "label": {
-          "en": "Yes, I had",
-          "de": "ja, hatte ich"
-        },
-        "relativeFrequency": 1.43,
-        "validRelativeFrequency": 27.88,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 115,
-        "label": {
-          "en": "Yes, I have",
-          "de": "ja, habe ich"
-        },
-        "relativeFrequency": 1.1,
-        "validRelativeFrequency": 21.38,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 273,
-        "label": {
-          "en": "No",
-          "de": "nein"
-        },
-        "relativeFrequency": 2.6,
-        "validRelativeFrequency": 50.74,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 538,
     "missings": [
       {
-        "absoluteFrequency": 1,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
         "code": -998
       },
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       },
       {
-        "absoluteFrequency": 137,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 1.31,
+        "absoluteFrequency": 137,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "14",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Hatten Sie eine Qualifikationsstelle (eine Stelle, bei der laut Arbeitsvertrag die Promotion zu Ihren Dienstaufgaben gehört)?,Haben Sie eine Qualifikationsstelle (eine Stelle, bei der laut Arbeitsvertrag die Promotion zu Ihren Dienstaufgaben gehört)?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, I had",
+          "de": "ja, hatte ich"
+        },
+        "validRelativeFrequency": 27.88,
+        "relativeFrequency": 1.43,
+        "absoluteFrequency": 150,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, I have",
+          "de": "ja, habe ich"
+        },
+        "validRelativeFrequency": 21.38,
+        "relativeFrequency": 1.1,
+        "absoluteFrequency": 115,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 50.74,
+        "relativeFrequency": 2.6,
+        "absoluteFrequency": 273,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 5.13,
+    "totalValidAbsoluteFrequency": 538,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(pfec12_v1,1,2,3,4,5) & inlist(pfec33a,1,2,4,5,8)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [3],
+  "indexInDataSet": 2022,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "qualification position",
+    "de": "Qualifikationsstelle"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

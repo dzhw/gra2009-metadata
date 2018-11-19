@@ -1,103 +1,115 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "employment after studies",
-    "de": "Erwerbstätigkeit nach Studium"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ19",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 502,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Waren Sie nach Ihrem Erstabschluss schon einmal in irgendeiner Form erwerbstätig?\r\nJa, und ich bin es gegenwärtig \r\nJa, aber zurzeit nicht.\r\nNein"
+      },
+      "questionNumber": "4.18",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 99.93,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 7476,
-        "label": {
-          "en": "Yes, currently",
-          "de": "ja, gegenwärtig"
-        },
-        "relativeFrequency": 71.24,
-        "validRelativeFrequency": 71.29,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 923,
-        "label": {
-          "en": "Yes, but not recently",
-          "de": "ja, aber zurzeit nicht"
-        },
-        "relativeFrequency": 8.8,
-        "validRelativeFrequency": 8.8,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2088,
-        "label": {
-          "en": "No",
-          "de": "nein"
-        },
-        "relativeFrequency": 19.9,
-        "validRelativeFrequency": 19.91,
-        "value": "3"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10487,
     "missings": [
       {
-        "absoluteFrequency": 7,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.18",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Waren Sie nach Ihrem Erstabschluss schon einmal in irgendeiner Form erwerbstätig?\nJa, und ich bin es gegenwärtig Ja, aber zurzeit nicht.\nNein"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Yes, currently",
+          "de": "ja, gegenwärtig"
+        },
+        "validRelativeFrequency": 71.29,
+        "relativeFrequency": 71.24,
+        "absoluteFrequency": 7476,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Yes, but not recently",
+          "de": "ja, aber zurzeit nicht"
+        },
+        "validRelativeFrequency": 8.8,
+        "relativeFrequency": 8.8,
+        "absoluteFrequency": 923,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "No",
+          "de": "nein"
+        },
+        "validRelativeFrequency": 19.91,
+        "relativeFrequency": 19.9,
+        "absoluteFrequency": 2088,
+        "value": "3"
       }
+    ],
+    "totalValidRelativeFrequency": 99.93,
+    "totalValidAbsoluteFrequency": 10487,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ19",
+  "surveyNumbers": [1],
+  "indexInDataSet": 502,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "employment after studies",
+    "de": "Erwerbstätigkeit nach Studium"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

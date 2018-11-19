@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "nationality: country (world region)",
-    "de": "Staatsangehörigkeit: Land (Weltregionen)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-adem08b",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-dem08b_g3",
-  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 771,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Staatsangehörigkeitsvariable (bei Ausland) generiert. Zur Aggregation wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-23). Dabei wurde die Türkei zu Asien und Russland zu Europa außerhalb der EU codiert. Zu Einzelheiten vgl. Generierungsregel."
-    },
-    "rule": "recode adem08b_g1o (20/36 38/42 53 54 61 = 1) (43/46 48/52 62/64 = 2) (55/60 = 3) (37 65/77 = 4) (80/82 = 5) (85/90 = 6) (99 95/97 = -966), gen(adem08b_g3d)",
-    "ruleExpressionLanguage": "Stata"
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Staatsangehörigkeit haben Sie?"
+      },
+      "questionNumber": "6.10",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 4.62,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 249,
-        "label": {
-          "en": "EU",
-          "de": "EU"
-        },
-        "relativeFrequency": 2.37,
-        "validRelativeFrequency": 51.34,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 100,
-        "label": {
-          "en": "Europe outside the EU",
-          "de": "Europa außerhalb der EU"
-        },
-        "relativeFrequency": 0.95,
-        "validRelativeFrequency": 20.62,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 43,
-        "label": {
-          "en": "America",
-          "de": "Amerika"
-        },
-        "relativeFrequency": 0.41,
-        "validRelativeFrequency": 8.87,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 71,
-        "label": {
-          "en": "Asia",
-          "de": "Asien"
-        },
-        "relativeFrequency": 0.68,
-        "validRelativeFrequency": 14.64,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Australia and Oceania",
-          "de": "Australien und Ozeanien"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.21,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 21,
-        "label": {
-          "en": "Africa",
-          "de": "Afrika"
-        },
-        "relativeFrequency": 0.2,
-        "validRelativeFrequency": 4.33,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 485,
     "missings": [
       {
-        "absoluteFrequency": 45,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.43,
+        "absoluteFrequency": 45,
         "code": -998
       },
       {
-        "absoluteFrequency": 9962,
         "label": {
           "en": "does not apply",
           "de": "trifft nicht zu"
         },
         "relativeFrequency": 94.93,
+        "absoluteFrequency": 9962,
         "code": -988
       },
       {
-        "absoluteFrequency": 2,
         "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
         "code": -966
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "6.10",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Staatsangehörigkeit haben Sie?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "EU",
+          "de": "EU"
+        },
+        "validRelativeFrequency": 51.34,
+        "relativeFrequency": 2.37,
+        "absoluteFrequency": 249,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Europe outside the EU",
+          "de": "Europa außerhalb der EU"
+        },
+        "validRelativeFrequency": 20.62,
+        "relativeFrequency": 0.95,
+        "absoluteFrequency": 100,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "America",
+          "de": "Amerika"
+        },
+        "validRelativeFrequency": 8.87,
+        "relativeFrequency": 0.41,
+        "absoluteFrequency": 43,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Asia",
+          "de": "Asien"
+        },
+        "validRelativeFrequency": 14.64,
+        "relativeFrequency": 0.68,
+        "absoluteFrequency": 71,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Australia and Oceania",
+          "de": "Australien und Ozeanien"
+        },
+        "validRelativeFrequency": 0.21,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Africa",
+          "de": "Afrika"
+        },
+        "validRelativeFrequency": 4.33,
+        "relativeFrequency": 0.2,
+        "absoluteFrequency": 21,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 4.62,
+    "totalValidAbsoluteFrequency": 485,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": "Stata",
+    "rule": "recode adem08b_g1o (20/36 38/42 53 54 61 = 1) (43/46 48/52 62/64 = 2) (55/60 = 3) (37 65/77 = 4) (80/82 = 5) (85/90 = 6) (99 95/97 = -966), gen(adem08b_g3d)",
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung durch Aggregation aus der Staatsangehörigkeitsvariable (bei Ausland) generiert. Zur Aggregation wurde eine projekteigene Codierliste verwendet (vgl. cl-dzhw-23). Dabei wurde die Türkei zu Asien und Russland zu Europa außerhalb der EU codiert. Zu Einzelheiten vgl. Generierungsregel."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-adem08b",
+  "panelIdentifier": "gra2009-ds1-dem08b_g3",
+  "surveyNumbers": [1],
+  "indexInDataSet": 771,
+  "accessWays": ["download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "nationality: country (world region)",
+    "de": "Staatsangehörigkeit: Land (Weltregionen)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

@@ -1,151 +1,163 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "academic activities abroad: equal treatment",
-    "de": "wissenschaftl. Tätigkeit Ausland: gleichberechtigter Umgang"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)",
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [4],
-  "indexInDataSet": 1973,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie die Situation im Land/in den Ländern Ihrer wissenschaftlichen Tätigkeit im Vergleich zu Deutschland hinsichtlich der folgenden Aspekte ein?,in Deutschland besser,in Deutschland schlechter,Gleichberechtigter Umgang mit Wissenschaftler(inne)n auf höheren Hierarchieebenen"
+      },
+      "questionNumber": "48",
+      "instrumentNumber": 5
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 0.87,
     "statistics": {
-      "mode": "5"
+      "meanDeviation": null,
+      "mode": "5",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Better in Germany",
-          "de": "in Deutschland besser"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 2.2,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 10,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 0.1,
-        "validRelativeFrequency": 10.99,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 21.98,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 21.98,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Worse in Germany",
-          "de": "in Deutschland schlechter"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 25.27,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 16,
-        "label": {
-          "en": "Can't say",
-          "de": "kann ich nicht beurteilen"
-        },
-        "relativeFrequency": 0.15,
-        "validRelativeFrequency": 17.58,
-        "value": "6"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 91,
     "missings": [
       {
-        "absoluteFrequency": 66,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.63,
+        "absoluteFrequency": 66,
         "code": -998
       },
       {
-        "absoluteFrequency": 8029,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 76.51,
+        "absoluteFrequency": 8029,
         "code": -995
       },
       {
-        "absoluteFrequency": 2308,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 21.99,
+        "absoluteFrequency": 2308,
         "code": -989
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 5,
-      "questionNumber": "48",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie die Situation im Land/in den Ländern Ihrer wissenschaftlichen Tätigkeit im Vergleich zu Deutschland hinsichtlich der folgenden Aspekte ein?,in Deutschland besser,in Deutschland schlechter,Gleichberechtigter Umgang mit Wissenschaftler(inne)n auf höheren Hierarchieebenen"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Better in Germany",
+          "de": "in Deutschland besser"
+        },
+        "validRelativeFrequency": 2.2,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 10.99,
+        "relativeFrequency": 0.1,
+        "absoluteFrequency": 10,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 21.98,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 21.98,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Worse in Germany",
+          "de": "in Deutschland schlechter"
+        },
+        "validRelativeFrequency": 25.27,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Can't say",
+          "de": "kann ich nicht beurteilen"
+        },
+        "validRelativeFrequency": 17.58,
+        "relativeFrequency": 0.15,
+        "absoluteFrequency": 16,
+        "value": "6"
       }
+    ],
+    "totalValidRelativeFrequency": 0.87,
+    "totalValidAbsoluteFrequency": 91,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": "if inlist(mabr01,1,-998) & inlist(mabr03,1,-998) & inlist(mabr04,1,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [4],
+  "indexInDataSet": 1973,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "academic activities abroad: equal treatment",
+    "de": "wissenschaftl. Tätigkeit Ausland: gleichberechtigter Umgang"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

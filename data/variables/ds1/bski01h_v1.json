@@ -1,148 +1,152 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "important for career: IT skills",
-    "de": "wichtig für Beruf: EDV-Kenntnisse"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstätig sind) berufliche Tätigkeit?\r\nKenntnisse in EDV"
+      },
+      "questionNumber": "1.6",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-ski01h",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 836,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstätig sind) berufliche Tätigkeit?"
+      },
+      "questionNumber": "06",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 45.02,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "1049.681",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 1587,
-        "label": {
-          "en": "To a high degree",
-          "de": "in hohem Maße"
-        },
-        "relativeFrequency": 15.12,
-        "validRelativeFrequency": 33.59,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 1932,
-        "label": {
-          "en": "2 ",
-          "de": "2"
-        },
-        "relativeFrequency": 18.41,
-        "validRelativeFrequency": 40.9,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 938,
-        "label": {
-          "en": "3 ",
-          "de": "3"
-        },
-        "relativeFrequency": 8.94,
-        "validRelativeFrequency": 19.86,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 230,
-        "label": {
-          "en": "4 ",
-          "de": "4"
-        },
-        "relativeFrequency": 2.19,
-        "validRelativeFrequency": 4.87,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 37,
-        "label": {
-          "en": "Not at all",
-          "de": "überhaupt nicht"
-        },
-        "relativeFrequency": 0.35,
-        "validRelativeFrequency": 0.78,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 4724,
     "missings": [
       {
-        "absoluteFrequency": 31,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.3,
+        "absoluteFrequency": 31,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "To a high degree",
+          "de": "in hohem Maße"
+        },
+        "validRelativeFrequency": 33.59,
+        "relativeFrequency": 15.12,
+        "absoluteFrequency": 1587,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2"
+        },
+        "validRelativeFrequency": 40.9,
+        "relativeFrequency": 18.41,
+        "absoluteFrequency": 1932,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3"
+        },
+        "validRelativeFrequency": 19.86,
+        "relativeFrequency": 8.94,
+        "absoluteFrequency": 938,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4"
+        },
+        "validRelativeFrequency": 4.87,
+        "relativeFrequency": 2.19,
+        "absoluteFrequency": 230,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Not at all",
+          "de": "überhaupt nicht"
+        },
+        "validRelativeFrequency": 0.78,
+        "relativeFrequency": 0.35,
+        "absoluteFrequency": 37,
+        "value": "5"
+      }
+    ],
+    "totalValidRelativeFrequency": 45.02,
+    "totalValidAbsoluteFrequency": 4724,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "1.6",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstätig sind) berufliche Tätigkeit?\nKenntnisse in EDV"
-      }
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "06",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und FÃ¤higkeiten fÃ¼r Ihre derzeitige (bzw. letzte, wenn Sie nicht berufstÃ¤tig sind) berufliche TÃ¤tigkeit?"
-      }
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-ski01h",
+  "surveyNumbers": [2],
+  "indexInDataSet": 836,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "important for career: IT skills",
+    "de": "wichtig für Beruf: EDV-Kenntnisse"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

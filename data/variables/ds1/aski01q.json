@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "important for career: application of knowledge",
-    "de": "wichtig für Beruf: Wissensanwendung"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-ski01q",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 265,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über  diese Kenntnisse und Fähigkeiten (rechte Spalte)?\r\nWichtigkeit für die berufliche Tätigkeit\r\nFähigkeit, vorhandenes Wissen auf neue Probleme anzuwenden"
+      },
+      "questionNumber": "1.19",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 96.6,
     "statistics": {
-      "firstQuartile": "1",
+      "meanDeviation": 0,
+      "mode": "1",
       "highWhisker": 3.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "2",
-      "meanDeviation": "1279.484",
+      "firstQuartile": "1",
+      "standardDeviation": null,
+      "median": "1",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "1",
-      "median": "1"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 5284,
-        "label": {
-          "en": "Very important",
-          "de": "sehr wichtig"
-        },
-        "relativeFrequency": 50.35,
-        "validRelativeFrequency": 52.13,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 3799,
-        "label": {
-          "en": "2",
-          "de": "2"
-        },
-        "relativeFrequency": 36.2,
-        "validRelativeFrequency": 37.48,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 886,
-        "label": {
-          "en": "3",
-          "de": "3"
-        },
-        "relativeFrequency": 8.44,
-        "validRelativeFrequency": 8.74,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 145,
-        "label": {
-          "en": "4",
-          "de": "4"
-        },
-        "relativeFrequency": 1.38,
-        "validRelativeFrequency": 1.43,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 23,
-        "label": {
-          "en": "Unimportant",
-          "de": "unwichtig"
-        },
-        "relativeFrequency": 0.22,
-        "validRelativeFrequency": 0.23,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10137,
     "missings": [
       {
-        "absoluteFrequency": 357,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 3.4,
+        "absoluteFrequency": 357,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.19",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie wichtig sind die folgenden Kenntnisse und Fähigkeiten für Ihre derzeitige (bzw., wenn Sie nicht berufstätig sind, voraussichtliche) berufliche Tätigkeit (linke Spalte)? In welchem Maße verfügten Sie bei Abschluss des Erststudiums über diese Kenntnisse und Fähigkeiten (rechte Spalte)?\nWichtigkeit für die berufliche Tätigkeit\nFähigkeit, vorhandenes Wissen auf neue Probleme anzuwenden"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very important",
+          "de": "sehr wichtig"
+        },
+        "validRelativeFrequency": 52.13,
+        "relativeFrequency": 50.35,
+        "absoluteFrequency": 5284,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2",
+          "de": "2"
+        },
+        "validRelativeFrequency": 37.48,
+        "relativeFrequency": 36.2,
+        "absoluteFrequency": 3799,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3",
+          "de": "3"
+        },
+        "validRelativeFrequency": 8.74,
+        "relativeFrequency": 8.44,
+        "absoluteFrequency": 886,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4",
+          "de": "4"
+        },
+        "validRelativeFrequency": 1.43,
+        "relativeFrequency": 1.38,
+        "absoluteFrequency": 145,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Unimportant",
+          "de": "unwichtig"
+        },
+        "validRelativeFrequency": 0.23,
+        "relativeFrequency": 0.22,
+        "absoluteFrequency": 23,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 96.6,
+    "totalValidAbsoluteFrequency": 10137,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-ski01q",
+  "surveyNumbers": [1],
+  "indexInDataSet": 265,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "important for career: application of knowledge",
+    "de": "wichtig für Beruf: Wissensanwendung"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

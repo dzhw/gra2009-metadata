@@ -1,131 +1,135 @@
 {
-  "scaleLevel": {
-    "en": "ordinal",
-    "de": "ordinal"
-  },
-  "label": {
-    "en": "future career prospects: job security",
-    "de": "berufliche Zukunft: Beschäftigungssicherheit"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-occ04a",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 436,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wie schätzen Sie Ihre beruflichen Zukunftsperspektiven ein?\r\nBezogen auf die Beschäftigungssicherheit"
+      },
+      "questionNumber": "4.3",
+      "instrumentNumber": 1
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 98.22,
     "statistics": {
-      "firstQuartile": "2",
+      "meanDeviation": 1.4826,
+      "mode": "2",
       "highWhisker": 4.5,
       "lowWhisker": 1,
-      "minimum": "1",
       "thirdQuartile": "3",
-      "meanDeviation": "2321.752",
+      "firstQuartile": "2",
+      "standardDeviation": null,
+      "median": "2",
+      "kurtosis": null,
+      "skewness": null,
       "maximum": "5",
-      "mode": "2",
-      "median": "2"
+      "minimum": "1",
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 2484,
-        "label": {
-          "en": "Very good",
-          "de": "sehr gut"
-        },
-        "relativeFrequency": 23.67,
-        "validRelativeFrequency": 24.1,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 4050,
-        "label": {
-          "en": "2 ",
-          "de": "2 "
-        },
-        "relativeFrequency": 38.59,
-        "validRelativeFrequency": 39.29,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 2642,
-        "label": {
-          "en": "3 ",
-          "de": "3 "
-        },
-        "relativeFrequency": 25.18,
-        "validRelativeFrequency": 25.63,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 899,
-        "label": {
-          "en": "4 ",
-          "de": "4 "
-        },
-        "relativeFrequency": 8.57,
-        "validRelativeFrequency": 8.72,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 232,
-        "label": {
-          "en": "Very bad",
-          "de": "sehr schlecht"
-        },
-        "relativeFrequency": 2.21,
-        "validRelativeFrequency": 2.25,
-        "value": "5"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 10307,
     "missings": [
       {
-        "absoluteFrequency": 187,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 1.78,
+        "absoluteFrequency": 187,
         "code": -998
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "4.3",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wie schätzen Sie Ihre beruflichen Zukunftsperspektiven ein?\nBezogen auf die Beschäftigungssicherheit"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Very good",
+          "de": "sehr gut"
+        },
+        "validRelativeFrequency": 24.1,
+        "relativeFrequency": 23.67,
+        "absoluteFrequency": 2484,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "2 ",
+          "de": "2 "
+        },
+        "validRelativeFrequency": 39.29,
+        "relativeFrequency": 38.59,
+        "absoluteFrequency": 4050,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "3 ",
+          "de": "3 "
+        },
+        "validRelativeFrequency": 25.63,
+        "relativeFrequency": 25.18,
+        "absoluteFrequency": 2642,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "4 ",
+          "de": "4 "
+        },
+        "validRelativeFrequency": 8.72,
+        "relativeFrequency": 8.57,
+        "absoluteFrequency": 899,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Very bad",
+          "de": "sehr schlecht"
+        },
+        "validRelativeFrequency": 2.25,
+        "relativeFrequency": 2.21,
+        "absoluteFrequency": 232,
+        "value": "5"
       }
+    ],
+    "totalValidRelativeFrequency": 98.22,
+    "totalValidAbsoluteFrequency": 10307,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-occ04a",
+  "surveyNumbers": [1],
+  "indexInDataSet": 436,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "future career prospects: job security",
+    "de": "berufliche Zukunft: Beschäftigungssicherheit"
+  },
+  "scaleLevel": {
+    "en": "ordinal",
+    "de": "ordinal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

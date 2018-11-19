@@ -1,102 +1,114 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "3rd degree: university (type)",
-    "de": "3. Abschluss: Hochschule (Hochschulart)"
-  },
-  "derivedVariablesIdentifier": "gra2009-ds1-astu023g",
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": null,
-  "accessWays": ["remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [1],
-  "indexInDataSet": 164,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Hochschulvariablen generiert. Dabei wurden die deutschen Hochschulen gemäß dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) (vgl. cl-destatis-hochschule-2015) in 6 Typen differenziert:\n1) Universitäten\n2) Pädagogische Hochschulen\n3) Theologische/Kirchliche Hochschulen\n4) Kunsthochschulen\n5) Fachhochschulen (ohne Verwaltungsfachhochschulen)\n6) Verwaltungsfachhochschulen.\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
-  "distribution": {
-    "totalValidRelativeFrequency": 0.2,
-    "statistics": {
-      "mode": "1"
-    },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 20,
-        "label": {
-          "en": "Universtiy",
-          "de": "Universitäten"
-        },
-        "relativeFrequency": 0.19,
-        "validRelativeFrequency": 95.24,
-        "value": "1"
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Welche Studienabschlüsse haben Sie erlangt?"
       },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Art university",
-          "de": "Kunsthochschulen"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 4.76,
-        "value": "4"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 21,
+      "questionNumber": "1.2",
+      "instrumentNumber": 1
+    }
+  ],
+  "distribution": {
+    "statistics": {
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
+    },
     "missings": [
       {
-        "absoluteFrequency": 10464,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 99.71,
+        "absoluteFrequency": 10464,
         "code": -998
       },
       {
-        "absoluteFrequency": 9,
         "label": {
           "en": "not determinable",
           "de": "nicht bestimmbar"
         },
         "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
         "code": -966
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 1,
-      "questionNumber": "1.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Welche Studienabschlüsse haben Sie erlangt?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Universtiy",
+          "de": "Universitäten"
+        },
+        "validRelativeFrequency": 95.24,
+        "relativeFrequency": 0.19,
+        "absoluteFrequency": 20,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Art university",
+          "de": "Kunsthochschulen"
+        },
+        "validRelativeFrequency": 4.76,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "4"
       }
+    ],
+    "totalValidRelativeFrequency": 0.2,
+    "totalValidAbsoluteFrequency": 21,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": "Diese Variable wurde zum Zweck der Anonymisierung aus der Hochschulvariablen generiert. Dabei wurden die deutschen Hochschulen gemäß dem Destatis-Schlüsselverzeichnis für die Studenten- und Prüfungsstatistik (WiSe 2014/15 und SoSe 2015) (vgl. cl-destatis-hochschule-2015) in 6 Typen differenziert:\r\n1) Universitäten\r\n2) Pädagogische Hochschulen\r\n3) Theologische/Kirchliche Hochschulen\r\n4) Kunsthochschulen\r\n5) Fachhochschulen (ohne Verwaltungsfachhochschulen)\r\n6) Verwaltungsfachhochschulen.\r\n\r\nFür Hochschulen, deren Hochschulart nicht bestimmbar war (dies betrifft Hochschulen im Ausland und sonstige deutsche Hochschulen), wurde der Missingwert -966 \"nicht bestimmbar\" vergeben."
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": "gra2009-ds1-astu023g",
+  "panelIdentifier": null,
+  "surveyNumbers": [1],
+  "indexInDataSet": 164,
+  "accessWays": ["remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "3rd degree: university (type)",
+    "de": "3. Abschluss: Hochschule (Hochschulart)"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

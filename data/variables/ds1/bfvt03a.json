@@ -1,279 +1,291 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "further vocational training: type",
-    "de": "berufsqualifizierende Weiterbildung: Art"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": "if inlist(bfvt02,1,2,3,-998)",
-    "description": {
-      "en": null,
-      "de": null
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "An welcher berufsqualifizierenden Weiterbildung haben Sie teilgenommen/nehmen Sie teil?\r\nFachärztin/Facharzt\r\nFachapotheker(in)\r\nFachanwältin/Fachanwalt \r\nPatentanwältin/Patentanwalt \r\nPsychologische(r) Psychotherapeut(in) bzw. Kinder- und Jugendpsychotherapeut(in) \r\nFachtierärztin/Fachtierarzt\r\nFachzahnärztin/Fachzahnarzt \r\nFachhumangenetiker(in)\r\nFachpsychologin/-psychologe\r\nWirtschaftsprüfer(in)\r\nSteuerberater(in)\r\nAktuar(in)\r\nErnährungsberater(in) \r\nFachingenieur(in)\r\nFachlehrer(in)\r\nNotar(in)\r\nPastoralpsychologin/-psychologe\r\nSystemische(r) Berater(in) \r\nAndere berufsqualifizierende Weiterbildung"
+      },
+      "questionNumber": "6.2",
+      "instrumentNumber": 2
     },
-    "expressionLanguage": "Stata"
-  },
-  "panelIdentifier": null,
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [2],
-  "indexInDataSet": 1311,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Wenn ja, an welcher berufsqualifizierenden Weiterbildung haben Sie teilgenommen/nehmen Sie teil?"
+      },
+      "questionNumber": "54",
+      "instrumentNumber": 3
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 5.12,
     "statistics": {
-      "mode": "1"
+      "meanDeviation": null,
+      "mode": "1",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 135,
-        "label": {
-          "en": "Doctor specialist or consultant",
-          "de": "Fachärztin/Facharzt"
-        },
-        "relativeFrequency": 1.29,
-        "validRelativeFrequency": 25.14,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 6,
-        "label": {
-          "en": "Chemistry specialist",
-          "de": "Fachapotheker(in)"
-        },
-        "relativeFrequency": 0.06,
-        "validRelativeFrequency": 1.12,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Law specialist",
-          "de": "Fachanwältin/Fachanwalt"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 2.79,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 5,
-        "label": {
-          "en": "Patent Attorney",
-          "de": "Patentanwältin/Patentanwalt"
-        },
-        "relativeFrequency": 0.05,
-        "validRelativeFrequency": 0.93,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 68,
-        "label": {
-          "en": "Child and young adult psychiatry",
-          "de": "Psych. Psychotherapeut(in)/Kinder-Jugendpsychotherapeut(in)"
-        },
-        "relativeFrequency": 0.65,
-        "validRelativeFrequency": 12.66,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 15,
-        "label": {
-          "en": "Veterinary specialist",
-          "de": "Fachtierärztin/Fachtierarzt"
-        },
-        "relativeFrequency": 0.14,
-        "validRelativeFrequency": 2.79,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 9,
-        "label": {
-          "en": "Dentistry specialist",
-          "de": "Fachzahnärztin/Fachzahnarzt"
-        },
-        "relativeFrequency": 0.09,
-        "validRelativeFrequency": 1.68,
-        "value": "7"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "Psychology specialist",
-          "de": "Fachpsychologin/Fachpsychologe"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.37,
-        "value": "9"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "Auditor",
-          "de": "Wirtschaftprüfer(in)"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 1.3,
-        "value": "10"
-      },
-      {
-        "absoluteFrequency": 38,
-        "label": {
-          "en": "Tax consultant",
-          "de": "Steuerberater(in)"
-        },
-        "relativeFrequency": 0.36,
-        "validRelativeFrequency": 7.08,
-        "value": "11"
-      },
-      {
-        "absoluteFrequency": 7,
-        "label": {
-          "en": "Actuary",
-          "de": "Aktuar(in)"
-        },
-        "relativeFrequency": 0.07,
-        "validRelativeFrequency": 1.3,
-        "value": "12"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "Nutritionist",
-          "de": "Ernährungsberater(in)"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.74,
-        "value": "13"
-      },
-      {
-        "absoluteFrequency": 28,
-        "label": {
-          "en": "Engineer specialist",
-          "de": "Fachingenieur(in)"
-        },
-        "relativeFrequency": 0.27,
-        "validRelativeFrequency": 5.21,
-        "value": "14"
-      },
-      {
-        "absoluteFrequency": 55,
-        "label": {
-          "en": "Lecturer specialist",
-          "de": "Fachlehrer(in)"
-        },
-        "relativeFrequency": 0.52,
-        "validRelativeFrequency": 10.24,
-        "value": "15"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Notary",
-          "de": "Notar(in)"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.19,
-        "value": "16"
-      },
-      {
-        "absoluteFrequency": 1,
-        "label": {
-          "en": "Pastoral psychology",
-          "de": "Pastoralpsychologin/Pastoralpsychologe"
-        },
-        "relativeFrequency": 0.01,
-        "validRelativeFrequency": 0.19,
-        "value": "17"
-      },
-      {
-        "absoluteFrequency": 45,
-        "label": {
-          "en": "Systemic consultant",
-          "de": "Systemische(r) Berater(in)"
-        },
-        "relativeFrequency": 0.43,
-        "validRelativeFrequency": 8.38,
-        "value": "18"
-      },
-      {
-        "absoluteFrequency": 96,
-        "label": {
-          "en": "Other professional qualifications",
-          "de": "andere berufsqualifizierende Weiterbildung"
-        },
-        "relativeFrequency": 0.91,
-        "validRelativeFrequency": 17.88,
-        "value": "19"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 537,
     "missings": [
       {
-        "absoluteFrequency": 99,
         "label": {
           "en": "no answer",
           "de": "keine Angabe"
         },
         "relativeFrequency": 0.94,
+        "absoluteFrequency": 99,
         "code": -998
       },
       {
-        "absoluteFrequency": 5739,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 54.69,
+        "absoluteFrequency": 5739,
         "code": -995
       },
       {
-        "absoluteFrequency": 4119,
         "label": {
           "en": "filtered",
           "de": "filterbedingt fehlend"
         },
         "relativeFrequency": 39.25,
+        "absoluteFrequency": 4119,
         "code": -989
       }
-    ]
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "Doctor specialist or consultant",
+          "de": "Fachärztin/Facharzt"
+        },
+        "validRelativeFrequency": 25.14,
+        "relativeFrequency": 1.29,
+        "absoluteFrequency": 135,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "Chemistry specialist",
+          "de": "Fachapotheker(in)"
+        },
+        "validRelativeFrequency": 1.12,
+        "relativeFrequency": 0.06,
+        "absoluteFrequency": 6,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "Law specialist",
+          "de": "Fachanwältin/Fachanwalt"
+        },
+        "validRelativeFrequency": 2.79,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "Patent Attorney",
+          "de": "Patentanwältin/Patentanwalt"
+        },
+        "validRelativeFrequency": 0.93,
+        "relativeFrequency": 0.05,
+        "absoluteFrequency": 5,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "Child and young adult psychiatry",
+          "de": "Psych. Psychotherapeut(in)/Kinder-Jugendpsychotherapeut(in)"
+        },
+        "validRelativeFrequency": 12.66,
+        "relativeFrequency": 0.65,
+        "absoluteFrequency": 68,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "Veterinary specialist",
+          "de": "Fachtierärztin/Fachtierarzt"
+        },
+        "validRelativeFrequency": 2.79,
+        "relativeFrequency": 0.14,
+        "absoluteFrequency": 15,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "Dentistry specialist",
+          "de": "Fachzahnärztin/Fachzahnarzt"
+        },
+        "validRelativeFrequency": 1.68,
+        "relativeFrequency": 0.09,
+        "absoluteFrequency": 9,
+        "value": "7"
+      },
+      {
+        "label": {
+          "en": "Psychology specialist",
+          "de": "Fachpsychologin/Fachpsychologe"
+        },
+        "validRelativeFrequency": 0.37,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "9"
+      },
+      {
+        "label": {
+          "en": "Auditor",
+          "de": "Wirtschaftprüfer(in)"
+        },
+        "validRelativeFrequency": 1.3,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "10"
+      },
+      {
+        "label": {
+          "en": "Tax consultant",
+          "de": "Steuerberater(in)"
+        },
+        "validRelativeFrequency": 7.08,
+        "relativeFrequency": 0.36,
+        "absoluteFrequency": 38,
+        "value": "11"
+      },
+      {
+        "label": {
+          "en": "Actuary",
+          "de": "Aktuar(in)"
+        },
+        "validRelativeFrequency": 1.3,
+        "relativeFrequency": 0.07,
+        "absoluteFrequency": 7,
+        "value": "12"
+      },
+      {
+        "label": {
+          "en": "Nutritionist",
+          "de": "Ernährungsberater(in)"
+        },
+        "validRelativeFrequency": 0.74,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "13"
+      },
+      {
+        "label": {
+          "en": "Engineer specialist",
+          "de": "Fachingenieur(in)"
+        },
+        "validRelativeFrequency": 5.21,
+        "relativeFrequency": 0.27,
+        "absoluteFrequency": 28,
+        "value": "14"
+      },
+      {
+        "label": {
+          "en": "Lecturer specialist",
+          "de": "Fachlehrer(in)"
+        },
+        "validRelativeFrequency": 10.24,
+        "relativeFrequency": 0.52,
+        "absoluteFrequency": 55,
+        "value": "15"
+      },
+      {
+        "label": {
+          "en": "Notary",
+          "de": "Notar(in)"
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "16"
+      },
+      {
+        "label": {
+          "en": "Pastoral psychology",
+          "de": "Pastoralpsychologin/Pastoralpsychologe"
+        },
+        "validRelativeFrequency": 0.19,
+        "relativeFrequency": 0.01,
+        "absoluteFrequency": 1,
+        "value": "17"
+      },
+      {
+        "label": {
+          "en": "Systemic consultant",
+          "de": "Systemische(r) Berater(in)"
+        },
+        "validRelativeFrequency": 8.38,
+        "relativeFrequency": 0.43,
+        "absoluteFrequency": 45,
+        "value": "18"
+      },
+      {
+        "label": {
+          "en": "Other professional qualifications",
+          "de": "andere berufsqualifizierende Weiterbildung"
+        },
+        "validRelativeFrequency": 17.88,
+        "relativeFrequency": 0.91,
+        "absoluteFrequency": 96,
+        "value": "19"
+      }
+    ],
+    "totalValidRelativeFrequency": 5.12,
+    "totalValidAbsoluteFrequency": 537,
+    "totalAbsoluteFrequency": 10494
   },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 2,
-      "questionNumber": "6.2",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "An welcher berufsqualifizierenden Weiterbildung haben Sie teilgenommen/nehmen Sie teil?\nFachärztin/Facharzt\nFachapotheker(in)\nFachanwältin/Fachanwalt Patentanwältin/Patentanwalt Psychologische(r) Psychotherapeut(in) bzw. Kinder- und Jugendpsychotherapeut(in) Fachtierärztin/Fachtierarzt\nFachzahnärztin/Fachzahnarzt Fachhumangenetiker(in)\nFachpsychologin/-psychologe\nWirtschaftsprüfer(in)\nSteuerberater(in)\nAktuar(in)\nErnährungsberater(in) Fachingenieur(in)\nFachlehrer(in)\nNotar(in)\nPastoralpsychologin/-psychologe\nSystemische(r) Berater(in) Andere berufsqualifizierende Weiterbildung"
-      }
+  "filterDetails": {
+    "expressionLanguage": "Stata",
+    "description": {
+      "en": null,
+      "de": null
     },
-    {
-      "instrumentNumber": 3,
-      "questionNumber": "54",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Wenn ja, an welcher berufsqualifizierenden Weiterbildung haben Sie teilgenommen/nehmen Sie teil?"
-      }
+    "expression": "if inlist(bfvt02,1,2,3,-998)"
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": null,
+  "surveyNumbers": [2],
+  "indexInDataSet": 1311,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "further vocational training: type",
+    "de": "berufsqualifizierende Weiterbildung: Art"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }

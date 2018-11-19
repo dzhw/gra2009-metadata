@@ -1,143 +1,155 @@
 {
-  "scaleLevel": {
-    "en": "nominal",
-    "de": "nominal"
-  },
-  "label": {
-    "en": "PhD: status",
-    "de": "Promotion: Status"
-  },
-  "derivedVariablesIdentifier": null,
-  "doNotDisplayThousandsSeparator": false,
-  "dataType": {
-    "en": "numeric",
-    "de": "numerisch"
-  },
-  "filterDetails": {
-    "expression": null,
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "expressionLanguage": null
-  },
-  "panelIdentifier": "gra2009-ds1-fec12",
-  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
-  "surveyNumbers": [3],
-  "indexInDataSet": 1998,
-  "generationDetails": {
-    "description": {
-      "en": null,
-      "de": null
-    },
-    "rule": null,
-    "ruleExpressionLanguage": null
-  },
-  "storageType": "integer",
+  "relatedQuestions": [
+    {
+      "relatedQuestionStrings": {
+        "en": null,
+        "de": "Haben Sie eine Promotion begonnen oder abgeschlossen?"
+      },
+      "questionNumber": "01",
+      "instrumentNumber": 4
+    }
+  ],
   "distribution": {
-    "totalValidRelativeFrequency": 6.44,
     "statistics": {
-      "mode": "3"
+      "meanDeviation": null,
+      "mode": "3",
+      "highWhisker": null,
+      "lowWhisker": null,
+      "thirdQuartile": null,
+      "firstQuartile": null,
+      "standardDeviation": null,
+      "median": null,
+      "kurtosis": null,
+      "skewness": null,
+      "maximum": null,
+      "minimum": null,
+      "meanValue": null
     },
-    "totalAbsoluteFrequency": 10494,
-    "validResponses": [
-      {
-        "absoluteFrequency": 237,
-        "label": {
-          "en": "yes, degree with publication",
-          "de": "ja, abgeschlossen, inkl.Publikation"
-        },
-        "relativeFrequency": 2.26,
-        "validRelativeFrequency": 35.06,
-        "value": "1"
-      },
-      {
-        "absoluteFrequency": 40,
-        "label": {
-          "en": "yes, degree without publication",
-          "de": "ja, abgeschlossen, exkl. Publikation"
-        },
-        "relativeFrequency": 0.38,
-        "validRelativeFrequency": 5.92,
-        "value": "2"
-      },
-      {
-        "absoluteFrequency": 302,
-        "label": {
-          "en": "yes, but not yet finished",
-          "de": "ja, aber noch nicht beendet"
-        },
-        "relativeFrequency": 2.88,
-        "validRelativeFrequency": 44.67,
-        "value": "3"
-      },
-      {
-        "absoluteFrequency": 32,
-        "label": {
-          "en": "yes, but interrupted",
-          "de": "ja, zurzeit unterbrochen"
-        },
-        "relativeFrequency": 0.3,
-        "validRelativeFrequency": 4.73,
-        "value": "4"
-      },
-      {
-        "absoluteFrequency": 59,
-        "label": {
-          "en": "yes, but discontinued",
-          "de": "ja, aber abgebrochen"
-        },
-        "relativeFrequency": 0.56,
-        "validRelativeFrequency": 8.73,
-        "value": "5"
-      },
-      {
-        "absoluteFrequency": 2,
-        "label": {
-          "en": "no, but planned",
-          "de": "nein, aber geplant"
-        },
-        "relativeFrequency": 0.02,
-        "validRelativeFrequency": 0.3,
-        "value": "6"
-      },
-      {
-        "absoluteFrequency": 4,
-        "label": {
-          "en": "no, not planed",
-          "de": "nein, nicht geplant"
-        },
-        "relativeFrequency": 0.04,
-        "validRelativeFrequency": 0.59,
-        "value": "7"
-      }
-    ],
-    "totalValidAbsoluteFrequency": 676,
     "missings": [
       {
-        "absoluteFrequency": 9818,
         "label": {
           "en": "not participated (panel)",
           "de": "keine Teilnahme (Panel)"
         },
         "relativeFrequency": 93.56,
+        "absoluteFrequency": 9818,
         "code": -995
       }
-    ]
-  },
-  "relatedQuestions": [
-    {
-      "instrumentNumber": 4,
-      "questionNumber": "01",
-      "relatedQuestionStrings": {
-        "en": null,
-        "de": "Haben Sie eine Promotion begonnen oder abgeschlossen?"
+    ],
+    "validResponses": [
+      {
+        "label": {
+          "en": "yes, degree with publication",
+          "de": "ja, abgeschlossen, inkl.Publikation"
+        },
+        "validRelativeFrequency": 35.06,
+        "relativeFrequency": 2.26,
+        "absoluteFrequency": 237,
+        "value": "1"
+      },
+      {
+        "label": {
+          "en": "yes, degree without publication",
+          "de": "ja, abgeschlossen, exkl. Publikation"
+        },
+        "validRelativeFrequency": 5.92,
+        "relativeFrequency": 0.38,
+        "absoluteFrequency": 40,
+        "value": "2"
+      },
+      {
+        "label": {
+          "en": "yes, but not yet finished",
+          "de": "ja, aber noch nicht beendet"
+        },
+        "validRelativeFrequency": 44.67,
+        "relativeFrequency": 2.88,
+        "absoluteFrequency": 302,
+        "value": "3"
+      },
+      {
+        "label": {
+          "en": "yes, but interrupted",
+          "de": "ja, zurzeit unterbrochen"
+        },
+        "validRelativeFrequency": 4.73,
+        "relativeFrequency": 0.3,
+        "absoluteFrequency": 32,
+        "value": "4"
+      },
+      {
+        "label": {
+          "en": "yes, but discontinued",
+          "de": "ja, aber abgebrochen"
+        },
+        "validRelativeFrequency": 8.73,
+        "relativeFrequency": 0.56,
+        "absoluteFrequency": 59,
+        "value": "5"
+      },
+      {
+        "label": {
+          "en": "no, but planned",
+          "de": "nein, aber geplant"
+        },
+        "validRelativeFrequency": 0.3,
+        "relativeFrequency": 0.02,
+        "absoluteFrequency": 2,
+        "value": "6"
+      },
+      {
+        "label": {
+          "en": "no, not planed",
+          "de": "nein, nicht geplant"
+        },
+        "validRelativeFrequency": 0.59,
+        "relativeFrequency": 0.04,
+        "absoluteFrequency": 4,
+        "value": "7"
       }
+    ],
+    "totalValidRelativeFrequency": 6.44,
+    "totalValidAbsoluteFrequency": 676,
+    "totalAbsoluteFrequency": 10494
+  },
+  "filterDetails": {
+    "expressionLanguage": null,
+    "description": {
+      "en": null,
+      "de": null
+    },
+    "expression": null
+  },
+  "generationDetails": {
+    "ruleExpressionLanguage": null,
+    "rule": null,
+    "description": {
+      "en": null,
+      "de": null
     }
-  ],
+  },
+  "storageType": "integer",
   "relatedVariables": null,
+  "doNotDisplayThousandsSeparator": false,
+  "derivedVariablesIdentifier": null,
+  "panelIdentifier": "gra2009-ds1-fec12",
+  "surveyNumbers": [3],
+  "indexInDataSet": 1998,
+  "accessWays": ["download-cuf", "download-suf", "remote-desktop-suf", "onsite-suf"],
   "annotations": {
     "en": null,
     "de": null
+  },
+  "label": {
+    "en": "PhD: status",
+    "de": "Promotion: Status"
+  },
+  "scaleLevel": {
+    "en": "nominal",
+    "de": "nominal"
+  },
+  "dataType": {
+    "en": "numeric",
+    "de": "numerisch"
   }
 }
