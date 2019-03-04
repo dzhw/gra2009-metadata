@@ -1,0 +1,129 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mmov11h (Gründe gegen Umzug: Lebensqualität aktueller Ort)}
+	\label{section:mmov11h}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mmov11h$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-42$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  42
+ \\
+					%--
+					Fragetext: & Welche Gründe sprechen derzeit gegen einen Umzug in eine andere Stadt?,Die Lebensqualität am aktuellen Wohnort \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-mmov11h}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					0 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nicht genannt   } &
+
+
+					%463 &
+					  \num{463} &
+					%--
+					  \num[round-mode=places,round-precision=2]{31.22} &
+					    \num[round-mode=places,round-precision=2]{4.41} \\
+							%????
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ genannt   } &
+
+
+					%1020 &
+					  \num{1020} &
+					%--
+					  \num[round-mode=places,round-precision=2]{68.78} &
+					    \num[round-mode=places,round-precision=2]{9.72} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1483}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{14.13}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{2} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.02} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{8029} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{76.51} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{980} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{9.34} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mmov11h}
+				\label{tableValues:mmov11h}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 2%
+                	    ; 
+                	      Modus ($h$): 1
+                     \end{noten}
+

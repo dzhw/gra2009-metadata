@@ -1,0 +1,119 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{astu012a (2. Studium: Beginn (Semester))}
+	\label{section:astu012a}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-astu012a$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-1.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  1.1
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\par  Von SS/WS 20.. Bis einschließlich SS/WS 20.. (z.B. WS 04/05 - SS 2009)\par  von \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-astu012a}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Sommersemester   } &
+
+
+					%1143 &
+					  \num{1143} &
+					%--
+					  \num[round-mode=places,round-precision=2]{22.62} &
+					    \num[round-mode=places,round-precision=2]{10.89} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Wintersemester   } &
+
+
+					%3910 &
+					  \num{3910} &
+					%--
+					  \num[round-mode=places,round-precision=2]{77.38} &
+					    \num[round-mode=places,round-precision=2]{37.26} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{5053}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{48.15}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{5441} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{51.85} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-astu012a}
+				\label{tableValues:astu012a}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 2%
+                	    ; 
+                	      Modus ($h$): 2
+                     \end{noten}
+

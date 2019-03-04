@@ -1,0 +1,210 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{aocc302a (letzte Stelle: Branche)}
+	\label{section:aocc302a}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-aocc302a$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-5.10$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  5.10
+ \\
+					%--
+					Fragetext: & Welchem Wirtschaftsbereich gehört der Betrieb bzw. die Einrichtung schwerpunktmäßig an, in dem/der Sie arbeiten?\par  Bitte Wert aus der Klappliste eintragen:\par  heutige Stelle \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-aocc302a}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								1 & \multicolumn{1}{X}{Land-/Forstwirtschaft, Fischerei} & %85 &
+								  \num{85} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.16} &
+								  \num[round-mode=places,round-precision=2]{0.81} \\
+								2 & \multicolumn{1}{X}{Energie-/Wasserwirtschaft, Bergbau} & %119 &
+								  \num{119} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.63} &
+								  \num[round-mode=places,round-precision=2]{1.13} \\
+								3 & \multicolumn{1}{X}{chemische Industrie} & %94 &
+								  \num{94} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.28} &
+								  \num[round-mode=places,round-precision=2]{0.9} \\
+								4 & \multicolumn{1}{X}{Maschinen-/Fahrzeugbau} & %277 &
+								  \num{277} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.79} &
+								  \num[round-mode=places,round-precision=2]{2.64} \\
+								5 & \multicolumn{1}{X}{Elektrotechnik, Elektronik, EDV-Geräte} & %117 &
+								  \num{117} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.6} &
+								  \num[round-mode=places,round-precision=2]{1.11} \\
+								6 & \multicolumn{1}{X}{Metallerzeugung/-verarbeitung} & %49 &
+								  \num{49} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.67} &
+								  \num[round-mode=places,round-precision=2]{0.47} \\
+								7 & \multicolumn{1}{X}{Bauunternehmen (Bauhauptgewerbe)} & %90 &
+								  \num{90} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.23} &
+								  \num[round-mode=places,round-precision=2]{0.86} \\
+								8 & \multicolumn{1}{X}{sonstiges verarbeitendes Gewerbe} & %157 &
+								  \num{157} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.15} &
+								  \num[round-mode=places,round-precision=2]{1.5} \\
+								9 & \multicolumn{1}{X}{Handel} & %288 &
+								  \num{288} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.94} &
+								  \num[round-mode=places,round-precision=2]{2.74} \\
+								10 & \multicolumn{1}{X}{Banken, Kreditgewerbe} & %115 &
+								  \num{115} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.57} &
+								  \num[round-mode=places,round-precision=2]{1.1} \\
+							... & ... & ... & ... & ... \\
+								22 & \multicolumn{1}{X}{sonstige Dienstleistungen} & %578 &
+								  \num{578} &
+								%--
+								  \num[round-mode=places,round-precision=2]{7.9} &
+								  \num[round-mode=places,round-precision=2]{5.51} \\
+
+								23 & \multicolumn{1}{X}{private Aus- und Weiterbildung} & %141 &
+								  \num{141} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.93} &
+								  \num[round-mode=places,round-precision=2]{1.34} \\
+
+								24 & \multicolumn{1}{X}{Schulen} & %895 &
+								  \num{895} &
+								%--
+								  \num[round-mode=places,round-precision=2]{12.23} &
+								  \num[round-mode=places,round-precision=2]{8.53} \\
+
+								25 & \multicolumn{1}{X}{Hochschulen} & %950 &
+								  \num{950} &
+								%--
+								  \num[round-mode=places,round-precision=2]{12.98} &
+								  \num[round-mode=places,round-precision=2]{9.05} \\
+
+								26 & \multicolumn{1}{X}{Forschungseinrichtungen} & %245 &
+								  \num{245} &
+								%--
+								  \num[round-mode=places,round-precision=2]{3.35} &
+								  \num[round-mode=places,round-precision=2]{2.33} \\
+
+								27 & \multicolumn{1}{X}{Kunst, Kultur} & %120 &
+								  \num{120} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.64} &
+								  \num[round-mode=places,round-precision=2]{1.14} \\
+
+								28 & \multicolumn{1}{X}{Kirchen, Glaubensgemeinschaften} & %72 &
+								  \num{72} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.98} &
+								  \num[round-mode=places,round-precision=2]{0.69} \\
+
+								29 & \multicolumn{1}{X}{Berufs-/Wirtschaftsverbände, Parteien, Vereine, internat. Organisationen} & %154 &
+								  \num{154} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.1} &
+								  \num[round-mode=places,round-precision=2]{1.47} \\
+
+								30 & \multicolumn{1}{X}{allg. öffentliche Verwaltung} & %462 &
+								  \num{462} &
+								%--
+								  \num[round-mode=places,round-precision=2]{6.31} &
+								  \num[round-mode=places,round-precision=2]{4.4} \\
+
+								31 & \multicolumn{1}{X}{Sonstiges} & %23 &
+								  \num{23} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.31} &
+								  \num[round-mode=places,round-precision=2]{0.22} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{7318}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{69.74}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{1088} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{10.37} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2088} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{19.9} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-aocc302a}
+				\label{tableValues:aocc302a}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 31%
+                	    ; 
+                	      Modus ($h$): 25
+                     \end{noten}
+

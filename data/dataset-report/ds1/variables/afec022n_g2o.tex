@@ -1,0 +1,123 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{afec022n\_g2o (2. weitere akad. Qualifikation: 3. Hochschule (NUTS2))}
+	\label{section:afec022n_g2o}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-afec022n_g2o$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & string \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-2.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  2.1
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie alle weiteren akademischen Qualifizierungen, die Sie begonnen, abgeschlossen oder abgebrochen haben oder die Sie beabsichtigen, in das folgende Tableau ein. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%STRING ELEMENTS NEEDS A HUGH FIRST COLOUMN AND A SMALL SECOND ONE
+					\begin{filecontents}{\jobname-afec022n_g2o}
+					\begin{longtable}{Xlrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent (gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					\multicolumn{1}{X}{DE11 Stuttgart} &
+					- &
+					\num{1} &
+					\num[round-mode=places,round-precision=2]{12.5} &
+					\num[round-mode=places,round-precision=2]{0.01} \\
+					
+					\multicolumn{1}{X}{DE14 Tübingen} &
+					- &
+					\num{1} &
+					\num[round-mode=places,round-precision=2]{12.5} &
+					\num[round-mode=places,round-precision=2]{0.01} \\
+					
+					\multicolumn{1}{X}{DE21 Oberbayern} &
+					- &
+					\num{1} &
+					\num[round-mode=places,round-precision=2]{12.5} &
+					\num[round-mode=places,round-precision=2]{0.01} \\
+					
+					\multicolumn{1}{X}{DE94 Weser-Ems} &
+					- &
+					\num{2} &
+					\num[round-mode=places,round-precision=2]{25} &
+					\num[round-mode=places,round-precision=2]{0.02} \\
+					
+					\multicolumn{1}{X}{DEA5 Arnsberg} &
+					- &
+					\num{1} &
+					\num[round-mode=places,round-precision=2]{12.5} &
+					\num[round-mode=places,round-precision=2]{0.01} \\
+					
+					\multicolumn{1}{X}{DEB1 Koblenz} &
+					- &
+					\num{1} &
+					\num[round-mode=places,round-precision=2]{12.5} &
+					\num[round-mode=places,round-precision=2]{0.01} \\
+					
+					\multicolumn{1}{X}{DEB3 Rheinhessen-Pfalz} &
+					- &
+					\num{1} &
+					\num[round-mode=places,round-precision=2]{12.5} &
+					\num[round-mode=places,round-precision=2]{0.01} \\
+											%DIFFERENT OBSERVATIONS >20
+					\midrule
+						\multicolumn{2}{l}{Summe (gültig)} & \textbf{\num{8}} &
+						\textbf{\num{100}} &
+					    \textbf{\num[round-mode=places,round-precision=2]{0.08}} \\
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-966 & nicht bestimmbar & \num{1} & - & \num[round-mode=places,round-precision=2]{0.01} \\
+
+							-989 & filterbedingt fehlend & \num{4527} & - & \num[round-mode=places,round-precision=2]{43.14} \\
+
+							-998 & keine Angabe & \num{5958} & - & \num[round-mode=places,round-precision=2]{56.78} \\
+
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{\num{10494}} & \textbf{-} & \textbf{\num{100}} \\
+					\bottomrule
+					\caption{Werte der Variable afec022n\_g2o}
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-afec022n_g2o}
+

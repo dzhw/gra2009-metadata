@@ -1,0 +1,207 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{adem09b\_g1o (Geburtsland)}
+	\label{section:adem09b_g1o}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-adem09b_g1o$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-6.11$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  6.11
+ \\
+					%--
+					Fragetext: & Sind Sie in Deutschland geboren?\par  Nein, ich bin in \_\_\_\_\_\_\_\_\_\_\_ geboren. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-adem09b_g1o}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								20 & \multicolumn{1}{X}{Großbritannien} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.67} &
+								  \num[round-mode=places,round-precision=2]{0.05} \\
+								21 & \multicolumn{1}{X}{Frankreich} & %14 &
+								  \num{14} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.88} &
+								  \num[round-mode=places,round-precision=2]{0.13} \\
+								22 & \multicolumn{1}{X}{Italien} & %18 &
+								  \num{18} &
+								%--
+								  \num[round-mode=places,round-precision=2]{2.42} &
+								  \num[round-mode=places,round-precision=2]{0.17} \\
+								23 & \multicolumn{1}{X}{Spanien} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.67} &
+								  \num[round-mode=places,round-precision=2]{0.05} \\
+								24 & \multicolumn{1}{X}{Portugal} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.27} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+								25 & \multicolumn{1}{X}{Griechenland} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.13} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+								26 & \multicolumn{1}{X}{Belgien} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.27} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+								27 & \multicolumn{1}{X}{Niederlande} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.81} &
+								  \num[round-mode=places,round-precision=2]{0.06} \\
+								28 & \multicolumn{1}{X}{Luxemburg} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.67} &
+								  \num[round-mode=places,round-precision=2]{0.05} \\
+								29 & \multicolumn{1}{X}{Dänemark} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.13} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+							... & ... & ... & ... & ... \\
+								75 & \multicolumn{1}{X}{Malaysia} & %1 &
+								  \num{1} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.13} &
+								  \num[round-mode=places,round-precision=2]{0.01} \\
+
+								76 & \multicolumn{1}{X}{Vietnam} & %5 &
+								  \num{5} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.67} &
+								  \num[round-mode=places,round-precision=2]{0.05} \\
+
+								77 & \multicolumn{1}{X}{Ost- und Südostasien (z.B. Afghanistan, Nordkorea, Mongolei, Philippinen)} & %7 &
+								  \num{7} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.94} &
+								  \num[round-mode=places,round-precision=2]{0.07} \\
+
+								82 & \multicolumn{1}{X}{Ozeanien} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.27} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+
+								85 & \multicolumn{1}{X}{Ägypten} & %2 &
+								  \num{2} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.27} &
+								  \num[round-mode=places,round-precision=2]{0.02} \\
+
+								86 & \multicolumn{1}{X}{Marokko} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.54} &
+								  \num[round-mode=places,round-precision=2]{0.04} \\
+
+								88 & \multicolumn{1}{X}{Kamerun} & %8 &
+								  \num{8} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.08} &
+								  \num[round-mode=places,round-precision=2]{0.08} \\
+
+								89 & \multicolumn{1}{X}{Südafrika} & %4 &
+								  \num{4} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.54} &
+								  \num[round-mode=places,round-precision=2]{0.04} \\
+
+								90 & \multicolumn{1}{X}{übriges Afrika (z.B. Äthiopien, Ghana, Kenia, Nigeria)} & %9 &
+								  \num{9} &
+								%--
+								  \num[round-mode=places,round-precision=2]{1.21} &
+								  \num[round-mode=places,round-precision=2]{0.09} \\
+
+								99 & \multicolumn{1}{X}{Ausland ohne nähere Angabe} & %6 &
+								  \num{6} &
+								%--
+								  \num[round-mode=places,round-precision=2]{0.81} &
+								  \num[round-mode=places,round-precision=2]{0.06} \\
+
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{743}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{7.08}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{31} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.3} \\
+							-988 &
+							trifft nicht zu &
+							  \num{9720} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{92.62} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-adem09b_g1o}
+				\label{tableValues:adem09b_g1o}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 58%
+                	    ; 
+                	      Modus ($h$): 68
+                     \end{noten}
+

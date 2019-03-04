@@ -1,0 +1,148 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{aocc351 (1. Stelle: Relevanz Hochschulabschluss für Position)}
+	\label{section:aocc351}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-aocc351$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-5.15$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  5.15
+ \\
+					%--
+					Fragetext: & Arbeiten Sie in einer Position, in der ...\par  erste Stelle\par  ein Hochschulabschluss zwingend erforderlich ist (z. B. Arzt/Ärztin, Apotheker/in, Lehrer/in)?\par  ein Hochschulabschluss die Regel ist?\par  ein Hochschulabschluss nicht die Regel, aber von Vorteil ist?\par  ein Hochschulabschluss keine Bedeutung hat? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-aocc351}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ zwingend erforderlich   } &
+
+
+					%2603 &
+					  \num{2603} &
+					%--
+					  \num[round-mode=places,round-precision=2]{37.88} &
+					    \num[round-mode=places,round-precision=2]{24.8} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ die Regel   } &
+
+
+					%1962 &
+					  \num{1962} &
+					%--
+					  \num[round-mode=places,round-precision=2]{28.55} &
+					    \num[round-mode=places,round-precision=2]{18.7} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nicht die Regel, aber von Vorteil   } &
+
+
+					%1090 &
+					  \num{1090} &
+					%--
+					  \num[round-mode=places,round-precision=2]{15.86} &
+					    \num[round-mode=places,round-precision=2]{10.39} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ keine Bedeutung   } &
+
+
+					%1216 &
+					  \num{1216} &
+					%--
+					  \num[round-mode=places,round-precision=2]{17.7} &
+					    \num[round-mode=places,round-precision=2]{11.59} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{6871}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{65.48}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{1535} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{14.63} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2088} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{19.9} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-aocc351}
+				\label{tableValues:aocc351}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 4%
+                	    ; 
+                	      Modus ($h$): 1
+                     \end{noten}
+

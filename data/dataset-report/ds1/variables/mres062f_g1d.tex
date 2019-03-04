@@ -1,0 +1,107 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mres062f\_g1d (5. Wohnung: Ort (NUTS2))}
+	\label{section:mres062f_g1d}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mres062f_g1d$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & string \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-20.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  20.1
+ \\
+					%--
+					Fragetext: & Bitte nennen Sie uns nun die nächste Wohnung, in die Sie nach Ihrem Studienabschluss 2008/2009 eingezogen sind. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%STRING ELEMENTS NEEDS A HUGH FIRST COLOUMN AND A SMALL SECOND ONE
+					\begin{filecontents}{\jobname-mres062f_g1d}
+					\begin{longtable}{Xlrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent (gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								\multicolumn{1}{X}{DE11 Stuttgart} & - & \num{9} & \num[round-mode=places,round-precision=2]{8.18} & \num[round-mode=places,round-precision=2]{0.09} \\
+								\multicolumn{1}{X}{DE12 Karlsruhe} & - & \num{5} & \num[round-mode=places,round-precision=2]{4.55} & \num[round-mode=places,round-precision=2]{0.05} \\
+								\multicolumn{1}{X}{DE14 Tübingen} & - & \num{2} & \num[round-mode=places,round-precision=2]{1.82} & \num[round-mode=places,round-precision=2]{0.02} \\
+								\multicolumn{1}{X}{DE21 Oberbayern} & - & \num{11} & \num[round-mode=places,round-precision=2]{10} & \num[round-mode=places,round-precision=2]{0.1} \\
+								\multicolumn{1}{X}{DE22 Niederbayern} & - & \num{2} & \num[round-mode=places,round-precision=2]{1.82} & \num[round-mode=places,round-precision=2]{0.02} \\
+								\multicolumn{1}{X}{DE23 Oberpfalz} & - & \num{1} & \num[round-mode=places,round-precision=2]{0.91} & \num[round-mode=places,round-precision=2]{0.01} \\
+								\multicolumn{1}{X}{DE24 Oberfranken} & - & \num{1} & \num[round-mode=places,round-precision=2]{0.91} & \num[round-mode=places,round-precision=2]{0.01} \\
+								\multicolumn{1}{X}{DE25 Mittelfranken} & - & \num{1} & \num[round-mode=places,round-precision=2]{0.91} & \num[round-mode=places,round-precision=2]{0.01} \\
+								\multicolumn{1}{X}{DE30 Berlin} & - & \num{16} & \num[round-mode=places,round-precision=2]{14.55} & \num[round-mode=places,round-precision=2]{0.15} \\
+								\multicolumn{1}{X}{DE60 Hamburg} & - & \num{5} & \num[round-mode=places,round-precision=2]{4.55} & \num[round-mode=places,round-precision=2]{0.05} \\
+							... & ... & ... & ... & ... \\
+								\multicolumn{1}{X}{DEA3 Münster} & - & \num{1} & \num[round-mode=places,round-precision=2]{0.91} & \num[round-mode=places,round-precision=2]{0.01} \\
+								\multicolumn{1}{X}{DEA4 Detmold} & - & \num{1} & \num[round-mode=places,round-precision=2]{0.91} & \num[round-mode=places,round-precision=2]{0.01} \\
+								\multicolumn{1}{X}{DEA5 Arnsberg} & - & \num{1} & \num[round-mode=places,round-precision=2]{0.91} & \num[round-mode=places,round-precision=2]{0.01} \\
+								\multicolumn{1}{X}{DEC0 Saarland} & - & \num{1} & \num[round-mode=places,round-precision=2]{0.91} & \num[round-mode=places,round-precision=2]{0.01} \\
+								\multicolumn{1}{X}{DED2 Dresden} & - & \num{6} & \num[round-mode=places,round-precision=2]{5.45} & \num[round-mode=places,round-precision=2]{0.06} \\
+								\multicolumn{1}{X}{DED4 Chemnitz} & - & \num{2} & \num[round-mode=places,round-precision=2]{1.82} & \num[round-mode=places,round-precision=2]{0.02} \\
+								\multicolumn{1}{X}{DED5 Leipzig} & - & \num{4} & \num[round-mode=places,round-precision=2]{3.64} & \num[round-mode=places,round-precision=2]{0.04} \\
+								\multicolumn{1}{X}{DEE0 Sachsen-Anhalt} & - & \num{2} & \num[round-mode=places,round-precision=2]{1.82} & \num[round-mode=places,round-precision=2]{0.02} \\
+								\multicolumn{1}{X}{DEF0 Schleswig-Holstein} & - & \num{3} & \num[round-mode=places,round-precision=2]{2.73} & \num[round-mode=places,round-precision=2]{0.03} \\
+								\multicolumn{1}{X}{DEG0 Thüringen} & - & \num{5} & \num[round-mode=places,round-precision=2]{4.55} & \num[round-mode=places,round-precision=2]{0.05} \\
+					\midrule
+						\multicolumn{2}{l}{Summe (gültig)} & \textbf{\num{110}} &
+						\textbf{\num{100}} &
+					    \textbf{\num[round-mode=places,round-precision=2]{1.05}} \\
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-966 & nicht bestimmbar & \num{1} & - & \num[round-mode=places,round-precision=2]{0.01} \\
+
+							-968 & unplausibler Wert & \num{1} & - & \num[round-mode=places,round-precision=2]{0.01} \\
+
+							-989 & filterbedingt fehlend & \num{2324} & - & \num[round-mode=places,round-precision=2]{22.15} \\
+
+							-995 & keine Teilnahme (Panel) & \num{8029} & - & \num[round-mode=places,round-precision=2]{76.51} \\
+
+							-998 & keine Angabe & \num{29} & - & \num[round-mode=places,round-precision=2]{0.28} \\
+
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{\num{10494}} & \textbf{-} & \textbf{\num{100}} \\
+					\bottomrule
+					\caption{Werte der Variable mres062f\_g1d}
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mres062f_g1d}
+

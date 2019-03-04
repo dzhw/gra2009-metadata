@@ -1,0 +1,180 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bocc58aa (Arbeitsform: häufige Dienstreisen)}
+	\label{section:bocc58aa}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-bocc58aa$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins2-4.23$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (PAPI):
+					  4.23
+ \\
+					%--
+					Fragetext: & Wie würden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben?\par  Ich muss häufig dienstlich/beruflich reisen \\
+				\end{tabularx}
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins3-40$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (CAWI):
+					  40
+ \\
+					%--
+					Fragetext: & Wie wÃ¼rden Sie Ihren Arbeitsplatz, Ihre Arbeitsbedingungen und Ihre Arbeitsumgebung beschreiben? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bocc58aa}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ trifft sehr stark zu   } &
+
+
+					%337 &
+					  \num{337} &
+					%--
+					  \num[round-mode=places,round-precision=2]{7.32} &
+					    \num[round-mode=places,round-precision=2]{3.21} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%591 &
+					  \num{591} &
+					%--
+					  \num[round-mode=places,round-precision=2]{12.84} &
+					    \num[round-mode=places,round-precision=2]{5.63} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%980 &
+					  \num{980} &
+					%--
+					  \num[round-mode=places,round-precision=2]{21.3} &
+					    \num[round-mode=places,round-precision=2]{9.34} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%1214 &
+					  \num{1214} &
+					%--
+					  \num[round-mode=places,round-precision=2]{26.38} &
+					    \num[round-mode=places,round-precision=2]{11.57} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ trifft gar nicht zu   } &
+
+
+					%1480 &
+					  \num{1480} &
+					%--
+					  \num[round-mode=places,round-precision=2]{32.16} &
+					    \num[round-mode=places,round-precision=2]{14.1} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{4602}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{43.85}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{122} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{1.16} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{5739} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{54.69} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{31} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.3} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bocc58aa}
+				\label{tableValues:bocc58aa}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 4; 
+                	      Modus ($h$): 5
+                     \end{noten}
+

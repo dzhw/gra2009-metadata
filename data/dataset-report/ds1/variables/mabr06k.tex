@@ -1,0 +1,177 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mabr06k (wissenschaftl. Tätigkeit Ausland: Betreuung von Nachwuchswissenschatler(inne)n)}
+	\label{section:mabr06k}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mabr06k$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-48$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  48
+ \\
+					%--
+					Fragetext: & Wie schätzen Sie die Situation im Land/in den Ländern Ihrer wissenschaftlichen Tätigkeit im Vergleich zu Deutschland hinsichtlich der folgenden Aspekte ein?,in Deutschland besser,in Deutschland schlechter,Betreuung von Nachwuchswissenschaftler(innen) \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-mabr06k}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ in Deutschland besser   } &
+
+
+					%3 &
+					  \num{3} &
+					%--
+					  \num[round-mode=places,round-precision=2]{3.3} &
+					    \num[round-mode=places,round-precision=2]{0.03} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%11 &
+					  \num{11} &
+					%--
+					  \num[round-mode=places,round-precision=2]{12.09} &
+					    \num[round-mode=places,round-precision=2]{0.1} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%30 &
+					  \num{30} &
+					%--
+					  \num[round-mode=places,round-precision=2]{32.97} &
+					    \num[round-mode=places,round-precision=2]{0.29} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%15 &
+					  \num{15} &
+					%--
+					  \num[round-mode=places,round-precision=2]{16.48} &
+					    \num[round-mode=places,round-precision=2]{0.14} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ in Deutschland schlechter   } &
+
+
+					%17 &
+					  \num{17} &
+					%--
+					  \num[round-mode=places,round-precision=2]{18.68} &
+					    \num[round-mode=places,round-precision=2]{0.16} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ kann ich nicht beurteilen   } &
+
+
+					%15 &
+					  \num{15} &
+					%--
+					  \num[round-mode=places,round-precision=2]{16.48} &
+					    \num[round-mode=places,round-precision=2]{0.14} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{91}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{0.87}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{66} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.63} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{8029} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{76.51} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2308} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{21.99} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mabr06k}
+				\label{tableValues:mabr06k}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 6%
+                	    ; 
+                	      Modus ($h$): 3
+                     \end{noten}
+

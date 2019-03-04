@@ -1,0 +1,180 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bfec16n (Ziele (WB an HS): Arbeitgeberwechsel)}
+	\label{section:bfec16n}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-bfec16n$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins2-5.3$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (PAPI):
+					  5.3
+ \\
+					%--
+					Fragetext: & Wie wichtig sind/waren die folgenden Ziele für Ihre Teilnahme an den längerfristigen Bildungsangeboten der Hochschulen?\par  Arbeitgeberwechsel \\
+				\end{tabularx}
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins3-49$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (CAWI):
+					  49
+ \\
+					%--
+					Fragetext: & Wie wichtig sind/waren die folgenden Ziele fÃ¼r Ihre Teilnahme an den lÃ¤ngerfristigen Bildungsangeboten der Hochschulen? \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bfec16n}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr wichtig   } &
+
+
+					%82 &
+					  \num{82} &
+					%--
+					  \num[round-mode=places,round-precision=2]{4.83} &
+					    \num[round-mode=places,round-precision=2]{0.78} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%133 &
+					  \num{133} &
+					%--
+					  \num[round-mode=places,round-precision=2]{7.84} &
+					    \num[round-mode=places,round-precision=2]{1.27} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%259 &
+					  \num{259} &
+					%--
+					  \num[round-mode=places,round-precision=2]{15.26} &
+					    \num[round-mode=places,round-precision=2]{2.47} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%272 &
+					  \num{272} &
+					%--
+					  \num[round-mode=places,round-precision=2]{16.03} &
+					    \num[round-mode=places,round-precision=2]{2.59} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ unwichtig   } &
+
+
+					%951 &
+					  \num{951} &
+					%--
+					  \num[round-mode=places,round-precision=2]{56.04} &
+					    \num[round-mode=places,round-precision=2]{9.06} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{1697}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{16.17}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{396} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{3.77} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{5739} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{54.69} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2662} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{25.37} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bfec16n}
+				\label{tableValues:bfec16n}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 5; 
+                	      Modus ($h$): 5
+                     \end{noten}
+

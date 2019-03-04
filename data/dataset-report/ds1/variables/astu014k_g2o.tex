@@ -1,0 +1,99 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{astu014k\_g2o (4. Studium: Hochschule (NUTS2))}
+	\label{section:astu014k_g2o}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-astu014k_g2o$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & string \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-1.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  1.1
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%STRING ELEMENTS NEEDS A HUGH FIRST COLOUMN AND A SMALL SECOND ONE
+					\begin{filecontents}{\jobname-astu014k_g2o}
+					\begin{longtable}{Xlrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent (gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+								\multicolumn{1}{X}{DE11 Stuttgart} & - & \num{16} & \num[round-mode=places,round-precision=2]{3.86} & \num[round-mode=places,round-precision=2]{0.15} \\
+								\multicolumn{1}{X}{DE12 Karlsruhe} & - & \num{22} & \num[round-mode=places,round-precision=2]{5.3} & \num[round-mode=places,round-precision=2]{0.21} \\
+								\multicolumn{1}{X}{DE13 Freiburg} & - & \num{5} & \num[round-mode=places,round-precision=2]{1.2} & \num[round-mode=places,round-precision=2]{0.05} \\
+								\multicolumn{1}{X}{DE14 Tübingen} & - & \num{17} & \num[round-mode=places,round-precision=2]{4.1} & \num[round-mode=places,round-precision=2]{0.16} \\
+								\multicolumn{1}{X}{DE21 Oberbayern} & - & \num{31} & \num[round-mode=places,round-precision=2]{7.47} & \num[round-mode=places,round-precision=2]{0.3} \\
+								\multicolumn{1}{X}{DE22 Niederbayern} & - & \num{15} & \num[round-mode=places,round-precision=2]{3.61} & \num[round-mode=places,round-precision=2]{0.14} \\
+								\multicolumn{1}{X}{DE23 Oberpfalz} & - & \num{19} & \num[round-mode=places,round-precision=2]{4.58} & \num[round-mode=places,round-precision=2]{0.18} \\
+								\multicolumn{1}{X}{DE24 Oberfranken} & - & \num{9} & \num[round-mode=places,round-precision=2]{2.17} & \num[round-mode=places,round-precision=2]{0.09} \\
+								\multicolumn{1}{X}{DE25 Mittelfranken} & - & \num{6} & \num[round-mode=places,round-precision=2]{1.45} & \num[round-mode=places,round-precision=2]{0.06} \\
+								\multicolumn{1}{X}{DE26 Unterfranken} & - & \num{2} & \num[round-mode=places,round-precision=2]{0.48} & \num[round-mode=places,round-precision=2]{0.02} \\
+							... & ... & ... & ... & ... \\
+								\multicolumn{1}{X}{DEB1 Koblenz} & - & \num{2} & \num[round-mode=places,round-precision=2]{0.48} & \num[round-mode=places,round-precision=2]{0.02} \\
+								\multicolumn{1}{X}{DEB2 Trier} & - & \num{8} & \num[round-mode=places,round-precision=2]{1.93} & \num[round-mode=places,round-precision=2]{0.08} \\
+								\multicolumn{1}{X}{DEB3 Rheinhessen-Pfalz} & - & \num{12} & \num[round-mode=places,round-precision=2]{2.89} & \num[round-mode=places,round-precision=2]{0.11} \\
+								\multicolumn{1}{X}{DEC0 Saarland} & - & \num{3} & \num[round-mode=places,round-precision=2]{0.72} & \num[round-mode=places,round-precision=2]{0.03} \\
+								\multicolumn{1}{X}{DED2 Dresden} & - & \num{12} & \num[round-mode=places,round-precision=2]{2.89} & \num[round-mode=places,round-precision=2]{0.11} \\
+								\multicolumn{1}{X}{DED4 Chemnitz} & - & \num{9} & \num[round-mode=places,round-precision=2]{2.17} & \num[round-mode=places,round-precision=2]{0.09} \\
+								\multicolumn{1}{X}{DED5 Leipzig} & - & \num{3} & \num[round-mode=places,round-precision=2]{0.72} & \num[round-mode=places,round-precision=2]{0.03} \\
+								\multicolumn{1}{X}{DEE0 Sachsen-Anhalt} & - & \num{8} & \num[round-mode=places,round-precision=2]{1.93} & \num[round-mode=places,round-precision=2]{0.08} \\
+								\multicolumn{1}{X}{DEF0 Schleswig-Holstein} & - & \num{5} & \num[round-mode=places,round-precision=2]{1.2} & \num[round-mode=places,round-precision=2]{0.05} \\
+								\multicolumn{1}{X}{DEG0 Thüringen} & - & \num{30} & \num[round-mode=places,round-precision=2]{7.23} & \num[round-mode=places,round-precision=2]{0.29} \\
+					\midrule
+						\multicolumn{2}{l}{Summe (gültig)} & \textbf{\num{415}} &
+						\textbf{\num{100}} &
+					    \textbf{\num[round-mode=places,round-precision=2]{3.95}} \\
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-966 & nicht bestimmbar & \num{78} & - & \num[round-mode=places,round-precision=2]{0.74} \\
+
+							-998 & keine Angabe & \num{10001} & - & \num[round-mode=places,round-precision=2]{95.3} \\
+
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} & \textbf{\num{10494}} & \textbf{-} & \textbf{\num{100}} \\
+					\bottomrule
+					\caption{Werte der Variable astu014k\_g2o}
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-astu014k_g2o}
+

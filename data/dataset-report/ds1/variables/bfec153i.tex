@@ -1,0 +1,177 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{bfec153i (3. weitere akad. Qualifikation: Abschlussart)}
+	\label{section:bfec153i}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-bfec153i$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins2-5.2$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (PAPI):
+					  5.2
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie diese längerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergeführt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgende Tableau ein!\par  3. Studienangebot\par  Angestrebter oder erreichter Abschluss\par  Schlüssel siehe unten \\
+				\end{tabularx}
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins3-47$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Hauptbefragung (CAWI):
+					  47
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie diese lÃ¤ngerfristigen Studienangebote, die Sie nach Ihrem Studienabschluss aus dem Jahr 2008/2009 begonnen, weitergefÃ¼hrt oder abgeschlossen haben (auch abgebrochene oder unterbrochene), in das folgenden Tableau ein! \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-bfec153i}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ kein Abschluss angestrebt   } &
+
+
+					%1 &
+					  \num{1} &
+					%--
+					  \num[round-mode=places,round-precision=2]{4.55} &
+					    \num[round-mode=places,round-precision=2]{0.01} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Master   } &
+
+
+					%4 &
+					  \num{4} &
+					%--
+					  \num[round-mode=places,round-precision=2]{18.18} &
+					    \num[round-mode=places,round-precision=2]{0.04} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Bachelor   } &
+
+
+					%4 &
+					  \num{4} &
+					%--
+					  \num[round-mode=places,round-precision=2]{18.18} &
+					    \num[round-mode=places,round-precision=2]{0.04} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Zertifikat   } &
+
+
+					%2 &
+					  \num{2} &
+					%--
+					  \num[round-mode=places,round-precision=2]{9.09} &
+					    \num[round-mode=places,round-precision=2]{0.02} \\
+							%????
+
+					7 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sonstiger Abschluss   } &
+
+
+					%11 &
+					  \num{11} &
+					%--
+					  \num[round-mode=places,round-precision=2]{50} &
+					    \num[round-mode=places,round-precision=2]{0.1} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{22}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{0.21}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{2071} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{19.74} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{5739} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{54.69} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2662} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{25.37} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-bfec153i}
+				\label{tableValues:bfec153i}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Modus ($h$): 7
+                     \end{noten}
+

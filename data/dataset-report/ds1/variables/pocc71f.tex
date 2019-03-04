@@ -1,0 +1,168 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{pocc71f (berufl. Zukunftsvorstellung: Selbstständigkeit ohne Forschungsbezug)}
+	\label{section:pocc71f}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-pocc71f$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins4-42$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Promotion:
+					  42
+ \\
+					%--
+					Fragetext: & Im Folgenden sind verschiedene berufliche Perspektiven aufgeführt. Wie stark streben Sie diese mit Blick auf Ihre eigene berufliche Zukunft (d.h. innerhalb der nächsten zehn Jahre) an?,in hohem Maße,überhaupt nicht,Selbständigkeit bzw. freiberufliche Tätigkeit ohne Forschungs- oder Entwicklungsbezug \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-pocc71f}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ in hohem Maße   } &
+
+
+					%58 &
+					  \num{58} &
+					%--
+					  \num[round-mode=places,round-precision=2]{9.25} &
+					    \num[round-mode=places,round-precision=2]{0.55} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%95 &
+					  \num{95} &
+					%--
+					  \num[round-mode=places,round-precision=2]{15.15} &
+					    \num[round-mode=places,round-precision=2]{0.91} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%93 &
+					  \num{93} &
+					%--
+					  \num[round-mode=places,round-precision=2]{14.83} &
+					    \num[round-mode=places,round-precision=2]{0.89} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%119 &
+					  \num{119} &
+					%--
+					  \num[round-mode=places,round-precision=2]{18.98} &
+					    \num[round-mode=places,round-precision=2]{1.13} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ überhaupt nicht   } &
+
+
+					%262 &
+					  \num{262} &
+					%--
+					  \num[round-mode=places,round-precision=2]{41.79} &
+					    \num[round-mode=places,round-precision=2]{2.5} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{627}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{5.97}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{43} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.41} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{9818} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{93.56} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{6} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.06} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-pocc71f}
+				\label{tableValues:pocc71f}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 4; 
+                	      Modus ($h$): 5
+                     \end{noten}
+

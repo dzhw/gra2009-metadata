@@ -1,0 +1,211 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{astu06b (Unterbrechung Studium: Urlaubssemester (Anzahl))}
+	\label{section:astu06b}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-astu06b$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-1.6$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  1.6
+ \\
+					%--
+					Fragetext: & Haben Sie Ihr abgeschlossenes Studium zwischendurch einmal unterbrochen?\par  Ja, Urlaubssemester genommen für (…) Semester \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-astu06b}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					0 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 0 Semester   } &
+
+
+					%449 &
+					  \num{449} &
+					%--
+					  \num[round-mode=places,round-precision=2]{19.8} &
+					    \num[round-mode=places,round-precision=2]{4.28} \\
+							%????
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 1 Semester   } &
+
+
+					%1089 &
+					  \num{1089} &
+					%--
+					  \num[round-mode=places,round-precision=2]{48.02} &
+					    \num[round-mode=places,round-precision=2]{10.38} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2 Semester   } &
+
+
+					%601 &
+					  \num{601} &
+					%--
+					  \num[round-mode=places,round-precision=2]{26.5} &
+					    \num[round-mode=places,round-precision=2]{5.73} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3 Semester   } &
+
+
+					%87 &
+					  \num{87} &
+					%--
+					  \num[round-mode=places,round-precision=2]{3.84} &
+					    \num[round-mode=places,round-precision=2]{0.83} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4 Semester   } &
+
+
+					%26 &
+					  \num{26} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1.15} &
+					    \num[round-mode=places,round-precision=2]{0.25} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 5 Semester   } &
+
+
+					%3 &
+					  \num{3} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.13} &
+					    \num[round-mode=places,round-precision=2]{0.03} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 6 Semester   } &
+
+
+					%7 &
+					  \num{7} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.31} &
+					    \num[round-mode=places,round-precision=2]{0.07} \\
+							%????
+
+					7 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 7 Semester   } &
+
+
+					%4 &
+					  \num{4} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.18} &
+					    \num[round-mode=places,round-precision=2]{0.04} \\
+							%????
+
+					9 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 9 oder mehr Semester   } &
+
+
+					%2 &
+					  \num{2} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.09} &
+					    \num[round-mode=places,round-precision=2]{0.02} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{2268}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{21.61}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{50} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.48} \\
+							-988 &
+							trifft nicht zu &
+							  \num{8176} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{77.91} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-astu06b}
+				\label{tableValues:astu06b}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 9%
+                	    ; 
+                	      Minimum ($min$): 0; 
+                	      Maximum ($max$): 9; 
+                	      Median ($\tilde{x}$): 1; 
+                	      Modus ($h$): 1
+                     \end{noten}
+

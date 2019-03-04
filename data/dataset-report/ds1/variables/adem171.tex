@@ -1,0 +1,203 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{adem171 (Vater: höchster beruflicher Abschluss)}
+	\label{section:adem171}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-adem171$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-6.19$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  6.19
+ \\
+					%--
+					Fragetext: & Welchen höchsten beruflichen Abschluss haben Ihre Eltern?\par  Vater\par  Promotion\par  Abschluss an einer Universität (einschl. Lehrerausbildung)\par  Abschluss an einer Fachhoch-/ Ingenieurschule, Handelsakademie\par  Abschluss an einer Fachschule (nur DDR) Abschluss an einer Meister-/ Technikerschule, Berufs- oder Fachakademie\par  Beruflich-betrieblicher Ausbildungsabschluss (z. B. Lehre, Facharbeiter/innen/ausbildung)\par  Beruflich-schulischer Ausbildungsabschluss (Berufsfach-, Handelsschule)\par  Keinen beruflichen Abschluss\par  Beruflicher Abschluss unbekannt \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-adem171}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Promotion   } &
+
+
+					%721 &
+					  \num{721} &
+					%--
+					  \num[round-mode=places,round-precision=2]{7.1} &
+					    \num[round-mode=places,round-precision=2]{6.87} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Universität   } &
+
+
+					%2218 &
+					  \num{2218} &
+					%--
+					  \num[round-mode=places,round-precision=2]{21.83} &
+					    \num[round-mode=places,round-precision=2]{21.14} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Fachhoch-/ Ingenieurschule, Handelsakademie   } &
+
+
+					%1535 &
+					  \num{1535} &
+					%--
+					  \num[round-mode=places,round-precision=2]{15.11} &
+					    \num[round-mode=places,round-precision=2]{14.63} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Fachschule (DDR)   } &
+
+
+					%237 &
+					  \num{237} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2.33} &
+					    \num[round-mode=places,round-precision=2]{2.26} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Meister-/Technikerschule, Berufs-/Fachakademie   } &
+
+
+					%1608 &
+					  \num{1608} &
+					%--
+					  \num[round-mode=places,round-precision=2]{15.83} &
+					    \num[round-mode=places,round-precision=2]{15.32} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ berufl.-betriebl. Ausbildung   } &
+
+
+					%2874 &
+					  \num{2874} &
+					%--
+					  \num[round-mode=places,round-precision=2]{28.29} &
+					    \num[round-mode=places,round-precision=2]{27.39} \\
+							%????
+
+					7 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ berufl.-schul. Ausbildung   } &
+
+
+					%444 &
+					  \num{444} &
+					%--
+					  \num[round-mode=places,round-precision=2]{4.37} &
+					    \num[round-mode=places,round-precision=2]{4.23} \\
+							%????
+
+					8 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ kein beruflicher Abschluss   } &
+
+
+					%233 &
+					  \num{233} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2.29} &
+					    \num[round-mode=places,round-precision=2]{2.22} \\
+							%????
+
+					9 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ beruflicher Abschluss unbekannt   } &
+
+
+					%289 &
+					  \num{289} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2.84} &
+					    \num[round-mode=places,round-precision=2]{2.75} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{10159}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{96.81}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{335} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{3.19} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-adem171}
+				\label{tableValues:adem171}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 9%
+                	    ; 
+                	      Modus ($h$): 6
+                     \end{noten}
+

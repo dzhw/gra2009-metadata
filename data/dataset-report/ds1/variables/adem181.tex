@@ -1,0 +1,167 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{adem181 (Vater: berufliche Stellung)}
+	\label{section:adem181}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-adem181$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-6.20$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  6.20
+ \\
+					%--
+					Fragetext: & Welche berufliche Stellung nehmen Ihre Eltern ein?\par  Vater\par  Selbständige/r Angestellte/r\par  Beamter/Beamtin\par  Arbeiter/in\par  Nie erwerbstätig gewesen\par  Berufliche Stellung unbekannt \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-adem181}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Selbständige(r)   } &
+
+
+					%2257 &
+					  \num{2257} &
+					%--
+					  \num[round-mode=places,round-precision=2]{22.14} &
+					    \num[round-mode=places,round-precision=2]{21.51} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Angestellte(r)   } &
+
+
+					%4796 &
+					  \num{4796} &
+					%--
+					  \num[round-mode=places,round-precision=2]{47.04} &
+					    \num[round-mode=places,round-precision=2]{45.7} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Beamter/Beamtin   } &
+
+
+					%1591 &
+					  \num{1591} &
+					%--
+					  \num[round-mode=places,round-precision=2]{15.6} &
+					    \num[round-mode=places,round-precision=2]{15.16} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Arbeiter(in)   } &
+
+
+					%1346 &
+					  \num{1346} &
+					%--
+					  \num[round-mode=places,round-precision=2]{13.2} &
+					    \num[round-mode=places,round-precision=2]{12.83} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ nie erwerbstätig gewesen   } &
+
+
+					%14 &
+					  \num{14} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.14} &
+					    \num[round-mode=places,round-precision=2]{0.13} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ berufliche Stellung unbekannt   } &
+
+
+					%192 &
+					  \num{192} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1.88} &
+					    \num[round-mode=places,round-precision=2]{1.83} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{10196}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{97.16}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{298} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{2.84} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-adem181}
+				\label{tableValues:adem181}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 6%
+                	    ; 
+                	      Modus ($h$): 2
+                     \end{noten}
+

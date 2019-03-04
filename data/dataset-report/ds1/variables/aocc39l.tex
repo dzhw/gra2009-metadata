@@ -1,0 +1,158 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{aocc39l (Arbeits-/Lebensziele: Zeit für sich selbst und eigene Interessen)}
+	\label{section:aocc39l}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-aocc39l$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-5.19$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  5.19
+ \\
+					%--
+					Fragetext: & Wie wichtig sind Ihnen folgende Arbeits- bzw. Lebensziele?\par  Genug Zeit für mich und meine Interessen haben \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-aocc39l}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ sehr wichtig   } &
+
+
+					%4236 &
+					  \num{4236} &
+					%--
+					  \num[round-mode=places,round-precision=2]{41.69} &
+					    \num[round-mode=places,round-precision=2]{40.37} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%4386 &
+					  \num{4386} &
+					%--
+					  \num[round-mode=places,round-precision=2]{43.17} &
+					    \num[round-mode=places,round-precision=2]{41.8} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%1373 &
+					  \num{1373} &
+					%--
+					  \num[round-mode=places,round-precision=2]{13.51} &
+					    \num[round-mode=places,round-precision=2]{13.08} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%157 &
+					  \num{157} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1.55} &
+					    \num[round-mode=places,round-precision=2]{1.5} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ gar nicht wichtig   } &
+
+
+					%9 &
+					  \num{9} &
+					%--
+					  \num[round-mode=places,round-precision=2]{0.09} &
+					    \num[round-mode=places,round-precision=2]{0.09} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{10161}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{96.83}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{333} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{3.17} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-aocc39l}
+				\label{tableValues:aocc39l}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 2; 
+                	      Modus ($h$): 2
+                     \end{noten}
+

@@ -1,0 +1,196 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{aocc292a (letzte Stelle: Betriebsgröße)}
+	\label{section:aocc292a}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-aocc292a$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & nominal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-5.9$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  5.9
+ \\
+					%--
+					Fragetext: & Welcher der folgenden Betriebsgrößen ist Ihr Betrieb/Ihre Dienststelle zuzuordnen?\par  heutige Stelle\par  Über 1000 Mitarbeiter/innen\par  Über 500 bis 1000 Mitarbeiter/innen Über 100 bis 500 Mitarbeiter/innen\par  Über 20 bis 100 Mitarbeiter/innen\par  5 bis 20 Mitarbeiter/innen\par  Weniger als 5 Mitarbeiter/innen\par  Freischaffend, ohne Mitarbeiter/innen\par  Sonstiges \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-aocc292a}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ über 1000 Mitarbeiter(innen)   } &
+
+
+					%1612 &
+					  \num{1612} &
+					%--
+					  \num[round-mode=places,round-precision=2]{22.75} &
+					    \num[round-mode=places,round-precision=2]{15.36} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 500 bis 1000 Mitarbeiter(innen)   } &
+
+
+					%533 &
+					  \num{533} &
+					%--
+					  \num[round-mode=places,round-precision=2]{7.52} &
+					    \num[round-mode=places,round-precision=2]{5.08} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 100 bis 500 Mitarbeiter(innen)   } &
+
+
+					%1147 &
+					  \num{1147} &
+					%--
+					  \num[round-mode=places,round-precision=2]{16.18} &
+					    \num[round-mode=places,round-precision=2]{10.93} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 20 bis 100 Mitarbeiter(innen)   } &
+
+
+					%1660 &
+					  \num{1660} &
+					%--
+					  \num[round-mode=places,round-precision=2]{23.42} &
+					    \num[round-mode=places,round-precision=2]{15.82} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 5 bis 20 Mitarbeiter(innen)   } &
+
+
+					%1485 &
+					  \num{1485} &
+					%--
+					  \num[round-mode=places,round-precision=2]{20.95} &
+					    \num[round-mode=places,round-precision=2]{14.15} \\
+							%????
+
+					6 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ weniger als 5 Mitarbeiter(innen)   } &
+
+
+					%389 &
+					  \num{389} &
+					%--
+					  \num[round-mode=places,round-precision=2]{5.49} &
+					    \num[round-mode=places,round-precision=2]{3.71} \\
+							%????
+
+					7 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ freischaffend, ohne Mitarbeiter(innen)   } &
+
+
+					%184 &
+					  \num{184} &
+					%--
+					  \num[round-mode=places,round-precision=2]{2.6} &
+					    \num[round-mode=places,round-precision=2]{1.75} \\
+							%????
+
+					8 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ Sonstiges   } &
+
+
+					%77 &
+					  \num{77} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1.09} &
+					    \num[round-mode=places,round-precision=2]{0.73} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{7087}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{67.53}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{1319} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{12.57} \\
+							-989 &
+							filterbedingt fehlend &
+							  \num{2088} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{19.9} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-aocc292a}
+				\label{tableValues:aocc292a}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 8%
+                	    ; 
+                	      Modus ($h$): 4
+                     \end{noten}
+

@@ -1,0 +1,155 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{astu015d (5. Studium: Ende (Jahr))}
+	\label{section:astu015d}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-astu015d$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & intervall \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins1-1.1$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - erste Welle:
+					  1.1
+ \\
+					%--
+					Fragetext: & Bitte tragen Sie in das folgende Tableau Ihren Studienverlauf ein.\par  Von SS/WS 20.. Bis einschließlich SS/WS 20.. (z.B. WS 04/05 - SS 2009)\par  bis \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-astu015d}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					2007 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%1 &
+					  \num{1} &
+					%--
+					  \num[round-mode=places,round-precision=2]{1.61} &
+					    \num[round-mode=places,round-precision=2]{0.01} \\
+							%????
+
+					2008 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%23 &
+					  \num{23} &
+					%--
+					  \num[round-mode=places,round-precision=2]{37.1} &
+					    \num[round-mode=places,round-precision=2]{0.22} \\
+							%????
+
+					2009 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%33 &
+					  \num{33} &
+					%--
+					  \num[round-mode=places,round-precision=2]{53.23} &
+					    \num[round-mode=places,round-precision=2]{0.31} \\
+							%????
+
+					2010 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ -  } &
+
+
+					%5 &
+					  \num{5} &
+					%--
+					  \num[round-mode=places,round-precision=2]{8.06} &
+					    \num[round-mode=places,round-precision=2]{0.05} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{62}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{0.59}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{10393} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{99.04} \\
+							-948 &
+							läuft noch &
+							  \num{39} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.37} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-astu015d}
+				\label{tableValues:astu015d}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 4%
+                	    ; 
+                	      Minimum ($min$): 2007; 
+                	      Maximum ($max$): 2010; 
+                	      arithmetisches Mittel ($\bar{x}$): \num[round-mode=places,round-precision=2]{2008.6774}; 
+                	      Median ($\tilde{x}$): 2009; 
+                	      Modus ($h$): 2009; 
+                	      Standardabweichung ($s$): \num[round-mode=places,round-precision=2]{0.6472}; 
+                	      Schiefe ($v$): \num[round-mode=places,round-precision=2]{0.0491}; 
+                	      Wölbung ($w$): \num[round-mode=places,round-precision=2]{2.6992}
+                     \end{noten}
+

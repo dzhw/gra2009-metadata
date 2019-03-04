@@ -1,0 +1,163 @@
+%EVERY VARIABLE HAS IT'S OWN PAGE
+
+    \setcounter{footnote}{0}
+
+    %omit vertical space
+    \vspace*{-1.8cm}
+	\section{mmov01d (Umzugsbereitschaft: dauerhaft ins Ausland)}
+	\label{section:mmov01d}
+
+
+
+	% TABLE FOR VARIABLE DETAILS
+  % '#' has to be escaped
+    \vspace*{0.5cm}
+    \noindent\textbf{Eigenschaften\footnote{Detailliertere Informationen zur Variable finden sich unter
+		\url{https://metadata.fdz.dzhw.eu/\#!/de/variables/var-gra2009-ds1-mmov01d$}}}\\
+	\begin{tabularx}{\hsize}{@{}lX}
+	Datentyp: & numerisch \\
+	Skalenniveau: & ordinal \\
+	Zugangswege: &
+	  download-cuf, 
+	  download-suf, 
+	  remote-desktop-suf, 
+	  onsite-suf
+ \\
+    \end{tabularx}
+
+
+
+    %TABLE FOR QUESTION DETAILS
+    %This has to be tested and has to be improved
+    %rausfinden, ob einer Variable mehrere Fragen zugeordnet werden
+    %dann evtl. nur die erste verwenden oder etwas anderes tun (Hinweis mehrere Fragen, auflisten mit Link)
+				%TABLE FOR QUESTION DETAILS
+				\vspace*{0.5cm}
+                \noindent\textbf{Frage\footnote{Detailliertere Informationen zur Frage finden sich unter
+		              \url{https://metadata.fdz.dzhw.eu/\#!/de/questions/que-gra2009-ins5-03$}}}\\
+				\begin{tabularx}{\hsize}{@{}lX}
+					Fragenummer: &
+					  Fragebogen des DZHW-Absolventenpanels 2009 - zweite Welle, Vertiefungsbefragung Mobilität:
+					  03
+ \\
+					%--
+					Fragetext: & Im Folgenden geht es um Ihren aktuellen Hauptwohnort. Inwiefern treffen folgende Aussagen auf Sie zu?,ja, auf jeden Fall,nein, auf keinen Fall,Ich kann mir vorstellen, dauerhaft ins Ausland zu ziehen. \\
+				\end{tabularx}
+
+
+
+
+
+				%TABLE FOR THE NOMINAL / ORDINAL VALUES
+        		\vspace*{0.5cm}
+                \noindent\textbf{Häufigkeiten}
+
+                \vspace*{-\baselineskip}
+					%NUMERIC ELEMENTS NEED A HUGH SECOND COLOUMN AND A SMALL FIRST ONE
+					\begin{filecontents}{\jobname-mmov01d}
+					\begin{longtable}{lXrrr}
+					\toprule
+					\textbf{Wert} & \textbf{Label} & \textbf{Häufigkeit} & \textbf{Prozent(gültig)} & \textbf{Prozent} \\
+					\endhead
+					\midrule
+					\multicolumn{5}{l}{\textbf{Gültige Werte}}\\
+						%DIFFERENT OBSERVATIONS <=20
+
+					1 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ auf jeden Fall   } &
+
+
+					%313 &
+					  \num{313} &
+					%--
+					  \num[round-mode=places,round-precision=2]{12.84} &
+					    \num[round-mode=places,round-precision=2]{2.98} \\
+							%????
+
+					2 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 2   } &
+
+
+					%236 &
+					  \num{236} &
+					%--
+					  \num[round-mode=places,round-precision=2]{9.68} &
+					    \num[round-mode=places,round-precision=2]{2.25} \\
+							%????
+
+					3 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 3   } &
+
+
+					%332 &
+					  \num{332} &
+					%--
+					  \num[round-mode=places,round-precision=2]{13.62} &
+					    \num[round-mode=places,round-precision=2]{3.16} \\
+							%????
+
+					4 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ 4   } &
+
+
+					%572 &
+					  \num{572} &
+					%--
+					  \num[round-mode=places,round-precision=2]{23.47} &
+					    \num[round-mode=places,round-precision=2]{5.45} \\
+							%????
+
+					5 &
+				% TODO try size/length gt 0; take over for other passages
+					\multicolumn{1}{X}{ auf keinen Fall   } &
+
+
+					%984 &
+					  \num{984} &
+					%--
+					  \num[round-mode=places,round-precision=2]{40.38} &
+					    \num[round-mode=places,round-precision=2]{9.38} \\
+							%????
+						%DIFFERENT OBSERVATIONS >20
+					\midrule
+					\multicolumn{2}{l}{Summe (gültig)} &
+					  \textbf{\num{2437}} &
+					\textbf{\num{100}} &
+					  \textbf{\num[round-mode=places,round-precision=2]{23.22}} \\
+					%--
+					\multicolumn{5}{l}{\textbf{Fehlende Werte}}\\
+							-998 &
+							keine Angabe &
+							  \num{28} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{0.27} \\
+							-995 &
+							keine Teilnahme (Panel) &
+							  \num{8029} &
+							 - &
+							  \num[round-mode=places,round-precision=2]{76.51} \\
+					\midrule
+					\multicolumn{2}{l}{\textbf{Summe (gesamt)}} &
+				      \textbf{\num{10494}} &
+				    \textbf{-} &
+				    \textbf{\num{100}} \\
+					\bottomrule
+					\end{longtable}
+					\end{filecontents}
+					\LTXtable{\textwidth}{\jobname-mmov01d}
+				\label{tableValues:mmov01d}
+				\vspace*{-\baselineskip}
+                    \begin{noten}
+                	    \note{} Deskriptive Maßzahlen:
+                	    Anzahl unterschiedlicher Beobachtungen: 5%
+                	    ; 
+                	      Minimum ($min$): 1; 
+                	      Maximum ($max$): 5; 
+                	      Median ($\tilde{x}$): 4; 
+                	      Modus ($h$): 5
+                     \end{noten}
+
